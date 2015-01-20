@@ -1,0 +1,93 @@
+/********** begin fonts **********/
+/* Regular */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Italic */
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-italic-webfont.eot');
+    src: url('../fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-italic-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+/********** end fonts **********/
+
+/********** begin main **********/
+html {
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+}
+
+body {
+	margin:0;
+	padding:0;
+	max-width:100%;
+	width:100%;
+	max-height:100%;
+	height:100%;
+	color:#000;
+	font-family:"Open Sans","OpenSans",Helvetica,"Roboto",sans-serif;
+	font-size:16px;
+}
+
+a {
+	text-decoration:none;
+}
+
+#nav {
+	top:0;
+	left:0;
+	/*max-width:100%;*/
+	/*height:18%;*/
+	padding:2%;
+	background-color:#a9233e;
+	color:#fff;
+}
+
+#date {
+	/*margin:50px 0 30px 0;*/
+	text-align:center;
+	font-size:2em;
+	font-family:"League Gothic",sans-serif;
+	text-transform:uppercase;
+	font-weight:300;
+	/*opacity:.5;*/
+	/*font-style:italic;*/
+	letter-spacing:5px;
+}
+
+#switch {
+	position:absolute;
+	top:3%;
+	right:3%;
+	padding:10px 15px;
+	color:#fff;
+	background-color:rgba(255,255,255,.15);
+	font-size:.8em;
+	text-transform: uppercase;
+	font-weight:600;
+	-webkit-transition:.1s ease background-color; -o-transition:.1s ease background-color; transition:.1s ease background-color;
+}
+
+#switch:hover {
+	background-color:rgba(255,255,255,.2);
+}
+
+#content {
+	padding:1.5em;
+}
