@@ -71,3 +71,9 @@ a {
 		display: block;
 		float: right;
 	}
+
+p {
+	font-size: 2em;
+	opacity: .9;
+	font: helvetica;
+}
