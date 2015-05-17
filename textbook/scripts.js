@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	pageJump(1);
 	// writePageControls();
-    $("#page1").load("content.rtf");
+    $("#page1").load("content.txt");
 });
 
 var pageTotal = $(".page").length;
