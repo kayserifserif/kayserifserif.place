@@ -1,0 +1,73 @@
+body {
+	padding: 0px;
+	margin: 16px;
+	color: #ccc;
+	font: small/1.2 Helvetica, Arial, Sans-serif;
+	background:#444;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(153,204,255);
+}
+
+#content {
+	display: block;
+ 	width: 600px;
+ 	margin: auto;
+}
+
+.page {
+	display: none;
+}
+
+.navigation {
+	font-weight: bold;
+}
+
+.toolBar {
+	display: block;
+	font-weight: bold;
+	border-top: 1px solid #fff;
+	padding-top: 2px;
+	margin-bottom: 8px;
+	clear: both;
+}
+
+	.pagination {
+		display: block;
+	 	float: left;
+	 }
+
+	 .arrow {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		font-size: 6em;
+		/*font-family: "", sans-serif;*/
+		font-weight: 300;
+	 }
+
+	 #left {
+	 	left: 0;
+	 }
+
+	 #right {
+	 	right: 0;
+	 }
+
+	 .arrow a {
+	 	display: block;
+	 	height: 100%;
+	 	line-height: 6em;
+	 	/*padding: 50% 5% 0 5%;*/
+	 }
+
+	 .arrow a:hover {
+	 	background-color: rgba(255, 255, 255, 0.1);
+	 }
+
+	.pageSend {
+		display: block;
+		float: right;
+	}
