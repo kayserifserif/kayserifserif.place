@@ -4,4 +4,5 @@ $('#mid ul li a').click(function() {
 
 	$(this).parent().addClass("current");
 	$('#main section' + $(this).attr('href')).addClass("current");
+	// $('#main section' + $(this).attr('href')).slideDown();
 });
