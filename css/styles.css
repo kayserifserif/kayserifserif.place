@@ -1,6 +1,4 @@
-/**/
-
-* {
+/** {
 	box-sizing: border-box;
 }
 
@@ -40,24 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 22%;
 	margin: 20px 0 20px 20px;
 	padding: 20px;
-	/*border: 2px solid black;*/
 }
-
-/*#top img {
-	float: left;
-}*/
-
-/*#side #init {
-	float: left;
-	font-family: "Oswald";
-	font-size: 6.5em;
-	text-align: center;
-	line-height: 1;
-	border-radius: 50%;
-	overflow: hidden;
-	width: 110px;
-	height: 110px;
-}*/
 
 #side #logo {
 	float: left;
@@ -67,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	margin: 0 0 0 40px;
 	font-size: 1.5em;
-	/*font-weight: 600;*/
 }
 
 #side .lead {
@@ -81,19 +61,16 @@ footer {
 	bottom: 0;
 	padding: 20px;
 	font-size: 0.8em;
-	/*letter-spacing: 2px;*/
 }
 
 #mid {
 	float: left;
 	position: fixed;
 	height: 100%;
-	/*background-color: #eee;*/
 	width: 13%;
 	margin-left: 22%;
 	border-right: 1px solid #ddd;
 	padding: 25px 25px 25px 0;
-	/*box-shadow: 2px 0 2px #ccc;*/
 }
 
 #mid ul {
@@ -115,7 +92,6 @@ footer {
 
 #mid li.current {
 	color: #f46036;
-	/*margin-right: -35px;*/
 	margin-right: -10px;
 	opacity: 1;
 }
@@ -152,7 +128,6 @@ footer {
 	margin: 50px auto;
 	padding: 20px 20px 40px;
 	border-radius: 5px;
-	/*box-shadow: 1px 1px 1px #ddd;*/
 }
 
 #main .project h3 {
@@ -171,7 +146,6 @@ footer {
 }
 
 #main .project p {
-	/*display: block;*/
 	text-align: center;
 	margin: -10px auto 20px;
 	width: 70%;
@@ -185,4 +159,4 @@ footer {
 
 #main section:not(.current) {
 	display: none;
-}
+}*/
