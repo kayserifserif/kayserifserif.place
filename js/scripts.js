@@ -6,3 +6,4 @@ $('#mid ul li a').click(function() {
 	$('#main section' + $(this).attr('href')).addClass("current");
 	// $('#main section' + $(this).attr('href')).slideDown();
 });
+//
