@@ -16,7 +16,7 @@ body {
 	width: 100%;
 }
 
-a {
+a, a:link, a:visited {
 	text-decoration: none;
 }
 
