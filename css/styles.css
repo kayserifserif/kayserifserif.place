@@ -87,7 +87,7 @@ footer {
 	position: fixed;
 	height: 100%;
 	/*background-color: #eee;*/
-	width: 12%;
+	width: 13%;
 	margin-left: 22%;
 	border-right: 1px solid #ddd;
 	padding: 25px 25px 25px 0;
@@ -108,17 +108,27 @@ footer {
 	text-align: right;
 	font-size: 1.2em;
 	opacity: 0.8;
+	transition: 0.5s ease-in-out all;
 }
 
 #mid li.current {
-	color: #F46036;
+	color: #f46036;
 	/*margin-right: -35px;*/
 	margin-right: -10px;
 	opacity: 1;
 }
 
+#mid li.current a {
+	color: #f46036;
+}
+
 #mid li.current:before {
 	content: "> ";
+	color: #f46036;
+}
+
+#mid li a {
+	color: #000;
 }
 
 #mid li a:hover {
@@ -129,8 +139,8 @@ footer {
 
 #main {
 	float: left;
-	width: 66%;
-	margin-left: 34%;
+	width: 65%;
+	margin-left: 35%;
 	background-color: #f1f1f1;
 }
 
@@ -169,4 +179,12 @@ footer {
 #main .project img {
 	display: block;
 	margin: auto;
+}
+
+#main section {
+	/*border: 1px solid black;*/
+}
+
+#main section:not(.current) {
+	display: none;
 }
