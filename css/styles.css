@@ -181,10 +181,6 @@ footer {
 	margin: auto;
 }
 
-#main section {
-	/*border: 1px solid black;*/
-}
-
 #main section:not(.current) {
 	display: none;
 }
