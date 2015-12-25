@@ -1,4 +1,4 @@
-/** {
+* {
 	box-sizing: border-box;
 }
 
@@ -159,4 +159,4 @@ footer {
 
 #main section:not(.current) {
 	display: none;
-}*/
+}
