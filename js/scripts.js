@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	$("nav a").click(function() {
 		$("nav .current").removeClass("current");
 		$("#main section.current").removeClass("current");
