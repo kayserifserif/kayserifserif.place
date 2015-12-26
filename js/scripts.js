@@ -1,3 +1,5 @@
+// DEBUG
+
 $(document).ready(function() {
 	$("nav a").click(function() {
 		$("nav .current").removeClass("current");
