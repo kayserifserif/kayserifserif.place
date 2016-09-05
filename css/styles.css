@@ -252,6 +252,10 @@ nav .current::before {
 		text-align: center;
 	}
 
+	#film h3 {
+		font-style: italic;
+	}
+
 	.project h4 {
 		margin-top: 0;
 	}
