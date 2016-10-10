@@ -17,18 +17,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-	font-family: "Montserrat", Helvetica, sans-serif;
-}
+h6 { font-family: "Montserrat", Helvetica, sans-serif; }
 
 a,
-a:visited {
-	text-decoration: none;
-}
+a:visited { text-decoration: none; }
 
-.container {
-	height: 100%;
-}
+.container { height: 100%; }
 
 .bg {
 	position: relative;
@@ -62,19 +56,30 @@ a:visited {
 .title {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 48%;
 	width: 100%;
+	padding: 0 1rem;
 	text-align: center;
 }
 
+	@media (min-width: 450px) {
+		.title {
+			padding: 0 3rem;
+		}
+	}
+
 .title-box {
 	display: inline;
+	width: 50%;
 	background-color: #fff;
 	color: #111;
 	padding: 1rem;
 	font-size: 1.5rem;
 	letter-spacing: .7rem;
 	padding-left: 1.7rem;
+		-webkit-box-decoration-break: clone;
+		-o-box-decoration-break: clone;
+	box-decoration-break: clone;
 }
 
 .info {
@@ -89,21 +94,48 @@ a:visited {
 .info h2 {
 	text-align: center;
 	letter-spacing: .3rem;
-	padding-left: 1.3rem;
+	/*padding-left: 1.3rem;*/
 	text-transform: uppercase;
 }
 
 .info p {
 	margin: auto;
-	width: 50%;
 }
 
+	@media (min-width: 600px) {
+		.info p {
+			width: 80%;
+		}
+	}
+
+	@media (min-width: 900px) {
+		.info p {
+			width: 50%;
+		}
+	}
+
 .info dl {
-	width: 65%;
-	margin: 2rem auto 1rem;
-	column-count: 4;
+	margin: 2rem auto .5rem;
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+	column-count: 2;
 	text-align: center;
 }
+
+	@media (min-width: 600px) {
+		.info dl {
+			width: 55%;
+		}
+	}
+
+	@media (min-width: 1000px) {
+		.info dl {
+			width: 65%;
+				-webkit-column-count: 4;
+				-moz-column-count: 4;
+			column-count: 4;
+		}
+	}
 
 .info dt {
 	font: .9rem "Montserrat", Helvetica, sans-serif;
@@ -111,16 +143,23 @@ a:visited {
 }
 
 .info dd {
-	margin: 0;
+	margin: 0 0 1rem 0;
 	font-style: italic;
 }
 
 .footer {
 	font-style: italic;
 	position: absolute;
-	right: 5rem;
+	width: 100%;
 	bottom: 1rem;
-	/*width: 100%;*/
-	/*top: 5rem;*/
-	/*text-align: center;*/
+	text-align: center;
 }
+
+	@media (min-width: 850px) {
+		.footer {
+			text-align: left;
+			width: auto;
+			right: 1.5rem;
+			bottom: 1rem;
+		}
+	}
