@@ -34,7 +34,7 @@ a:visited { text-decoration: none; }
 }
 
 .bg-img-1 {
-	background-image: url("http://hd.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg");
+	background-image: url("../img/typewriter.jpg");
 	min-height: 100%;
 }
 
@@ -44,7 +44,7 @@ a:visited { text-decoration: none; }
 }
 
 .bg-img-3 {
-	background-image: url("../img/film/the passage of days.png");
+	background-image: url("../img/film/the passage of days.jpg");
 	min-height: 25rem;
 }
 
