@@ -34,22 +34,22 @@ a:visited { text-decoration: none; }
 }
 
 .bg-img-1 {
-	background-image: url("../img/typewriter.jpg");
+	background-image: url("../../img/typewriter.jpg");
 	min-height: 100%;
 }
 
 .bg-img-2 {
-	background-image: url("../img/film/rem.jpg");
+	background-image: url("../../img/film/rem.jpg");
 	min-height: 25rem;
 }
 
 .bg-img-3 {
-	background-image: url("../img/film/the passage of days.jpg");
+	background-image: url("../../img/film/the passage of days.jpg");
 	min-height: 25rem;
 }
 
 .bg-img-4 {
-	background-image: url("../img/film/perfect a.jpg");
+	background-image: url("../../img/film/perfect a.jpg");
 	min-height: 25rem;
 }
 
