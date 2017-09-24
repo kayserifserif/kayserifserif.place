@@ -2,58 +2,58 @@
 $main: #f96262;
 ****/
 
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
 html, body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
 }
 
 body {
 	font-family: system-ui, "Helvetica Neue", sans-serif;
-	/*text-rendering: optimizeLegibility;*/
-	color: #444;
-	background-color: #fffdf5;
+	line-height: 1.6;
+	color: #27363b;
+	/* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
+	background-image: linear-gradient(-20deg, #ed6ea0 0%, #ec8c69 100%);
 }
 
 a {
 	text-decoration: none;
-	color: #444;
+	color: #27363b;
 	border-bottom: 2px solid #f96262;
+	transition: 0.1s color linear;
 }
 
-/****
-KERNING
-****/
-
-/*#title .char11 {
-	margin-right: -2.5px;
-}*/
+a:hover {
+	color: #f96262;
+}
 
 /****
 CONTAINER
 ****/
 
 #container {
+	height: 100%;
 	width: 80%;
 	margin: 5em auto;
 	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 4;
 	grid-template-areas:
 		"header"
-		"nav"
 		"main"
 		"footer";
+	background-color: #FFFFFD;
+	border-radius: 5px;
+	padding: 2em 3em;
 }
-
 	@media(min-width: 800px) {
 		#container {
-			grid-template-columns: 30% 70%;
-			grid-template-areas:
-				"header nav"
-				"header main"
-				". main"
-				"footer footer";
+			width:  55%;
 		}
 	}
 
@@ -63,54 +63,47 @@ HEADER
 
 header {
 	grid-area: header;
+	display: grid;
+	grid-template-areas: 
+		"logo"
+		"title"
+		"platforms";
+	align-items: center;
 	text-align: center;
 }
-
-#platforms {
-	margin-top: 3em;
-}
-
-#platforms a {
-	margin-right: .5em;
-}
-
-/****
-NAV
-****/
-
-.nav-container {
-	width: 100%;
-	/*display: grid;*/
-	/*justify-items: center;*/
-}
-
-nav {
-	height: 2em;
-	margin: 3em 0 4em;
-	grid-area: nav;
-	text-align: center;
-}
-
 	@media(min-width: 800px) {
-		nav {
-			margin: 0;
-			text-align: left;
+		header {
+			grid-template-areas: 
+				"logo title platforms";
 		}
 	}
 
-nav a {
-	text-transform: uppercase;
-	padding: 6px 8px 2px;
-	line-height: 2;
+#logo {
+	margin: auto;
 }
+	@media(min-width: 800px) {
+		margin: 0;
+	}
 
-nav a:not(:last-of-type) {
-	margin-right: 2em;
+#title {
+	margin: 0 auto;
+	text-align: center;
 }
+	@media(min-width: 800px) {
+		#title {
+			text-align:  left;
+		}
+	}
 
-nav a:hover {
-	background-color: #f96262;
-	color: #fff;
+#platforms {
+	margin: 2em auto;
+}
+	@media(min-width: 800px) {
+		margin: 0 auto;
+	}
+
+#platforms a {
+	margin-right: .5em;
 }
 
 /****
@@ -119,6 +112,7 @@ MAIN
 
 main {
 	grid-area: main;
+	padding: 1em 0;
 }
 
 h2 {
@@ -136,6 +130,5 @@ FOOTER
 
 footer {
 	grid-area: footer;
-	margin-top: 2em;
 	text-align: center;
 }
