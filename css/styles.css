@@ -69,40 +69,52 @@ header {
 		"title"
 		"platforms";
 	align-items: center;
+	justify-content: center;
 	text-align: center;
 }
 	@media(min-width: 800px) {
 		header {
 			grid-template-areas: 
 				"logo title platforms";
+			justify-content: stretch;
 		}
 	}
 
 #logo {
-	margin: auto;
+	grid-area: logo;
+	margin: 0 auto 2em;
 }
 	@media(min-width: 800px) {
-		margin: 0;
-	}
-
-#title {
-	margin: 0 auto;
-	text-align: center;
-}
-	@media(min-width: 800px) {
-		#title {
-			text-align:  left;
+		#logo {
+			margin: 0 1em 0;
 		}
 	}
 
-#platforms {
-	margin: 2em auto;
+#title {
+	grid-area: title;
+	/* margin: 0 auto; */
+	text-align: center;
+	line-height: 1;
 }
 	@media(min-width: 800px) {
+		#title {
+			text-align: left;
+		}
+	}
+#title #name {
+	margin: 0 auto 0.5em;
+}
+
+#platforms {
+	grid-area: platforms;
+	margin: 2em auto;
+	text-align: center;
+}
+	@media(min-width: 1200px) {
 		margin: 0 auto;
 	}
 
-#platforms a {
+#platforms a:not(:last-child) {
 	margin-right: .5em;
 }
 
