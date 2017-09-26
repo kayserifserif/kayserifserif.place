@@ -16,7 +16,8 @@ html, body {
 }
 
 body {
-	font-family: system-ui, "Helvetica Neue", sans-serif;
+	/* font-family: system-ui, "Helvetica Neue", sans-serif; */
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
 	color: #27363b;
 	/* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
