@@ -153,12 +153,44 @@ main {
 	font-weight: normal;
 }
 
-iframe {
+main iframe {
 	width: 100%;
 	margin: 0.5em auto;
 	padding: 0;
 	border: 0;
 	background: transparent;
+}
+
+main img {
+	display: block;
+	margin: 1em auto;
+	max-width: 100%;
+}
+
+main figcaption {
+	/* border-top: 1px solid #27363b; */
+	background-color: rgba(0,0,0,0.05);
+	padding: 0.5em;
+	text-align: center;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.swot div {
+	margin: 0.5em auto;
+}
+
+.swot dt {
+	width: 7.5em;
+	float: left;
+	clear: left;
+	text-align: right;
+	font-weight: bold;
+}
+
+.swot dd {
+	margin-left: 9.5em;
+	text-indent: -1em;
 }
 
 /****
