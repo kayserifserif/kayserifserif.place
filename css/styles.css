@@ -59,6 +59,59 @@ CONTAINER
 	}
 
 /****
+NAVIGATION
+****/
+
+.nav {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+.nav-left {
+	left: 0;
+}
+
+.nav-right {
+	right: 0;
+}
+
+.nav a {
+	display: block;
+	height: 100%;
+	margin: auto;
+	padding: 1em;
+	background-image: none;
+	text-align: center;
+	line-height: 90vh;
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	border: 0;
+}
+
+.nav-left a {
+	background-image: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 100%);
+}
+
+.nav-right a {
+	background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 100%);
+}
+
+.nav a:hover {
+	color: currentColor;
+}
+
+.nav-left a:hover {
+	background-image: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 100%);
+}
+
+.nav-right a:hover {
+	background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.25) 100%);
+}
+
+/****
 HEADER
 ****/
 
@@ -148,6 +201,41 @@ MAIN
 main {
 	grid-area: main;
 	padding: 1em 0;
+}
+
+.projects {
+	list-style-type: none;
+	padding: 0;
+}
+
+.projects li {
+	margin: 1em 0 2em;
+}
+
+.projects a {
+	display: block;
+	padding: 0 2em;
+	border-bottom: none;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.project {
+	margin: 0;
+	padding-bottom: 1.5em;
+}
+
+.project figcaption {
+	font-size: 1em;
+	font-style: normal;
+	background: none;
+}
+
+.project figcaption h2 {
+	margin-bottom: 0;
+}
+
+.project img {
+	margin: 0 auto;
 }
 
 .details {
