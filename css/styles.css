@@ -12,11 +12,11 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+	padding: 3em 0;
 	height: 100%;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center; */
+	/* justify-content: center; */
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
 	color: #27363b;
@@ -40,9 +40,9 @@ a:hover {
 CONTAINER
 ****/
 
-#container {
+.container {
 	width: 80%;
-	/* margin: 5em auto; */
+	margin: auto;
 	display: grid;
 	grid-template-areas:
 		"header"
@@ -53,7 +53,7 @@ CONTAINER
 	padding: 2em 3em;
 }
 	@media(min-width: 800px) {
-		#container {
+		.container {
 			width:  55%;
 		}
 	}
@@ -67,7 +67,7 @@ header {
 	display: grid;
 	grid-template-areas: 
 		"logo"
-		"title"
+		"bio"
 		"platforms";
 	align-items: center;
 	justify-content: center;
@@ -76,37 +76,41 @@ header {
 	@media(min-width: 800px) {
 		header {
 			grid-template-areas: 
-				"logo title platforms";
+				"logo bio platforms";
 			justify-content: stretch;
 		}
 	}
 
-#logo {
+.logo {
 	grid-area: logo;
 	margin: 0 auto 2em;
 }
 	@media(min-width: 800px) {
-		#logo {
+		.logo {
 			margin: 0 1em 0;
 		}
 	}
 
-#title {
-	grid-area: title;
+.bio {
+	grid-area: bio;
 	/* margin: 0 auto; */
 	text-align: center;
 	line-height: 1;
 }
 	@media(min-width: 800px) {
-		#title {
+		.bio {
 			text-align: left;
 		}
 	}
-#title #name {
+
+.bio .name {
+	display: block;
 	margin: 0 auto 0.5em;
+	font-size: 2em;
+	font-weight: bold;
 }
 
-#platforms {
+.platforms {
 	grid-area: platforms;
 	margin: 2em auto;
 	text-align: center;
@@ -115,7 +119,7 @@ header {
 		margin: 0 auto;
 	}
 
-#platforms a:not(:last-child) {
+.platforms a:not(:last-child) {
 	margin-right: .5em;
 }
 
@@ -128,15 +132,30 @@ main {
 	padding: 1em 0;
 }
 
-h2 {
+.details {
 	text-align: center;
 }
 
-	@media(min-width: 800px) {
-		h2 {
-			text-align: left;
-		}
-	}
+.details .subtitle {
+	display: block;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.links {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+iframe {
+	width: 100%;
+	margin: 0.5em auto;
+	padding: 0;
+	border: 0;
+	background: transparent;
+}
+
 /****
 FOOTER
 ****/
