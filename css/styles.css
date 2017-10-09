@@ -71,7 +71,7 @@ header {
 		"platforms";
 	align-items: center;
 	justify-content: center;
-	text-align: center;
+	/* text-align: center; */
 }
 	@media(min-width: 800px) {
 		header {
@@ -80,6 +80,10 @@ header {
 			justify-content: stretch;
 		}
 	}
+
+header a {
+	border: 0;
+}
 
 .logo {
 	grid-area: logo;
@@ -131,6 +135,10 @@ header {
 
 .platforms li:not(:last-child) {
 	margin-right: .5em;
+}
+
+.platforms a {
+	border-bottom: 2px solid #f96262;
 }
 
 /****
