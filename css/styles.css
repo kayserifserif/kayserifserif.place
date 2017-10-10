@@ -41,7 +41,6 @@ CONTAINER
 ****/
 
 .container {
-	width: 80%;
 	margin: auto;
 	display: grid;
 	grid-template-areas:
@@ -57,6 +56,19 @@ CONTAINER
 			width:  55%;
 		}
 	}
+
+.container.card {
+	width: 80%;
+}
+	@media(min-width: 800px) {
+		.container.card {
+			width:  55%;
+		}
+	}
+
+.container.article {
+	width: 95%;
+}
 
 /****
 NAVIGATION
@@ -115,7 +127,7 @@ NAVIGATION
 HEADER
 ****/
 
-header {
+header.banner {
 	grid-area: header;
 	display: grid;
 	grid-template-areas: 
@@ -127,14 +139,14 @@ header {
 	/* text-align: center; */
 }
 	@media(min-width: 800px) {
-		header {
+		header.banner {
 			grid-template-areas: 
 				"logo bio platforms";
 			justify-content: stretch;
 		}
 	}
 
-header a {
+header.banner a {
 	border: 0;
 }
 
@@ -201,15 +213,57 @@ MAIN
 main {
 	grid-area: main;
 	padding: 1em 0;
+	overflow: hidden;
+}
+
+article {
+	width: 100%;
+	margin: auto;
+}
+	@media(min-width: 700px) {
+		article {
+			width: 70%;
+		}
+	}
+	@media(min-width: 900px) {
+		article {
+			width: 55%;
+		}
+	}
+
+article header {
+	padding: 1em;
+	border: 1px solid currentColor;
+}
+
+article figure {
+	max-width: 100%;
+}
+
+article figure img {
+	max-width: 100%;
+}
+
+article figcaption {
+	/* border-top: 1px solid #27363b; */
+	background-color: rgba(0,0,0,0.05);
+	padding: 0.5em;
+	text-align: center;
+	font-size: 0.8em;
+	font-style: italic;
 }
 
 .projects {
 	list-style-type: none;
 	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .projects li {
-	margin: 1em 0 2em;
+	width: 33.3%;
+	margin: 1em;
 }
 
 .projects a {
@@ -255,21 +309,6 @@ main iframe {
 	padding: 0;
 	border: 0;
 	background: transparent;
-}
-
-main img {
-	display: block;
-	margin: 1em auto;
-	max-width: 100%;
-}
-
-main figcaption {
-	/* border-top: 1px solid #27363b; */
-	background-color: rgba(0,0,0,0.05);
-	padding: 0.5em;
-	text-align: center;
-	font-size: 0.8em;
-	font-style: italic;
 }
 
 .swot div {
