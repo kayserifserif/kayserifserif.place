@@ -257,20 +257,10 @@ footer {
 		margin: 0 auto;
 	}
 
-.platforms ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-.platforms li {
+.platforms a {
 	display: inline-block;
 }
 
-.platforms li:not(:last-child) {
+.platforms a:not(:last-child) {
 	margin-right: .5em;
-}
-
-.platforms a {
-	border-bottom: 2px solid #f96262;
 }
