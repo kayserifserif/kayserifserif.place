@@ -147,9 +147,6 @@ PROJECTS
 	margin: 1em;
 	border: none;
 	background-color: rgba(0,0,0,0.05);
-}
-
-.project figcaption {
 	text-align: center;
 }
 
@@ -214,7 +211,11 @@ article figcaption {
 	font-weight: normal;
 }
 
-main iframe {
+article img {
+	max-width: 100%;
+}
+
+article iframe {
 	width: 100%;
 	margin: 0.5em auto;
 	padding: 0;
@@ -237,6 +238,16 @@ main iframe {
 .swot dd {
 	margin-left: 9.5em;
 	text-indent: -1em;
+}
+
+.moodboard {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.moodboard img {
+	padding: 1em;
+	margin: 0 auto;
 }
 
 /****
