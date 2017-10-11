@@ -137,15 +137,13 @@ PROJECTS
 ****/
 
 .projects {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	align-items: start;
 }
 
 .projects a {
 	display: block;
-	width: 33.3%;
 	margin: 1em;
 	border: none;
 	background-color: rgba(0,0,0,0.05);
