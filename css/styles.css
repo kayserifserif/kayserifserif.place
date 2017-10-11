@@ -53,14 +53,21 @@ CONTAINER
 	background-color: #FFFFFD;
 	border-radius: 5px;
 	padding: 2em;
+}
+
+.container.card {
 	width: 95%;
 }
 	@media(min-width: 800px) {
-		.container {
-			width:  55%;
+		.container.card {
+			width: 55%;
 			padding: 2em 3em;
 		}
 	}
+
+.container.article {
+	width: 95%;
+}
 
 /****
 HEADER
@@ -126,6 +133,33 @@ header.banner a[href="/"] {
 	}
 
 /****
+PROJECTS
+****/
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: start;
+}
+
+.projects a {
+	display: block;
+	width: 33.3%;
+	margin: 1em;
+	border: none;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.project figcaption {
+	text-align: center;
+}
+
+.project img {
+	width: 100%;
+}
+
+/****
 MAIN
 ****/
 
@@ -137,9 +171,9 @@ main {
 
 article {
 	width: 100%;
-	margin: auto;
+	margin: 1em auto;
 }
-	@media(min-width: 860px) {
+	@media(min-width: 580px) {
 		article {
 			width: 70%;
 		}
@@ -150,7 +184,7 @@ article {
 		}
 	}
 
-article header {
+article .intro {
 	padding: 1em;
 	border: 1px solid currentColor;
 }
@@ -169,45 +203,6 @@ article figcaption {
 	text-align: center;
 	font-size: 0.8em;
 	font-style: italic;
-}
-
-.projects {
-	list-style-type: none;
-	padding: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.projects li {
-	width: 33.3%;
-	margin: 1em;
-}
-
-.projects a {
-	display: block;
-	padding: 0 2em;
-	border-bottom: none;
-	background-color: rgba(0,0,0,0.05);
-}
-
-.project {
-	margin: 0;
-	padding-bottom: 1.5em;
-}
-
-.project figcaption {
-	font-size: 1em;
-	font-style: normal;
-	background: none;
-}
-
-.project figcaption h2 {
-	margin-bottom: 0;
-}
-
-.project img {
-	margin: 0 auto;
 }
 
 .details {
