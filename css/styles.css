@@ -251,6 +251,7 @@ footer {
 }
 
 .platforms {
+	margin: 0.5em 0;
 	text-align: center;
 }
 	@media(min-width: 1200px) {
