@@ -161,13 +161,13 @@ MAIN
 
 main {
 	grid-area: main;
-	padding: 1em 0 5em;
+	padding: 1em 0;
 	overflow: hidden;
 }
 
 article {
 	width: 100%;
-	margin: 1em auto;
+	margin: 1em auto 4em;
 }
 	@media(min-width: 580px) {
 		article {
