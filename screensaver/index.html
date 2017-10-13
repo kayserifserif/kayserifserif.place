@@ -8,6 +8,7 @@
 	<meta name="description" content="Digital designer">
 	<link href="/css/styles.css" rel="stylesheet" type="text/css">
 	<link href="/css/pace-theme-minimal.css" rel="stylesheet" type="text/css">
+	<link href="/css/prism.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -163,6 +164,125 @@
 					</li>
 				</ol>
 
+				<h3>Chosen design</h3>
+				<p>I showed my client each of the designs and asked her to give feedback and judge, based on her own style and needs, which design would be the most suitable.</p> <!-- appendix? -->
+				<p>For Design 1, my client liked the dynamic sense of movement and the popping colours. For Design 2, she liked the shapes and the “soft” feel of the colours and movement. For Design 3, she liked the arrangement of the shapes, but thought it was less dynamic than the other two designs.</p>
+				<p>Ultimately, she thought Design 2 was the best fit for her in terms of her own style and needs. However, she thought it could be improved if there was more variation or movement, which I thought was a good point, since the design was quite simple and reserved. Therefore, I developed the design to make it more interesting by replicating it with different geometric shapes as the base. Specifically, I used triangles for the second variation, and squares for the third. With these three variations of the same design, I could have the screensaver display a random one when it starts, which will make the screensaver more interesting to use, and not so repetitive and monotonous.</p>
+
+				<h3>Detailed design</h3>
+
+				<p>Variations</p>
+				<figure>
+					<img src="/img/screensaver/v-circles.png" alt="Variation: circles">
+					<figcaption>Circles</figcaption>
+				</figure>
+				<figure>
+					<img src="/img/screensaver/v-triangles.png" alt="Variation: triangles">
+					<figcaption>Triangles</figcaption>
+				</figure>
+				<figure>
+					<img src="/img/screensaver/v-squares.png" alt="Variation: squares">
+					<figcaption>Squares</figcaption>
+				</figure>
+
+				<table class="spec">
+					<caption>Colours</caption>
+					<tr>
+						<th scope="row">Background</th>
+						<td><code>#edebe6</code></td>
+					</tr>
+					<tr>
+						<th scope="row">Shapes</th>
+						<td><code>#c1d3c4</code></td>
+					</tr>
+				</table>
+
+				<table class="spec">
+					<caption>Lines</caption>
+					<tr>
+						<th scope="row">Outer</th>
+						<td>40 pt</td>
+					</tr>
+					<tr>
+						<th scope="row">Mid</th>
+						<td>15 pt</td>
+					</tr>
+					<tr>
+						<th scope="row">Inner</th>
+						<td>5 pt</td>
+					</tr>
+				</table>
+
+				<table class="spec">
+					<caption>Size</caption>
+					<tr>
+						<th></th>
+						<th scope="column">Outer</th>
+						<th scope="column">Mid</th>
+						<th scope="column">Inner</th>
+					</tr>
+					<tr>
+						<th scope="row">Circles</th>
+						<td>800 px</td>
+						<td>300 px</td>
+						<td>100 px</td>
+					</tr>
+					<tr>
+						<th scope="row">Triangles</th>
+						<td>780 px</td>
+						<td>200 px</td>
+						<td>50 px</td>
+					</tr>
+					<tr>
+						<th scope="row">Squares</th>
+						<td>850 px</td>
+						<td>250 px</td>
+						<td>50 px</td>
+					</tr>
+				</table>
+
+				<h2>Evaluation</h2>
+
+				<h3>Client feedback analysis</h3>
+				<p>After viewing my product, my client had a very positive reaction and evaluation. She listed four things she thought were interesting about the product. Firstly, the two main colours were soothing and complemented each other well. Secondly, the use of shapes, and, specifically, the regular geometry of each core shape, was very aesthetically pleasing and fit well with the theme of minimalism. Thirdly, she described the movements of the shapes as “gentle” and “smooth”, and said that she liked the way the speed and direction was varied in a pattern. The last comment she made was on the “mesmerising” effect of the design as a whole; she thought that the combination of the first three factors created a very cohesive look and made the screensaver enjoyable and comfortable to look at.</p>
+				<p>From this feedback, I can assume that, at least from a technical and artistic standpoint, my design itself was quite successful. However, in the context of it being a screensaver and presumably being viewed frequently over a long period of time, I think my client’s impression of minimalism and simplicity might not work in the product’s favour long-term, since it will very likely lose the viewer’s attention and interest. With the medium’s capacity for variation and diversity, I could have extended the product to be even more dynamic and unexpected.</p>
+
+				<h3>Target audience survey analysis</h3>
+				<p>A survey was conducted with 17 students in Year 11, who each answered the quantitative questions and offered some qualitative thoughts as well.</p>
+				<p>Opinions of the aesthetics of the design were extremely positive, with the average rating being 9.22 out of a scale of 10, and with most of the ratings at 8, 9, or 10. The ease of the animation on the eyes was judged to be slightly lower, at 8.78 out of 10, and the ratings for this question were more diverse.</p>
+				<p>In the third question, some respondents added extra comments on specific aspects of the product. One person described the style as “clean, simple and modern”, and some commented positively on the colour choice, typography, and smooth animation. However, a few people noted that the animation was sometimes “disorientating” or “jarring”. I thought this was a very valid concern. Even without animation, the concept did not quite carry over from ‘circle’ to ‘square’ or ‘triangle’, and the animation in the product did not follow the animation in the design exactly. For example, I did not take rotation into consideration in my design, so the result looked and felt very different, and I don’t think it was entirely successful.</p>
+				<p>There were also many interesting and creative comments on ways I would be able to improve. The most common one was on colour, and suggested a “wider range” of colours: “different” colour schemes that could be “randomised” “along with the random versions upon startup”. One respondent gave a thoughtful comment on how my product could be extended and built upon quite easily, notably that, “[s]ince all three shapes seem to follow the same movement patterns, it would be cool if the screensaver was able to smoothly transition/morph between them”.</p>
+
+				<h3>Improvements</h3>
+				<p>Based on mainly the results of the survey, I think the largest improvement I could make is with the variety and unpredictability of the screensaver. Currently, the screensaver only uses two main colours. If it uses more or different colours, it would be much more dynamic and interesting. This could be achieved by having different colours be selected at random upon startup, either from an preset array of colour combinations, or by using the HSB methods in the Color class to mathematically calculate colours that could work together. Another way could be to have the colours gradually cycle through different hues as the screensaver is running.</p>
+				<p>Below is an example of how I might be able to implement this feature using the HSB methods. I would first pick a random hue for the center of the background radial gradient, with a set saturation and brightness. From the center colour, I would generate a darker variant for the outside of the gradient, and an off-white variant for the text colour. For the shape colour, I would add a set amount to the hue property of the center colour, then adjust the other properties to help it stand out.</p>
+
+<pre><code class="language-java">// gradient
+float[] center = {(float)Math.random(), 0.1f, 0.8f};
+Color gradientLight = Color.getHSBColor(
+	center[0], center[1], center[2]);
+Color gradientDark = Color.getHSBColor(
+	center[0], center[1] + 0.1f, center[2] - 0.03f);
+gradientColors = new Color[]{gradientLight, gradientDark};
+gradient = new RadialGradientPaint(
+	frameWidth/2, frameHeight/2, frameWidth/2,
+	gradientDistro, gradientColors);
+// text
+textColor = Color.getHSBColor(center[0], 0.02f, 0.95f);
+// shape
+float[] shape = {
+	center[0] - 0.3f, center[1] - 0.05f, center[2] + 0.1f};
+for(int i = 1; i &lt; 3; i++) {
+	if(shape[i] > 1f) shape[i] = 1f;
+    if(shape[i] < 0f) shape[i] = 0f;
+}
+shapeColor = Color.getHSBColor(shape[0], shape[1], shape[2]);</code></pre>
+					
+				<p>Other improvements to the solution could include one respondent’s suggestion of transitions between shapes, since they have approximately the same positions and movements. This would be a good change because it would introduce more variation while still keeping with the minimalistic style.</p>
+
+				<h3>Impact of solution</h3>
+				<p>My design brief stated that my client wanted an aesthetically pleasing and enjoyable screensaver for a more relaxing and inspiring working environment, specifically tailored to the style and look that she likes. From each component of my evaluation, I have found that my solution is an effective solution to the problem, because it is minimalistic and visually engaging. This improves the client’s situation by providing a screensaver specifically designed and adjusted to her particular taste, which she can use to help her study better. As for the potential negative effects of the product, the animation of the shapes may be somewhat disorientating or jarring, depending on the user, how the screensaver is viewed, how often it is viewed, and so on. Another factor might be the lack of variation in the design, which may result in the client losing interest in the product after a period of time. However, I think that overall, the solution was presented well and works as an effective response to the client’s particular problem.</p>
+
 			</article>
 
 		</main>
@@ -183,6 +303,7 @@
 
 	<!-- SCRIPTS -->
 	<script src="/js/pace.min.js"></script>
+	<script src="/js/prism.js"></script>
 	
 </body>
 </html>

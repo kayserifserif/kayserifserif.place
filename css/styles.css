@@ -211,6 +211,10 @@ article figcaption {
 	font-weight: normal;
 }
 
+article figure {
+	text-align: center;
+}
+
 article img {
 	max-width: 100%;
 }
@@ -250,6 +254,17 @@ article iframe {
 	margin: 0 auto;
 }
 
+.spec {
+	width: 65%;
+	margin: 1em auto;
+	text-align: center;
+	table-layout: fixed;
+}
+
+.spec caption {
+	border-bottom: 1px solid currentColor;
+}
+
 /****
 FOOTER
 ****/
@@ -267,6 +282,7 @@ footer {
 		margin: 0 auto;
 	}
 
+.banner a,
 .platforms a {
 	display: inline-block;
 }
