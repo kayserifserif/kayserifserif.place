@@ -137,13 +137,14 @@ PROJECTS
 ****/
 
 .projects {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	align-items: start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .projects a {
 	display: block;
+	flex-basis: 30%;
 	margin: 1em;
 	border: none;
 	background-color: rgba(0,0,0,0.05);
@@ -186,6 +187,12 @@ article .intro {
 
 article figure {
 	max-width: 100%;
+}
+
+article figure.two img {
+	float: left;
+	width: 50%;
+	margin-bottom: 0.4em;
 }
 
 article figure img {
