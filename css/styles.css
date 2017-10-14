@@ -280,6 +280,12 @@ article iframe {
 	border-bottom: 1px solid currentColor;
 }
 
+article blockquote {
+	margin-left: 0;
+	padding-left: 1em;
+	border-left: 0.5em solid rgba(0,0,0,0.05);;
+}
+
 /****
 FOOTER
 ****/
