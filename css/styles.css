@@ -151,6 +151,14 @@ PROJECTS
 	text-align: center;
 }
 
+.projects h1 {
+	margin-bottom: 0;
+}
+
+.projects figcaption {
+	margin-bottom: 1em;
+}
+
 .project img {
 	width: 100%;
 }
