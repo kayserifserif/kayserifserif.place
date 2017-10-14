@@ -194,21 +194,38 @@ article .intro {
 }
 
 article figure {
+	display: flex;
+	flex-direction: column;
+	margin: 1em 0;
+	padding: 1em 0;
 	max-width: 100%;
+	background-color: rgba(0,0,0,0.05);
+}
+
+article .intro figure {
+	margin: 1em;
+	background: none;
+}
+
+article figure.two {
+	flex-direction: row;
 }
 
 article figure.two img {
-	float: left;
+	/* float: left; */
 	width: 50%;
 	margin-bottom: 0.4em;
 }
 
 article figure img {
-	max-width: 100%;
+	max-width: 90%;
+	margin: 1em auto;
 }
 
 article figcaption {
-	background-color: rgba(0,0,0,0.05);
+	width: 95%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.1);
 	padding: 0.5em;
 	text-align: center;
 	font-size: 0.8em;
@@ -236,6 +253,7 @@ article img {
 
 article iframe {
 	width: 100%;
+	height: 400px;
 	margin: 0.5em auto;
 	padding: 0;
 	border: 0;
