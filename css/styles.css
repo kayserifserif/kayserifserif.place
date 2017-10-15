@@ -149,12 +149,22 @@ PROJECTS
 
 .projects a {
 	display: block;
-	flex-basis: 30%;
+	flex-basis: 100%;
 	margin: 1em;
 	border: none;
 	background-color: rgba(0,0,0,0.05);
 	text-align: center;
 }
+	@media(min-width: 550px) {
+		.projects a {
+			flex-basis: calc(50% - 2em);
+		}
+	}
+	@media(min-width: 800px) {
+		.projects a {
+			flex-basis: calc(100% / 3 - 2.5em);
+		}
+	}
 
 .projects h2 {
 	margin-bottom: 0;
@@ -211,27 +221,29 @@ article figure {
 	background-color: rgba(0,0,0,0.05);
 }
 
-article figure img {
+article figure img,
+article .two img {
 	width: 100%;
 	margin: auto;
 	padding: 1em 1em 0 1em;
 }
+	@media(min-width: 650px) {
+		article .two img {
+			max-width: calc(50% - 1.15em);
+			padding-top: 1em;
+			padding-bottom: 0;
+		}
 
-article .two img {
-	max-width: calc(50% - 1.15em);
-	padding-top: 1em;
-	padding-bottom: 0;
-}
+		article .two img:first-of-type {
+			padding-right: 0.5em;
+			padding-left: 0;
+		}
 
-article .two img:first-of-type {
-	padding-right: 0.5em;
-	padding-left: 0;
-}
-
-article .two img:last-of-type {
-	padding-left: 0.5em;
-	padding-right: 0;
-}
+		article .two img:last-of-type {
+			padding-left: 0.5em;
+			padding-right: 0;
+		}
+	}
 
 article figcaption {
 	width: calc(100% - 2.5em);
@@ -276,34 +288,66 @@ article iframe {
 }
 
 .swot dt {
-	width: 7.5em;
+	width: 100%;
 	float: left;
 	clear: left;
-	text-align: right;
+	text-align: left;
 	font-weight: bold;
 }
+	@media(min-width: 800px) {
+		.swot dt {
+			width: 7.5em;
+			text-align: right;
+		}
+	}
 
 .swot dd {
-	margin-left: 9.5em;
+	margin-left: 2em;
 	text-indent: -1em;
 }
+	@media(min-width: 800px) {
+		.swot dd {
+			margin-left: 9.5em;
+		}
+	}
 
 .moodboard {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	/* grid-template-columns: repeat(2, 1fr); */
+	grid-template-columns: 1fr;
 }
+	@media(min-width: 500px) {
+		.moodboard {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
 
 .moodboard img {
-	padding: 1em;
+	padding: 1em 0;
 	margin: 0 auto;
 }
+	@media(min-width: 500px) {
+		.moodboard img {
+			padding: 1em;
+		}
+	}
 
 .spec {
-	width: 65%;
+	width: 100%;
 	margin: 1em auto;
 	text-align: center;
 	table-layout: fixed;
 }
+	@media(min-width: 700px) {
+		.spec {
+			width: 80%;
+		}
+	}
+	@media(min-width: 950px) {
+		.spec {
+			width: 65%;
+		}
+	}
 
 .spec caption {
 	border-bottom: 1px solid currentColor;
