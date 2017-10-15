@@ -313,8 +313,8 @@ article iframe {
 
 .moodboard {
 	display: grid;
-	/* grid-template-columns: repeat(2, 1fr); */
 	grid-template-columns: 1fr;
+	align-items: start;
 }
 	@media(min-width: 500px) {
 		.moodboard {
