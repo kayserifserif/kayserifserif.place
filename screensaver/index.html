@@ -91,7 +91,7 @@
 								<dd>More interesting or dynamic background</dd>
 						</div>
 					</dl>
-				<div>
+				</div>
 				<div>
 					<p>"Arabesque" by Apple</p>
 					<dl class="swot">
@@ -109,7 +109,7 @@
 								<dd>More interesting or dynamic background</dd>
 						</div>
 					</dl>
-				<div>
+				</div>
 
 				<h2>Design</h2>
 
@@ -129,7 +129,7 @@
 					</li>
 					<li>
 						<p>The design will fill the entire screen.</p>
-						<p>The screensaver should be immersive and make use of the screen real estate&mdash;if not with movement, then at least <li>with colour or other design elements.</p>
+						<p>The screensaver should be immersive and make use of the screen real estate&mdash;if not with movement, then at least with colour or other design elements.</p>
 					</li>
 					<li>
 						<p>The background will be static and the foreground elements will be animated.</p>
@@ -227,9 +227,9 @@
 					<caption>Size</caption>
 					<tr>
 						<th></th>
-						<th scope="column">Outer</th>
-						<th scope="column">Mid</th>
-						<th scope="column">Inner</th>
+						<th scope="col">Outer</th>
+						<th scope="col">Mid</th>
+						<th scope="col">Inner</th>
 					</tr>
 					<tr>
 						<th scope="row">Circles</th>
@@ -283,8 +283,8 @@ textColor = Color.getHSBColor(center[0], 0.02f, 0.95f);
 float[] shape = {
 	center[0] - 0.3f, center[1] - 0.05f, center[2] + 0.1f};
 for(int i = 1; i &lt; 3; i++) {
-	if(shape[i] > 1f) shape[i] = 1f;
-    if(shape[i] < 0f) shape[i] = 0f;
+	if(shape[i] &gt; 1f) shape[i] = 1f;
+    if(shape[i] &lt; 0f) shape[i] = 0f;
 }
 shapeColor = Color.getHSBColor(shape[0], shape[1], shape[2]);</code></pre>
 					
