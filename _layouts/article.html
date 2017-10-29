@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+	
+<div class="container article">
+
+{% include header.html %}
+
+<main role="main">
+<article>
+
+{{ content }}
+
+</article>
+</main>
+
+{% include footer.html %}
+	
+</div>
+
+<!-- SCRIPTS -->
+<!-- <script src="/js/pace.min.js"></script> -->
+{% for js in page.js %}<script src="/assets/js/{{ js }}"></script>{% endfor %}
+	
+</body>
+</html>
