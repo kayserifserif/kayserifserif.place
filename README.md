@@ -1,4 +1,4 @@
-# [whykatherine.github.io](whykatherine.github.io)
+# [whykatherine.github.io](https://whykatherine.github.io/)
 
 Welcome! This is my personal website and portfolio.
 
