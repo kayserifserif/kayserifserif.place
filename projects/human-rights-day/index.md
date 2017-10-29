@@ -55,7 +55,7 @@ When the week came to an end, we wanted to follow up with the school with result
 
 ## Design
 
-I decided to design three posters that gave a summary of the school's engagement with the boards. After other students tallied up the Post-its on the first board and wrote down the responses on the second and third boards, I wealth of information to create three posters: We Care About, We Care Because, and We Care in Spite Of.
+I decided to design three posters that gave a summary of the school's engagement with the boards. After other students tallied up the Post-its on the first board and wrote down the responses on the second and third boards, I used the wealth of information to create three posters: We Care About, We Care Because, and We Care in Spite Of.
 
 <figure>
     <img src="/assets/img/human-rights-day/poster-1.png" alt="We Care About">
