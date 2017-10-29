@@ -2,6 +2,7 @@
 title: Winter Ball
 description: Ticket design for annual senior students' formal ball.
 tags: print
+image: /assets/img/winter-ball/ticket.png
 layout: article
 ---
 
@@ -10,7 +11,7 @@ layout: article
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/winter-ball/ticket.png" alt="Winter Ball ticket">
+        <img src="{{ page.image }}" alt="Winter Ball ticket">
     </figure>
 </header>
 

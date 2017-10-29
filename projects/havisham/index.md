@@ -2,6 +2,7 @@
 title: Havisham
 description: Poetry, lettering, and design for a poster inspired by <i>Great Expectations</i>.
 tags: graphic, lettering
+image: /assets/img/havisham/mockup.jpg
 layout: article
 ---
 
@@ -10,7 +11,7 @@ layout: article
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/havisham/mockup.jpg" alt="Mockup of poster">
+        <img src="{{ page.image }}" alt="Mockup of poster">
     </figure>
 </header>
 

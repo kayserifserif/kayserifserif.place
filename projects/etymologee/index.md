@@ -2,6 +2,7 @@
 title: Etymologee
 description: Explore English words through a visualisation of their historical and geographical etymology.
 tags: code
+image: /assets/img/etymologee/etymologee.png
 layout: article
 ---
 
@@ -13,7 +14,7 @@ layout: article
         <a href="https://github.com/whykatherine/etymology" title="GitHub">GitHub</a>
     </div>
     <figure>
-        <img src="/assets/img/etymologee/etymologee.png" alt="Etymologee" title="Example query in Etymologee">
+        <img src="{{ page.image }}" alt="Etymologee" title="Example query in Etymologee">
     </figure>
 </header>
 

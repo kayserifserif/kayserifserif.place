@@ -2,6 +2,7 @@
 title: Personal Branding
 description: My personal branding.
 tags: branding
+image: /assets/img/branding/colours.jpg
 layout: article
 ---
 
@@ -10,7 +11,7 @@ layout: article
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/branding/colours.jpg" alt="Personal branding">
+        <img src="{{ page.image }}" alt="Personal branding">
     </figure>
 </header>
 

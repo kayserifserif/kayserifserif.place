@@ -2,6 +2,7 @@
 title: Scribbles
 description: Layout design for the CIS biannual arts magazine.
 tags: editorial
+image: /assets/img/scribbles/mockup.jpg
 layout: article
 ---
 
@@ -10,7 +11,7 @@ layout: article
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/scribbles/mockup.jpg" alt="Mockup of magazine spread">
+        <img src="{{ page.image }}" alt="Mockup of magazine spread">
     </figure>
 </header>
 

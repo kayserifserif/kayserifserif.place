@@ -2,6 +2,7 @@
 title: Havisham
 description: Informational graphics for International Human Rights Day at CIS.
 tags: graphic, information
+image: /assets/img/human-rights-day/poster-1.png
 layout: article
 ---
 
@@ -10,7 +11,7 @@ layout: article
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/human-rights-day/poster-1.png" alt="We Care About poster">
+        <img src="{{ page.image }}" alt="We Care About poster">
     </figure>
 </header>
 

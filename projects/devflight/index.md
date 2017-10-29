@@ -2,6 +2,7 @@
 title: DevFlight
 description: Branding for a hackathon project.
 layout: article
+image: /assets/img/devflight/card-mockup.jpg
 tags: branding
 ---
 
@@ -10,7 +11,7 @@ tags: branding
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <figure>
-        <img src="/assets/img/devflight/card-mockup.jpg" alt="Mockup of business cards">
+        <img src="{{ page.image }}" alt="Mockup of business cards">
     </figure>
 </header>
 
