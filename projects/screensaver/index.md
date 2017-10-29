@@ -2,6 +2,7 @@
 title: Geometric Screensaver
 description: A minimalistic and satisfying screensaver of animated interlocking geometric shapes, all using a generated harmonious colour scheme.
 tags: code
+image: /assets/img/screensaver/screensaver.png
 layout: article
 css: prism.css
 js: prism.js
