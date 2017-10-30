@@ -81,6 +81,8 @@ HEADER
 header.banner {
 	grid-area: header;
 	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(3, 1fr);
 	grid-template-areas: 
 		"logo"
 		"bio"
@@ -91,9 +93,10 @@ header.banner {
 }
 	@media(min-width: 800px) {
 		header.banner {
-			grid-template-areas: 
-				"logo bio bio bio nav";
-			justify-content: space-between;
+			grid-template-columns: 80px auto 65px;
+			grid-template-rows: auto;
+			grid-template-areas: "logo bio nav";
+			justify-content: stretch;
 			text-align: left;
 		}
 	}
@@ -104,11 +107,11 @@ header.banner a[href="/"] {
 
 .logo {
 	grid-area: logo;
-	margin: 0 auto 2em;
+	margin: 0 auto;
 }
 	@media(min-width: 800px) {
 		.logo {
-			margin: 0 1em 0;
+			padding: 0 1em 0;
 		}
 	}
 
