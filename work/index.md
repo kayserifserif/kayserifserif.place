@@ -1,60 +1,60 @@
 ---
-title: Projects
-description: Projects by Katherine Yang.
+title: Work
+description: Work by Katherine Yang.
 layout: directory
 ---
 
-<h1 class="details">Projects</h1>
-<div class="projects">
-    <a href="/projects/etymologee" title="Etymologee" class="project">
+<h1 class="details">Work</h1>
+<div class="work">
+    <a href="/work/etymologee" title="Etymologee" class="project">
         <figure>
             <figcaption><h2>Etymologee</h2></figcaption>
             <img src="/assets/img/etymologee/etymologee.png" alt="sCan">
         </figure>
     </a>
-    <a href="/projects/sCan" title="sCan" class="project">
+    <a href="/work/sCan" title="sCan" class="project">
         <figure>
             <figcaption><h2>sCan</h2></figcaption>
             <img src="/assets/img/sCan/sCan.png" alt="sCan">
         </figure>
     </a>
-    <a href="/projects/screensaver" title="Geometric Screensaver" class="project">
+    <a href="/work/screensaver" title="Geometric Screensaver" class="project">
         <figure>
             <figcaption><h2>Geometric Screensaver</h2></figcaption>
             <img src="/assets/img/screensaver/screenshots.gif" alt="Geometric Screensaver">
         </figure>
     </a>
-    <a href="/projects/branding" title="Personal Branding" class="project">
+    <a href="/work/branding" title="Personal Branding" class="project">
         <figure>
             <figcaption><h2>Personal Branding</h2></figcaption>
             <img src="/assets/img/branding/colours.jpg" alt="Personal Branding">
         </figure>
     </a>
-    <a href="/projects/havisham" title="Havisham" class="project">
+    <a href="/work/havisham" title="Havisham" class="project">
         <figure>
             <figcaption><h2>Havisham</h2></figcaption>
             <img src="/assets/img/havisham/mockup.jpg" alt="Havisham">
         </figure>
     </a>
-    <a href="/projects/devflight" title="DevFlight" class="project">
+    <a href="/work/devflight" title="DevFlight" class="project">
         <figure>
             <figcaption><h2>DevFlight</h2></figcaption>
             <img src="/assets/img/devflight/card-mockup.jpg" alt="DevFlight">
         </figure>
     </a>
-    <a href="/projects/scribbles" title="Scribbles" class="project">
+    <a href="/work/scribbles" title="Scribbles" class="project">
         <figure>
             <figcaption><h2>Scribbles</h2></figcaption>
             <img src="/assets/img/scribbles/mockup.jpg" alt="Scribbles">
         </figure>
     </a>
-    <a href="/projects/human-rights-day" title="Human Rights Day" class="project">
+    <a href="/work/human-rights-day" title="Human Rights Day" class="project">
         <figure>
             <figcaption><h2>Human Rights Day</h2></figcaption>
             <img src="/assets/img/human-rights-day/poster-1.png" alt="Human Rights Day">
         </figure>
     </a>
-    <a href="/projects/winter-ball" title="Winter Ball" class="project">
+    <a href="/work/winter-ball" title="Winter Ball" class="project">
         <figure>
             <figcaption><h2>Winter Ball</h2></figcaption>
             <img src="/assets/img/winter-ball/ticket.png" alt="Winter Ball">
@@ -62,7 +62,7 @@ layout: directory
     </a>
 </div>
 <h2 class="details">Films</h2>
-<div class="projects">
+<div class="work">
     <a href="https://vimeo.com/220745972" title="ursula" class="project">
         <figure>
             <figcaption><h2>ursula</h2><span class="year">Cinematographer, 2017</span></figcaption>

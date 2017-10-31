@@ -93,11 +93,10 @@ header.banner {
 }
 	@media(min-width: 800px) {
 		header.banner {
-			grid-template-columns: 80px auto 65px;
+			grid-template-columns: 60px auto 65px;
 			grid-template-rows: auto;
 			grid-template-areas: "logo bio nav";
 			justify-content: stretch;
-			text-align: left;
 		}
 	}
 
@@ -108,10 +107,11 @@ header.banner a[href="/"] {
 .logo {
 	grid-area: logo;
 	margin: 0 auto;
+	padding: 0;
 }
 	@media(min-width: 800px) {
 		.logo {
-			padding: 0 1em 0;
+			padding-right: 0.5em;
 		}
 	}
 
@@ -128,7 +128,7 @@ header.banner a[href="/"] {
 
 .bio .name {
 	display: block;
-	margin: -0.2em auto 0.2em;
+	margin: -0.35em auto 0.2em;
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -137,20 +137,23 @@ header.banner a[href="/"] {
 	margin: 1em 0;
 }
 	@media(min-width: 860px) {
-		margin: 0;
+		.nav {
+			margin: 0;
+			text-align: right;
+		}
 	}
 
 /****
-PROJECTS
+WORK
 ****/
 
-.projects {
+.work {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
-.projects a {
+.work a {
 	display: block;
 	flex-basis: 100%;
 	margin: 1em;
@@ -159,21 +162,21 @@ PROJECTS
 	text-align: center;
 }
 	@media(min-width: 550px) {
-		.projects a {
+		.work a {
 			flex-basis: calc(50% - 2em);
 		}
 	}
 	@media(min-width: 800px) {
-		.projects a {
+		.work a {
 			flex-basis: calc(100% / 3 - 2.5em);
 		}
 	}
 
-.projects h2 {
+.work h2 {
 	margin-bottom: 0;
 }
 
-.projects figcaption {
+.work figcaption {
 	margin-bottom: 1em;
 }
 
@@ -360,6 +363,14 @@ article blockquote {
 	margin-left: 0;
 	padding-left: 1em;
 	border-left: 0.5em solid rgba(0,0,0,0.05);;
+}
+
+/****
+RESUME
+****/
+
+.resume aside {
+	float: right;
 }
 
 /****
