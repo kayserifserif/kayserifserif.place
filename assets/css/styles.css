@@ -45,11 +45,6 @@ CONTAINER
 
 .container {
 	margin: auto;
-	display: grid;
-	grid-template-areas:
-		"header"
-		"main"
-		"footer";
 	background-color: #FFFFFD;
 	border-radius: 5px;
 	padding: 2em;
@@ -79,6 +74,8 @@ HEADER
 ****/
 
 header.banner {
+	width: 80%;
+	margin: auto;
 	grid-area: header;
 	display: grid;
 	grid-template-columns: auto;
@@ -128,7 +125,7 @@ header.banner a[href="/"] {
 
 .bio .name {
 	display: block;
-	margin: -0.35em auto 0.2em;
+	margin: -0.25em auto 0;
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -142,6 +139,70 @@ header.banner a[href="/"] {
 			text-align: right;
 		}
 	}
+
+/****
+HOME
+****/
+
+.example {
+	margin: 0 0 3em;
+	display: flex;
+}
+
+.example:nth-of-type(odd) {
+	flex-direction: row;
+}
+
+.example:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+.example .info {
+	width: 50%;
+	padding: 5em;
+}
+
+.example .info,
+.example .image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.example h2 {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 2.5em;
+	letter-spacing: 5px;
+}
+
+.example p {
+	margin: 1em 0;
+}
+
+.example .image {
+	width: 50%;
+	padding: 3em;
+}
+
+.example img {
+	width: 100%;
+}
+
+/****
+CONTENT
+****/
+
+.content {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-areas:
+		"header"
+		"main"
+		"footer";
+}
 
 /****
 WORK
@@ -208,6 +269,11 @@ article {
 			width: 55%;
 		}
 	}
+
+main p {
+	max-width: 35em;
+	margin: auto;
+}
 
 article .intro {
 	padding: 1em;
@@ -393,6 +459,12 @@ footer {
 .banner nav a,
 .platforms a {
 	display: inline-block;
+}
+
+.platforms .svg-icon {
+	width: 16px;
+	height: 16px;
+	border: 0;
 }
 
 .platforms a:not(:last-child) {

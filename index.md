@@ -1,13 +1,28 @@
 ---
 title: Home
 description: Katherine Yang, digital designer.
-layout: card
+layout: directory
 ---
 
-Hi! I'm Katherine.
+I am passionate about design and technology, and love working on projects that beautifully combine them, from **data storytelling** to **user interface and experience design**, to **computational arts**, to **human&ndash;computer interaction**.
 
-I love design and technology, and anything that beautifully combines the two.
+<div class="example">
+    <div class="info">
+        <h2>Etymologee</h2>
+        <p>Explore English words through a visualisation of their historical and geographical etymology.</p>
+    </div>
+    <div class="image">
+        <img src="/assets/img/etymologee/etymologee.png" alt="Etymologee">
+    </div>
+</div>
 
-This means anything from **data storytelling** to **user interface and experience design**, to **computational arts**, to **human&ndash;computer interaction**.
+<div class="example">
+    <div class="info">
+        <h2>Geometric Screensaver</h2>
+        <p>A minimalistic and satisfying screensaver of animated interlocking geometric shapes, all using a generated harmonious colour scheme.</p>
+    </div>
+    <div class="image">
+        <img src="/assets/img/screensaver/screenshots.gif" alt="Geometric screensaver">
+    </div>
+</div>
 
-On the design side, I'm a huge typography nerd, and I've worked on projects involving graphic design, information design, print design, film and animation, branding, and marketing. On the technology side, I'm primarily a front-end web developer using HTML/CSS and JavaScript, and I also have some experience in Python and Java.
