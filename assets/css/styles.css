@@ -272,7 +272,7 @@ article {
 
 main p {
 	max-width: 35em;
-	margin: auto;
+	margin: 1em auto;
 }
 
 article .intro {
