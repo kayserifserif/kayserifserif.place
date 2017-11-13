@@ -144,6 +144,18 @@ header.banner a[href="/"] {
 HOME
 ****/
 
+.intro {
+	margin: 3em auto;
+	width: 60%;
+	padding: 2.5em 0;
+	border: 3px solid transparent;
+	-webkit-border-image: -webkit-linear-gradient(#ed6ea0 0%, #ec8c69 100%);
+	-moz-border-image: -moz-linear-gradient(#ed6ea0 0%, #ec8c69 100%);
+	-o-border-image: -o-linear-gradient(#ed6ea0 0%, #ec8c69 100%);
+	border-image: linear-gradient(#ed6ea0 0%, #ec8c69 100%);
+	border-image-slice: 1;
+}
+
 .example {
 	/* margin: 0 0 3em; */
 	margin: 0;
