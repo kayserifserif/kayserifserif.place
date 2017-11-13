@@ -203,6 +203,28 @@ HOME
 	width: 100%;
 }
 
+.big-link {
+	display: block;
+	width: 15em;
+	margin: 1em auto;
+	padding: 1em;
+	text-align: center;
+	background-color: #444;
+	color: #fff;
+	font-size: 1.3em;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.15);
+	transition: 0.15s all;
+}
+
+.big-link:hover {
+	color: #fff;
+	background-color: #515151;
+	transform: translateY(-1px);
+	box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.15);
+}
+
 /****
 CONTENT
 ****/
@@ -264,6 +286,7 @@ MAIN
 
 main {
 	grid-area: main;
+	margin: 2em auto;
 	padding: 1em 0;
 	overflow: hidden;
 }

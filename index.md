@@ -29,3 +29,4 @@ layout: directory
     </div>
 </div>
 
+<a href="/work" class="big-link">See more of my work!</a>
