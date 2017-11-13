@@ -4,6 +4,8 @@ description: Katherine Yang, digital designer.
 layout: directory
 ---
 
+I want to help make sense of the world through delicious, beautiful, living graphics and code.
+
 I am passionate about design and technology, and love working on projects that beautifully combine them, from **data storytelling** to **user interface and experience design**, to **computational arts**, to **human&ndash;computer interaction**.
 
 <div class="example">
