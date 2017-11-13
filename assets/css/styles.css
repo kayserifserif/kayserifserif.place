@@ -145,7 +145,8 @@ HOME
 ****/
 
 .example {
-	margin: 0 0 3em;
+	/* margin: 0 0 3em; */
+	margin: 0;
 	display: flex;
 }
 
@@ -257,7 +258,8 @@ main {
 
 article {
 	width: 100%;
-	margin: 1em auto 4em;
+	/* margin: 1em auto 4em; */
+	margin: 4em auto;
 }
 	@media(min-width: 580px) {
 		article {
