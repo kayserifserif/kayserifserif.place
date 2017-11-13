@@ -90,7 +90,7 @@ header.banner {
 }
 	@media(min-width: 800px) {
 		header.banner {
-			grid-template-columns: 60px auto 65px;
+			grid-template-columns: 60px auto 220px;
 			grid-template-rows: auto;
 			grid-template-areas: "logo bio nav";
 			justify-content: stretch;
@@ -504,6 +504,7 @@ footer {
 	border: 0;
 }
 
-.platforms a:not(:last-child) {
-	margin-right: .5em;
+.banner nav a:not(:last-of-type),
+.platforms a:not(:last-of-type) {
+	margin-right: .75em;
 }
