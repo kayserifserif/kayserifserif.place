@@ -9,7 +9,7 @@ layout: directory
     <a href="/work/etymologee" title="Etymologee" class="project">
         <figure>
             <figcaption><h2>Etymologee</h2></figcaption>
-            <img src="/assets/img/etymologee/etymologee.png" alt="sCan">
+            <img src="/assets/img/etymologee/etymologee.png" alt="Etymologee">
         </figure>
     </a>
     <a href="/work/sCan" title="sCan" class="project">
