@@ -1,6 +1,6 @@
 ---
 title: To the Moon and Back
-description: A colourful <i>Eloise</i>-inspired film about a girl in love.
+description: A colourfully charming film about three misfits on Mid-Autumn Festival.
 layout: ubc
 ---
 
