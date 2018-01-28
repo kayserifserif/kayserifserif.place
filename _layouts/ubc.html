@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Katherine Yang | {{ page.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+
+	<!-- styles -->
+	<link href="/assets/css/styles-ubc.css" rel="stylesheet" type="text/css">
+	{% for css in page.css %}<link href="/assets/css/{{ css }}" rel="stylesheet" type="text/css">{% endfor %}
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1aaaa8">
+	<meta name="theme-color" content="#ffffff">
+
+	{% seo %}
+
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+		{% include analytics.html %}
+	{% endif %}
+</head>
+
+<body>
+	
+<div class="container">
+
+<header role="banner" class="banner">
+	<a href="/ubc" title="UBC Portfolio"><img class="logo" src="/assets/img/monogram.svg" alt="Logo" width="47" height="80"></a>
+</header>
+
+<main role="main">
+
+{{ content }}
+
+</main>
+
+{% include footer.html %}
+	
+</div>
+
+<!-- SCRIPTS -->
+{% include scripts.html %}
+	
+</body>
+</html>
