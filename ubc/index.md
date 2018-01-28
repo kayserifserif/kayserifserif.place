@@ -29,10 +29,10 @@ layout: ubc
 		</a>
 	</div>
 	<div class="project">
-		<a href="/ubc/ursula" title="ursula">
-            <h2>Ursula</h2>
-            <p class="desc">Cinematographer. 2017 mock thesis film. A colourful <i>Eloise</i>-inspired film about a girl in love.</p>
-            <img src="/assets/img/films/ursula.jpg" alt="ursula">
+		<a href="/ubc/thesis" title="To the Moon and Back">
+            <h2>To the Moon and Back</h2>
+            <p class="desc">Cinematographer &amp; editor. 2018 thesis film. A colourfully charming film about three misfits on Mid-Autumn Festival.</p>
+            <img src="/assets/img/films/to-the-moon-and-back.jpg" alt="To the Moon and Back">
     	</a>
 	</div>
 	<div class="project">
