@@ -117,7 +117,7 @@ If the animation is too fast, the product risks causing strain on the user’s e
     <img src="https://cdn.vectorstock.com/i/1000x1000/43/42/geometric-design-vector-524342.jpg" alt="Moodboard 1">
     <img src="http://blog.signalnoise.com/wp-content/uploads/2009/08/i_waldheims3.jpg" alt="Moodboard 2">
     <img src="https://i.pinimg.com/736x/b6/14/33/b61433ec3276065d4dd23c67a1af375f.jpg" alt="Moodboard 3">
-    <img src="http://static.colourlovers.com/images/patternDefinitions/12/124/124686.png?1323982501" alt="Moodboard 4">
+    <img src="https://static.colourlovers.com/images/patternDefinitions/12/124/124686.png?1323982501" alt="Moodboard 4">
     <img src="http://images.hellokids.com/_uploads/_tiny_galerie/20150626/geometric-string-art-video_hgv.jpg" alt="Moodboard 5">
 </div>
 
