@@ -17,7 +17,7 @@ layout: ubc
 	<p>Artistically, mainly as exemplified in my film work, I’m interested in using styles such as gentle magical realism and whimsical fantasy to explore themes such as childhood, love, and self-discovery.</p>
 	<p>More technically, data storytelling is a practice that hugely inspires me. This is a phenomenon that has been seen increasingly in digital editorials: instead of using a wall of text to communicate a nuanced story, data scientists and designers use technology to create an immersive and interactive exhibition of news and data. I have begun to explore this through personal analytics—tracking and analysing my daily habits—as well as infographic design.</p>
 	<p>My portfolio demonstrates my interest in human-centred technology and design, and my passion for exploring how we, as makers, can consider the many facets of human nature and society and use technology to make people’s lives better.</p>
-	<p>Take a look at my <a href="/resume/yang-katherine-resume-201710.pdf">résumé</a> to see what else I've done!</p>
+	<p>Take a look at my <a href="/resume/yang-katherine-resume-201903.pdf">résumé</a> to see what I've done!</p>
 </div>
 
 <div class="work">
