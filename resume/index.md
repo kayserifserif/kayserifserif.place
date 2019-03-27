@@ -6,4 +6,4 @@ layout: article
 
 # Résumé
 
-[Download a PDF of my résumé.](yang-katherine-resume-201903.pdf).
+[Download a PDF of my résumé.](yang-katherine-resume-201903.pdf)
