@@ -228,8 +228,9 @@ article {
 	}
 
 article .intro {
-	padding: 1em;
-	border: 1px solid currentColor;
+	padding: 2em 1em;
+	border-radius: 5px;
+	background-color: rgba(252, 122, 117, .07);
 }
 
 article .intro figure {
