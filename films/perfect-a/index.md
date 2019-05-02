@@ -1,6 +1,7 @@
 ---
 title: Perfect A
-description: A documentary short about playing music. Director, 2015.
+description: A documentary short about playing music. Director.
+year: 2015
 tags: [film]
 image: /assets/img/films/perfect-a.jpg
 video-link: https://www.youtube.com/watch?v=hhlXp9zKEPc

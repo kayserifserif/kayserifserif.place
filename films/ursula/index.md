@@ -1,6 +1,7 @@
 ---
 title: Ursula
-description: A love story. Cinematographer, 2017.
+description: A love story. Cinematographer.
+year: 2017
 tags: [film]
 image: /assets/img/films/ursula.jpg
 video-link: https://vimeo.com/220745972

@@ -1,6 +1,7 @@
 ---
 title: Gravity
-description: "Serendipity: finding something good without looking for it; or, an impromptu dance film. Director, 2016."
+description: "Serendipity: finding something good without looking for it; or, an impromptu dance film. Director."
+year: 2016
 tags: [film]
 image: /assets/img/films/gravity.jpg
 video-link: https://www.youtube.com/watch?v=r7JOzT5Ncow

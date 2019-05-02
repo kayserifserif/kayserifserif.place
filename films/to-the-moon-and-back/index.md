@@ -1,6 +1,7 @@
 ---
 title: To the Moon and Back
-description: A colourfully charming film about three misfits on Mid-Autumn Festival. Cinematographer & editor, 2018.
+description: A colourfully charming film about three misfits on Mid-Autumn Festival. Cinematographer & editor.
+year: 2018
 tags: [film]
 image: /assets/img/films/to-the-moon-and-back.jpg
 video-link: https://vimeo.com/261700680

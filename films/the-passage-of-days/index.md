@@ -1,6 +1,7 @@
 ---
 title: The Passage of Days
-description: Soviet montage. Cinematographer, 2016.
+description: Soviet montage. Cinematographer.
+year: 2016
 tags: [film]
 image: /assets/img/films/the-passage-of-days.jpg
 video-link: https://www.youtube.com/watch?v=tHki2KK9hs0

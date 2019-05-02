@@ -1,6 +1,7 @@
 ---
 title: Geometric Screensaver
-description: A minimalistic and satisfying screensaver of animated interlocking geometric shapes, all using a generated harmonious colour scheme.
+description: A minimalistic and satisfying generative screensaver of animated interlocking geometric shapes.
+year: 2015
 tags: [code]
 image: /assets/img/screensaver/screensaver.png
 layout: article

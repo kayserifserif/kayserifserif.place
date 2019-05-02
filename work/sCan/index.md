@@ -1,6 +1,7 @@
 ---
 title: sCan
 description: Design and marketing for Top Overall project at BitwiseHacks 2016.
+year: 2016
 tags: [ui/ux, code]
 image: /assets/img/sCan/sCan.png
 layout: article

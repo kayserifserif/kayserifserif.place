@@ -1,6 +1,7 @@
 ---
-title: Havisham
+title: Human Rights Day
 description: Informational graphics for International Human Rights Day at CIS.
+year: 2016
 tags: [graphic, information]
 image: /assets/img/human-rights-day/poster-1.png
 layout: article

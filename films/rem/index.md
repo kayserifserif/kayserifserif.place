@@ -1,6 +1,7 @@
 ---
 title: REM
-description: An experimental montage film about growing up. Editor, 2016.
+description: An experimental montage film about growing up. Editor.
+year: 2016
 tags: [film]
 image: /assets/img/films/rem.jpg
 video-link: https://www.youtube.com/watch?v=ulv908bYBkM

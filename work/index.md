@@ -6,8 +6,8 @@ layout: directory
 
 <h1 class="details">Works</h1>
 <div class="work">
-    <!-- {% assign projects = site.pages | where: "tags", nil %} -->
-    {% for project in site.pages %}
+    {% assign projects = site.pages | sort: "year" | reverse %}
+    {% for project in projects %}
         {% if project.tags %}
             <a href="{{ project.url }}" title="{{ project.title }}" class="project">
                 <figure>

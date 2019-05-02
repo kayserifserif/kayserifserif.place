@@ -1,6 +1,7 @@
 ---
 title: Cold Noodles
-description: Mother and son. Cinematographer, 2016.
+description: Mother and son. Cinematographer.
+year: 2016
 tags: [film]
 image: /assets/img/films/cold-noodles.jpg
 video-link: https://www.youtube.com/watch?v=WaHYYt4wWuw

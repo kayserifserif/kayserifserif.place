@@ -1,6 +1,7 @@
 ---
 title: DevFlight
 description: Branding for a hackathon project.
+year: 2016
 layout: article
 image: /assets/img/devflight/card-mockup.jpg
 tags: [branding]

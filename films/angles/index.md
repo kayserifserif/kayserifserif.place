@@ -1,7 +1,8 @@
 ---
 title: Angles
-description: An examination of our treatment of mental illness. Editor, 2017.
+description: An examination of our treatment of mental illness. Editor.
 tags: [film]
+year: 2017
 image: /assets/img/films/angles.jpg
 video-link: https://www.youtube.com/watch?v=x7z7PWN18wQ
 video-embed: https://www.youtube-nocookie.com/embed/x7z7PWN18wQ

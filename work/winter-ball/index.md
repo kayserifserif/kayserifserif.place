@@ -1,6 +1,7 @@
 ---
 title: Winter Ball
 description: Ticket design for annual senior students' formal ball.
+year: 2018
 tags: [print]
 image: /assets/img/winter-ball/ticket.png
 layout: article

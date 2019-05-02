@@ -1,6 +1,7 @@
 ---
 title: Personal Branding
 description: My personal branding.
+year: 2016
 tags: [branding]
 image: /assets/img/branding/colours.jpg
 layout: article
