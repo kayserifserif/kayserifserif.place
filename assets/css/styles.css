@@ -261,15 +261,17 @@ article figcaption {
 	font-style: italic;
 }
 
-.details {
+.title {
 	text-align: center;
 }
 
-.details .subtitle {
-	display: block;
-	font-size: 1rem;
+.year {
+	text-align: center;
+}
+
+.subtitle {
+	text-align: center;
 	font-style: italic;
-	font-weight: normal;
 }
 
 article figure {

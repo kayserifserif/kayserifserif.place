@@ -10,7 +10,7 @@ js: prism.js
 ---
 
 <header class="intro">
-    <h1 class="details">{{ page.title }}
+    <h1 class="title">{{ page.title }}
         <span class="subtitle">{{ page.description }}</span>
     </h1>
     <div class="platforms">

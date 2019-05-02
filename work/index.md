@@ -4,7 +4,7 @@ description: Work by Katherine Yang.
 layout: directory
 ---
 
-<h1 class="details">Works</h1>
+<h1 class="title">Works</h1>
 <div class="work">
     {% assign projects = site.pages | sort: "year" | reverse %}
     {% for project in projects %}
