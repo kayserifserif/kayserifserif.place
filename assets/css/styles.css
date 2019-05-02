@@ -185,6 +185,7 @@ WORK
 }
 
 .project .tag {
+	padding: 0 .5em;
 	font-variant: small-caps;
 }
 
