@@ -1,6 +1,6 @@
 ---
 title: To the Moon and Back
-description: A dreamy and gently whimsical film about three misfits during Mid-Autumn Festival, a night of reuniting and celebrating with family and friends. Cinematographer & editor, 2018.
+description: A colourfully charming film about three misfits on Mid-Autumn Festival. Cinematographer & editor, 2018.
 tags: [film]
 image: /assets/img/films/to-the-moon-and-back.jpg
 video-link: https://vimeo.com/261700680
