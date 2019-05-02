@@ -2,15 +2,15 @@
 title: Havisham
 description: Poetry, lettering, and design for a poster inspired by <i>Great Expectations</i>.
 year: 2016
-tags: [graphic, lettering]
+tags: [graphic, lettering, writing]
 image: /assets/img/havisham/mockup.jpg
 layout: article
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <figure>
         <img src="{{ page.image }}" alt="Mockup of poster">
     </figure>

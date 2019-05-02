@@ -2,7 +2,7 @@
 title: Geometric Screensaver
 description: A minimalistic and satisfying generative screensaver of animated interlocking geometric shapes.
 year: 2015
-tags: [code]
+tags: [code, graphic]
 image: /assets/img/screensaver/screensaver.png
 layout: article
 css: prism.css
@@ -10,9 +10,9 @@ js: prism.js
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <div class="platforms">
         <a href="https://github.com/whykatherine/geometric-screensaver" title="GitHub">GitHub</a>
     </div>

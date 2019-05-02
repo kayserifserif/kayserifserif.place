@@ -2,15 +2,15 @@
 title: sCan
 description: Design and marketing for Top Overall project at BitwiseHacks 2016.
 year: 2016
-tags: [ui/ux, code]
+tags: [code, ui/ux, marketing]
 image: /assets/img/sCan/sCan.png
 layout: article
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <div class="platforms">
         <a href="https://devpost.com/software/sCan" title="Devpost">Devpost</a>
         <a href="https://github.com/BitwiseHacks-CIS-2016" title="GitHub">GitHub</a>

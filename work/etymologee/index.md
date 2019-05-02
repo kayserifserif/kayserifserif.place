@@ -2,15 +2,15 @@
 title: Etymologee
 description: Explore English words through a visualisation of their historical and geographical etymology.
 year: 2016
-tags: [code]
+tags: [code, ui/ux]
 image: /assets/img/etymologee/etymologee.png
 layout: article
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <div class="platforms">
         <a href="https://github.com/whykatherine/etymology" title="GitHub">GitHub</a>
     </div>

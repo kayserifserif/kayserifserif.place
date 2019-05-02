@@ -2,15 +2,15 @@
 title: Human Rights Day
 description: Informational graphics for International Human Rights Day at CIS.
 year: 2016
-tags: [graphic, information]
+tags: [data, graphic]
 image: /assets/img/human-rights-day/poster-1.png
 layout: article
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <figure>
         <img src="{{ page.image }}" alt="We Care About poster">
     </figure>
