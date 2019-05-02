@@ -10,9 +10,9 @@ layout: article
 ---
 
 <header class="intro">
-    <h1 class="title">{{ page.title }}
-        <span class="subtitle">{{ page.description }}</span>
-    </h1>
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="year">{{ page.year }}</p>
+    <p class="subtitle">{{ page.description }}</p>
     <div class="platforms">
         <a href="{{ page.video-link }}" title="YouTube">YouTube</a>
     </div>
