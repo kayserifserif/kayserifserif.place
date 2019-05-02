@@ -1,7 +1,7 @@
 ---
 title: Etymologee
 description: Explore English words through a visualisation of their historical and geographical etymology.
-tags: code
+tags: [code]
 image: /assets/img/etymologee/etymologee.png
 layout: article
 ---

@@ -3,7 +3,7 @@ title: DevFlight
 description: Branding for a hackathon project.
 layout: article
 image: /assets/img/devflight/card-mockup.jpg
-tags: branding
+tags: [branding]
 ---
 
 <header class="intro">

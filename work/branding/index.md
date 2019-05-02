@@ -1,7 +1,7 @@
 ---
 title: Personal Branding
 description: My personal branding.
-tags: branding
+tags: [branding]
 image: /assets/img/branding/colours.jpg
 layout: article
 ---

@@ -1,7 +1,7 @@
 ---
 title: Scribbles
 description: Layout design for the CIS biannual arts magazine.
-tags: editorial
+tags: [editorial]
 image: /assets/img/scribbles/mockup.jpg
 layout: article
 ---

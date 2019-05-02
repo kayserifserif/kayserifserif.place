@@ -1,7 +1,7 @@
 ---
 title: Havisham
 description: Poetry, lettering, and design for a poster inspired by <i>Great Expectations</i>.
-tags: graphic, lettering
+tags: [graphic, lettering]
 image: /assets/img/havisham/mockup.jpg
 layout: article
 ---
