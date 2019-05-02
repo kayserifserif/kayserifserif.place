@@ -172,11 +172,23 @@ WORK
 		}
 	}
 
-.work h2 {
+.work .year {
+	width: 100%;
+}
+
+.project h3 {
 	margin-bottom: 0;
 }
 
-.work figcaption {
+.project .tags {
+	margin: -.5em auto 1em;
+}
+
+.project .tag {
+	font-variant: small-caps;
+}
+
+.project figcaption {
 	margin-bottom: 1em;
 }
 
