@@ -4,6 +4,7 @@ description: A love story. Cinematographer.
 year: 2017
 tags: [film]
 image: /assets/img/films/ursula.jpg
+image-alt: Close-up of a girl's face, eyes glancing upwards at the film title
 video-link: https://vimeo.com/220745972
 video-embed: https://player.vimeo.com/video/220745972
 layout: article
@@ -14,7 +15,7 @@ layout: article
     <p class="year">{{ page.year }}</p>
     <p class="subtitle">{{ page.description }}</p>
     <div class="platforms">
-        <a href="{{ page.video-link }}" title="Vimeo">Vimeo</a>
+        <a href="{{ page.video-link }}">Vimeo</a>
     </div>
     <figure>
         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="{{ page.video-embed }}?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

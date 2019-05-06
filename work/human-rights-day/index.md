@@ -4,6 +4,7 @@ description: Informational graphics for International Human Rights Day at CIS.
 year: 2016
 tags: [data, graphic]
 image: /assets/img/human-rights-day/poster-1.png
+image-alt: Poster of an donut chart showing proportions of responses about each issue, with racial equality being most significant
 layout: article
 ---
 
@@ -12,7 +13,7 @@ layout: article
     <p class="year">{{ page.year }}</p>
     <p class="subtitle">{{ page.description }}</p>
     <figure>
-        <img src="{{ page.image }}" alt="We Care About poster">
+        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
 </header>
 

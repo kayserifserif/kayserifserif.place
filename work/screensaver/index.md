@@ -4,6 +4,7 @@ description: A minimalistic and satisfying generative screensaver of animated in
 year: 2015
 tags: [code, graphic]
 image: /assets/img/screensaver/screensaver.png
+image-alt: The time, displayed in large font on top of three concentric layers of interlocking circles, on a purple background
 layout: article
 css: prism.css
 js: prism.js

@@ -4,6 +4,7 @@ description: A Twitter interface/visualisation based on Daniel Shiffman's flocki
 year: 2019
 tags: [code, data]
 image: /assets/img/bluebirds/bluebirds.png
+image-alt: Twitter birds flocking across the screen, with one Tweet highlighted and showing text
 layout: article
 ---
 
@@ -15,7 +16,7 @@ layout: article
         <a href="https://github.com/whykatherine/Bluebirds" title="GitHub">GitHub</a>
     </div>
     <figure>
-        <img src="{{ page.image }}" alt="Bluebirds" title="Bluebirds">
+        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
 </header>
 

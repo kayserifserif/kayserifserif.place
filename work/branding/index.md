@@ -4,6 +4,7 @@ description: My personal branding.
 year: 2016
 tags: [branding]
 image: /assets/img/branding/colours.jpg
+image-alt: A grid of six designs, showing a calligraphy-style monogram in different colours
 layout: article
 ---
 
@@ -12,7 +13,7 @@ layout: article
     <p class="year">{{ page.year }}</p>
     <p class="subtitle">{{ page.description }}</p>
     <figure>
-        <img src="{{ page.image }}" alt="Personal branding">
+        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
 </header>
 

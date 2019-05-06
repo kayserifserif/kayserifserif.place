@@ -4,6 +4,7 @@ description: Layout design for the CIS biannual arts magazine.
 year: 2017
 tags: [editorial, print]
 image: /assets/img/scribbles/mockup.jpg
+image-alt: "Mockup of magazine spread, with &ldquo;A Letter from the Ed Board&rdquo; on the left and the table of contents on the right"
 layout: article
 ---
 
@@ -12,7 +13,7 @@ layout: article
     <p class="year">{{ page.year }}</p>
     <p class="subtitle">{{ page.description }}</p>
     <figure>
-        <img src="{{ page.image }}" alt="Mockup of magazine spread">
+        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
 </header>
 

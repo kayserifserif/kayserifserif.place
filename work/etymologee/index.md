@@ -4,6 +4,7 @@ description: Explore English words through a visualisation of their historical a
 year: 2016
 tags: [code, ui/ux]
 image: /assets/img/etymologee/etymologee.png
+image-alt: Interface showing results for the word &ldquo;message&rdquo;, including definition, origin, and history, along with a timeline and map
 layout: article
 ---
 
@@ -15,7 +16,7 @@ layout: article
         <a href="https://github.com/whykatherine/etymology" title="GitHub">GitHub</a>
     </div>
     <figure>
-        <img src="{{ page.image }}" alt="Etymologee" title="Example query in Etymologee">
+        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
 </header>
 
