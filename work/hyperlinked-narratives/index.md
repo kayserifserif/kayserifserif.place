@@ -12,6 +12,10 @@ layout: article
     <h1 class="title">{{ page.title }}</h1>
     <p class="year">{{ page.year }}</p>
     <p class="subtitle">{{ page.description }}</p>
+    <div class="platforms">
+        <a href="https://hyperlinked-narratives.herokuapp.com">Website</a>
+        <a href="https://github.com/whykatherine/hyperlinked-narratives">GitHub</a>
+    </div>
     <figure>
         <img src="{{ page.image }}" alt="{{ page.image-alt }}">
     </figure>
