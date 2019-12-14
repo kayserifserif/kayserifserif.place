@@ -3,7 +3,7 @@ title: Personal Branding
 description: My personal branding.
 year: 2016
 tags: [branding]
-image: /assets/img/branding/colours.jpg
+image: /_assets/img/branding/colours.jpg
 image-alt: A grid of six designs, showing a calligraphy-style monogram in different colours
 layout: article
 ---
@@ -27,7 +27,7 @@ In my brainstorm, I came up with some ideas I wanted to associate with myself an
 * Detail-oriented
 
 <figure>
-    <img src="/assets/img/branding/sketch.jpg" alt="Initial sketch">
+    <img src="/_assets/img/branding/sketch.jpg" alt="Initial sketch">
     <figcaption>Initial sketch</figcaption>
 </figure>
 
@@ -35,7 +35,7 @@ In my brainstorm, I came up with some ideas I wanted to associate with myself an
 After scanning the sketch, I used Photoshop to clean up the image, removing all superfluous details and artefacts of the image. I then used the image as a guide in creating vector outlines in Illustrator. As an added challenge, I attempted to use [HVBHs](https://theagsc.com/blog/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/ "So What’s the Big Deal with Horizontal & Vertical Bezier Handles Anyway?") (Horizontal & Vertical Bézier Handles) as much as possible, which helped me better identify optimal anchor point placement and maintain consistent angles and curves.
 
 <figure>
-    <img src="/assets/img/branding/hvbh.png" alt="Vector outlines">
+    <img src="/_assets/img/branding/hvbh.png" alt="Vector outlines">
     <figcaption>Vector outlines</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ The final step was to add colour. I wanted the colouring to feel:
 Below are six variations I particularly liked.
 
 <figure>
-    <img src="/assets/img/branding/colours.jpg" alt="Colour variations">
+    <img src="/_assets/img/branding/colours.jpg" alt="Colour variations">
     <figcaption>Colour variations</figcaption>
 </figure>
 
@@ -60,8 +60,8 @@ Ultimately, I decided to use the monochrome palette with dark grey and white, bu
 
 <figure>
     <div class="two">
-        <img src="/assets/img/branding/grey-white.png" alt="Grey on white">
-        <img src="/assets/img/branding/white-grey.png" alt="White on grey">
+        <img src="/_assets/img/branding/grey-white.png" alt="Grey on white">
+        <img src="/_assets/img/branding/white-grey.png" alt="White on grey">
     </div>
     <figcaption>Full and inverted monograms</figcaption>
 </figure>

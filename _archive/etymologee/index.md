@@ -3,7 +3,7 @@ title: Etymologee
 description: Explore English words through a visualisation of their historical and geographical etymology.
 year: 2016
 tags: [code, ui/ux]
-image: /assets/img/etymologee/etymologee.png
+image: /_assets/img/etymologee/etymologee.png
 image-alt: Interface showing results for the word &ldquo;message&rdquo;, including definition, origin, and history, along with a timeline and map
 layout: article
 ---
@@ -134,16 +134,16 @@ I conducted a survey among 13 other Year 11 students to find out if my client’
 * The design uses two to five colours.
 
 <figure>
-    <img src="/assets/img/etymologee/flow.png" title="Flow chart">
+    <img src="/_assets/img/etymologee/flow.png" title="Flow chart">
     <figcaption>Flow chart</figcaption>
 </figure>
 
 ### Features
 
-<img src="/assets/img/etymologee/1.png" title="Etymologee">
-<img src="/assets/img/etymologee/2.png" title="Etymologee">
-<img src="/assets/img/etymologee/3.png" title="Etymologee">
-<img src="/assets/img/etymologee/4.png" title="Etymologee">
+<img src="/_assets/img/etymologee/1.png" title="Etymologee">
+<img src="/_assets/img/etymologee/2.png" title="Etymologee">
+<img src="/_assets/img/etymologee/3.png" title="Etymologee">
+<img src="/_assets/img/etymologee/4.png" title="Etymologee">
 
 ## Evaluation
 

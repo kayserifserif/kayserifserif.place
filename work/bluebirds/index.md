@@ -22,7 +22,7 @@ layout: article
 
 ## Background
 
-Bluebirds was a project that I began as a final assignment for a course (USC IMl-288: Critical Thinking and Procedural Media with John B. Carpenter) and am continuing to develop on my own. I had been intrigued with concepts we explored briefly in the last few lessons of the course—namely the flocking algorithm—and wanted to combine this with data/information visualisation, which is a particular interest of mine.
+Bluebirds was a project that I began as a final assignment for a course (USC IML-288: Critical Thinking and Procedural Media with John B. Carpenter) and am continuing to develop on my own. I had been intrigued with concepts we explored briefly in the last few lessons of the course—namely the flocking algorithm—and wanted to combine this with data/information visualisation, which is a particular interest of mine.
 
 This began as a project to highlight the issue of climate change denial. The tool works in real-time, using the given search query to retrieve the 100 most recent Tweets from the last 30 days. I configured the query to find Tweets that seemed to express the sentiment that climate change or global warming was a hoax, conspiracy, scam.
 
