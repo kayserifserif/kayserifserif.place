@@ -6,7 +6,7 @@ layout: directory
 
 <h1 class="title">Works</h1>
 <div class="work">
-    {% assign years = "2019, 2018, 2017, 2016, 2015" | split: ", " %}
+    {% assign years = "2020, 2019, 2018, 2017, 2016" | split: ", " %}
     {% for year in years %}
         <h2 class="year">{{ year }}</h2>
         {% assign projects = site.pages | where: "year", year %}
