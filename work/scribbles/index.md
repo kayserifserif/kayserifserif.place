@@ -5,7 +5,7 @@ description: Layout design for the CIS biannual arts magazine.
 year: 2017
 tags: [editorial, print]
 image: /assets/img/scribbles/mockup.jpg
-image-alt: Mockup of magazine spread, with "A Letter from the Ed Board" on the left and the table of contents on the right
+image-alt: Mockup of magazine spread, with 'A Letter from the Ed Board' on the left and the table of contents on the right
 ---
 
 ## Background
