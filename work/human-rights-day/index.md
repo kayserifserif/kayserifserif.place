@@ -16,7 +16,7 @@ The first board asked:
 
 > What human rights issue concerns you the most?
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/board-1.jpg" alt="What human rights issue concerns you the most?">
     <figcaption>What human rights issue concerns you the most?</figcaption>
 </figure>
@@ -27,7 +27,7 @@ The second board asked:
 
 > Why should we care about&hellip;? Why do these issues matter? What do they mean to you?
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/board-2.jpg" alt="Why should we care about&hellip;?">
     <figcaption>Why should we care about&hellip;?</figcaption>
 </figure>
@@ -38,7 +38,7 @@ The third board asked:
 
 > What kinds of misconceptions/prejudices do you encounter in your daily life?
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/board-3.jpg" alt="What kinds of misconceptions/prejudices do you encounter in your daily life?">
     <figcaption>What kinds of misconceptions/prejudices do you encounter in your daily life?</figcaption>
 </figure>
@@ -51,17 +51,17 @@ When the week came to an end, we wanted to follow up with the school with result
 
 I decided to design three posters that gave a summary of the school's engagement with the boards. After other students tallied up the Post-its on the first board and wrote down the responses on the second and third boards, I used the wealth of information to create three posters: We Care About, We Care Because, and We Care in Spite Of.
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/poster-1.png" alt="We Care About">
     <figcaption>We Care About</figcaption>
 </figure>
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/poster-2.png" alt="We Care Because">
     <figcaption>We Care Because</figcaption>
 </figure>
 
-<figure>
+<figure role="group">
     <img src="/assets/img/human-rights-day/poster-3.png" alt="We Care in Spite Of">
     <figcaption>We Care in Spite Of</figcaption>
 </figure>

@@ -17,11 +17,11 @@ layout: directory
             <figcaption>
               <h3>{{ project.title }}</h3>
               <p>{{ project.description }}</p>
-              <table class="tags">
+              <div class="tags">
                 {% for tag in project.tags %}
-                <td class="tag">{{ tag }}</td>
+                  <span class="tag">{{ tag }}</span>
                 {% endfor %}
-              </table>
+              </div>
             </figcaption>
             <img src="{{ project.image }}" alt="{{ project.image-alt }}">
           </figure>

@@ -2,6 +2,10 @@
 $main: #f96262;
 ****/
 
+:root {
+	--accentColor: #f96262;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -37,6 +41,11 @@ a {
 
 a:hover {
 	color: #f96262;
+}
+
+.fileInfo {
+	font-variant: small-caps;
+	color: var(--accentColor);
 }
 
 /****
@@ -186,6 +195,8 @@ WORK
 }
 
 .project .tags {
+	display: flex;
+	justify-content: center;
 	margin: -.5em auto 1em;
 }
 

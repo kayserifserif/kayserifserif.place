@@ -14,4 +14,4 @@ On the design side, I'm a huge typography nerd, and I've worked on projects invo
 
 Aside from the technical skills, I'm passionate about accessibility, language, the environment, and science communication.
 
-Take a look at my [résumé](/resume/yang-katherine-resume-201903.pdf) to see what I've done!
+Take a look at my [résumé](/resume/yang-katherine-resume-201903.pdf) <span class="fileInfo">(pdf, 80 kb)</span> to see what I've done!

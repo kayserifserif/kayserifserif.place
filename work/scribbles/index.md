@@ -8,15 +8,6 @@ image: /assets/img/scribbles/mockup.jpg
 image-alt: Mockup of magazine spread, with &ldquo;A Letter from the Ed Board&rdquo; on the left and the table of contents on the right
 ---
 
-<header class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="year">{{ page.year }}</p>
-    <p class="subtitle">{{ page.description }}</p>
-    <figure>
-        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
-    </figure>
-</header>
-
 ## Background
 
 Scribbles is a creative arts anthology of CIS. Publishing twice a year since 2010, it features original art and creative writing from students and faculty. After contributing prose, poetry, and occasional layouts to the magazine for five years, I applied to and was chosen for the position of Layout Director. I spent a few months before the handover as Deputy Layout Director, shadowing the then&ndash;Layout Director, learning about her approach and working process, and observing how the team of Writing Director, Art Director, Layout Director, and Operations Director all worked together to create each issue.
@@ -29,7 +20,7 @@ Over the year and a half that I worked on layout, I collaborated with each other
 
 <iframe src="//e.issuu.com/embed.html#3978036/44173432" frameborder="0" allowfullscreen></iframe>
 
-<figure>
+<figure role="group">
     <img src="/assets/img/scribbles/12-1.jpg" alt="Issue 12 cover and back">
     <img src="/assets/img/scribbles/12-2.jpg" alt="Issue 12 spread 1">
     <img src="/assets/img/scribbles/12-3.jpg" alt="Issue 12 spread 2">
@@ -42,7 +33,7 @@ Over the year and a half that I worked on layout, I collaborated with each other
 
 <iframe src="//e.issuu.com/embed.html#3978036/54258619" frameborder="0" allowfullscreen></iframe>
 
-<figure>
+<figure role="group">
     <img src="/assets/img/scribbles/13-1.jpg" alt="Issue 13 cover and back">
     <img src="/assets/img/scribbles/13-2.jpg" alt="Issue 13 spread 1">
     <img src="/assets/img/scribbles/13-3.jpg" alt="Issue 13 spread 2">
@@ -58,7 +49,7 @@ Over the year and a half that I worked on layout, I collaborated with each other
 
 <iframe src="//e.issuu.com/embed.html#3978036/54259142" frameborder="0" allowfullscreen></iframe>
 
-<figure>
+<figure role="group">
     <img src="/assets/img/scribbles/14-1.jpg" alt="Issue 14 cover and back">
     <img src="/assets/img/scribbles/14-2.jpg" alt="Issue 14 spread 1">
     <img src="/assets/img/scribbles/14-3.jpg" alt="Issue 14 spread 2">
