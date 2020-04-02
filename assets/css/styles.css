@@ -123,7 +123,8 @@ HEADER
 		}
 	}
 
-#header a[href="/"] {
+#header a[href="/"],
+#footer a {
 	border: 0;
 }
 
@@ -465,8 +466,10 @@ FOOTER
 	margin: 0.5em 0;
 	text-align: center;
 }
-	@media(min-width: 1200px) {
-		margin: 0 auto;
+	@media (min-width: 1200px) {
+		.platforms {
+			margin: 0 auto;
+		}
 	}
 
 #header nav a,
