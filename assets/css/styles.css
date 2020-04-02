@@ -4,13 +4,13 @@
 	--containerBg: #fffffd;
 	--warmGradientLight: #ed6ea0;
 	--warmGradientDark: #ec8c69;
-	--coolGradientLight: #bdc2e8;
+	--coolGradientDark: #bdc2e8;
 	--coolGradientMid: #bdc2e8;
-	--coolGradientDark: #e6dee9;
+	--coolGradientLight: #e6dee9;
 }
 
 * {
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 }
 
 html {
@@ -25,7 +25,7 @@ body {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
 	color: var(--textColor);
-	/* background-image: linear-gradient(to top, var(--coolGradientLight) 0%, var(--coolGradientMid) 1%, var(--coolGradientDark) 100%); */
+	/* background-image: linear-gradient(to top, var(--coolGradientDark) 0%, var(--coolGradientMid) 1%, var(--coolGradientLight) 100%); */
 	background-image: linear-gradient(-20deg, var(--warmGradientLight) 0%, var(--warmGradientDark) 100%);
 	background-attachment: fixed;
 }
@@ -56,6 +56,7 @@ CONTAINER
 ****/
 
 .container {
+	width: calc(100% - 4em);
 	margin: auto;
 	display: grid;
 	grid-template-areas:
@@ -64,11 +65,16 @@ CONTAINER
 		"footer";
 	background-color: var(--containerBg);
 	border-radius: 5px;
-	padding: 2em;
+	padding: 1em;
 }
+	@media (min-width: 800px) {
+		.container {
+			padding: 2em;
+		}
+	}
 
 .container.card {
-	width: calc(100% - 2em);
+	/* width: calc(100% - 2em); */
 }
 	@media(min-width: 800px) {
 		.container.card {
@@ -78,7 +84,7 @@ CONTAINER
 	}
 
 .container.article {
-	width: calc(100% - 2em);
+	/* width: calc(100% - 2em); */
 }
 	@media(min-width: 800px) {
 		.container.article {
@@ -93,20 +99,25 @@ HEADER
 #header {
 	grid-area: header;
 	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-areas: 
+	/* grid-template-columns: auto; */
+	/* grid-template-rows: repeat(3, 1fr); */
+	/* grid-template-areas: 
 		"logo"
 		"bio"
-		"nav";
+		"nav"; */
+	grid-template-rows: auto;
+	grid-template-columns: 60px auto;
+	grid-template-areas:
+		"logo bio"
+		"nav nav";
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 }
 	@media(min-width: 800px) {
 		#header {
-			grid-template-columns: 60px auto 65px;
 			grid-template-rows: auto;
+			grid-template-columns: 60px auto 65px;
 			grid-template-areas: "logo bio nav";
 			justify-content: stretch;
 		}
@@ -129,29 +140,54 @@ HEADER
 
 .bio {
 	grid-area: bio;
-	text-align: center;
 	line-height: 1;
+	margin-top: 1em;
+	text-align: left;
 }
 	@media(min-width: 800px) {
 		.bio {
-			text-align: left;
+			margin-top: 0;
 		}
 	}
 
 .bio .name {
-	display: block;
+	/* display: block; */
+	display: flex;
+	flex-direction: column;
 	margin: -0.35em auto 0.2em;
-	font-size: 2em;
+	font-size: 1.2em;
 	font-weight: bold;
 }
+	@media (min-width: 800px) {
+		.bio .name {
+			flex-direction: row;
+			font-size: 2em;
+		}
+	}
+
+.bio .english {
+	margin-bottom: .1em;
+}
+	@media (min-width: 800px) {
+		.bio .english {
+			margin-bottom: none;
+			margin-right: .2em;
+		}
+
+		.bio .english::after {
+			content: " | ";
+		}
+	}
 
 .nav {
 	margin: 1em 0;
+	grid-column: 1 / span 2;
 }
 	@media(min-width: 860px) {
 		.nav {
 			margin: 0;
 			text-align: right;
+			grid-column: 3;
 		}
 	}
 
@@ -165,33 +201,26 @@ WORK
 	justify-content: center;
 }
 
-.project {
-	display: block;
-	flex-basis: 100%;
-	margin: 1em;
-	border: none;
-	background-color: rgba(0,0,0,0.05);
-	text-align: center;
-}
-	@media(min-width: 600px) {
-		.project {
-			flex-basis: calc(50% - 2em);
-		}
-	}
-	@media(min-width: 850px) {
-		.project {
-			flex-basis: calc(100% / 3 - 2.5em);
-		}
-	}
-
 .year {
 	width: 100%;
 }
 
 .project {
+	display: block;
+	flex-basis: 100%;
+	margin: .5em 0;
 	padding: 1em 0;
 	border-radius: 5px;
+	border: none;
+	background-color: rgba(0,0,0,0.05);
+	text-align: center;
 }
+	@media (min-width: 800px) {
+		.project {
+			margin: 1em;
+			flex-basis: calc(100% / 3 - 2.5em);
+		}
+	}
 
 .project .projectTitle {
 	margin-bottom: 0;
@@ -206,6 +235,10 @@ WORK
 .project .tag {
 	padding: 0 .5em;
 	font-variant: small-caps;
+}
+
+.project figure {
+	margin: 1em;
 }
 
 .project figcaption {
@@ -248,9 +281,14 @@ article {
 }
 
 .intro figure {
-	margin: 1em;
+	margin: 1em 0 0 0;
 	background: none;
 }
+	@media (min-width: 800px) {
+		.intro figure {
+			margin: 1em;
+		}
+	}
 
 article figure {
 	display: flex;
@@ -265,7 +303,7 @@ article .two img,
 article iframe {
 	width: 100%;
 	margin: auto;
-	padding: 1em 1em 0 1em;
+	/* padding: 1em 1em 0 1em; */
 }
 	@media(min-width: 650px) {
 		article .two img {
@@ -317,11 +355,16 @@ article img {
 }
 
 article iframe {
-	height: 28vw;
+	height: 44vw;
 	margin: 0.5em auto;
 	border: 0;
 	background: transparent;
 }
+	@media (min-width: 800px) {
+		article iframe {
+			height: 28vw;
+		}
+	}
 
 .swot div {
 	margin: 0.5em auto;
