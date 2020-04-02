@@ -6,12 +6,12 @@ layout: card
 
 Hi! I'm Katherine.
 
-I love integrating art, design, and technology.
+I'm a **creative technologist** aspiring to get involved in fields such as **data storytelling/journalism** or **interactive exhibition/experience design**, especially for **social good** or **public humanities**.
 
-This means anything from **computational art** to **data storytelling**, to **user interface and experience design**, to **human&ndash;computer interaction**.
+Hailing from Hong Kong, with roots in Shanghai, I'm currently a second-year Media Arts + Practice student in the School of Cinematic Arts at the University of Southern California in Los Angeles, where we study and make critical new media. At USC, I'm also minoring in computer programming and linguistics, two fields that inspire and inform my creative work. 
 
-On the design side, I'm a huge typography nerd, and I've worked on projects involving graphic design, information design, print design, film and animation, branding, and marketing. On the technology side, I enjoy working as a creative coder in Processing (the arts-oriented programming language), as a front-end web designer/developer in HTML/CSS and JavaScript, as a developer in Python, Java, and C++, and as a data scientist in R.
+I love making imaginative and thoughtful media that engages people, tells stories, and explores ideas in interesting ways. To do this, I've worked as a designer and developer on a wide variety of projects. Creatively, I've had experience in graphic design, information design, print design, film and animation, 3D, branding, and marketing. Technically, I enjoy working as a computational artist in Processing, as a front-end web designer/developer in <abbr>HTML/CSS</abbr> and JavaScript, as a developer in Python, Java, and C++, and as a data scientist and visualiser in R.
 
-Aside from the technical skills, I'm passionate about accessibility, language, the environment, and science communication.
+Aside from that, I'm also passionate about accessibility, urbanism, environmentalism, internet culture, and science communication.
 
-Take a look at my [résumé](/resume/yang-katherine-resume-201903.pdf) <span class="fileInfo">(pdf, 80 kb)</span> to see what I've done!
+Take a look at my [résumé](/resume/yang-katherine-resume-201911.pdf) <span class="fileInfo">(pdf, 80 kb)</span> and my portfolio to explore my work so far!
