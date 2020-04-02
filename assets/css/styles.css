@@ -1,12 +1,14 @@
 :root {
 	--textColor: #27363b;
-	--accentColor: #f96262;
 	--containerBg: #fffffd;
-	--warmGradientLight: #ed6ea0;
-	--warmGradientDark: #ec8c69;
-	--coolGradientDark: #bdc2e8;
-	--coolGradientMid: #bdc2e8;
-	--coolGradientLight: #e6dee9;
+	--accentColor: #f96262;
+	/* --accentColor: #5360c3; */
+	--introBg: rgba(252, 122, 117, .07);
+	/* --introBg: rgba(128, 117, 252, .07); */
+	--gradientLight: #ed6ea0;
+	--gradientDark: #ec8c69;
+	/* --gradientDark: #bdc2e8; */
+	/* --gradientLight: #e6dee9; */
 }
 
 * {
@@ -25,8 +27,8 @@ body {
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
 	color: var(--textColor);
-	/* background-image: linear-gradient(to top, var(--coolGradientDark) 0%, var(--coolGradientMid) 1%, var(--coolGradientLight) 100%); */
-	background-image: linear-gradient(-20deg, var(--warmGradientLight) 0%, var(--warmGradientDark) 100%);
+	background-image: linear-gradient(-20deg, var(--gradientLight) 0%, var(--gradientDark) 100%);
+	/* background-image: linear-gradient(to top, var(--gradientDark) 0%, var(--gradientDark) 1%, var(--gradientLight) 100%); */
 	background-attachment: fixed;
 }
 	@media (min-width: 800px) {
@@ -137,12 +139,17 @@ HEADER
 	grid-area: logo;
 	margin: 0 auto;
 	padding: 0;
+	height: 4em;
 }
 	@media (min-width: 650px) {
 		.logo {
 			padding-right: 0.5em;
 		}
 	}
+
+.logo:hover {
+	fill: var(--accentColor);
+}
 
 .bio {
 	grid-area: bio;
@@ -182,6 +189,7 @@ HEADER
 
 		.bio .english::after {
 			content: " | ";
+			font-weight: lighter;
 		}
 	}
 
@@ -294,7 +302,7 @@ article {
 .intro {
 	padding: 2em 1em;
 	border-radius: 5px;
-	background-color: rgba(252, 122, 117, .07);
+	background-color: var(--introBg);
 }
 
 .intro figure {
