@@ -1,11 +1,11 @@
 ---
+layout: article
 title: Scribbles
 description: Layout design for the CIS biannual arts magazine.
 year: 2017
 tags: [editorial, print]
 image: /assets/img/scribbles/mockup.jpg
-image-alt: "Mockup of magazine spread, with &ldquo;A Letter from the Ed Board&rdquo; on the left and the table of contents on the right"
-layout: article
+image-alt: Mockup of magazine spread, with &ldquo;A Letter from the Ed Board&rdquo; on the left and the table of contents on the right
 ---
 
 <header class="intro">

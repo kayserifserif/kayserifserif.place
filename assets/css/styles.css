@@ -247,7 +247,8 @@ article figure {
 }
 
 article figure img,
-article .two img {
+article .two img,
+article iframe {
 	width: 100%;
 	margin: auto;
 	padding: 1em 1em 0 1em;
@@ -302,10 +303,8 @@ article img {
 }
 
 article iframe {
-	width: 100%;
-	height: 400px;
+	height: 28vw;
 	margin: 0.5em auto;
-	padding: 0;
 	border: 0;
 	background: transparent;
 }
@@ -383,7 +382,7 @@ article iframe {
 article blockquote {
 	margin-left: 0;
 	padding-left: 1em;
-	border-left: 0.5em solid rgba(0,0,0,0.05);;
+	border-left: 0.5em solid rgba(0,0,0,0.05);
 }
 
 /****

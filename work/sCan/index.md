@@ -1,23 +1,13 @@
 ---
+layout: article
 title: sCan
 description: Design and marketing for Top Overall project at BitwiseHacks 2016.
 year: 2016
 tags: [code, ui/ux, marketing]
 image: /assets/img/sCan/sCan.png
 image-alt: Presentation cover of the sCan logo, subtitled &ldquo;BitwiseHacks 2016&rdquo;
-layout: article
+platforms: [[https://devpost.com/software/sCan, Devpost], [https://speakerdeck.com/player/716f25367ddb4460a04a7f84a831f9fc, Speaker Deck], [https://github.com/BitwiseHacks-CIS-2016, GitHub]]
 ---
-
-<header class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="year">{{ page.year }}</p>
-    <p class="subtitle">{{ page.description }}</p>
-    <div class="platforms">
-        <a href="https://devpost.com/software/sCan" title="Devpost">Devpost</a>
-        <a href="https://github.com/BitwiseHacks-CIS-2016" title="GitHub">GitHub</a>
-    </div>
-    <iframe src="https://speakerdeck.com/player/716f25367ddb4460a04a7f84a831f9fc" allowfullscreen></iframe>
-</header>
 
 ## Inspiration
 

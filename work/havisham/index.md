@@ -1,21 +1,12 @@
 ---
+layout: article
 title: Havisham
 description: Poetry, lettering, and design for a poster inspired by <i>Great Expectations</i>.
 year: 2016
 tags: [graphic, lettering, writing]
 image: /assets/img/havisham/mockup.jpg
 image-alt: A mockup of a poster of a silhouette of a woman surrounded by spindly lettering
-layout: article
 ---
-
-<header class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="year">{{ page.year }}</p>
-    <p class="subtitle">{{ page.description }}</p>
-    <figure>
-        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
-    </figure>
-</header>
 
 ## Background
 

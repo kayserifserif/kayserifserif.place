@@ -1,24 +1,13 @@
 ---
+layout: article
 title: Bluebirds
 description: A Twitter interface/visualisation based on Daniel Shiffman's flocking algorithm.
 year: 2019
 tags: [code, data]
-image: /assets/img/bluebirds/bluebirds.png
+image: /assets/img/bluebirds/bluebirds.jpg
 image-alt: Twitter birds flocking across the screen, with one Tweet highlighted and showing text
-layout: article
+platforms: [[https://github.com/whykatherine/Bluebirds, GitHub]]
 ---
-
-<header class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="year">{{ page.year }}</p>
-    <p class="subtitle">{{ page.description }}</p>
-    <div class="platforms">
-        <a href="https://github.com/whykatherine/Bluebirds" title="GitHub">GitHub</a>
-    </div>
-    <figure>
-        <img src="{{ page.image }}" alt="{{ page.image-alt }}">
-    </figure>
-</header>
 
 ## Background
 
@@ -41,16 +30,31 @@ The linguistic and text component of the project was complex in the way the text
 ## Showcase
 
 <figure>
+    <img src="/assets/img/bluebirds/IMG_4744.jpg" alt="Student standing in front of exhibit of process video, currently showing flocking bluebirds">
+    <figcaption>Exhibit of work at Processing Community Day at USC SCA, currently showing flocking bluebirds</figcaption>
+</figure>
+
+<figure>
+    <img src="/assets/img/bluebirds/IMG_4747.jpg" alt="Student standing in front of exhibit of process video, currently showing a cloud of text Tweets">
+    <figcaption>Exhibit of work at Processing Community Day at USC SCA, currently showing a cloud of text Tweets</figcaption>
+</figure>
+
+<figure>
+    <img src="/assets/img/bluebirds/IMG_4748.jpg" alt="Close-up of flyer listing student works exhibited">
+    <figcaption>A flyer from Processing Community Day at USC SCA, listing student works exhibited</figcaption>
+</figure>
+
+<figure>
+    <div><iframe src="https://player.vimeo.com/video/333697074?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     <figcaption>Exploring the flock of Tweets</figcaption>
-    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/333697074?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </figure>
 
 <figure>
+    <div><iframe src="https://player.vimeo.com/video/333697357?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     <figcaption>Analysing the top words and highlighting relevant Tweets</figcaption>
-    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/333697357?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </figure>
 
 <figure>
+    <div><iframe src="https://player.vimeo.com/video/333697397?byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     <figcaption>Pressing enter to examine the Tweet in a browser</figcaption>
-    <div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/333697397?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </figure>

@@ -1,26 +1,13 @@
 ---
+layout: article
 title: Carbon Price Tag
 description: Design and marketing for Best Sustainability Project at HackSC 2020.
 year: 2020
 tags: [code, ui/ux, marketing]
-image: /assets/img/carbon-price-tag/popup copy.png
+image: /assets/img/carbon-price-tag/popup.png
 image-alt: Chrome extension popup. The username and address are in the top left, and there is a large semicircle gauge in the middle set to the current carbon spending, with a marking for the budget to the right of the gauge. The logo is at the bottom of the popup.
-layout: article
+platforms: [[https://devpost.com/software/carbon-price-tag, Devpost], [https://www.canva.com/design/DADym2x0oA8/view, Canva], [https://github.com/daniel-d-truong/carbon-price-tag, GitHub]]
 ---
-
-<header class="intro">
-    <h1 class="title">{{ page.title }}</h1>
-    <p class="year">{{ page.year }}</p>
-    <p class="subtitle">{{ page.description }}</p>
-    <div class="platforms">
-        <a href="https://devpost.com/software/carbon-price-tag" title="Devpost">Devpost</a>
-        <a href="https://www.canva.com/design/DADym2x0oA8/view" title="Canva">Canva</a>
-        <a href="https://github.com/daniel-d-truong/carbon-price-tag" title="GitHub">GitHub</a>
-    </div>
-    <div class="canva-embed" data-design-id="DADym2x0oA8" data-height-ratio="0.5625"></div>
-    <script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script>
-    <p style="text-align:center"><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DADym2x0oA8&#x2F;view?utm_content=DADym2x0oA8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Carbon Price Tag</a> by <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;whykatherine?utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Katherine</a></p>
-</header>
 
 ## Inspiration
 
