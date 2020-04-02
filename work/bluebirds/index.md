@@ -11,7 +11,7 @@ platforms: [["https://github.com/whykatherine/Bluebirds", "GitHub"]]
 
 ## Background
 
-Bluebirds was a project that I began as a final assignment for a course (USC IML-288: Critical Thinking and Procedural Media with John B. Carpenter) and am continuing to develop on my own. I had been intrigued with concepts we explored briefly in the last few lessons of the course&mdash;namely the flocking algorithm&mdash;and wanted to combine this with data/information visualisation, which is a particular interest of mine.
+Bluebirds was a project that I began as a final assignment for a course (<abbr>IML-288</abbr>: Critical Thinking and Procedural Media with John B. Carpenter) and am continuing to develop on my own. I had been intrigued with concepts we explored briefly in the last few lessons of the course&mdash;namely the flocking algorithm&mdash;and wanted to combine this with data/information visualisation, which is a particular interest of mine.
 
 This began as a project to highlight the issue of climate change denial. The tool works in real-time, using the given search query to retrieve the 100 most recent Tweets from the last 30 days. I configured the query to find Tweets that seemed to express the sentiment that climate change or global warming was a hoax, conspiracy, scam.
 
@@ -21,7 +21,7 @@ Throughout the process of building this project, I found Tweets with content tha
 
 ## Improvements
 
-I have expanded the tool into a general-purpose interface/visualiser, allowing the user to type in any search query through a graphical user interface (GUI), and retrieving Tweets in real-time based on the user's searches.
+I have expanded the tool into a general-purpose interface/visualiser, allowing the user to type in any search query through a graphical user interface (<abbr>GUI</abbr>), and retrieving Tweets in real-time based on the user's searches.
 
 Continuing, I aim to refine the interaction with the Twitter birds, allowing more organic exploration and precise selection and examination.
 
@@ -31,17 +31,17 @@ The linguistic and text component of the project was complex in the way the text
 
 <figure role="group">
     <img src="/assets/img/bluebirds/IMG_4744.jpg" alt="Student standing in front of exhibit of process video, currently showing flocking bluebirds">
-    <figcaption>Exhibit of work at Processing Community Day at USC SCA, currently showing flocking bluebirds</figcaption>
+    <figcaption>Exhibit of work at Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, currently showing flocking bluebirds</figcaption>
 </figure>
 
 <figure role="group">
     <img src="/assets/img/bluebirds/IMG_4747.jpg" alt="Student standing in front of exhibit of process video, currently showing a cloud of text Tweets">
-    <figcaption>Exhibit of work at Processing Community Day at USC SCA, currently showing a cloud of text Tweets</figcaption>
+    <figcaption>Exhibit of work at Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, currently showing a cloud of text Tweets</figcaption>
 </figure>
 
 <figure role="group">
     <img src="/assets/img/bluebirds/IMG_4748.jpg" alt="Close-up of flyer listing student works exhibited">
-    <figcaption>A flyer from Processing Community Day at USC SCA, listing student works exhibited</figcaption>
+    <figcaption>A flyer from Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, listing student works exhibited</figcaption>
 </figure>
 
 <figure role="group">

@@ -20,7 +20,7 @@ html {
 body {
 	margin: 0;
 	padding: 1em 0;
-	height: 100%;
+	min-height: 100%;
 	display: flex;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
@@ -44,6 +44,11 @@ a {
 
 a:hover {
 	color: var(--accentColor);
+}
+
+abbr {
+	text-transform: lowercase;
+	font-variant: small-caps;
 }
 
 .fileInfo {
@@ -342,7 +347,7 @@ article figcaption {
 	padding: 0.5em;
 	text-align: center;
 	font-size: 0.8em;
-	font-style: italic;
+	/* font-style: italic; */
 }
 
 .title {
@@ -355,7 +360,7 @@ article figcaption {
 
 .subtitle {
 	text-align: center;
-	font-style: italic;
+	/* font-style: italic; */
 }
 
 article figure {

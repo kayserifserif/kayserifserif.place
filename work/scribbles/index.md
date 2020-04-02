@@ -5,12 +5,12 @@ description: Layout design for the CIS biannual arts magazine.
 year: 2017
 tags: [editorial, print]
 image: /assets/img/scribbles/mockup.jpg
-image-alt: Mockup of magazine spread, with &ldquo;A Letter from the Ed Board&rdquo; on the left and the table of contents on the right
+image-alt: Mockup of magazine spread, with "A Letter from the Ed Board" on the left and the table of contents on the right
 ---
 
 ## Background
 
-Scribbles is a creative arts anthology of CIS. Publishing twice a year since 2010, it features original art and creative writing from students and faculty. After contributing prose, poetry, and occasional layouts to the magazine for five years, I applied to and was chosen for the position of Layout Director. I spent a few months before the handover as Deputy Layout Director, shadowing the then&ndash;Layout Director, learning about her approach and working process, and observing how the team of Writing Director, Art Director, Layout Director, and Operations Director all worked together to create each issue.
+Scribbles is the premier creative arts anthology of the Chinese International School. Publishing twice a year since 2010, it features original art and creative writing from students and faculty. After contributing prose, poetry, and occasional layouts to the magazine for five years, I applied to and was chosen for the position of Layout Director. I spent a few months before the handover as Deputy Layout Director, shadowing the then&ndash;Layout Director, learning about her approach and working process, and observing how the team of Writing Director, Art Director, Layout Director, and Operations Director all worked together to create each issue.
 
 Over the year and a half that I worked on layout, I collaborated with each other director to create a unique and cohesive vision for each issue, centred around each issue's theme, by arranging the writing and artwork of contributors into a visually and thematically interesting narrative.
 

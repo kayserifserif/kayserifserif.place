@@ -70,7 +70,7 @@ I decided to design three posters that gave a summary of the school's engagement
 
 From the data, we saw that the top three issues people cared about were:
 1. Racial equality
-2. LGBTQ+ rights
+2. <abbr>LGBTQ+</abbr> rights
 3. Women's rights
 
 This supported what we knew about the school before, and as these issues are particularly relevant to our daily lives, and are often at the forefront of the news. What we thought was interesting was that workers' rights and mental health awareness were the bottom two of the list.
