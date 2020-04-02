@@ -1,5 +1,12 @@
 :root {
+	--textColor: #27363b;
 	--accentColor: #f96262;
+	--containerBg: #fffffd;
+	--warmGradientLight: #ed6ea0;
+	--warmGradientDark: #ec8c69;
+	--coolGradientLight: #bdc2e8;
+	--coolGradientMid: #bdc2e8;
+	--coolGradientDark: #e6dee9;
 }
 
 * {
@@ -17,9 +24,9 @@ body {
 	display: flex;
 	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	line-height: 1.6;
-	color: #27363b;
-	/* background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%); */
-	background-image: linear-gradient(-20deg, #ed6ea0 0%, #ec8c69 100%);
+	color: var(--textColor);
+	/* background-image: linear-gradient(to top, var(--coolGradientLight) 0%, var(--coolGradientMid) 1%, var(--coolGradientDark) 100%); */
+	background-image: linear-gradient(-20deg, var(--warmGradientLight) 0%, var(--warmGradientDark) 100%);
 	background-attachment: fixed;
 }
 	@media(min-width: 800px) {
@@ -30,13 +37,13 @@ body {
 
 a {
 	text-decoration: none;
-	color: #27363b;
-	border-bottom: 2px solid #f96262;
+	color: var(--textColor);
+	border-bottom: 2px solid var(--accentColor);
 	transition: 0.1s color linear;
 }
 
 a:hover {
-	color: #f96262;
+	color: var(--accentColor);
 }
 
 .fileInfo {
@@ -55,7 +62,7 @@ CONTAINER
 		"header"
 		"main"
 		"footer";
-	background-color: #FFFFFD;
+	background-color: var(--containerBg);
 	border-radius: 5px;
 	padding: 2em;
 }
@@ -83,7 +90,7 @@ CONTAINER
 HEADER
 ****/
 
-header.banner {
+#header {
 	grid-area: header;
 	display: grid;
 	grid-template-columns: auto;
@@ -97,7 +104,7 @@ header.banner {
 	text-align: center;
 }
 	@media(min-width: 800px) {
-		header.banner {
+		#header {
 			grid-template-columns: 60px auto 65px;
 			grid-template-rows: auto;
 			grid-template-areas: "logo bio nav";
@@ -105,7 +112,7 @@ header.banner {
 		}
 	}
 
-header.banner a[href="/"] {
+#header a[href="/"] {
 	border: 0;
 }
 
@@ -404,7 +411,7 @@ RESUME
 FOOTER
 ****/
 
-footer {
+#footer {
 	grid-area: footer;
 	text-align: center;
 }
@@ -419,7 +426,7 @@ footer {
 		margin: 0 auto;
 	}
 
-.banner nav a,
+#header nav a,
 .platforms a {
 	display: inline-block;
 }
