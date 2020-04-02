@@ -5,9 +5,8 @@
 	<meta name="description" content="{{ page.description }}">
 
 	<!-- styles -->
-	<link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
-	<!-- <link href="/css/pace-theme-minimal.css" rel="stylesheet" type="text/css"> -->
-	{% for css in page.css %}<link href="/assets/css/{{ css }}" rel="stylesheet" type="text/css">{% endfor %}
+	<link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
+	<link href="/assets/css/printStyles.css" rel="stylesheet" type="text/css" media="print">
 
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

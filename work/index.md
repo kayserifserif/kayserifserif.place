@@ -4,7 +4,7 @@ description: Work by Katherine Yang.
 layout: directory
 ---
 
-<h1 class="title">Works</h1>
+<h1 class="title">Work</h1>
 <div class="work">
   {% assign years = site.pages | group_by: "year" | sort_natural | reverse %}
   {% for year in years %}
@@ -15,7 +15,7 @@ layout: directory
         <a href="{{ project.url }}" title="{{ project.title }}" class="project">
           <figure>
             <figcaption>
-              <h3>{{ project.title }}</h3>
+              <h3 class="projectTItle">{{ project.title }}</h3>
               <p>{{ project.description }}</p>
               <div class="tags">
                 {% for tag in project.tags %}

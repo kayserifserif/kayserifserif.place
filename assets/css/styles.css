@@ -1,7 +1,3 @@
-/****
-$main: #f96262;
-****/
-
 :root {
 	--accentColor: #f96262;
 }
@@ -162,7 +158,7 @@ WORK
 	justify-content: center;
 }
 
-.work a {
+.project {
 	display: block;
 	flex-basis: 100%;
 	margin: 1em;
@@ -171,17 +167,17 @@ WORK
 	text-align: center;
 }
 	@media(min-width: 600px) {
-		.work a {
+		.project {
 			flex-basis: calc(50% - 2em);
 		}
 	}
 	@media(min-width: 850px) {
-		.work a {
+		.project {
 			flex-basis: calc(100% / 3 - 2.5em);
 		}
 	}
 
-.work .year {
+.year {
 	width: 100%;
 }
 
@@ -190,7 +186,7 @@ WORK
 	border-radius: 5px;
 }
 
-.project h3 {
+.project .projectTitle {
 	margin-bottom: 0;
 }
 
@@ -238,13 +234,13 @@ article {
 		}
 	}
 
-article .intro {
+.intro {
 	padding: 2em 1em;
 	border-radius: 5px;
 	background-color: rgba(252, 122, 117, .07);
 }
 
-article .intro figure {
+.intro figure {
 	margin: 1em;
 	background: none;
 }
@@ -414,6 +410,8 @@ footer {
 }
 
 .platforms {
+	display: flex;
+	justify-content: center;
 	margin: 0.5em 0;
 	text-align: center;
 }

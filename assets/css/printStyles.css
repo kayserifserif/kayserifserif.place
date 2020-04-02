@@ -1,0 +1,61 @@
+@media print {
+  body {
+    display: block;
+    background: none;
+    color: #000;
+    padding: 0;
+  }
+
+  a {
+    color: currentColor;
+  }
+
+  main a:not(.project)::after {
+    /* https://css-tricks.com/css-tricks-finally-gets-a-print-stylesheet/ */
+    content: " [" attr(href) "] ";
+    display: inline;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+
+  .fileInfo {
+    color: currentColor;
+  }
+
+  .container.card {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .container.article {
+    width: 100%;
+  }
+
+  .project {
+    background: none;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  .intro {
+    background: none;
+  }
+
+  .intro .platforms {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .intro figure {
+    width: 50%;
+    margin: auto;
+  }
+}
