@@ -5,6 +5,7 @@ description: Camera-based interactive brand installation for Fine Art Asia with 
 year: 2019
 tags: [branding, code]
 image: /assets/img/faainteractivebrand/faainteractivebrand.jpg
+image-square: /assets/img/faainteractivebrand/faainteractivebrand-1000.jpg
 image-alt: Simulated blank ink swirling through the words 'Fine Art Asia', creating subtle layers to the typography
 platforms: [["https://github.com/whykatherine/FAAInteractiveBrand/", "GitHub"], ["https://vimeo.com/364002596", "Vimeo"]]
 ---

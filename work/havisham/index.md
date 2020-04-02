@@ -5,6 +5,7 @@ description: Poetry, lettering, and design for a poster inspired by <i>Great Exp
 year: 2016
 tags: [graphic, writing]
 image: /assets/img/havisham/mockup.jpg
+image-square: /assets/img/havisham/mockup-1000.jpg
 image-alt: A mockup of a poster of a silhouette of a woman surrounded by spindly lettering
 ---
 

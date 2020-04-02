@@ -5,6 +5,7 @@ description: Informational graphics for International Human Rights Day at CIS.
 year: 2016
 tags: [data, graphic]
 image: /assets/img/human-rights-day/poster-1.png
+image-square: /assets/img/human-rights-day/poster-1-1000.png
 image-alt: Poster of an donut chart showing proportions of responses about each issue, with racial equality being most significant
 ---
 

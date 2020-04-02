@@ -5,6 +5,7 @@ description: A Twitter interface/visualisation based on Daniel Shiffman's flocki
 year: 2019
 tags: [code, data]
 image: /assets/img/bluebirds/bluebirds.jpg
+image-square: /assets/img/bluebirds/bluebirds-1000.jpg
 image-alt: Twitter birds flocking across the screen, with one Tweet highlighted and showing text
 platforms: [["https://github.com/whykatherine/Bluebirds", "GitHub"]]
 ---

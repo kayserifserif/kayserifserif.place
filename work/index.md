@@ -23,7 +23,7 @@ layout: directory
                 {% endfor %}
               </div>
             </figcaption>
-            <img src="{{ project.image }}" alt="{{ project.image-alt }}">
+            <img src="{{ project.image-square }}" alt="{{ project.image-alt }}">
           </figure>
         </a>
       {% endfor %}
