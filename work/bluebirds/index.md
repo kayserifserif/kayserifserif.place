@@ -6,7 +6,7 @@ year: 2019
 tags: [code, data]
 image: /assets/img/bluebirds/bluebirds.jpg
 image-alt: Twitter birds flocking across the screen, with one Tweet highlighted and showing text
-platforms: [[https://github.com/whykatherine/Bluebirds, GitHub]]
+platforms: [["https://github.com/whykatherine/Bluebirds", "GitHub"]]
 ---
 
 ## Background

@@ -6,7 +6,7 @@ year: 2020
 tags: [code, ui/ux, marketing]
 image: /assets/img/carbon-price-tag/popup.png
 image-alt: Chrome extension popup. The username and address are in the top left, and there is a large semicircle gauge in the middle set to the current carbon spending, with a marking for the budget to the right of the gauge. The logo is at the bottom of the popup.
-platforms: [[https://devpost.com/software/carbon-price-tag, Devpost], [https://www.canva.com/design/DADym2x0oA8/view, Canva], [https://github.com/daniel-d-truong/carbon-price-tag, GitHub]]
+platforms: [["https://devpost.com/software/carbon-price-tag", "Devpost"], ["https://www.canva.com/design/DADym2x0oA8/view", "Canva"], ["https://github.com/daniel-d-truong/carbon-price-tag", "GitHub"]]
 ---
 
 ## Inspiration
