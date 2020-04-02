@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Katherine Yang, digital designer.
+description: Katherine Yang, creative coder & digital designer.
 layout: card
 ---
 
