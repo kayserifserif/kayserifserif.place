@@ -12,4 +12,4 @@ links:
 lang: en_GB
 plugins:
   - jekyll-seo-tag
-google_analytics: UA-109421117-1
+# google_analytics: UA-109421117-1
