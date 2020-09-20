@@ -1,0 +1,107 @@
+[
+  {
+    "name": "bluebirds",
+    "date": 201901,
+    "link": "https://github.com/whykatherine/Bluebirds",
+    "tags": [
+      "social media",
+      "generative",
+      "info/data",
+      "text/language"
+    ]
+  },
+  {
+    "name": "faa",
+    "date": 201910,
+    "link": "https://github.com/whykatherine/FAAInteractiveBrand",
+    "tags": [
+      "graphics",
+      "generative"
+    ]
+  },
+  {
+    "name": "hyperlinked narratives",
+    "date": 201911,
+    "link": "https://hyperlinked-narratives.herokuapp.com",
+    "tags": [
+      "info/data",
+      "text/language",
+      "narrative"
+    ]
+  },
+  {
+    "name": "a global language",
+    "date": 201912,
+    "link": "https://agloballanguage.herokuapp.com",
+    "tags": [
+      "spatial",
+      "text/language",
+      "info/data"
+    ]
+  },
+  {
+    "name": "let's get granular",
+    "date": 202002,
+    "link": "https://letsgetgranular.surge.sh",
+    "tags": [
+      "social media",
+      "info/data",
+      "text/language"
+    ]
+  },
+  {
+    "name": "carbon price tag",
+    "date": 202002,
+    "link": "https://devpost.com/software/carbon-price-tag",
+    "tags": [
+      "info/data"
+    ]
+  },
+  {
+    "name": "community references",
+    "date": 202004,
+    "link": "https://github.com/whykatherine/community-references",
+    "tags": [
+      "media",
+      "text/language",
+      "info/data"
+    ]
+  },
+  {
+    "name": "takesnoarguments",
+    "date": 202005,
+    "link": "https://github.com/whykatherine/takesnoarguments",
+    "tags": [
+      "poetic",
+      "narrative"
+    ]
+  },
+  {
+    "name": "waking and sleeping",
+    "date": 202007,
+    "link": "https://wakingandsleeping.glitch.me",
+    "tags": [
+      "spatial",
+      "social media",
+      "info/data",
+      "poetic"
+    ]
+  },
+  {
+    "name": "emotions poem",
+    "date": 202007,
+    "link": "https://emotionspoem.glitch.me",
+    "tags": [
+      "poetic",
+      "text/language"
+    ]
+  },
+  {
+    "name": "uselessprogram",
+    "date": 202008,
+    "link": "https://github.com/whykatherine/uselessprogram",
+    "tags": [
+      "poetic"
+    ]
+  }
+]
