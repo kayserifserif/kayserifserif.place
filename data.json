@@ -1,7 +1,7 @@
 {
   "nodes": [
     {
-      "name": "social media",
+      "name": "digital culture",
       "nodeType": "tag",
       "id": 1
     },
@@ -36,27 +36,22 @@
       "id": 7
     },
     {
-      "name": "media",
-      "nodeType": "tag",
-      "id": 8
-    },
-    {
       "name": "poetic",
       "nodeType": "tag",
-      "id": 9
+      "id": 8
     },
     {
       "name": "bluebirds",
       "date": 201901,
       "link": "https://github.com/whykatherine/Bluebirds",
       "tags": [
-        "social media",
+        "digital culture",
         "generative",
         "info/data",
         "text/language"
       ],
       "nodeType": "project",
-      "id": 10
+      "id": 9
     },
     {
       "name": "faa",
@@ -67,7 +62,7 @@
         "generative"
       ],
       "nodeType": "project",
-      "id": 11
+      "id": 10
     },
     {
       "name": "hyperlinked narratives",
@@ -79,7 +74,7 @@
         "narrative"
       ],
       "nodeType": "project",
-      "id": 12
+      "id": 11
     },
     {
       "name": "a global language",
@@ -91,19 +86,19 @@
         "info/data"
       ],
       "nodeType": "project",
-      "id": 13
+      "id": 12
     },
     {
       "name": "let's get granular",
       "date": 202002,
       "link": "https://letsgetgranular.surge.sh",
       "tags": [
-        "social media",
+        "digital culture",
         "info/data",
         "text/language"
       ],
       "nodeType": "project",
-      "id": 14
+      "id": 13
     },
     {
       "name": "carbon price tag",
@@ -113,19 +108,19 @@
         "info/data"
       ],
       "nodeType": "project",
-      "id": 15
+      "id": 14
     },
     {
       "name": "community references",
       "date": 202004,
       "link": "https://github.com/whykatherine/community-references",
       "tags": [
-        "media",
+        "digital culture",
         "text/language",
         "info/data"
       ],
       "nodeType": "project",
-      "id": 16
+      "id": 15
     },
     {
       "name": "takesnoarguments",
@@ -136,7 +131,7 @@
         "narrative"
       ],
       "nodeType": "project",
-      "id": 17
+      "id": 16
     },
     {
       "name": "waking and sleeping",
@@ -144,12 +139,12 @@
       "link": "https://wakingandsleeping.glitch.me",
       "tags": [
         "spatial",
-        "social media",
+        "digital culture",
         "info/data",
         "poetic"
       ],
       "nodeType": "project",
-      "id": 18
+      "id": 17
     },
     {
       "name": "emotions poem",
@@ -160,7 +155,7 @@
         "text/language"
       ],
       "nodeType": "project",
-      "id": 19
+      "id": 18
     },
     {
       "name": "uselessprogram",
@@ -170,69 +165,81 @@
         "poetic"
       ],
       "nodeType": "project",
-      "id": 20
+      "id": 19
     }
   ],
   "links": [
     {
       "source": 1,
-      "target": 10
+      "target": 9
     },
     {
       "source": 2,
-      "target": 10
+      "target": 9
     },
     {
       "source": 3,
-      "target": 10
+      "target": 9
     },
     {
       "source": 4,
-      "target": 10
+      "target": 9
     },
     {
       "source": 5,
-      "target": 11
+      "target": 10
     },
     {
       "source": 2,
+      "target": 10
+    },
+    {
+      "source": 3,
       "target": 11
     },
     {
-      "source": 3,
-      "target": 12
-    },
-    {
       "source": 4,
-      "target": 12
+      "target": 11
     },
     {
       "source": 6,
-      "target": 12
+      "target": 11
     },
     {
       "source": 7,
-      "target": 13
+      "target": 12
     },
     {
       "source": 4,
-      "target": 13
+      "target": 12
     },
     {
       "source": 3,
-      "target": 13
+      "target": 12
     },
     {
       "source": 1,
-      "target": 14
+      "target": 13
+    },
+    {
+      "source": 3,
+      "target": 13
+    },
+    {
+      "source": 4,
+      "target": 13
     },
     {
       "source": 3,
       "target": 14
     },
     {
+      "source": 1,
+      "target": 15
+    },
+    {
       "source": 4,
-      "target": 14
+      "target": 15
     },
     {
       "source": 3,
@@ -243,48 +250,36 @@
       "target": 16
     },
     {
-      "source": 4,
-      "target": 16
-    },
-    {
-      "source": 3,
-      "target": 16
-    },
-    {
-      "source": 9,
-      "target": 17
-    },
-    {
       "source": 6,
-      "target": 17
+      "target": 16
     },
     {
       "source": 7,
-      "target": 18
+      "target": 17
     },
     {
       "source": 1,
-      "target": 18
+      "target": 17
     },
     {
       "source": 3,
-      "target": 18
+      "target": 17
     },
     {
-      "source": 9,
-      "target": 18
+      "source": 8,
+      "target": 17
     },
     {
-      "source": 9,
-      "target": 19
+      "source": 8,
+      "target": 18
     },
     {
       "source": 4,
-      "target": 19
+      "target": 18
     },
     {
-      "source": 9,
-      "target": 20
+      "source": 8,
+      "target": 19
     }
   ]
 }
