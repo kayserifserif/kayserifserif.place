@@ -19,9 +19,9 @@ var margin = {top: 10, right: 30, bottom: 30, left: 40},
 
 // append the svg object to the body of the page
 var svg = d3.select("#diagram")
-.append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom);
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
 
 var zoom = d3.zoom()
 	.scaleExtent([0.3,2]);
@@ -44,11 +44,9 @@ d3.json("data.json").then(function (data) {
 
   // Initialize the links
   var link = g
-    // .selectAll("line")
     .selectAll("path")
     .data(data.links)
     .enter()
-    // .append("line")
     .append("path")
     	.classed("connection", true)
     	// .attr("d", d => `M${d.source.y},${d.source.x}C${(d.source.y + d.target.y) / 2},${d.source.x} ${(d.source.y + d.target.y) / 2},${d.target.x} ${d.target.y},${d.target.x}`)
@@ -68,8 +66,11 @@ d3.json("data.json").then(function (data) {
       .classed("node_project", d => (d.nodeType == "project") )
       .classed("node_tag", d => (d.nodeType == "tag") )
       .on("click", expand)
+      .call(d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended))
 
-  // var nodeCircle = node
   var nodeBox = node
   	.append("rect")
   		.attr("width", d => d.name.length * 8 )
@@ -88,7 +89,7 @@ d3.json("data.json").then(function (data) {
 	  .force("link", d3.forceLink()                               // This force provides links between nodes
 	    .id( d => d.id )                     // This provide the id of a node
 	    .links(data.links))                                    // and this the list of links
-	  .force("charge", d3.forceManyBody().strength(-1500))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
+	  .force("charge", d3.forceManyBody().strength(-1000))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
 	  .force("center", d3.forceCenter(width / 2, height / 2).strength(0.4))     // This force attracts nodes to the center of the svg area
 	  // .velocityDecay(0.4)
 	  .on("tick", ticked);
@@ -96,21 +97,23 @@ d3.json("data.json").then(function (data) {
   // This function is run at each iteration of the force algorithm, updating the nodes position.
   function ticked() {
     link
-	    // .attr("x1", d => d.source.x )
-	    // .attr("y1", d => d.source.y )
-	    // .attr("x2", d => d.target.x )
-	    // .attr("y2", d => d.target.y );
 	  	.attr("d", d => {
-		    return `M${d.source.x},${d.source.y}
-		    	C${(d.source.x + d.target.x) / 2},
-		    	${d.target.y} ${(d.source.x + d.target.x) / 2},
-		    	${d.source.y} ${d.target.x},
-		    	${d.target.y}`; // https://github.com/d3/d3-shape/issues/27
+      //   // diagonal
+		    // return `M${d.source.x},${d.source.y}
+		    // 	C${(d.source.x + d.target.x) / 2},${d.target.y}
+      //     ${(d.source.x + d.target.x) / 2},${d.source.y}
+      //     ${d.target.x},${d.target.y}`; // https://github.com/d3/d3-shape/issues/27
+        // straight
+        return `M${d.source.x},${d.source.y} ${d.target.x},${d.target.y}`;
+        // // arc
+        // const r = Math.hypot(d.target.x - d.source.x, d.target.y - d.source.y);
+        // return `
+        //   M${d.source.x},${d.source.y}
+        //   A${r},${r} 0 0,1 ${d.target.x},${d.target.y}
+        // `; // https://observablehq.com/@d3/mobile-patent-suits
 	  	});
 
     node
-         // .attr("cx", function (d) { return d.x+6; })
-         // .attr("cy", function(d) { return d.y-6; });
       .attr("transform", function(d) {
          var x = d.x;
          var y = d.y;
@@ -119,6 +122,23 @@ d3.json("data.json").then(function (data) {
   }
 
 });
+
+function dragstarted(event) {
+  if (!event.active) simulation.alphaTarget(0.3).restart();
+  event.subject.fx = event.x;
+  event.subject.fy = event.y;
+}
+
+function dragged(event) {
+  event.subject.fx = event.x;
+  event.subject.fy = event.y;
+}
+
+function dragended(event) {
+  if (!event.active) simulation.alphaTarget(0);
+  event.subject.fx = null;
+  event.subject.fy = null;
+}
 
 function expand(event, d) {
 	console.log(d);
