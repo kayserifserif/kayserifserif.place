@@ -24,7 +24,8 @@ var svg = d3.select("#diagram")
     .attr("height", height + margin.top + margin.bottom);
 
 var zoom = d3.zoom()
-	.scaleExtent([0.3,2]);
+	.scaleExtent([0.3,2])
+  .on("zoom", zoomed);
 
 var zoomer = svg.append("rect")
   .attr("width", width)
@@ -89,7 +90,7 @@ d3.json("data.json").then(function (data) {
 	  .force("link", d3.forceLink()                               // This force provides links between nodes
 	    .id( d => d.id )                     // This provide the id of a node
 	    .links(data.links))                                    // and this the list of links
-	  .force("charge", d3.forceManyBody().strength(-1000))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
+	  .force("charge", d3.forceManyBody().strength(-2000))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
 	  .force("center", d3.forceCenter(width / 2, height / 2).strength(0.4))     // This force attracts nodes to the center of the svg area
 	  // .velocityDecay(0.4)
 	  .on("tick", ticked);
@@ -170,12 +171,18 @@ function expand(event, d) {
 			.transition()
 			.attr("height", 30 * 3)
 
-		simulation.alphaTarget(0.5).restart();
+    d3.select(this).raise();
+
+		// simulation.alphaTarget(0.5).restart();
 
 		centerNode(d.x, d.y);
 
 	}
 
+}
+
+function zoomed(event) {
+  g.attr("transform", event.transform);
 }
 
 // zoom centering code from
@@ -184,8 +191,12 @@ function centerNode(xx, yy) {
 	g.transition()
 		.duration(500)
 		.attr("transform", "translate(" + (width/2 - xx) + "," + (height/2 - yy) + ")")
-		.on("end", function() {
-			zoomer.call(zoom.transform,
-				d3.zoomIdentity.translate((width / 2 - xx), (height / 2 - yy)).scale(1))
-		});
+    .on("end", function () {
+      zoomer.call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate((width / 2 - xx), (height / 2 - yy))
+          .scale(1)
+      )
+    });
 }
