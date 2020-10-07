@@ -2,7 +2,7 @@
 layout: article
 title: Let's Get Granular
 description: An interactive visualisation of Venmo networks.
-year: 2020
+date: 202002
 tags: [code, data]
 image: /assets/img/letsgetgranular/letsgetgranular.jpg
 image-square: /assets/img/letsgetgranular/letsgetgranular-1000.jpg

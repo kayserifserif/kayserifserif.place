@@ -2,7 +2,7 @@
 layout: article
 title: Hyperlinked Narratives
 description: A Wikipedia-based narrative tool.
-year: 2019
+date: 201902
 tags: [code, language]
 image: /assets/img/hyperlinked-narratives/4-filled.png
 image-square: /assets/img/hyperlinked-narratives/4-filled-1000.png

@@ -215,10 +215,6 @@ WORK
 	justify-content: center;
 }
 
-.year {
-	width: 100%;
-}
-
 .project {
 	display: block;
 	flex-basis: 100%;

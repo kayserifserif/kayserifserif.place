@@ -2,7 +2,7 @@
 layout: article
 title: Bluebirds
 description: A Twitter interface/visualisation based on Daniel Shiffman's flocking algorithm.
-year: 2018
+date: 201812
 tags: [code, data]
 image: /assets/img/bluebirds/bluebirds.jpg
 image-square: /assets/img/bluebirds/bluebirds-1000.jpg

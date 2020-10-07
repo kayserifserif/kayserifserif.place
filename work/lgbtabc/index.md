@@ -2,7 +2,7 @@
 layout: article
 title: LGBTABC
 description: A digital terminology board of LGBT+ terms.
-year: 2017
+date: 201711
 tags: [code, language]
 image: /assets/img/lgbtabc/lgbtabc.jpg
 image-square: /assets/img/lgbtabc/lgbtabc-1000.jpg

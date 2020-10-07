@@ -2,7 +2,7 @@
 layout: article
 title: FAA Interactive Brand
 description: Camera-based interactive brand installation for Fine Art Asia with Superunion.
-year: 2019
+date: 201908
 tags: [branding, code]
 image: /assets/img/faainteractivebrand/faainteractivebrand.jpg
 image-square: /assets/img/faainteractivebrand/faainteractivebrand-1000.jpg

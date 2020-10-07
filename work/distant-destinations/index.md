@@ -2,7 +2,7 @@
 layout: article
 title: Distant Destinations
 description: Prototype game for space flight mission planning exhibit at the California Science Center.
-year: 2020
+date: 202004
 tags: [code, design, story]
 image: /assets/img/distant-destinations/1 flight path.jpg
 image-square: /assets/img/distant-destinations/1 flight path square.jpg

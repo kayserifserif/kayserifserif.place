@@ -2,7 +2,7 @@
 layout: article
 title: It All Started with the Simpsons
 description: A computationally generated compilation of references through animated shows.
-year: 2020
+date: 202005
 tags: [code, film/tv]
 image: /assets/img/simpsons/thumbnail.jpg
 image-square: /assets/img/simpsons/thumbnail square.jpg

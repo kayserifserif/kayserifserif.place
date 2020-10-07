@@ -2,7 +2,7 @@
 layout: article
 title: A Global Language
 description: An interactive visualisation tool exploring the etymological history of the English language.
-year: 2019
+date: 201904
 tags: [code, language, ui/ux]
 image: /assets/img/agloballanguage/agloballanguage.jpg
 image-square: /assets/img/agloballanguage/agloballanguage-1000.jpg

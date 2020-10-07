@@ -2,7 +2,7 @@
 layout: article
 title: Carbon Price Tag
 description: Design and marketing for Best Sustainability Project at HackSC 2020.
-year: 2020
+date: 202002
 tags: [code, marketing, ui/ux]
 image: /assets/img/carbon-price-tag/popup.png
 image-square: /assets/img/carbon-price-tag/popup-1000.jpg

@@ -2,7 +2,7 @@
 layout: article
 title: emotions poem
 description: One-syllable emotions, felt in waves turbulent, uneven, overlapping, and without end.
-year: 2020
+date: 202007
 tags: [code, language, ui/ux]
 image: /assets/img/emotionspoem/emotionspoem.png
 image-square: /assets/img/emotionspoem/emotionspoem-1000.png

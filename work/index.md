@@ -6,16 +6,15 @@ layout: directory
 
 <h1 class="title">Work</h1>
 <div class="work">
-  {% assign years = site.pages | group_by: "year" | sort_natural | reverse %}
-  {% for year in years %}
-    {% if year.name != "" %}
-      {% assign yearInt = year.name | round %}
-      <h2 class="year">{{ yearInt }}</h2>
-      {% for project in year.items %}
+  {% assign dates = site.pages | group_by: "date" | sort_natural | reverse %}
+  {% for date in dates %}
+    {% if date.name != "" %}
+      {% assign dateInt = date.name | round %}
+      {% for project in date.items %}
         <a href="{{ project.url }}" title="{{ project.title }}" class="project">
           <figure>
             <figcaption>
-              <h3 class="projectTItle">{{ project.title }}</h3>
+              <h3 class="projectTitle">{{ project.title }}</h3>
               <p>{{ project.description }}</p>
               <div class="tags">
                 {% for tag in project.tags %}
