@@ -1,3 +1,15 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
 /* body {
 	font-size: 40px;
 } */
@@ -23,3 +35,15 @@
 	fill: none;
 	stroke: #aaa;
 } */
+
+.expanded rect {
+	fill: aliceblue;
+}
+
+path.highlighted {
+	stroke: #5BB0E3;
+}
+
+g.highlighted text {
+	fill: aliceblue;
+}

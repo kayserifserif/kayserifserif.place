@@ -21,7 +21,8 @@ var margin = {top: 10, right: 30, bottom: 30, left: 40},
 var svg = d3.select("#diagram")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom);
+    .attr("height", height + margin.top + margin.bottom)
+    ;
 
 var zoom = d3.zoom()
 	.scaleExtent([0.3,2])
@@ -32,19 +33,21 @@ var zoomer = svg.append("rect")
   .attr("height", height)
   .style("fill", "none")
   .style("pointer-events", "all")
-  .call(zoom);
+  .call(zoom)
+  .on("click", deselect)
+  ;
 
 var g = svg
 	.append("g")
   .attr("transform",
         "translate(" + margin.left + "," + margin.top + ")");
 
-var simulation;
+var simulation, links;
 
 d3.json("data.json").then(function (data) {
 
   // Initialize the links
-  var link = g
+  links = g
     .selectAll("path")
     .data(data.links)
     .enter()
@@ -53,7 +56,7 @@ d3.json("data.json").then(function (data) {
     	// .attr("d", d => `M${d.source.y},${d.source.x}C${(d.source.y + d.target.y) / 2},${d.source.x} ${(d.source.y + d.target.y) / 2},${d.target.x} ${d.target.y},${d.target.x}`)
       .attr("stroke", "#aaa")
       .attr("fill", "none")
-      .attr("marker-end", d => `url(${new URL(`#arrow-${d.type}`, location)})`);
+      // .attr("marker-end", d => `url(${new URL(`#arrow-${d.target.nodeType}`, location)})`);
 
   // Initialize the nodes
   var node = g
@@ -97,7 +100,7 @@ d3.json("data.json").then(function (data) {
 
   // This function is run at each iteration of the force algorithm, updating the nodes position.
   function ticked() {
-    link
+    links
 	  	.attr("d", d => {
       //   // diagonal
 		    // return `M${d.source.x},${d.source.y}
@@ -141,44 +144,65 @@ function dragended(event) {
   event.subject.fy = null;
 }
 
-function expand(event, d) {
-	console.log(d);
+function expand(event, node) {
 
-	if (!d3.select(this).classed("expanded")) {
+  d3.select(this).raise();
+  centerNode(node.x, node.y);
 
-		d3.select(this).classed("expanded", true);
+  if (d3.select(this).classed("node_project") &&
+      !d3.select(this).classed("expanded")) {
 
-		let date = d3.select(this)
-			.append("text")
-				.text(d => d.date)
-				.attr("dominant-baseline", "middle")
-				.attr("text-anchor", "middle")
-				.attr("y", 30)
+    // remove class from others
+    d3.selectAll(".expanded").classed("expanded", false);
+    // assign class to this
+    d3.select(this).classed("expanded", true);
 
-		let link = d3.select(this)
-			.append("text")
-				.text(d => d.link)
-				.attr("dominant-baseline", "middle")
-				.attr("text-anchor", "middle")
-				.attr("y", 60)
+    let fo = d3.select(this).append("xhtml:foreignObject")
+      .attr("xhtml:width", d3.select(this).attr("width"))
+      .attr("xhtml:height", 500)
+      .classed("project_details", true)
+      ;
 
-		d3.select(this)
-			.transition()
-			.attr("height", 30 * 3)
+    let p = fo.append("xhtml:p");
+    p.html(node.description);
 
-		d3.select(this)
-			.select("rect")
-			.transition()
-			.attr("height", 30 * 3)
+    // fo.attr("xhtml:height", p.clientHeight);
 
-    d3.select(this).raise();
+    // let date = d3.select(this)
+    //   .append("text")
+    //     .text(d => d.date)
+    //     .attr("dominant-baseline", "middle")
+    //     .attr("text-anchor", "middle")
+    //     .attr("y", 30)
 
-		// simulation.alphaTarget(0.5).restart();
+    // let url = d3.select(this)
+    //   .append("text")
+    //     .text(d => d.url)
+    //     .attr("dominant-baseline", "middle")
+    //     .attr("text-anchor", "middle")
+    //     .attr("y", 60)
 
-		centerNode(d.x, d.y);
+    // d3.select(this)
+    //   .transition()
+    //   .attr("height", 30 * 3)
 
-	}
+    // d3.select(this)
+    //   .select("rect")
+    //   .transition()
+    //   .attr("height", 30 * 3)
 
+    // simulation.alphaTarget(0.5).restart();
+
+    // highlight connected links
+    d3.selectAll(".highlighted").classed("highlighted", false);
+    links.filter(d => d.target == node)
+      .classed("highlighted", true)
+  }
+}
+
+function deselect() {
+  d3.selectAll(".expanded").classed("expanded", false);
+  d3.selectAll(".highlighted").classed("highlighted", false);
 }
 
 function zoomed(event) {
