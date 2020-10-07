@@ -16,4 +16,4 @@ Aside from those things, I'm also passionate about accessibility, urbanism, envi
 
 Current research interests: critical code studies, internet culture and language, interface aesthetics, electronic literature, poetic tech.
 
-Take a look at my [résumé](/resume/yang-katherine-resume-202004.pdf) <span class="fileInfo">(pdf, 80 kb)</span> and my portfolio to explore my work so far!
+Take a look at my [résumé](/resume/yang-katherine-resume-202010.pdf) <span class="fileInfo">(pdf, 80 kb)</span> and my portfolio to explore my work so far!
