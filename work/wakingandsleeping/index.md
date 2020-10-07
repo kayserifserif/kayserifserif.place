@@ -2,10 +2,10 @@
 layout: article
 title: Waking and Sleeping
 description: '"Good morning" and "good night" tweets, mapped in real-time.'
-year: 2020
+date: 202010
 tags: [code, ui/ux]
-image: /assets/img/wakingandsleeping/wakingandsleeping.jpg
-image-square: /assets/img/wakingandsleeping/wakingandsleeping-1000.jpg
-image-alt: Screen shot of a dark world map with two yellow dots, one in the UK and one in Brazil.
+image: /assets/img/wakingandsleeping/desktop.jpg
+image-square: /assets/img/wakingandsleeping/desktop square.jpg
+image-alt: A blue-white world map with red dots scattered over the Americas, with a white sidebar displaying a log of tweets.
 platforms: [["https://wakingandsleeping.glitch.me", "Website"], ["https://github.com/whykatherine/wakingandsleeping", "GitHub"]]
 ---
