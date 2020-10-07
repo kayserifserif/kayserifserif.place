@@ -10,6 +10,8 @@ image-alt: A frame from a space game.
 platforms: [["https://polymathic.usc.edu/sites/polymathic.usc.edu/files/distant_destinations_full.pdf", "Brief"], ["https://www.youtube.com/watch?v=Vw4cJbQ3jtk", "YouTube"]]
 ---
 
+I participated in a “Distant Destinations” collaboratory as part of a program run by the Ahmanson Lab of the USC Sidney Harman Academy for Polymathic Study. As a small group of four students, we worked with our faculty advisor, Kenneth Phillips, an adjunct professor of physics and astronomy and the curator for aerospace science at the California Science Center. Throughout the semester, we ideated, designed, and developed a prototype game for a multiplayer space flight mission planning exhibit for the new aerospace section, currently in development. At the conclusion of the collaboratory, we presented our planning and prototype to the Ahmanson Lab and the California Science Center, passing off our work to undergo further development. 
+
 <figure role="group">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Vw4cJbQ3jtk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <figcaption>Game demo</figcaption>
