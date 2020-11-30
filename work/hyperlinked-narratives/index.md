@@ -13,26 +13,26 @@ platforms: [["https://hyperlinked-narratives.herokuapp.com", "Website"], ["https
 The Web is a sprawling metropolis of seven-lane roads and undergrounds and small dirt lanes, with “List of Big Brother 17 (American season) houseguests” and “University of Mpumalanga” living six or fewer connections away. Based on [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing) and Mad Libs, Hyperlinked Narratives is a Wikipedia-based narrative tool to create stories that traverse the information highways.
 
 <figure role="group">
-    <img src="/assets/img/hyperlinked-narratives/1-start.png" alt="Simple page with text and two buttons">
+    <img src="/assets/img/hyperlinked-narratives/1-start.png" alt="Simple page with text and two buttons" loading="lazy">
     <figcaption>Start page</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/hyperlinked-narratives/2-chain.png" alt="Chain of text with a long list of text buttons">
+    <img src="/assets/img/hyperlinked-narratives/2-chain.png" alt="Chain of text with a long list of text buttons" loading="lazy">
     <figcaption>Building a chain by clicking buttons of Wikipedia article titles</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/hyperlinked-narratives/3-narrative.png" alt="Light blue box with black text interspersed with input boxes">
+    <img src="/assets/img/hyperlinked-narratives/3-narrative.png" alt="Light blue box with black text interspersed with input boxes" loading="lazy">
     <figcaption>Connecting article titles to form a narrative, with random suggestions for connecting words</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/hyperlinked-narratives/4-filled.png" alt="Input boxes filled in with connecting words">
+    <img src="/assets/img/hyperlinked-narratives/4-filled.png" alt="Input boxes filled in with connecting words" loading="lazy">
     <figcaption>Filled-in narrative</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/hyperlinked-narratives/5-article.png" alt="Chain of articles with connecting circles and lines">
+    <img src="/assets/img/hyperlinked-narratives/5-article.png" alt="Chain of articles with connecting circles and lines" loading="lazy">
     <figcaption>The revealed chain of articles</figcaption>
 </figure>

@@ -29,7 +29,7 @@
       <div><iframe src="{{ page.embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       {% endif %}
     {% else %}
-    <img src="{{ page.image }}" alt="{{ page.image-alt }}">
+    <img src="{{ page.image }}" alt="{{ page.image-alt }}" loading="lazy">
     {% endif %}
   </figure>
 </header>

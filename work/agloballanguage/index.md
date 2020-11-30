@@ -15,31 +15,31 @@ English is one of the most widely spoken languages in the world. At the same tim
 A Global Language is an interactive visualisation tool that explores the etymological history of the English language. Where do all the words in English come from, and how do they get here? There are two main goals for this ongoing project: one, to create a more visually engaging and exploratory educational tool about language and etymology; and two, to think about how language evolution parallels developments in world history, and to highlight the variety of world Englishes.
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/python.png" alt="An application window with a teal background and a simple timeline and map">
+    <img src="/assets/img/agloballanguage/python.png" alt="An application window with a teal background and a simple timeline and map" loading="lazy">
     <figcaption>The original Python version of the app, using [tkinter](https://docs.python.org/3/library/tkinter.html)</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/banana.jpg" alt="Visualisation on a globe and a timeline for the word 'banana'">
+    <img src="/assets/img/agloballanguage/banana.jpg" alt="Visualisation on a globe and a timeline for the word 'banana'" loading="lazy">
     <figcaption>Results for the word ‘banana’</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/curry.jpg" alt="Visualisation on a globe and a timeline for the word 'curry'">
+    <img src="/assets/img/agloballanguage/curry.jpg" alt="Visualisation on a globe and a timeline for the word 'curry'" loading="lazy">
     <figcaption>Results for the word curry</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/ginger.jpg" alt="Visualisation on a globe and a timeline for the word 'ginger'">
+    <img src="/assets/img/agloballanguage/ginger.jpg" alt="Visualisation on a globe and a timeline for the word 'ginger'" loading="lazy">
     <figcaption>Results for the word ginger</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/mango.jpg" alt="Visualisation on a globe and a timeline for the word 'mango'">
+    <img src="/assets/img/agloballanguage/mango.jpg" alt="Visualisation on a globe and a timeline for the word 'mango'" loading="lazy">
     <figcaption>Results for the word mango</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/agloballanguage/voodoo.jpg" alt="Visualisation on a globe and a timeline for the word 'voodoo'">
+    <img src="/assets/img/agloballanguage/voodoo.jpg" alt="Visualisation on a globe and a timeline for the word 'voodoo'" loading="lazy">
     <figcaption>Results for the word voodoo</figcaption>
 </figure>

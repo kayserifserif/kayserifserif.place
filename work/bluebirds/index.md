@@ -31,17 +31,17 @@ The linguistic and text component of the project was complex in the way the text
 ## Showcase
 
 <figure role="group">
-    <img src="/assets/img/bluebirds/IMG_4744.jpg" alt="Student standing in front of exhibit of process video, currently showing flocking bluebirds">
+    <img src="/assets/img/bluebirds/IMG_4744.jpg" alt="Student standing in front of exhibit of process video, currently showing flocking bluebirds" loading="lazy">
     <figcaption>Exhibit of work at Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, currently showing flocking bluebirds</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/bluebirds/IMG_4747.jpg" alt="Student standing in front of exhibit of process video, currently showing a cloud of text Tweets">
+    <img src="/assets/img/bluebirds/IMG_4747.jpg" alt="Student standing in front of exhibit of process video, currently showing a cloud of text Tweets" loading="lazy">
     <figcaption>Exhibit of work at Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, currently showing a cloud of text Tweets</figcaption>
 </figure>
 
 <figure role="group">
-    <img src="/assets/img/bluebirds/IMG_4748.jpg" alt="Close-up of flyer listing student works exhibited">
+    <img src="/assets/img/bluebirds/IMG_4748.jpg" alt="Close-up of flyer listing student works exhibited" loading="lazy">
     <figcaption>A flyer from Processing Community Day at <abbr>USC</abbr> <abbr>SCA</abbr>, listing student works exhibited</figcaption>
 </figure>
 
