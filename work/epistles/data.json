@@ -1,0 +1,3655 @@
+{
+  "senders": [
+    "Adam Guo",
+    "Katherine Yang"
+  ],
+  "messages_sent_by": {
+    "Adam Guo": 90735,
+    "Katherine Yang": 81610
+  },
+  "avg_message_lengths": {
+    "Adam Guo": 20.538755717198434,
+    "Katherine Yang": 26.20024506800637
+  },
+  "top_words": {
+    "all": {
+      "i": {
+        "count": 29888,
+        "pct": 4.97
+      },
+      "you": {
+        "count": 20933,
+        "pct": 3.48
+      },
+      "ok": {
+        "count": 6846,
+        "pct": 1.14
+      },
+      "yeah": {
+        "count": 6245,
+        "pct": 1.04
+      },
+      "how": {
+        "count": 5872,
+        "pct": 0.98
+      },
+      "like": {
+        "count": 5506,
+        "pct": 0.92
+      },
+      "what": {
+        "count": 5296,
+        "pct": 0.88
+      },
+      "hehe": {
+        "count": 4925,
+        "pct": 0.82
+      },
+      "oh": {
+        "count": 4265,
+        "pct": 0.71
+      },
+      "my": {
+        "count": 3944,
+        "pct": 0.66
+      },
+      "good": {
+        "count": 3688,
+        "pct": 0.61
+      },
+      "we": {
+        "count": 3663,
+        "pct": 0.61
+      },
+      "think": {
+        "count": 3551,
+        "pct": 0.59
+      },
+      "lol": {
+        "count": 3309,
+        "pct": 0.55
+      },
+      "okay": {
+        "count": 3180,
+        "pct": 0.53
+      },
+      "me": {
+        "count": 3071,
+        "pct": 0.51
+      },
+      "up": {
+        "count": 2995,
+        "pct": 0.5
+      },
+      "your": {
+        "count": 2671,
+        "pct": 0.44
+      },
+      "no": {
+        "count": 2654,
+        "pct": 0.44
+      },
+      "really": {
+        "count": 2503,
+        "pct": 0.42
+      }
+    },
+    "2019-03-26": {
+      "i": {
+        "count": 264,
+        "pct": 5.74
+      },
+      "you": {
+        "count": 166,
+        "pct": 3.61
+      },
+      "yeah": {
+        "count": 73,
+        "pct": 1.59
+      },
+      "we": {
+        "count": 60,
+        "pct": 1.3
+      },
+      "like": {
+        "count": 58,
+        "pct": 1.26
+      },
+      "what": {
+        "count": 43,
+        "pct": 0.93
+      },
+      "oh": {
+        "count": 40,
+        "pct": 0.87
+      },
+      "think": {
+        "count": 39,
+        "pct": 0.85
+      },
+      "my": {
+        "count": 34,
+        "pct": 0.74
+      },
+      "were": {
+        "count": 33,
+        "pct": 0.72
+      },
+      "how": {
+        "count": 32,
+        "pct": 0.7
+      },
+      "remember": {
+        "count": 28,
+        "pct": 0.61
+      },
+      "out": {
+        "count": 26,
+        "pct": 0.56
+      },
+      "time": {
+        "count": 25,
+        "pct": 0.54
+      },
+      "gosh": {
+        "count": 25,
+        "pct": 0.54
+      },
+      "your": {
+        "count": 24,
+        "pct": 0.52
+      },
+      "me": {
+        "count": 24,
+        "pct": 0.52
+      },
+      "thinking": {
+        "count": 22,
+        "pct": 0.48
+      },
+      "he": {
+        "count": 22,
+        "pct": 0.48
+      },
+      "when": {
+        "count": 21,
+        "pct": 0.46
+      }
+    }
+  },
+  "messages_by_date": {
+    "all": {
+      "2018-07-27": {
+        "total": 67,
+        "Adam Guo": 38,
+        "Katherine Yang": 29
+      },
+      "2018-07-28": {
+        "total": 267,
+        "Adam Guo": 128,
+        "Katherine Yang": 139
+      },
+      "2018-07-29": {
+        "total": 337,
+        "Adam Guo": 153,
+        "Katherine Yang": 184
+      },
+      "2018-07-30": {
+        "total": 164,
+        "Adam Guo": 74,
+        "Katherine Yang": 90
+      },
+      "2018-07-31": {
+        "total": 139,
+        "Adam Guo": 72,
+        "Katherine Yang": 67
+      },
+      "2018-08-01": {
+        "total": 536,
+        "Adam Guo": 255,
+        "Katherine Yang": 281
+      },
+      "2018-08-02": {
+        "total": 670,
+        "Adam Guo": 311,
+        "Katherine Yang": 359
+      },
+      "2018-08-03": {
+        "total": 236,
+        "Adam Guo": 117,
+        "Katherine Yang": 119
+      },
+      "2018-08-04": {
+        "total": 414,
+        "Adam Guo": 190,
+        "Katherine Yang": 224
+      },
+      "2018-08-05": {
+        "total": 86,
+        "Adam Guo": 41,
+        "Katherine Yang": 45
+      },
+      "2018-08-06": {
+        "total": 294,
+        "Adam Guo": 152,
+        "Katherine Yang": 142
+      },
+      "2018-08-07": {
+        "total": 384,
+        "Adam Guo": 188,
+        "Katherine Yang": 196
+      },
+      "2018-08-08": {
+        "total": 271,
+        "Adam Guo": 135,
+        "Katherine Yang": 136
+      },
+      "2018-08-09": {
+        "total": 64,
+        "Adam Guo": 32,
+        "Katherine Yang": 32
+      },
+      "2018-08-10": {
+        "total": 134,
+        "Adam Guo": 60,
+        "Katherine Yang": 74
+      },
+      "2018-08-11": {
+        "total": 341,
+        "Adam Guo": 163,
+        "Katherine Yang": 178
+      },
+      "2018-08-12": {
+        "total": 297,
+        "Adam Guo": 146,
+        "Katherine Yang": 151
+      },
+      "2018-08-13": {
+        "total": 245,
+        "Adam Guo": 134,
+        "Katherine Yang": 111
+      },
+      "2018-08-14": {
+        "total": 460,
+        "Adam Guo": 226,
+        "Katherine Yang": 234
+      },
+      "2018-08-15": {
+        "total": 244,
+        "Adam Guo": 128,
+        "Katherine Yang": 116
+      },
+      "2018-08-16": {
+        "total": 117,
+        "Adam Guo": 60,
+        "Katherine Yang": 57
+      },
+      "2018-08-17": {
+        "total": 499,
+        "Adam Guo": 251,
+        "Katherine Yang": 248
+      },
+      "2018-08-18": {
+        "total": 376,
+        "Adam Guo": 199,
+        "Katherine Yang": 177
+      },
+      "2018-08-19": {
+        "total": 406,
+        "Adam Guo": 213,
+        "Katherine Yang": 193
+      },
+      "2018-08-20": {
+        "total": 184,
+        "Adam Guo": 102,
+        "Katherine Yang": 82
+      },
+      "2018-08-21": {
+        "total": 164,
+        "Adam Guo": 84,
+        "Katherine Yang": 80
+      },
+      "2018-08-22": {
+        "total": 267,
+        "Adam Guo": 140,
+        "Katherine Yang": 127
+      },
+      "2018-08-23": {
+        "total": 159,
+        "Adam Guo": 80,
+        "Katherine Yang": 79
+      },
+      "2018-08-24": {
+        "total": 224,
+        "Adam Guo": 111,
+        "Katherine Yang": 113
+      },
+      "2018-08-25": {
+        "total": 158,
+        "Adam Guo": 81,
+        "Katherine Yang": 77
+      },
+      "2018-08-26": {
+        "total": 222,
+        "Adam Guo": 113,
+        "Katherine Yang": 109
+      },
+      "2018-08-27": {
+        "total": 520,
+        "Adam Guo": 257,
+        "Katherine Yang": 263
+      },
+      "2018-08-28": {
+        "total": 52,
+        "Adam Guo": 40,
+        "Katherine Yang": 12
+      },
+      "2018-08-29": {
+        "total": 45,
+        "Adam Guo": 3,
+        "Katherine Yang": 42
+      },
+      "2018-08-30": {
+        "total": 6,
+        "Adam Guo": 3,
+        "Katherine Yang": 3
+      },
+      "2018-08-31": {
+        "total": 151,
+        "Adam Guo": 77,
+        "Katherine Yang": 74
+      },
+      "2018-09-01": {
+        "total": 203,
+        "Adam Guo": 113,
+        "Katherine Yang": 90
+      },
+      "2018-09-02": {
+        "total": 330,
+        "Adam Guo": 161,
+        "Katherine Yang": 169
+      },
+      "2018-09-03": {
+        "total": 147,
+        "Adam Guo": 79,
+        "Katherine Yang": 68
+      },
+      "2018-09-04": {
+        "total": 192,
+        "Adam Guo": 102,
+        "Katherine Yang": 90
+      },
+      "2018-09-05": {
+        "total": 104,
+        "Adam Guo": 54,
+        "Katherine Yang": 50
+      },
+      "2018-09-06": {
+        "total": 281,
+        "Adam Guo": 129,
+        "Katherine Yang": 152
+      },
+      "2018-09-07": {
+        "total": 230,
+        "Adam Guo": 126,
+        "Katherine Yang": 104
+      },
+      "2018-09-08": {
+        "total": 246,
+        "Adam Guo": 133,
+        "Katherine Yang": 113
+      },
+      "2018-09-09": {
+        "total": 50,
+        "Adam Guo": 31,
+        "Katherine Yang": 19
+      },
+      "2018-09-10": {
+        "total": 321,
+        "Adam Guo": 165,
+        "Katherine Yang": 156
+      },
+      "2018-09-11": {
+        "total": 244,
+        "Adam Guo": 108,
+        "Katherine Yang": 136
+      },
+      "2018-09-12": {
+        "total": 243,
+        "Adam Guo": 113,
+        "Katherine Yang": 130
+      },
+      "2018-09-13": {
+        "total": 479,
+        "Adam Guo": 241,
+        "Katherine Yang": 238
+      },
+      "2018-09-14": {
+        "total": 322,
+        "Adam Guo": 158,
+        "Katherine Yang": 164
+      },
+      "2018-09-15": {
+        "total": 582,
+        "Adam Guo": 268,
+        "Katherine Yang": 314
+      },
+      "2018-09-16": {
+        "total": 376,
+        "Adam Guo": 195,
+        "Katherine Yang": 181
+      },
+      "2018-09-17": {
+        "total": 291,
+        "Adam Guo": 143,
+        "Katherine Yang": 148
+      },
+      "2018-09-18": {
+        "total": 383,
+        "Adam Guo": 183,
+        "Katherine Yang": 200
+      },
+      "2018-09-19": {
+        "total": 468,
+        "Adam Guo": 226,
+        "Katherine Yang": 242
+      },
+      "2018-09-20": {
+        "total": 270,
+        "Adam Guo": 143,
+        "Katherine Yang": 127
+      },
+      "2018-09-21": {
+        "total": 564,
+        "Adam Guo": 290,
+        "Katherine Yang": 274
+      },
+      "2018-09-22": {
+        "total": 308,
+        "Adam Guo": 159,
+        "Katherine Yang": 149
+      },
+      "2018-09-23": {
+        "total": 382,
+        "Adam Guo": 213,
+        "Katherine Yang": 169
+      },
+      "2018-09-24": {
+        "total": 630,
+        "Adam Guo": 312,
+        "Katherine Yang": 318
+      },
+      "2018-09-25": {
+        "total": 370,
+        "Adam Guo": 194,
+        "Katherine Yang": 176
+      },
+      "2018-09-26": {
+        "total": 210,
+        "Adam Guo": 107,
+        "Katherine Yang": 103
+      },
+      "2018-09-27": {
+        "total": 490,
+        "Adam Guo": 260,
+        "Katherine Yang": 230
+      },
+      "2018-09-28": {
+        "total": 339,
+        "Adam Guo": 174,
+        "Katherine Yang": 165
+      },
+      "2018-09-29": {
+        "total": 248,
+        "Adam Guo": 123,
+        "Katherine Yang": 125
+      },
+      "2018-09-30": {
+        "total": 451,
+        "Adam Guo": 229,
+        "Katherine Yang": 222
+      },
+      "2018-10-01": {
+        "total": 223,
+        "Adam Guo": 118,
+        "Katherine Yang": 105
+      },
+      "2018-10-02": {
+        "total": 182,
+        "Adam Guo": 89,
+        "Katherine Yang": 93
+      },
+      "2018-10-03": {
+        "total": 198,
+        "Adam Guo": 90,
+        "Katherine Yang": 108
+      },
+      "2018-10-04": {
+        "total": 422,
+        "Adam Guo": 223,
+        "Katherine Yang": 199
+      },
+      "2018-10-05": {
+        "total": 291,
+        "Adam Guo": 153,
+        "Katherine Yang": 138
+      },
+      "2018-10-06": {
+        "total": 186,
+        "Adam Guo": 77,
+        "Katherine Yang": 109
+      },
+      "2018-10-07": {
+        "total": 388,
+        "Adam Guo": 189,
+        "Katherine Yang": 199
+      },
+      "2018-10-08": {
+        "total": 288,
+        "Adam Guo": 131,
+        "Katherine Yang": 157
+      },
+      "2018-10-09": {
+        "total": 312,
+        "Adam Guo": 151,
+        "Katherine Yang": 161
+      },
+      "2018-10-10": {
+        "total": 253,
+        "Adam Guo": 130,
+        "Katherine Yang": 123
+      },
+      "2018-10-11": {
+        "total": 224,
+        "Adam Guo": 106,
+        "Katherine Yang": 118
+      },
+      "2018-10-12": {
+        "total": 107,
+        "Adam Guo": 57,
+        "Katherine Yang": 50
+      },
+      "2018-10-13": {
+        "total": 323,
+        "Adam Guo": 150,
+        "Katherine Yang": 173
+      },
+      "2018-10-14": {
+        "total": 304,
+        "Adam Guo": 147,
+        "Katherine Yang": 157
+      },
+      "2018-10-15": {
+        "total": 167,
+        "Adam Guo": 92,
+        "Katherine Yang": 75
+      },
+      "2018-10-16": {
+        "total": 312,
+        "Adam Guo": 151,
+        "Katherine Yang": 161
+      },
+      "2018-10-17": {
+        "total": 393,
+        "Adam Guo": 202,
+        "Katherine Yang": 191
+      },
+      "2018-10-18": {
+        "total": 306,
+        "Adam Guo": 152,
+        "Katherine Yang": 154
+      },
+      "2018-10-19": {
+        "total": 278,
+        "Adam Guo": 135,
+        "Katherine Yang": 143
+      },
+      "2018-10-20": {
+        "total": 56,
+        "Adam Guo": 30,
+        "Katherine Yang": 26
+      },
+      "2018-10-22": {
+        "total": 1,
+        "Adam Guo": 0,
+        "Katherine Yang": 1
+      },
+      "2018-10-23": {
+        "total": 34,
+        "Adam Guo": 18,
+        "Katherine Yang": 16
+      },
+      "2018-10-24": {
+        "total": 163,
+        "Adam Guo": 85,
+        "Katherine Yang": 78
+      },
+      "2018-10-25": {
+        "total": 262,
+        "Adam Guo": 123,
+        "Katherine Yang": 139
+      },
+      "2018-10-26": {
+        "total": 387,
+        "Adam Guo": 183,
+        "Katherine Yang": 204
+      },
+      "2018-10-27": {
+        "total": 369,
+        "Adam Guo": 184,
+        "Katherine Yang": 185
+      },
+      "2018-10-28": {
+        "total": 315,
+        "Adam Guo": 168,
+        "Katherine Yang": 147
+      },
+      "2018-10-29": {
+        "total": 286,
+        "Adam Guo": 154,
+        "Katherine Yang": 132
+      },
+      "2018-10-30": {
+        "total": 337,
+        "Adam Guo": 190,
+        "Katherine Yang": 147
+      },
+      "2018-10-31": {
+        "total": 378,
+        "Adam Guo": 186,
+        "Katherine Yang": 192
+      },
+      "2018-11-01": {
+        "total": 567,
+        "Adam Guo": 276,
+        "Katherine Yang": 291
+      },
+      "2018-11-02": {
+        "total": 375,
+        "Adam Guo": 195,
+        "Katherine Yang": 180
+      },
+      "2018-11-03": {
+        "total": 352,
+        "Adam Guo": 178,
+        "Katherine Yang": 174
+      },
+      "2018-11-04": {
+        "total": 248,
+        "Adam Guo": 127,
+        "Katherine Yang": 121
+      },
+      "2018-11-05": {
+        "total": 145,
+        "Adam Guo": 75,
+        "Katherine Yang": 70
+      },
+      "2018-11-06": {
+        "total": 229,
+        "Adam Guo": 123,
+        "Katherine Yang": 106
+      },
+      "2018-11-07": {
+        "total": 227,
+        "Adam Guo": 126,
+        "Katherine Yang": 101
+      },
+      "2018-11-08": {
+        "total": 234,
+        "Adam Guo": 124,
+        "Katherine Yang": 110
+      },
+      "2018-11-09": {
+        "total": 249,
+        "Adam Guo": 127,
+        "Katherine Yang": 122
+      },
+      "2018-11-10": {
+        "total": 296,
+        "Adam Guo": 164,
+        "Katherine Yang": 132
+      },
+      "2018-11-11": {
+        "total": 448,
+        "Adam Guo": 247,
+        "Katherine Yang": 201
+      },
+      "2018-11-12": {
+        "total": 159,
+        "Adam Guo": 93,
+        "Katherine Yang": 66
+      },
+      "2018-11-13": {
+        "total": 128,
+        "Adam Guo": 69,
+        "Katherine Yang": 59
+      },
+      "2018-11-14": {
+        "total": 385,
+        "Adam Guo": 213,
+        "Katherine Yang": 172
+      },
+      "2018-11-15": {
+        "total": 272,
+        "Adam Guo": 161,
+        "Katherine Yang": 111
+      },
+      "2018-11-16": {
+        "total": 188,
+        "Adam Guo": 96,
+        "Katherine Yang": 92
+      },
+      "2018-11-17": {
+        "total": 241,
+        "Adam Guo": 124,
+        "Katherine Yang": 117
+      },
+      "2018-11-18": {
+        "total": 351,
+        "Adam Guo": 182,
+        "Katherine Yang": 169
+      },
+      "2018-11-19": {
+        "total": 272,
+        "Adam Guo": 153,
+        "Katherine Yang": 119
+      },
+      "2018-11-20": {
+        "total": 458,
+        "Adam Guo": 249,
+        "Katherine Yang": 209
+      },
+      "2018-11-21": {
+        "total": 241,
+        "Adam Guo": 122,
+        "Katherine Yang": 119
+      },
+      "2018-11-25": {
+        "total": 21,
+        "Adam Guo": 12,
+        "Katherine Yang": 9
+      },
+      "2018-11-26": {
+        "total": 203,
+        "Adam Guo": 107,
+        "Katherine Yang": 96
+      },
+      "2018-11-27": {
+        "total": 347,
+        "Adam Guo": 168,
+        "Katherine Yang": 179
+      },
+      "2018-11-28": {
+        "total": 353,
+        "Adam Guo": 195,
+        "Katherine Yang": 158
+      },
+      "2018-11-29": {
+        "total": 408,
+        "Adam Guo": 223,
+        "Katherine Yang": 185
+      },
+      "2018-11-30": {
+        "total": 221,
+        "Adam Guo": 116,
+        "Katherine Yang": 105
+      },
+      "2018-12-01": {
+        "total": 332,
+        "Adam Guo": 188,
+        "Katherine Yang": 144
+      },
+      "2018-12-02": {
+        "total": 301,
+        "Adam Guo": 161,
+        "Katherine Yang": 140
+      },
+      "2018-12-03": {
+        "total": 378,
+        "Adam Guo": 193,
+        "Katherine Yang": 185
+      },
+      "2018-12-04": {
+        "total": 237,
+        "Adam Guo": 133,
+        "Katherine Yang": 104
+      },
+      "2018-12-05": {
+        "total": 371,
+        "Adam Guo": 193,
+        "Katherine Yang": 178
+      },
+      "2018-12-06": {
+        "total": 394,
+        "Adam Guo": 213,
+        "Katherine Yang": 181
+      },
+      "2018-12-07": {
+        "total": 245,
+        "Adam Guo": 143,
+        "Katherine Yang": 102
+      },
+      "2018-12-08": {
+        "total": 226,
+        "Adam Guo": 126,
+        "Katherine Yang": 100
+      },
+      "2018-12-09": {
+        "total": 322,
+        "Adam Guo": 152,
+        "Katherine Yang": 170
+      },
+      "2018-12-10": {
+        "total": 174,
+        "Adam Guo": 99,
+        "Katherine Yang": 75
+      },
+      "2018-12-11": {
+        "total": 179,
+        "Adam Guo": 100,
+        "Katherine Yang": 79
+      },
+      "2018-12-12": {
+        "total": 212,
+        "Adam Guo": 117,
+        "Katherine Yang": 95
+      },
+      "2018-12-13": {
+        "total": 61,
+        "Adam Guo": 29,
+        "Katherine Yang": 32
+      },
+      "2018-12-14": {
+        "total": 279,
+        "Adam Guo": 143,
+        "Katherine Yang": 136
+      },
+      "2018-12-15": {
+        "total": 301,
+        "Adam Guo": 155,
+        "Katherine Yang": 146
+      },
+      "2018-12-16": {
+        "total": 294,
+        "Adam Guo": 108,
+        "Katherine Yang": 186
+      },
+      "2018-12-17": {
+        "total": 76,
+        "Adam Guo": 46,
+        "Katherine Yang": 30
+      },
+      "2018-12-18": {
+        "total": 342,
+        "Adam Guo": 162,
+        "Katherine Yang": 180
+      },
+      "2018-12-19": {
+        "total": 157,
+        "Adam Guo": 78,
+        "Katherine Yang": 79
+      },
+      "2018-12-20": {
+        "total": 137,
+        "Adam Guo": 82,
+        "Katherine Yang": 55
+      },
+      "2018-12-21": {
+        "total": 174,
+        "Adam Guo": 89,
+        "Katherine Yang": 85
+      },
+      "2018-12-22": {
+        "total": 139,
+        "Adam Guo": 71,
+        "Katherine Yang": 68
+      },
+      "2018-12-23": {
+        "total": 460,
+        "Adam Guo": 237,
+        "Katherine Yang": 223
+      },
+      "2018-12-24": {
+        "total": 233,
+        "Adam Guo": 117,
+        "Katherine Yang": 116
+      },
+      "2018-12-25": {
+        "total": 267,
+        "Adam Guo": 131,
+        "Katherine Yang": 136
+      },
+      "2018-12-26": {
+        "total": 112,
+        "Adam Guo": 45,
+        "Katherine Yang": 67
+      },
+      "2018-12-27": {
+        "total": 218,
+        "Adam Guo": 102,
+        "Katherine Yang": 116
+      },
+      "2018-12-28": {
+        "total": 125,
+        "Adam Guo": 64,
+        "Katherine Yang": 61
+      },
+      "2018-12-29": {
+        "total": 217,
+        "Adam Guo": 117,
+        "Katherine Yang": 100
+      },
+      "2018-12-30": {
+        "total": 210,
+        "Adam Guo": 113,
+        "Katherine Yang": 97
+      },
+      "2018-12-31": {
+        "total": 172,
+        "Adam Guo": 101,
+        "Katherine Yang": 71
+      },
+      "2019-01-01": {
+        "total": 270,
+        "Adam Guo": 147,
+        "Katherine Yang": 123
+      },
+      "2019-01-02": {
+        "total": 97,
+        "Adam Guo": 49,
+        "Katherine Yang": 48
+      },
+      "2019-01-03": {
+        "total": 185,
+        "Adam Guo": 111,
+        "Katherine Yang": 74
+      },
+      "2019-01-04": {
+        "total": 207,
+        "Adam Guo": 127,
+        "Katherine Yang": 80
+      },
+      "2019-01-05": {
+        "total": 338,
+        "Adam Guo": 198,
+        "Katherine Yang": 140
+      },
+      "2019-01-06": {
+        "total": 155,
+        "Adam Guo": 80,
+        "Katherine Yang": 75
+      },
+      "2019-01-07": {
+        "total": 342,
+        "Adam Guo": 189,
+        "Katherine Yang": 153
+      },
+      "2019-01-08": {
+        "total": 337,
+        "Adam Guo": 167,
+        "Katherine Yang": 170
+      },
+      "2019-01-09": {
+        "total": 248,
+        "Adam Guo": 131,
+        "Katherine Yang": 117
+      },
+      "2019-01-10": {
+        "total": 149,
+        "Adam Guo": 81,
+        "Katherine Yang": 68
+      },
+      "2019-01-11": {
+        "total": 277,
+        "Adam Guo": 137,
+        "Katherine Yang": 140
+      },
+      "2019-01-12": {
+        "total": 256,
+        "Adam Guo": 157,
+        "Katherine Yang": 99
+      },
+      "2019-01-13": {
+        "total": 231,
+        "Adam Guo": 124,
+        "Katherine Yang": 107
+      },
+      "2019-01-14": {
+        "total": 321,
+        "Adam Guo": 184,
+        "Katherine Yang": 137
+      },
+      "2019-01-15": {
+        "total": 155,
+        "Adam Guo": 79,
+        "Katherine Yang": 76
+      },
+      "2019-01-16": {
+        "total": 140,
+        "Adam Guo": 76,
+        "Katherine Yang": 64
+      },
+      "2019-01-17": {
+        "total": 327,
+        "Adam Guo": 167,
+        "Katherine Yang": 160
+      },
+      "2019-01-18": {
+        "total": 228,
+        "Adam Guo": 141,
+        "Katherine Yang": 87
+      },
+      "2019-01-19": {
+        "total": 108,
+        "Adam Guo": 45,
+        "Katherine Yang": 63
+      },
+      "2019-01-20": {
+        "total": 210,
+        "Adam Guo": 114,
+        "Katherine Yang": 96
+      },
+      "2019-01-21": {
+        "total": 207,
+        "Adam Guo": 116,
+        "Katherine Yang": 91
+      },
+      "2019-01-22": {
+        "total": 291,
+        "Adam Guo": 147,
+        "Katherine Yang": 144
+      },
+      "2019-01-23": {
+        "total": 343,
+        "Adam Guo": 182,
+        "Katherine Yang": 161
+      },
+      "2019-01-24": {
+        "total": 238,
+        "Adam Guo": 135,
+        "Katherine Yang": 103
+      },
+      "2019-01-25": {
+        "total": 222,
+        "Adam Guo": 126,
+        "Katherine Yang": 96
+      },
+      "2019-01-26": {
+        "total": 294,
+        "Adam Guo": 161,
+        "Katherine Yang": 133
+      },
+      "2019-01-27": {
+        "total": 471,
+        "Adam Guo": 234,
+        "Katherine Yang": 237
+      },
+      "2019-01-28": {
+        "total": 239,
+        "Adam Guo": 128,
+        "Katherine Yang": 111
+      },
+      "2019-01-29": {
+        "total": 217,
+        "Adam Guo": 113,
+        "Katherine Yang": 104
+      },
+      "2019-01-30": {
+        "total": 252,
+        "Adam Guo": 133,
+        "Katherine Yang": 119
+      },
+      "2019-01-31": {
+        "total": 276,
+        "Adam Guo": 140,
+        "Katherine Yang": 136
+      },
+      "2019-02-01": {
+        "total": 341,
+        "Adam Guo": 178,
+        "Katherine Yang": 163
+      },
+      "2019-02-02": {
+        "total": 89,
+        "Adam Guo": 50,
+        "Katherine Yang": 39
+      },
+      "2019-02-04": {
+        "total": 544,
+        "Adam Guo": 273,
+        "Katherine Yang": 271
+      },
+      "2019-02-05": {
+        "total": 370,
+        "Adam Guo": 186,
+        "Katherine Yang": 184
+      },
+      "2019-02-06": {
+        "total": 390,
+        "Adam Guo": 199,
+        "Katherine Yang": 191
+      },
+      "2019-02-07": {
+        "total": 507,
+        "Adam Guo": 257,
+        "Katherine Yang": 250
+      },
+      "2019-02-08": {
+        "total": 351,
+        "Adam Guo": 177,
+        "Katherine Yang": 174
+      },
+      "2019-02-09": {
+        "total": 218,
+        "Adam Guo": 124,
+        "Katherine Yang": 94
+      },
+      "2019-02-10": {
+        "total": 269,
+        "Adam Guo": 158,
+        "Katherine Yang": 111
+      },
+      "2019-02-11": {
+        "total": 390,
+        "Adam Guo": 197,
+        "Katherine Yang": 193
+      },
+      "2019-02-12": {
+        "total": 240,
+        "Adam Guo": 134,
+        "Katherine Yang": 106
+      },
+      "2019-02-13": {
+        "total": 305,
+        "Adam Guo": 152,
+        "Katherine Yang": 153
+      },
+      "2019-02-14": {
+        "total": 453,
+        "Adam Guo": 230,
+        "Katherine Yang": 223
+      },
+      "2019-02-15": {
+        "total": 285,
+        "Adam Guo": 144,
+        "Katherine Yang": 141
+      },
+      "2019-02-16": {
+        "total": 280,
+        "Adam Guo": 161,
+        "Katherine Yang": 119
+      },
+      "2019-02-17": {
+        "total": 113,
+        "Adam Guo": 69,
+        "Katherine Yang": 44
+      },
+      "2019-02-18": {
+        "total": 602,
+        "Adam Guo": 340,
+        "Katherine Yang": 262
+      },
+      "2019-02-19": {
+        "total": 552,
+        "Adam Guo": 297,
+        "Katherine Yang": 255
+      },
+      "2019-02-20": {
+        "total": 630,
+        "Adam Guo": 341,
+        "Katherine Yang": 289
+      },
+      "2019-02-21": {
+        "total": 692,
+        "Adam Guo": 395,
+        "Katherine Yang": 297
+      },
+      "2019-02-22": {
+        "total": 457,
+        "Adam Guo": 271,
+        "Katherine Yang": 186
+      },
+      "2019-02-23": {
+        "total": 425,
+        "Adam Guo": 234,
+        "Katherine Yang": 191
+      },
+      "2019-02-24": {
+        "total": 467,
+        "Adam Guo": 261,
+        "Katherine Yang": 206
+      },
+      "2019-02-25": {
+        "total": 280,
+        "Adam Guo": 145,
+        "Katherine Yang": 135
+      },
+      "2019-02-26": {
+        "total": 261,
+        "Adam Guo": 146,
+        "Katherine Yang": 115
+      },
+      "2019-02-27": {
+        "total": 369,
+        "Adam Guo": 203,
+        "Katherine Yang": 166
+      },
+      "2019-02-28": {
+        "total": 283,
+        "Adam Guo": 160,
+        "Katherine Yang": 123
+      },
+      "2019-03-01": {
+        "total": 391,
+        "Adam Guo": 225,
+        "Katherine Yang": 166
+      },
+      "2019-03-02": {
+        "total": 205,
+        "Adam Guo": 104,
+        "Katherine Yang": 101
+      },
+      "2019-03-03": {
+        "total": 197,
+        "Adam Guo": 113,
+        "Katherine Yang": 84
+      },
+      "2019-03-04": {
+        "total": 511,
+        "Adam Guo": 272,
+        "Katherine Yang": 239
+      },
+      "2019-03-05": {
+        "total": 348,
+        "Adam Guo": 210,
+        "Katherine Yang": 138
+      },
+      "2019-03-06": {
+        "total": 246,
+        "Adam Guo": 129,
+        "Katherine Yang": 117
+      },
+      "2019-03-07": {
+        "total": 279,
+        "Adam Guo": 154,
+        "Katherine Yang": 125
+      },
+      "2019-03-08": {
+        "total": 498,
+        "Adam Guo": 258,
+        "Katherine Yang": 240
+      },
+      "2019-03-09": {
+        "total": 457,
+        "Adam Guo": 259,
+        "Katherine Yang": 198
+      },
+      "2019-03-10": {
+        "total": 395,
+        "Adam Guo": 223,
+        "Katherine Yang": 172
+      },
+      "2019-03-11": {
+        "total": 508,
+        "Adam Guo": 285,
+        "Katherine Yang": 223
+      },
+      "2019-03-12": {
+        "total": 319,
+        "Adam Guo": 187,
+        "Katherine Yang": 132
+      },
+      "2019-03-13": {
+        "total": 275,
+        "Adam Guo": 152,
+        "Katherine Yang": 123
+      },
+      "2019-03-14": {
+        "total": 268,
+        "Adam Guo": 144,
+        "Katherine Yang": 124
+      },
+      "2019-03-15": {
+        "total": 424,
+        "Adam Guo": 247,
+        "Katherine Yang": 177
+      },
+      "2019-03-16": {
+        "total": 205,
+        "Adam Guo": 108,
+        "Katherine Yang": 97
+      },
+      "2019-03-17": {
+        "total": 36,
+        "Adam Guo": 18,
+        "Katherine Yang": 18
+      },
+      "2019-03-19": {
+        "total": 274,
+        "Adam Guo": 159,
+        "Katherine Yang": 115
+      },
+      "2019-03-20": {
+        "total": 329,
+        "Adam Guo": 189,
+        "Katherine Yang": 140
+      },
+      "2019-03-21": {
+        "total": 377,
+        "Adam Guo": 200,
+        "Katherine Yang": 177
+      },
+      "2019-03-22": {
+        "total": 348,
+        "Adam Guo": 190,
+        "Katherine Yang": 158
+      },
+      "2019-03-23": {
+        "total": 222,
+        "Adam Guo": 122,
+        "Katherine Yang": 100
+      },
+      "2019-03-24": {
+        "total": 161,
+        "Adam Guo": 89,
+        "Katherine Yang": 72
+      },
+      "2019-03-25": {
+        "total": 446,
+        "Adam Guo": 253,
+        "Katherine Yang": 193
+      },
+      "2019-03-26": {
+        "total": 1064,
+        "Adam Guo": 573,
+        "Katherine Yang": 491
+      },
+      "2019-03-27": {
+        "total": 321,
+        "Adam Guo": 175,
+        "Katherine Yang": 146
+      },
+      "2019-03-28": {
+        "total": 469,
+        "Adam Guo": 264,
+        "Katherine Yang": 205
+      },
+      "2019-03-29": {
+        "total": 300,
+        "Adam Guo": 157,
+        "Katherine Yang": 143
+      },
+      "2019-03-30": {
+        "total": 372,
+        "Adam Guo": 193,
+        "Katherine Yang": 179
+      },
+      "2019-03-31": {
+        "total": 307,
+        "Adam Guo": 167,
+        "Katherine Yang": 140
+      },
+      "2019-04-01": {
+        "total": 483,
+        "Adam Guo": 275,
+        "Katherine Yang": 208
+      },
+      "2019-04-02": {
+        "total": 384,
+        "Adam Guo": 207,
+        "Katherine Yang": 177
+      },
+      "2019-04-03": {
+        "total": 407,
+        "Adam Guo": 225,
+        "Katherine Yang": 182
+      },
+      "2019-04-04": {
+        "total": 450,
+        "Adam Guo": 243,
+        "Katherine Yang": 207
+      },
+      "2019-04-05": {
+        "total": 562,
+        "Adam Guo": 286,
+        "Katherine Yang": 276
+      },
+      "2019-04-06": {
+        "total": 341,
+        "Adam Guo": 185,
+        "Katherine Yang": 156
+      },
+      "2019-04-07": {
+        "total": 544,
+        "Adam Guo": 290,
+        "Katherine Yang": 254
+      },
+      "2019-04-08": {
+        "total": 401,
+        "Adam Guo": 221,
+        "Katherine Yang": 180
+      },
+      "2019-04-09": {
+        "total": 476,
+        "Adam Guo": 266,
+        "Katherine Yang": 210
+      },
+      "2019-04-10": {
+        "total": 584,
+        "Adam Guo": 306,
+        "Katherine Yang": 278
+      },
+      "2019-04-11": {
+        "total": 355,
+        "Adam Guo": 196,
+        "Katherine Yang": 159
+      },
+      "2019-04-12": {
+        "total": 509,
+        "Adam Guo": 274,
+        "Katherine Yang": 235
+      },
+      "2019-04-13": {
+        "total": 531,
+        "Adam Guo": 266,
+        "Katherine Yang": 265
+      },
+      "2019-04-14": {
+        "total": 180,
+        "Adam Guo": 102,
+        "Katherine Yang": 78
+      },
+      "2019-04-15": {
+        "total": 462,
+        "Adam Guo": 252,
+        "Katherine Yang": 210
+      },
+      "2019-04-16": {
+        "total": 311,
+        "Adam Guo": 161,
+        "Katherine Yang": 150
+      },
+      "2019-04-17": {
+        "total": 458,
+        "Adam Guo": 254,
+        "Katherine Yang": 204
+      },
+      "2019-04-18": {
+        "total": 459,
+        "Adam Guo": 258,
+        "Katherine Yang": 201
+      },
+      "2019-04-19": {
+        "total": 504,
+        "Adam Guo": 280,
+        "Katherine Yang": 224
+      },
+      "2019-04-20": {
+        "total": 400,
+        "Adam Guo": 208,
+        "Katherine Yang": 192
+      },
+      "2019-04-21": {
+        "total": 976,
+        "Adam Guo": 498,
+        "Katherine Yang": 478
+      },
+      "2019-04-22": {
+        "total": 639,
+        "Adam Guo": 362,
+        "Katherine Yang": 277
+      },
+      "2019-04-23": {
+        "total": 275,
+        "Adam Guo": 150,
+        "Katherine Yang": 125
+      },
+      "2019-04-24": {
+        "total": 512,
+        "Adam Guo": 253,
+        "Katherine Yang": 259
+      },
+      "2019-04-25": {
+        "total": 583,
+        "Adam Guo": 318,
+        "Katherine Yang": 265
+      },
+      "2019-04-26": {
+        "total": 500,
+        "Adam Guo": 261,
+        "Katherine Yang": 239
+      },
+      "2019-04-27": {
+        "total": 487,
+        "Adam Guo": 267,
+        "Katherine Yang": 220
+      },
+      "2019-04-28": {
+        "total": 546,
+        "Adam Guo": 296,
+        "Katherine Yang": 250
+      },
+      "2019-04-29": {
+        "total": 380,
+        "Adam Guo": 217,
+        "Katherine Yang": 163
+      },
+      "2019-04-30": {
+        "total": 264,
+        "Adam Guo": 143,
+        "Katherine Yang": 121
+      },
+      "2019-05-01": {
+        "total": 541,
+        "Adam Guo": 291,
+        "Katherine Yang": 250
+      },
+      "2019-05-02": {
+        "total": 574,
+        "Adam Guo": 310,
+        "Katherine Yang": 264
+      },
+      "2019-05-03": {
+        "total": 291,
+        "Adam Guo": 159,
+        "Katherine Yang": 132
+      },
+      "2019-05-04": {
+        "total": 589,
+        "Adam Guo": 343,
+        "Katherine Yang": 246
+      },
+      "2019-05-05": {
+        "total": 162,
+        "Adam Guo": 93,
+        "Katherine Yang": 69
+      },
+      "2019-05-06": {
+        "total": 382,
+        "Adam Guo": 207,
+        "Katherine Yang": 175
+      },
+      "2019-05-07": {
+        "total": 387,
+        "Adam Guo": 218,
+        "Katherine Yang": 169
+      },
+      "2019-05-08": {
+        "total": 241,
+        "Adam Guo": 131,
+        "Katherine Yang": 110
+      },
+      "2019-05-09": {
+        "total": 470,
+        "Adam Guo": 247,
+        "Katherine Yang": 223
+      },
+      "2019-05-10": {
+        "total": 261,
+        "Adam Guo": 143,
+        "Katherine Yang": 118
+      },
+      "2019-05-11": {
+        "total": 270,
+        "Adam Guo": 144,
+        "Katherine Yang": 126
+      },
+      "2019-05-12": {
+        "total": 405,
+        "Adam Guo": 202,
+        "Katherine Yang": 203
+      },
+      "2019-05-13": {
+        "total": 212,
+        "Adam Guo": 109,
+        "Katherine Yang": 103
+      },
+      "2019-05-14": {
+        "total": 365,
+        "Adam Guo": 186,
+        "Katherine Yang": 179
+      },
+      "2019-05-15": {
+        "total": 429,
+        "Adam Guo": 216,
+        "Katherine Yang": 213
+      },
+      "2019-05-16": {
+        "total": 386,
+        "Adam Guo": 215,
+        "Katherine Yang": 171
+      },
+      "2019-05-17": {
+        "total": 366,
+        "Adam Guo": 198,
+        "Katherine Yang": 168
+      },
+      "2019-05-18": {
+        "total": 237,
+        "Adam Guo": 118,
+        "Katherine Yang": 119
+      },
+      "2019-05-19": {
+        "total": 201,
+        "Adam Guo": 106,
+        "Katherine Yang": 95
+      },
+      "2019-05-20": {
+        "total": 255,
+        "Adam Guo": 134,
+        "Katherine Yang": 121
+      },
+      "2019-05-21": {
+        "total": 233,
+        "Adam Guo": 121,
+        "Katherine Yang": 112
+      },
+      "2019-05-22": {
+        "total": 314,
+        "Adam Guo": 130,
+        "Katherine Yang": 184
+      },
+      "2019-05-23": {
+        "total": 202,
+        "Adam Guo": 102,
+        "Katherine Yang": 100
+      },
+      "2019-05-24": {
+        "total": 272,
+        "Adam Guo": 131,
+        "Katherine Yang": 141
+      },
+      "2019-05-25": {
+        "total": 213,
+        "Adam Guo": 101,
+        "Katherine Yang": 112
+      },
+      "2019-05-26": {
+        "total": 217,
+        "Adam Guo": 121,
+        "Katherine Yang": 96
+      },
+      "2019-05-27": {
+        "total": 140,
+        "Adam Guo": 70,
+        "Katherine Yang": 70
+      },
+      "2019-05-28": {
+        "total": 242,
+        "Adam Guo": 124,
+        "Katherine Yang": 118
+      },
+      "2019-05-29": {
+        "total": 165,
+        "Adam Guo": 92,
+        "Katherine Yang": 73
+      },
+      "2019-05-30": {
+        "total": 288,
+        "Adam Guo": 135,
+        "Katherine Yang": 153
+      },
+      "2019-05-31": {
+        "total": 161,
+        "Adam Guo": 87,
+        "Katherine Yang": 74
+      },
+      "2019-06-01": {
+        "total": 145,
+        "Adam Guo": 77,
+        "Katherine Yang": 68
+      },
+      "2019-06-02": {
+        "total": 305,
+        "Adam Guo": 151,
+        "Katherine Yang": 154
+      },
+      "2019-06-03": {
+        "total": 306,
+        "Adam Guo": 163,
+        "Katherine Yang": 143
+      },
+      "2019-06-04": {
+        "total": 209,
+        "Adam Guo": 106,
+        "Katherine Yang": 103
+      },
+      "2019-06-05": {
+        "total": 185,
+        "Adam Guo": 88,
+        "Katherine Yang": 97
+      },
+      "2019-06-06": {
+        "total": 410,
+        "Adam Guo": 216,
+        "Katherine Yang": 194
+      },
+      "2019-06-07": {
+        "total": 290,
+        "Adam Guo": 143,
+        "Katherine Yang": 147
+      },
+      "2019-06-08": {
+        "total": 392,
+        "Adam Guo": 184,
+        "Katherine Yang": 208
+      },
+      "2019-06-09": {
+        "total": 442,
+        "Adam Guo": 222,
+        "Katherine Yang": 220
+      },
+      "2019-06-10": {
+        "total": 99,
+        "Adam Guo": 57,
+        "Katherine Yang": 42
+      },
+      "2019-06-11": {
+        "total": 685,
+        "Adam Guo": 379,
+        "Katherine Yang": 306
+      },
+      "2019-06-12": {
+        "total": 421,
+        "Adam Guo": 222,
+        "Katherine Yang": 199
+      },
+      "2019-06-13": {
+        "total": 438,
+        "Adam Guo": 236,
+        "Katherine Yang": 202
+      },
+      "2019-06-14": {
+        "total": 325,
+        "Adam Guo": 183,
+        "Katherine Yang": 142
+      },
+      "2019-06-15": {
+        "total": 407,
+        "Adam Guo": 210,
+        "Katherine Yang": 197
+      },
+      "2019-06-16": {
+        "total": 690,
+        "Adam Guo": 351,
+        "Katherine Yang": 339
+      },
+      "2019-06-17": {
+        "total": 889,
+        "Adam Guo": 479,
+        "Katherine Yang": 410
+      },
+      "2019-06-18": {
+        "total": 279,
+        "Adam Guo": 161,
+        "Katherine Yang": 118
+      },
+      "2019-06-19": {
+        "total": 270,
+        "Adam Guo": 135,
+        "Katherine Yang": 135
+      },
+      "2019-06-20": {
+        "total": 600,
+        "Adam Guo": 332,
+        "Katherine Yang": 268
+      },
+      "2019-06-21": {
+        "total": 454,
+        "Adam Guo": 271,
+        "Katherine Yang": 183
+      },
+      "2019-06-22": {
+        "total": 279,
+        "Adam Guo": 154,
+        "Katherine Yang": 125
+      },
+      "2019-06-23": {
+        "total": 350,
+        "Adam Guo": 220,
+        "Katherine Yang": 130
+      },
+      "2019-06-24": {
+        "total": 267,
+        "Adam Guo": 151,
+        "Katherine Yang": 116
+      },
+      "2019-06-25": {
+        "total": 388,
+        "Adam Guo": 208,
+        "Katherine Yang": 180
+      },
+      "2019-06-26": {
+        "total": 274,
+        "Adam Guo": 158,
+        "Katherine Yang": 116
+      },
+      "2019-06-27": {
+        "total": 487,
+        "Adam Guo": 269,
+        "Katherine Yang": 218
+      },
+      "2019-06-28": {
+        "total": 421,
+        "Adam Guo": 259,
+        "Katherine Yang": 162
+      },
+      "2019-07-09": {
+        "total": 98,
+        "Adam Guo": 50,
+        "Katherine Yang": 48
+      },
+      "2019-07-10": {
+        "total": 354,
+        "Adam Guo": 181,
+        "Katherine Yang": 173
+      },
+      "2019-07-11": {
+        "total": 403,
+        "Adam Guo": 203,
+        "Katherine Yang": 200
+      },
+      "2019-07-12": {
+        "total": 354,
+        "Adam Guo": 204,
+        "Katherine Yang": 150
+      },
+      "2019-07-13": {
+        "total": 322,
+        "Adam Guo": 177,
+        "Katherine Yang": 145
+      },
+      "2019-07-14": {
+        "total": 501,
+        "Adam Guo": 264,
+        "Katherine Yang": 237
+      },
+      "2019-07-15": {
+        "total": 322,
+        "Adam Guo": 180,
+        "Katherine Yang": 142
+      },
+      "2019-07-16": {
+        "total": 280,
+        "Adam Guo": 168,
+        "Katherine Yang": 112
+      },
+      "2019-07-17": {
+        "total": 357,
+        "Adam Guo": 199,
+        "Katherine Yang": 158
+      },
+      "2019-07-18": {
+        "total": 377,
+        "Adam Guo": 201,
+        "Katherine Yang": 176
+      },
+      "2019-07-19": {
+        "total": 327,
+        "Adam Guo": 175,
+        "Katherine Yang": 152
+      },
+      "2019-07-20": {
+        "total": 385,
+        "Adam Guo": 201,
+        "Katherine Yang": 184
+      },
+      "2019-07-21": {
+        "total": 203,
+        "Adam Guo": 95,
+        "Katherine Yang": 108
+      },
+      "2019-07-22": {
+        "total": 392,
+        "Adam Guo": 219,
+        "Katherine Yang": 173
+      },
+      "2019-07-23": {
+        "total": 315,
+        "Adam Guo": 161,
+        "Katherine Yang": 154
+      },
+      "2019-07-24": {
+        "total": 555,
+        "Adam Guo": 294,
+        "Katherine Yang": 261
+      },
+      "2019-07-25": {
+        "total": 226,
+        "Adam Guo": 126,
+        "Katherine Yang": 100
+      },
+      "2019-07-26": {
+        "total": 228,
+        "Adam Guo": 113,
+        "Katherine Yang": 115
+      },
+      "2019-07-27": {
+        "total": 511,
+        "Adam Guo": 254,
+        "Katherine Yang": 257
+      },
+      "2019-07-28": {
+        "total": 289,
+        "Adam Guo": 149,
+        "Katherine Yang": 140
+      },
+      "2019-07-29": {
+        "total": 402,
+        "Adam Guo": 229,
+        "Katherine Yang": 173
+      },
+      "2019-07-30": {
+        "total": 183,
+        "Adam Guo": 98,
+        "Katherine Yang": 85
+      },
+      "2019-07-31": {
+        "total": 193,
+        "Adam Guo": 104,
+        "Katherine Yang": 89
+      },
+      "2019-08-01": {
+        "total": 433,
+        "Adam Guo": 222,
+        "Katherine Yang": 211
+      },
+      "2019-08-02": {
+        "total": 194,
+        "Adam Guo": 91,
+        "Katherine Yang": 103
+      },
+      "2019-08-03": {
+        "total": 245,
+        "Adam Guo": 120,
+        "Katherine Yang": 125
+      },
+      "2019-08-04": {
+        "total": 515,
+        "Adam Guo": 249,
+        "Katherine Yang": 266
+      },
+      "2019-08-05": {
+        "total": 346,
+        "Adam Guo": 183,
+        "Katherine Yang": 163
+      },
+      "2019-08-06": {
+        "total": 151,
+        "Adam Guo": 81,
+        "Katherine Yang": 70
+      },
+      "2019-08-07": {
+        "total": 162,
+        "Adam Guo": 93,
+        "Katherine Yang": 69
+      },
+      "2019-08-08": {
+        "total": 111,
+        "Adam Guo": 65,
+        "Katherine Yang": 46
+      },
+      "2019-08-09": {
+        "total": 212,
+        "Adam Guo": 118,
+        "Katherine Yang": 94
+      },
+      "2019-08-10": {
+        "total": 458,
+        "Adam Guo": 224,
+        "Katherine Yang": 234
+      },
+      "2019-08-11": {
+        "total": 267,
+        "Adam Guo": 151,
+        "Katherine Yang": 116
+      },
+      "2019-08-12": {
+        "total": 444,
+        "Adam Guo": 229,
+        "Katherine Yang": 215
+      },
+      "2019-08-13": {
+        "total": 373,
+        "Adam Guo": 188,
+        "Katherine Yang": 185
+      },
+      "2019-08-14": {
+        "total": 405,
+        "Adam Guo": 202,
+        "Katherine Yang": 203
+      },
+      "2019-08-15": {
+        "total": 233,
+        "Adam Guo": 129,
+        "Katherine Yang": 104
+      },
+      "2019-08-16": {
+        "total": 288,
+        "Adam Guo": 160,
+        "Katherine Yang": 128
+      },
+      "2019-08-17": {
+        "total": 395,
+        "Adam Guo": 185,
+        "Katherine Yang": 210
+      },
+      "2019-08-18": {
+        "total": 326,
+        "Adam Guo": 174,
+        "Katherine Yang": 152
+      },
+      "2019-08-19": {
+        "total": 467,
+        "Adam Guo": 250,
+        "Katherine Yang": 217
+      },
+      "2019-08-20": {
+        "total": 182,
+        "Adam Guo": 94,
+        "Katherine Yang": 88
+      },
+      "2019-08-21": {
+        "total": 494,
+        "Adam Guo": 260,
+        "Katherine Yang": 234
+      },
+      "2019-08-22": {
+        "total": 310,
+        "Adam Guo": 174,
+        "Katherine Yang": 136
+      },
+      "2019-08-23": {
+        "total": 224,
+        "Adam Guo": 108,
+        "Katherine Yang": 116
+      },
+      "2019-08-24": {
+        "total": 231,
+        "Adam Guo": 124,
+        "Katherine Yang": 107
+      },
+      "2019-08-25": {
+        "total": 404,
+        "Adam Guo": 209,
+        "Katherine Yang": 195
+      },
+      "2019-08-26": {
+        "total": 259,
+        "Adam Guo": 133,
+        "Katherine Yang": 126
+      },
+      "2019-08-27": {
+        "total": 244,
+        "Adam Guo": 126,
+        "Katherine Yang": 118
+      },
+      "2019-08-28": {
+        "total": 339,
+        "Adam Guo": 180,
+        "Katherine Yang": 159
+      },
+      "2019-08-29": {
+        "total": 654,
+        "Adam Guo": 334,
+        "Katherine Yang": 320
+      },
+      "2019-08-30": {
+        "total": 277,
+        "Adam Guo": 140,
+        "Katherine Yang": 137
+      },
+      "2019-08-31": {
+        "total": 347,
+        "Adam Guo": 178,
+        "Katherine Yang": 169
+      },
+      "2019-09-01": {
+        "total": 415,
+        "Adam Guo": 229,
+        "Katherine Yang": 186
+      },
+      "2019-09-02": {
+        "total": 149,
+        "Adam Guo": 75,
+        "Katherine Yang": 74
+      },
+      "2019-09-03": {
+        "total": 399,
+        "Adam Guo": 211,
+        "Katherine Yang": 188
+      },
+      "2019-09-04": {
+        "total": 276,
+        "Adam Guo": 153,
+        "Katherine Yang": 123
+      },
+      "2019-09-05": {
+        "total": 337,
+        "Adam Guo": 172,
+        "Katherine Yang": 165
+      },
+      "2019-09-06": {
+        "total": 169,
+        "Adam Guo": 85,
+        "Katherine Yang": 84
+      },
+      "2019-09-07": {
+        "total": 263,
+        "Adam Guo": 128,
+        "Katherine Yang": 135
+      },
+      "2019-09-08": {
+        "total": 315,
+        "Adam Guo": 182,
+        "Katherine Yang": 133
+      },
+      "2019-09-09": {
+        "total": 463,
+        "Adam Guo": 256,
+        "Katherine Yang": 207
+      },
+      "2019-09-10": {
+        "total": 303,
+        "Adam Guo": 173,
+        "Katherine Yang": 130
+      },
+      "2019-09-11": {
+        "total": 400,
+        "Adam Guo": 210,
+        "Katherine Yang": 190
+      },
+      "2019-09-12": {
+        "total": 345,
+        "Adam Guo": 193,
+        "Katherine Yang": 152
+      },
+      "2019-09-13": {
+        "total": 138,
+        "Adam Guo": 76,
+        "Katherine Yang": 62
+      },
+      "2019-09-14": {
+        "total": 100,
+        "Adam Guo": 44,
+        "Katherine Yang": 56
+      },
+      "2019-09-16": {
+        "total": 5,
+        "Adam Guo": 4,
+        "Katherine Yang": 1
+      },
+      "2019-09-17": {
+        "total": 614,
+        "Adam Guo": 315,
+        "Katherine Yang": 299
+      },
+      "2019-09-18": {
+        "total": 164,
+        "Adam Guo": 77,
+        "Katherine Yang": 87
+      },
+      "2019-09-19": {
+        "total": 222,
+        "Adam Guo": 123,
+        "Katherine Yang": 99
+      },
+      "2019-09-20": {
+        "total": 188,
+        "Adam Guo": 92,
+        "Katherine Yang": 96
+      },
+      "2019-09-21": {
+        "total": 130,
+        "Adam Guo": 64,
+        "Katherine Yang": 66
+      },
+      "2019-09-22": {
+        "total": 140,
+        "Adam Guo": 79,
+        "Katherine Yang": 61
+      },
+      "2019-09-23": {
+        "total": 248,
+        "Adam Guo": 127,
+        "Katherine Yang": 121
+      },
+      "2019-09-24": {
+        "total": 316,
+        "Adam Guo": 175,
+        "Katherine Yang": 141
+      },
+      "2019-09-25": {
+        "total": 199,
+        "Adam Guo": 100,
+        "Katherine Yang": 99
+      },
+      "2019-09-26": {
+        "total": 275,
+        "Adam Guo": 140,
+        "Katherine Yang": 135
+      },
+      "2019-09-27": {
+        "total": 173,
+        "Adam Guo": 85,
+        "Katherine Yang": 88
+      },
+      "2019-09-28": {
+        "total": 252,
+        "Adam Guo": 108,
+        "Katherine Yang": 144
+      },
+      "2019-09-29": {
+        "total": 30,
+        "Adam Guo": 15,
+        "Katherine Yang": 15
+      },
+      "2019-09-30": {
+        "total": 292,
+        "Adam Guo": 159,
+        "Katherine Yang": 133
+      },
+      "2019-10-01": {
+        "total": 344,
+        "Adam Guo": 200,
+        "Katherine Yang": 144
+      },
+      "2019-10-02": {
+        "total": 415,
+        "Adam Guo": 221,
+        "Katherine Yang": 194
+      },
+      "2019-10-03": {
+        "total": 265,
+        "Adam Guo": 139,
+        "Katherine Yang": 126
+      },
+      "2019-10-04": {
+        "total": 376,
+        "Adam Guo": 197,
+        "Katherine Yang": 179
+      },
+      "2019-10-05": {
+        "total": 52,
+        "Adam Guo": 26,
+        "Katherine Yang": 26
+      },
+      "2019-10-06": {
+        "total": 234,
+        "Adam Guo": 127,
+        "Katherine Yang": 107
+      },
+      "2019-10-07": {
+        "total": 462,
+        "Adam Guo": 264,
+        "Katherine Yang": 198
+      },
+      "2019-10-08": {
+        "total": 412,
+        "Adam Guo": 203,
+        "Katherine Yang": 209
+      },
+      "2019-10-09": {
+        "total": 237,
+        "Adam Guo": 133,
+        "Katherine Yang": 104
+      },
+      "2019-10-10": {
+        "total": 235,
+        "Adam Guo": 119,
+        "Katherine Yang": 116
+      },
+      "2019-10-11": {
+        "total": 262,
+        "Adam Guo": 133,
+        "Katherine Yang": 129
+      },
+      "2019-10-12": {
+        "total": 57,
+        "Adam Guo": 24,
+        "Katherine Yang": 33
+      },
+      "2019-10-13": {
+        "total": 460,
+        "Adam Guo": 236,
+        "Katherine Yang": 224
+      },
+      "2019-10-14": {
+        "total": 224,
+        "Adam Guo": 125,
+        "Katherine Yang": 99
+      },
+      "2019-10-15": {
+        "total": 530,
+        "Adam Guo": 252,
+        "Katherine Yang": 278
+      },
+      "2019-10-16": {
+        "total": 292,
+        "Adam Guo": 151,
+        "Katherine Yang": 141
+      },
+      "2019-10-17": {
+        "total": 286,
+        "Adam Guo": 150,
+        "Katherine Yang": 136
+      },
+      "2019-10-18": {
+        "total": 37,
+        "Adam Guo": 18,
+        "Katherine Yang": 19
+      },
+      "2019-10-19": {
+        "total": 2,
+        "Adam Guo": 1,
+        "Katherine Yang": 1
+      },
+      "2019-10-21": {
+        "total": 37,
+        "Adam Guo": 15,
+        "Katherine Yang": 22
+      },
+      "2019-10-22": {
+        "total": 44,
+        "Adam Guo": 20,
+        "Katherine Yang": 24
+      },
+      "2019-10-23": {
+        "total": 323,
+        "Adam Guo": 167,
+        "Katherine Yang": 156
+      },
+      "2019-10-24": {
+        "total": 418,
+        "Adam Guo": 224,
+        "Katherine Yang": 194
+      },
+      "2019-10-25": {
+        "total": 305,
+        "Adam Guo": 154,
+        "Katherine Yang": 151
+      },
+      "2019-10-26": {
+        "total": 238,
+        "Adam Guo": 125,
+        "Katherine Yang": 113
+      },
+      "2019-10-27": {
+        "total": 289,
+        "Adam Guo": 146,
+        "Katherine Yang": 143
+      },
+      "2019-10-28": {
+        "total": 382,
+        "Adam Guo": 210,
+        "Katherine Yang": 172
+      },
+      "2019-10-29": {
+        "total": 306,
+        "Adam Guo": 156,
+        "Katherine Yang": 150
+      },
+      "2019-10-30": {
+        "total": 307,
+        "Adam Guo": 164,
+        "Katherine Yang": 143
+      },
+      "2019-10-31": {
+        "total": 323,
+        "Adam Guo": 163,
+        "Katherine Yang": 160
+      },
+      "2019-11-01": {
+        "total": 194,
+        "Adam Guo": 101,
+        "Katherine Yang": 93
+      },
+      "2019-11-02": {
+        "total": 109,
+        "Adam Guo": 63,
+        "Katherine Yang": 46
+      },
+      "2019-11-03": {
+        "total": 222,
+        "Adam Guo": 132,
+        "Katherine Yang": 90
+      },
+      "2019-11-04": {
+        "total": 435,
+        "Adam Guo": 246,
+        "Katherine Yang": 189
+      },
+      "2019-11-05": {
+        "total": 544,
+        "Adam Guo": 315,
+        "Katherine Yang": 229
+      },
+      "2019-11-06": {
+        "total": 255,
+        "Adam Guo": 141,
+        "Katherine Yang": 114
+      },
+      "2019-11-07": {
+        "total": 166,
+        "Adam Guo": 91,
+        "Katherine Yang": 75
+      },
+      "2019-11-08": {
+        "total": 246,
+        "Adam Guo": 131,
+        "Katherine Yang": 115
+      },
+      "2019-11-09": {
+        "total": 37,
+        "Adam Guo": 15,
+        "Katherine Yang": 22
+      },
+      "2019-11-10": {
+        "total": 219,
+        "Adam Guo": 113,
+        "Katherine Yang": 106
+      },
+      "2019-11-11": {
+        "total": 481,
+        "Adam Guo": 252,
+        "Katherine Yang": 229
+      },
+      "2019-11-12": {
+        "total": 466,
+        "Adam Guo": 258,
+        "Katherine Yang": 208
+      },
+      "2019-11-13": {
+        "total": 415,
+        "Adam Guo": 217,
+        "Katherine Yang": 198
+      },
+      "2019-11-14": {
+        "total": 207,
+        "Adam Guo": 107,
+        "Katherine Yang": 100
+      },
+      "2019-11-15": {
+        "total": 225,
+        "Adam Guo": 125,
+        "Katherine Yang": 100
+      },
+      "2019-11-16": {
+        "total": 120,
+        "Adam Guo": 53,
+        "Katherine Yang": 67
+      },
+      "2019-11-17": {
+        "total": 2,
+        "Adam Guo": 2,
+        "Katherine Yang": 0
+      },
+      "2019-11-18": {
+        "total": 236,
+        "Adam Guo": 128,
+        "Katherine Yang": 108
+      },
+      "2019-11-19": {
+        "total": 651,
+        "Adam Guo": 357,
+        "Katherine Yang": 294
+      },
+      "2019-11-20": {
+        "total": 211,
+        "Adam Guo": 112,
+        "Katherine Yang": 99
+      },
+      "2019-11-21": {
+        "total": 352,
+        "Adam Guo": 206,
+        "Katherine Yang": 146
+      },
+      "2019-11-22": {
+        "total": 123,
+        "Adam Guo": 72,
+        "Katherine Yang": 51
+      },
+      "2019-11-23": {
+        "total": 165,
+        "Adam Guo": 98,
+        "Katherine Yang": 67
+      },
+      "2019-11-24": {
+        "total": 204,
+        "Adam Guo": 117,
+        "Katherine Yang": 87
+      },
+      "2019-11-25": {
+        "total": 323,
+        "Adam Guo": 170,
+        "Katherine Yang": 153
+      },
+      "2019-11-26": {
+        "total": 258,
+        "Adam Guo": 119,
+        "Katherine Yang": 139
+      },
+      "2019-11-29": {
+        "total": 6,
+        "Adam Guo": 4,
+        "Katherine Yang": 2
+      },
+      "2019-12-02": {
+        "total": 305,
+        "Adam Guo": 171,
+        "Katherine Yang": 134
+      },
+      "2019-12-03": {
+        "total": 165,
+        "Adam Guo": 87,
+        "Katherine Yang": 78
+      },
+      "2019-12-04": {
+        "total": 72,
+        "Adam Guo": 42,
+        "Katherine Yang": 30
+      },
+      "2019-12-05": {
+        "total": 211,
+        "Adam Guo": 117,
+        "Katherine Yang": 94
+      },
+      "2019-12-06": {
+        "total": 267,
+        "Adam Guo": 132,
+        "Katherine Yang": 135
+      },
+      "2019-12-07": {
+        "total": 185,
+        "Adam Guo": 83,
+        "Katherine Yang": 102
+      },
+      "2019-12-08": {
+        "total": 66,
+        "Adam Guo": 32,
+        "Katherine Yang": 34
+      },
+      "2019-12-09": {
+        "total": 391,
+        "Adam Guo": 233,
+        "Katherine Yang": 158
+      },
+      "2019-12-10": {
+        "total": 364,
+        "Adam Guo": 187,
+        "Katherine Yang": 177
+      },
+      "2019-12-11": {
+        "total": 264,
+        "Adam Guo": 131,
+        "Katherine Yang": 133
+      },
+      "2019-12-12": {
+        "total": 192,
+        "Adam Guo": 106,
+        "Katherine Yang": 86
+      },
+      "2019-12-13": {
+        "total": 380,
+        "Adam Guo": 204,
+        "Katherine Yang": 176
+      },
+      "2019-12-14": {
+        "total": 296,
+        "Adam Guo": 148,
+        "Katherine Yang": 148
+      },
+      "2019-12-15": {
+        "total": 181,
+        "Adam Guo": 88,
+        "Katherine Yang": 93
+      },
+      "2019-12-16": {
+        "total": 465,
+        "Adam Guo": 245,
+        "Katherine Yang": 220
+      },
+      "2019-12-17": {
+        "total": 423,
+        "Adam Guo": 227,
+        "Katherine Yang": 196
+      },
+      "2019-12-18": {
+        "total": 440,
+        "Adam Guo": 228,
+        "Katherine Yang": 212
+      },
+      "2019-12-19": {
+        "total": 314,
+        "Adam Guo": 176,
+        "Katherine Yang": 138
+      },
+      "2019-12-20": {
+        "total": 182,
+        "Adam Guo": 108,
+        "Katherine Yang": 74
+      },
+      "2019-12-21": {
+        "total": 185,
+        "Adam Guo": 99,
+        "Katherine Yang": 86
+      },
+      "2019-12-22": {
+        "total": 218,
+        "Adam Guo": 114,
+        "Katherine Yang": 104
+      },
+      "2019-12-23": {
+        "total": 120,
+        "Adam Guo": 67,
+        "Katherine Yang": 53
+      },
+      "2019-12-24": {
+        "total": 188,
+        "Adam Guo": 106,
+        "Katherine Yang": 82
+      },
+      "2019-12-25": {
+        "total": 217,
+        "Adam Guo": 115,
+        "Katherine Yang": 102
+      },
+      "2019-12-26": {
+        "total": 680,
+        "Adam Guo": 358,
+        "Katherine Yang": 322
+      },
+      "2019-12-27": {
+        "total": 498,
+        "Adam Guo": 287,
+        "Katherine Yang": 211
+      },
+      "2019-12-28": {
+        "total": 335,
+        "Adam Guo": 161,
+        "Katherine Yang": 174
+      },
+      "2019-12-29": {
+        "total": 301,
+        "Adam Guo": 162,
+        "Katherine Yang": 139
+      },
+      "2019-12-30": {
+        "total": 257,
+        "Adam Guo": 122,
+        "Katherine Yang": 135
+      },
+      "2019-12-31": {
+        "total": 391,
+        "Adam Guo": 211,
+        "Katherine Yang": 180
+      },
+      "2020-01-01": {
+        "total": 193,
+        "Adam Guo": 105,
+        "Katherine Yang": 88
+      },
+      "2020-01-02": {
+        "total": 219,
+        "Adam Guo": 105,
+        "Katherine Yang": 114
+      },
+      "2020-01-03": {
+        "total": 122,
+        "Adam Guo": 66,
+        "Katherine Yang": 56
+      },
+      "2020-01-04": {
+        "total": 212,
+        "Adam Guo": 116,
+        "Katherine Yang": 96
+      },
+      "2020-01-05": {
+        "total": 191,
+        "Adam Guo": 94,
+        "Katherine Yang": 97
+      },
+      "2020-01-06": {
+        "total": 162,
+        "Adam Guo": 83,
+        "Katherine Yang": 79
+      },
+      "2020-01-07": {
+        "total": 187,
+        "Adam Guo": 95,
+        "Katherine Yang": 92
+      },
+      "2020-01-08": {
+        "total": 401,
+        "Adam Guo": 192,
+        "Katherine Yang": 209
+      },
+      "2020-01-09": {
+        "total": 364,
+        "Adam Guo": 181,
+        "Katherine Yang": 183
+      },
+      "2020-01-10": {
+        "total": 157,
+        "Adam Guo": 90,
+        "Katherine Yang": 67
+      },
+      "2020-01-11": {
+        "total": 286,
+        "Adam Guo": 146,
+        "Katherine Yang": 140
+      },
+      "2020-01-12": {
+        "total": 269,
+        "Adam Guo": 139,
+        "Katherine Yang": 130
+      },
+      "2020-01-13": {
+        "total": 276,
+        "Adam Guo": 135,
+        "Katherine Yang": 141
+      },
+      "2020-01-14": {
+        "total": 349,
+        "Adam Guo": 190,
+        "Katherine Yang": 159
+      },
+      "2020-01-15": {
+        "total": 362,
+        "Adam Guo": 197,
+        "Katherine Yang": 165
+      },
+      "2020-01-16": {
+        "total": 320,
+        "Adam Guo": 160,
+        "Katherine Yang": 160
+      },
+      "2020-01-17": {
+        "total": 213,
+        "Adam Guo": 94,
+        "Katherine Yang": 119
+      },
+      "2020-01-18": {
+        "total": 342,
+        "Adam Guo": 181,
+        "Katherine Yang": 161
+      },
+      "2020-01-19": {
+        "total": 185,
+        "Adam Guo": 99,
+        "Katherine Yang": 86
+      },
+      "2020-01-20": {
+        "total": 112,
+        "Adam Guo": 46,
+        "Katherine Yang": 66
+      },
+      "2020-01-21": {
+        "total": 388,
+        "Adam Guo": 197,
+        "Katherine Yang": 191
+      },
+      "2020-01-22": {
+        "total": 315,
+        "Adam Guo": 167,
+        "Katherine Yang": 148
+      },
+      "2020-01-23": {
+        "total": 97,
+        "Adam Guo": 48,
+        "Katherine Yang": 49
+      },
+      "2020-01-24": {
+        "total": 262,
+        "Adam Guo": 132,
+        "Katherine Yang": 130
+      },
+      "2020-01-25": {
+        "total": 41,
+        "Adam Guo": 17,
+        "Katherine Yang": 24
+      },
+      "2020-01-26": {
+        "total": 260,
+        "Adam Guo": 139,
+        "Katherine Yang": 121
+      },
+      "2020-01-27": {
+        "total": 427,
+        "Adam Guo": 209,
+        "Katherine Yang": 218
+      },
+      "2020-01-28": {
+        "total": 415,
+        "Adam Guo": 241,
+        "Katherine Yang": 174
+      },
+      "2020-01-29": {
+        "total": 196,
+        "Adam Guo": 90,
+        "Katherine Yang": 106
+      },
+      "2020-01-30": {
+        "total": 200,
+        "Adam Guo": 115,
+        "Katherine Yang": 85
+      },
+      "2020-01-31": {
+        "total": 315,
+        "Adam Guo": 147,
+        "Katherine Yang": 168
+      },
+      "2020-02-01": {
+        "total": 311,
+        "Adam Guo": 157,
+        "Katherine Yang": 154
+      },
+      "2020-02-02": {
+        "total": 120,
+        "Adam Guo": 64,
+        "Katherine Yang": 56
+      },
+      "2020-02-03": {
+        "total": 291,
+        "Adam Guo": 127,
+        "Katherine Yang": 164
+      },
+      "2020-02-04": {
+        "total": 135,
+        "Adam Guo": 77,
+        "Katherine Yang": 58
+      },
+      "2020-02-05": {
+        "total": 299,
+        "Adam Guo": 158,
+        "Katherine Yang": 141
+      },
+      "2020-02-06": {
+        "total": 174,
+        "Adam Guo": 90,
+        "Katherine Yang": 84
+      },
+      "2020-02-07": {
+        "total": 170,
+        "Adam Guo": 89,
+        "Katherine Yang": 81
+      },
+      "2020-02-08": {
+        "total": 104,
+        "Adam Guo": 52,
+        "Katherine Yang": 52
+      },
+      "2020-02-09": {
+        "total": 79,
+        "Adam Guo": 39,
+        "Katherine Yang": 40
+      },
+      "2020-02-10": {
+        "total": 312,
+        "Adam Guo": 166,
+        "Katherine Yang": 146
+      },
+      "2020-02-11": {
+        "total": 134,
+        "Adam Guo": 65,
+        "Katherine Yang": 69
+      },
+      "2020-02-12": {
+        "total": 434,
+        "Adam Guo": 228,
+        "Katherine Yang": 206
+      },
+      "2020-02-13": {
+        "total": 137,
+        "Adam Guo": 70,
+        "Katherine Yang": 67
+      },
+      "2020-02-14": {
+        "total": 206,
+        "Adam Guo": 97,
+        "Katherine Yang": 109
+      },
+      "2020-02-15": {
+        "total": 21,
+        "Adam Guo": 11,
+        "Katherine Yang": 10
+      },
+      "2020-02-16": {
+        "total": 240,
+        "Adam Guo": 135,
+        "Katherine Yang": 105
+      },
+      "2020-02-17": {
+        "total": 361,
+        "Adam Guo": 200,
+        "Katherine Yang": 161
+      },
+      "2020-02-18": {
+        "total": 226,
+        "Adam Guo": 110,
+        "Katherine Yang": 116
+      },
+      "2020-02-19": {
+        "total": 172,
+        "Adam Guo": 96,
+        "Katherine Yang": 76
+      },
+      "2020-02-20": {
+        "total": 193,
+        "Adam Guo": 100,
+        "Katherine Yang": 93
+      },
+      "2020-02-21": {
+        "total": 184,
+        "Adam Guo": 95,
+        "Katherine Yang": 89
+      },
+      "2020-02-22": {
+        "total": 244,
+        "Adam Guo": 128,
+        "Katherine Yang": 116
+      },
+      "2020-02-23": {
+        "total": 494,
+        "Adam Guo": 245,
+        "Katherine Yang": 249
+      },
+      "2020-02-24": {
+        "total": 193,
+        "Adam Guo": 103,
+        "Katherine Yang": 90
+      },
+      "2020-02-25": {
+        "total": 241,
+        "Adam Guo": 125,
+        "Katherine Yang": 116
+      },
+      "2020-02-26": {
+        "total": 218,
+        "Adam Guo": 123,
+        "Katherine Yang": 95
+      },
+      "2020-02-27": {
+        "total": 313,
+        "Adam Guo": 152,
+        "Katherine Yang": 161
+      },
+      "2020-02-28": {
+        "total": 174,
+        "Adam Guo": 81,
+        "Katherine Yang": 93
+      },
+      "2020-02-29": {
+        "total": 31,
+        "Adam Guo": 15,
+        "Katherine Yang": 16
+      },
+      "2020-03-01": {
+        "total": 138,
+        "Adam Guo": 86,
+        "Katherine Yang": 52
+      },
+      "2020-03-02": {
+        "total": 324,
+        "Adam Guo": 174,
+        "Katherine Yang": 150
+      },
+      "2020-03-03": {
+        "total": 218,
+        "Adam Guo": 104,
+        "Katherine Yang": 114
+      },
+      "2020-03-04": {
+        "total": 169,
+        "Adam Guo": 90,
+        "Katherine Yang": 79
+      },
+      "2020-03-05": {
+        "total": 186,
+        "Adam Guo": 100,
+        "Katherine Yang": 86
+      },
+      "2020-03-06": {
+        "total": 216,
+        "Adam Guo": 123,
+        "Katherine Yang": 93
+      },
+      "2020-03-07": {
+        "total": 395,
+        "Adam Guo": 220,
+        "Katherine Yang": 175
+      },
+      "2020-03-08": {
+        "total": 102,
+        "Adam Guo": 54,
+        "Katherine Yang": 48
+      },
+      "2020-03-09": {
+        "total": 499,
+        "Adam Guo": 268,
+        "Katherine Yang": 231
+      },
+      "2020-03-10": {
+        "total": 197,
+        "Adam Guo": 113,
+        "Katherine Yang": 84
+      },
+      "2020-03-11": {
+        "total": 373,
+        "Adam Guo": 188,
+        "Katherine Yang": 185
+      },
+      "2020-03-12": {
+        "total": 294,
+        "Adam Guo": 148,
+        "Katherine Yang": 146
+      },
+      "2020-03-13": {
+        "total": 178,
+        "Adam Guo": 89,
+        "Katherine Yang": 89
+      },
+      "2020-03-14": {
+        "total": 350,
+        "Adam Guo": 167,
+        "Katherine Yang": 183
+      },
+      "2020-03-15": {
+        "total": 279,
+        "Adam Guo": 153,
+        "Katherine Yang": 126
+      },
+      "2020-03-16": {
+        "total": 295,
+        "Adam Guo": 135,
+        "Katherine Yang": 160
+      },
+      "2020-03-17": {
+        "total": 495,
+        "Adam Guo": 253,
+        "Katherine Yang": 242
+      },
+      "2020-03-18": {
+        "total": 237,
+        "Adam Guo": 115,
+        "Katherine Yang": 122
+      },
+      "2020-03-19": {
+        "total": 345,
+        "Adam Guo": 199,
+        "Katherine Yang": 146
+      },
+      "2020-03-20": {
+        "total": 149,
+        "Adam Guo": 89,
+        "Katherine Yang": 60
+      },
+      "2020-03-21": {
+        "total": 242,
+        "Adam Guo": 114,
+        "Katherine Yang": 128
+      }
+    },
+    "2019-03": {
+      "2019-03-01": {
+        "total": 391,
+        "Adam Guo": 225,
+        "Katherine Yang": 166
+      },
+      "2019-03-02": {
+        "total": 205,
+        "Adam Guo": 104,
+        "Katherine Yang": 101
+      },
+      "2019-03-03": {
+        "total": 197,
+        "Adam Guo": 113,
+        "Katherine Yang": 84
+      },
+      "2019-03-04": {
+        "total": 511,
+        "Adam Guo": 272,
+        "Katherine Yang": 239
+      },
+      "2019-03-05": {
+        "total": 348,
+        "Adam Guo": 210,
+        "Katherine Yang": 138
+      },
+      "2019-03-06": {
+        "total": 246,
+        "Adam Guo": 129,
+        "Katherine Yang": 117
+      },
+      "2019-03-07": {
+        "total": 279,
+        "Adam Guo": 154,
+        "Katherine Yang": 125
+      },
+      "2019-03-08": {
+        "total": 498,
+        "Adam Guo": 258,
+        "Katherine Yang": 240
+      },
+      "2019-03-09": {
+        "total": 457,
+        "Adam Guo": 259,
+        "Katherine Yang": 198
+      },
+      "2019-03-10": {
+        "total": 395,
+        "Adam Guo": 223,
+        "Katherine Yang": 172
+      },
+      "2019-03-11": {
+        "total": 508,
+        "Adam Guo": 285,
+        "Katherine Yang": 223
+      },
+      "2019-03-12": {
+        "total": 319,
+        "Adam Guo": 187,
+        "Katherine Yang": 132
+      },
+      "2019-03-13": {
+        "total": 275,
+        "Adam Guo": 152,
+        "Katherine Yang": 123
+      },
+      "2019-03-14": {
+        "total": 268,
+        "Adam Guo": 144,
+        "Katherine Yang": 124
+      },
+      "2019-03-15": {
+        "total": 424,
+        "Adam Guo": 247,
+        "Katherine Yang": 177
+      },
+      "2019-03-16": {
+        "total": 205,
+        "Adam Guo": 108,
+        "Katherine Yang": 97
+      },
+      "2019-03-17": {
+        "total": 36,
+        "Adam Guo": 18,
+        "Katherine Yang": 18
+      },
+      "2019-03-19": {
+        "total": 274,
+        "Adam Guo": 159,
+        "Katherine Yang": 115
+      },
+      "2019-03-20": {
+        "total": 329,
+        "Adam Guo": 189,
+        "Katherine Yang": 140
+      },
+      "2019-03-21": {
+        "total": 377,
+        "Adam Guo": 200,
+        "Katherine Yang": 177
+      },
+      "2019-03-22": {
+        "total": 348,
+        "Adam Guo": 190,
+        "Katherine Yang": 158
+      },
+      "2019-03-23": {
+        "total": 222,
+        "Adam Guo": 122,
+        "Katherine Yang": 100
+      },
+      "2019-03-24": {
+        "total": 161,
+        "Adam Guo": 89,
+        "Katherine Yang": 72
+      },
+      "2019-03-25": {
+        "total": 446,
+        "Adam Guo": 253,
+        "Katherine Yang": 193
+      },
+      "2019-03-26": {
+        "total": 1064,
+        "Adam Guo": 573,
+        "Katherine Yang": 491
+      },
+      "2019-03-27": {
+        "total": 321,
+        "Adam Guo": 175,
+        "Katherine Yang": 146
+      },
+      "2019-03-28": {
+        "total": 469,
+        "Adam Guo": 264,
+        "Katherine Yang": 205
+      },
+      "2019-03-29": {
+        "total": 300,
+        "Adam Guo": 157,
+        "Katherine Yang": 143
+      },
+      "2019-03-30": {
+        "total": 372,
+        "Adam Guo": 193,
+        "Katherine Yang": 179
+      },
+      "2019-03-31": {
+        "total": 307,
+        "Adam Guo": 167,
+        "Katherine Yang": 140
+      }
+    }
+  },
+  "messages_by_month": {
+    "2018-07-01": {
+      "total": 974,
+      "Adam Guo": 465,
+      "Katherine Yang": 509
+    },
+    "2018-08-01": {
+      "total": 8226,
+      "Adam Guo": 4092,
+      "Katherine Yang": 4134
+    },
+    "2018-09-01": {
+      "total": 9754,
+      "Adam Guo": 4932,
+      "Katherine Yang": 4822
+    },
+    "2018-10-01": {
+      "total": 7745,
+      "Adam Guo": 3864,
+      "Katherine Yang": 3881
+    },
+    "2018-11-01": {
+      "total": 7618,
+      "Adam Guo": 4045,
+      "Katherine Yang": 3573
+    },
+    "2018-12-01": {
+      "total": 7345,
+      "Adam Guo": 3808,
+      "Katherine Yang": 3537
+    },
+    "2019-01-01": {
+      "total": 7631,
+      "Adam Guo": 4119,
+      "Katherine Yang": 3512
+    },
+    "2019-02-01": {
+      "total": 10163,
+      "Adam Guo": 5482,
+      "Katherine Yang": 4681
+    },
+    "2019-03-01": {
+      "total": 10552,
+      "Adam Guo": 5819,
+      "Katherine Yang": 4733
+    },
+    "2019-04-01": {
+      "total": 13963,
+      "Adam Guo": 7520,
+      "Katherine Yang": 6443
+    },
+    "2019-05-01": {
+      "total": 9471,
+      "Adam Guo": 4984,
+      "Katherine Yang": 4487
+    },
+    "2019-06-01": {
+      "total": 10707,
+      "Adam Guo": 5785,
+      "Katherine Yang": 4922
+    },
+    "2019-07-01": {
+      "total": 7577,
+      "Adam Guo": 4045,
+      "Katherine Yang": 3532
+    },
+    "2019-08-01": {
+      "total": 9990,
+      "Adam Guo": 5174,
+      "Katherine Yang": 4816
+    },
+    "2019-09-01": {
+      "total": 7320,
+      "Adam Guo": 3850,
+      "Katherine Yang": 3470
+    },
+    "2019-10-01": {
+      "total": 8154,
+      "Adam Guo": 4263,
+      "Katherine Yang": 3891
+    },
+    "2019-11-01": {
+      "total": 6872,
+      "Adam Guo": 3745,
+      "Katherine Yang": 3127
+    },
+    "2019-12-01": {
+      "total": 8553,
+      "Adam Guo": 4547,
+      "Katherine Yang": 4006
+    },
+    "2020-01-01": {
+      "total": 7838,
+      "Adam Guo": 4016,
+      "Katherine Yang": 3822
+    },
+    "2020-02-01": {
+      "total": 6211,
+      "Adam Guo": 3198,
+      "Katherine Yang": 3013
+    },
+    "2020-03-01": {
+      "total": 5681,
+      "Adam Guo": 2982,
+      "Katherine Yang": 2699
+    }
+  },
+  "top_punctuation": {
+    "^^": {
+      "total": 854,
+      "Adam Guo": 776,
+      "Katherine Yang": 78,
+      "share": 0.82
+    },
+    ":))))": {
+      "total": 363,
+      "Adam Guo": 293,
+      "Katherine Yang": 70,
+      "share": 0.61
+    },
+    "???": {
+      "total": 194,
+      "Adam Guo": 155,
+      "Katherine Yang": 39,
+      "share": 0.6
+    },
+    ":)))))": {
+      "total": 148,
+      "Adam Guo": 117,
+      "Katherine Yang": 31,
+      "share": 0.58
+    },
+    "!!!!!": {
+      "total": 99,
+      "Adam Guo": 78,
+      "Katherine Yang": 21,
+      "share": 0.58
+    },
+    "!!!!": {
+      "total": 172,
+      "Adam Guo": 128,
+      "Katherine Yang": 44,
+      "share": 0.49
+    },
+    "://": {
+      "total": 331,
+      "Adam Guo": 233,
+      "Katherine Yang": 98,
+      "share": 0.41
+    },
+    "!!!": {
+      "total": 843,
+      "Adam Guo": 590,
+      "Katherine Yang": 253,
+      "share": 0.4
+    },
+    ":((": {
+      "total": 336,
+      "Adam Guo": 229,
+      "Katherine Yang": 107,
+      "share": 0.36
+    },
+    ":)))": {
+      "total": 893,
+      "Adam Guo": 598,
+      "Katherine Yang": 295,
+      "share": 0.34
+    },
+    ":<": {
+      "total": 110,
+      "Adam Guo": 73,
+      "Katherine Yang": 37,
+      "share": 0.33
+    },
+    ":(": {
+      "total": 737,
+      "Adam Guo": 452,
+      "Katherine Yang": 285,
+      "share": 0.23
+    },
+    ":///": {
+      "total": 113,
+      "Adam Guo": 69,
+      "Katherine Yang": 44,
+      "share": 0.22
+    },
+    ":))": {
+      "total": 3884,
+      "Adam Guo": 2305,
+      "Katherine Yang": 1579,
+      "share": 0.19
+    },
+    ":|": {
+      "total": 353,
+      "Adam Guo": 210,
+      "Katherine Yang": 143,
+      "share": 0.19
+    },
+    "!!": {
+      "total": 3213,
+      "Adam Guo": 1868,
+      "Katherine Yang": 1345,
+      "share": 0.16
+    },
+    ",": {
+      "total": 5519,
+      "Adam Guo": 3162,
+      "Katherine Yang": 2357,
+      "share": 0.15
+    },
+    ":": {
+      "total": 2048,
+      "Adam Guo": 1165,
+      "Katherine Yang": 883,
+      "share": 0.14
+    },
+    "$": {
+      "total": 213,
+      "Adam Guo": 120,
+      "Katherine Yang": 93,
+      "share": 0.13
+    },
+    "..": {
+      "total": 307,
+      "Adam Guo": 167,
+      "Katherine Yang": 140,
+      "share": 0.09
+    },
+    "\ud83d\ude0e": {
+      "total": 125,
+      "Adam Guo": 68,
+      "Katherine Yang": 57,
+      "share": 0.09
+    },
+    "^": {
+      "total": 109,
+      "Adam Guo": 59,
+      "Katherine Yang": 50,
+      "share": 0.08
+    },
+    "??": {
+      "total": 541,
+      "Adam Guo": 284,
+      "Katherine Yang": 257,
+      "share": 0.05
+    },
+    "?": {
+      "total": 13859,
+      "Adam Guo": 7194,
+      "Katherine Yang": 6665,
+      "share": 0.04
+    },
+    ":)": {
+      "total": 7260,
+      "Adam Guo": 3712,
+      "Katherine Yang": 3548,
+      "share": 0.02
+    },
+    "-": {
+      "total": 1063,
+      "Adam Guo": 544,
+      "Katherine Yang": 519,
+      "share": 0.02
+    },
+    "...": {
+      "total": 509,
+      "Adam Guo": 253,
+      "Katherine Yang": 256,
+      "share": -0.01
+    },
+    ";": {
+      "total": 142,
+      "Adam Guo": 70,
+      "Katherine Yang": 72,
+      "share": -0.01
+    },
+    "'": {
+      "total": 30142,
+      "Adam Guo": 14527,
+      "Katherine Yang": 15615,
+      "share": -0.04
+    },
+    "!": {
+      "total": 11961,
+      "Adam Guo": 5750,
+      "Katherine Yang": 6211,
+      "share": -0.04
+    },
+    "\u2026": {
+      "total": 697,
+      "Adam Guo": 331,
+      "Katherine Yang": 366,
+      "share": -0.05
+    },
+    "<": {
+      "total": 109,
+      "Adam Guo": 52,
+      "Katherine Yang": 57,
+      "share": -0.05
+    },
+    "/": {
+      "total": 1203,
+      "Adam Guo": 544,
+      "Katherine Yang": 659,
+      "share": -0.1
+    },
+    "+": {
+      "total": 288,
+      "Adam Guo": 128,
+      "Katherine Yang": 160,
+      "share": -0.11
+    },
+    "\"\"": {
+      "total": 168,
+      "Adam Guo": 75,
+      "Katherine Yang": 93,
+      "share": -0.11
+    },
+    "()": {
+      "total": 207,
+      "Adam Guo": 90,
+      "Katherine Yang": 117,
+      "share": -0.13
+    },
+    "\n": {
+      "total": 179,
+      "Adam Guo": 77,
+      "Katherine Yang": 102,
+      "share": -0.14
+    },
+    "=": {
+      "total": 104,
+      "Adam Guo": 39,
+      "Katherine Yang": 65,
+      "share": -0.25
+    },
+    "\"": {
+      "total": 716,
+      "Adam Guo": 264,
+      "Katherine Yang": 452,
+      "share": -0.26
+    },
+    ")": {
+      "total": 735,
+      "Adam Guo": 239,
+      "Katherine Yang": 496,
+      "share": -0.35
+    },
+    "(": {
+      "total": 859,
+      "Adam Guo": 277,
+      "Katherine Yang": 582,
+      "share": -0.36
+    },
+    "\ud83d\ude0c": {
+      "total": 103,
+      "Adam Guo": 33,
+      "Katherine Yang": 70,
+      "share": -0.36
+    },
+    ".": {
+      "total": 2466,
+      "Adam Guo": 709,
+      "Katherine Yang": 1757,
+      "share": -0.42
+    },
+    "*": {
+      "total": 411,
+      "Adam Guo": 108,
+      "Katherine Yang": 303,
+      "share": -0.47
+    },
+    ":/": {
+      "total": 712,
+      "Adam Guo": 180,
+      "Katherine Yang": 532,
+      "share": -0.49
+    },
+    "\ud83d\ude0a\ud83d\ude0a": {
+      "total": 79,
+      "Adam Guo": 19,
+      "Katherine Yang": 60,
+      "share": -0.52
+    },
+    "&": {
+      "total": 87,
+      "Adam Guo": 17,
+      "Katherine Yang": 70,
+      "share": -0.61
+    },
+    "\u2019": {
+      "total": 365,
+      "Adam Guo": 49,
+      "Katherine Yang": 316,
+      "share": -0.73
+    },
+    "\ud83d\ude0a": {
+      "total": 279,
+      "Adam Guo": 22,
+      "Katherine Yang": 257,
+      "share": -0.84
+    },
+    ":')": {
+      "total": 106,
+      "Adam Guo": 6,
+      "Katherine Yang": 100,
+      "share": -0.89
+    }
+  }
+}
