@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Elsewhere
 description: Katherine Yang, creative technologist & digital designer.
 layout: card
 ---
