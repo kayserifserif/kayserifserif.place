@@ -74,7 +74,7 @@ CONTAINER
 	border-radius: 5px;
 	padding: 1em;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.container {
 			padding: 2em;
 		}
@@ -83,7 +83,7 @@ CONTAINER
 .container.card {
 	/* width: calc(100% - 2em); */
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.container.card {
 			width: 55%;
 			padding: 2em 3em;
@@ -93,7 +93,7 @@ CONTAINER
 .container.article {
 	/* width: calc(100% - 2em); */
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.container.article {
 			width: calc(100% - 3em);
 		}
@@ -121,10 +121,10 @@ HEADER
 	justify-content: center;
 	text-align: center;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		#header {
 			grid-template-rows: auto;
-			grid-template-columns: 60px auto 65px;
+			grid-template-columns: 60px auto 135px;
 			grid-template-areas: "logo bio nav";
 			justify-content: stretch;
 		}
@@ -141,7 +141,7 @@ HEADER
 	padding: 0;
 	height: 4em;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.logo {
 			padding-right: 0.5em;
 		}
@@ -154,24 +154,17 @@ HEADER
 .bio {
 	grid-area: bio;
 	line-height: 1;
-	/* margin-top: 1em; */
 	text-align: left;
 }
-	@media (min-width: 650px) {
-		.bio {
-			/* margin-top: 0; */
-		}
-	}
 
 .bio .name {
-	/* display: block; */
 	display: flex;
 	flex-direction: column;
 	margin: -0.35em auto 0.2em;
 	font-size: 1.2em;
 	font-weight: bold;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 1200px) {
 		.bio .name {
 			flex-direction: row;
 			font-size: 2em;
@@ -181,7 +174,7 @@ HEADER
 .bio .english {
 	margin-bottom: .1em;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 1200px) {
 		.bio .english {
 			margin-bottom: none;
 			margin-right: .2em;
@@ -196,12 +189,16 @@ HEADER
 .nav {
 	margin: 1em 0;
 	grid-column: 1 / span 2;
+	display: flex;
+	gap: 1em;
+	justify-content: center;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.nav {
 			margin: 0;
 			text-align: right;
 			grid-column: 3;
+			justify-content: end;
 		}
 	}
 
@@ -225,7 +222,7 @@ WORK
 	background-color: rgba(0,0,0,0.05);
 	text-align: center;
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		.project {
 			margin: 1em;
 			flex-basis: calc(100% / 2 - 2.5em);
@@ -276,7 +273,7 @@ MAIN
 
 main {
 	grid-area: main;
-	padding: 1em 0;
+	padding: 4em 0;
 	overflow: hidden;
 }
 
@@ -326,7 +323,7 @@ article iframe {
 	margin: auto;
 	/* padding: 1em 1em 0 1em; */
 }
-	@media (min-width: 650px) {
+	@media (min-width: 800px) {
 		article .two img {
 			max-width: calc(50% - 1.15em);
 			padding-top: 1em;
