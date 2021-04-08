@@ -12,6 +12,6 @@ I love making imaginative and thoughtful media that engages people, tells storie
 
 I’m also passionate about accessibility, urbanism, environmentalism, internet culture, and science communication.
 
-In my personal creative practice, I’m particularly interested in poetic tools and the idea of “move slow; fix things”. Current research interests include: critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech.
+In my personal creative practice, I’m particularly interested in poetic tools and the ethos of “move slow; fix things”. Current research interests include: critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech.
 
 Take a look at my [résumé](/resume/yang-katherine-resume-202102.pdf) <span class="fileInfo">(pdf, 84 kb)</span> and my portfolio to explore my work so far!
