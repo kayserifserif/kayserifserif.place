@@ -15,7 +15,7 @@ English is one of the most widely spoken languages in the world. At the same tim
 A Global Language is an interactive visualisation tool that explores the etymological history of the English language. Where do all the words in English come from, and how do they get here? There are two main goals for this ongoing project: one, to create a more visually engaging and exploratory educational tool about language and etymology; and two, to think about how language evolution parallels developments in world history, and to highlight the variety of world Englishes.
 
 <figure role="group">
-    <img src="/assets/img/a-global-language/python.png" alt="An application window with a teal background and a simple timeline and map" loading="lazy">
+    <img src="/assets/img/a-global-language/python.jpg" alt="An application window with a teal background and a simple timeline and map" loading="lazy">
     <figcaption>The original Python version of the app, using [tkinter](https://docs.python.org/3/library/tkinter.html)</figcaption>
 </figure>
 
