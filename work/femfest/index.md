@@ -4,8 +4,8 @@ title: FemFest
 description: Website and digital experience for FemFest 2021.
 date: 202104
 tags: [code]
-image: /assets/img/femfest/Screenshot 2021-04-04 at 08.38.30.png
-image-square: /assets/img/femfest/Screenshot 2021-04-04 at 08.38.30-square.png
+image: /assets/img/femfest/Screenshot 2021-04-04 at 08.38.30.jpg
+image-square: /assets/img/femfest/Screenshot 2021-04-04 at 08.38.30-square.jpg
 image-alt: Colourful gradient background with faux windows on top, including a Twitch stream and a Twitch chat.
 platforms: [["https://femfest.online", "Website"], ["https://topia.io/femfest", "Virtual Topia space"]]
 ---
