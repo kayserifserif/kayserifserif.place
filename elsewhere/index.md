@@ -4,6 +4,8 @@ description: Katherine Yang, creative technologist & digital designer.
 layout: card
 ---
 
+[Press] “The long-anticipated 2021 FemFest exceeds expectations”, [USC Annenberg Media](https://www.uscannenbergmedia.com/2021/04/09/the-long-anticipated-2021-femfest-exceeds-expectations/), 9 April 2021.
+
 [Press] “FemFest stuns audience with virtual performances”, [Daily Trojan](https://dailytrojan.com/2021/04/05/femfest-stuns-audience-with-virtual-performances/), 5 April 2021.
 
 [Publication] uselessprogram.js, [Backslash Lit, Issue 2: Hex](https://backslashlit.com/issues/2/katherine-yang-uselessprogram), November 2020.
