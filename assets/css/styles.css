@@ -21,7 +21,7 @@ html {
 
 body {
   margin: 0;
-  padding: 3em 0;
+  padding: 1em 0;
   min-height: 100%;
   display: flex;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -33,7 +33,7 @@ body {
 }
   @media (min-width: 800px) {
     body {
-      padding: 4em 0;
+      padding: 2em 0;
     }
   }
 
@@ -273,7 +273,7 @@ MAIN
 
 main {
   grid-area: main;
-  padding: 4em 0;
+  padding: 2em 0;
   overflow: hidden;
 }
 
