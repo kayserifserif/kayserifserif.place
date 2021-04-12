@@ -1,6 +1,6 @@
 ---
 title: Epistles
-description: Initial explorations of the data story of a friendship
+description: Initial explorations of the data story of a friendship.
 date: 202003
 tags: [code, data]
 image: /assets/img/epistles/punctuation.png
