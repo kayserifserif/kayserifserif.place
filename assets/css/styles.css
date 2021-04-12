@@ -103,7 +103,7 @@ CONTAINER
 HEADER
 ****/
 
-#header {
+.header {
 	grid-area: header;
 	display: grid;
 	/* grid-template-columns: auto; */
@@ -122,7 +122,7 @@ HEADER
 	text-align: center;
 }
 	@media (min-width: 800px) {
-		#header {
+		.header {
 			grid-template-rows: auto;
 			grid-template-columns: 60px auto 135px;
 			grid-template-areas: "logo bio nav";
@@ -130,8 +130,8 @@ HEADER
 		}
 	}
 
-#header a[href="/"],
-#footer a {
+.header a[href="/"],
+.footer a {
 	border: 0;
 }
 
@@ -472,24 +472,22 @@ RESUME
 FOOTER
 ****/
 
-#footer {
+.footer {
 	grid-area: footer;
 	text-align: center;
+}
+
+.footer__text {
+	margin-bottom: 2em;
 }
 
 .platforms {
 	display: flex;
 	justify-content: center;
-	margin: 0.5em 0;
 	text-align: center;
 }
-	@media (min-width: 1200px) {
-		.platforms {
-			margin: 0 auto;
-		}
-	}
 
-#header nav a,
+.header nav a,
 .platforms a {
 	display: inline-block;
 }
