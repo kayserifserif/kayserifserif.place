@@ -4,6 +4,8 @@ description: Katherine Yang, creative technologist & digital designer.
 layout: card
 ---
 
+[Exhibition] ["freeFall future.text - escaping or excavating platforms"\(https://hasgeek.com/ajaibghar/freefall-future-text/), in collaboration with [Steffi Che](https://steffiche.com), with [dra.ft](https://dra-ft.site/) at [ELO 2021](https://eliterature.org/elo2021/). 28 May 2021.
+
 [Press] “The long-anticipated 2021 FemFest exceeds expectations”, [USC Annenberg Media](https://www.uscannenbergmedia.com/2021/04/09/the-long-anticipated-2021-femfest-exceeds-expectations/), 9 April 2021.
 
 [Press] “FemFest stuns audience with virtual performances”, [Daily Trojan](https://dailytrojan.com/2021/04/05/femfest-stuns-audience-with-virtual-performances/), 5 April 2021.
