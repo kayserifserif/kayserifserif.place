@@ -4,14 +4,8 @@ description: Katherine Yang, creative technologist.
 layout: card
 ---
 
-Hi! I’m Katherine. I’m a creative technologist interested in designing and developing for interactive or experiential media.
+Hi! I'm Katherine. I'm a creative technologist creating poetic tools in the pursuit of soft tech. Born in Hong Kong and raised in a Shanghainese family, I am currently a senior at the University of Southern California, where I gather different theories and practices in a hodgepodge of media arts, computer programming, and linguistics. My favourite mottos include "move slow and fix things" and "don't tell the poets".
 
-Hailing from Hong Kong, with roots in Shanghai, I’m currently a senior Media Arts + Practice student in the School of Cinematic Arts at the University of Southern California in Los Angeles, where we study and make critical new media. I’m also minoring in computer programming and linguistics, two fields that inspire and inform my creative work. 
-
-I love making imaginative and thoughtful media that engages people, tells stories, and explores ideas in interesting ways. On the creative side, I’ve had experience in graphic design, information design, print design, film and animation, 3D, branding, and marketing. On the technical side, I enjoy working as a front-end web designer/developer in <abbr>HTML/CSS</abbr> and JavaScript, as a developer in Python, Java, and C++, as a data scientist and visualiser in R, and a computational artist in Processing.
-
-I’m also passionate about accessibility, urbanism, environmentalism, internet culture, and science communication.
-
-In my personal creative practice, I’m particularly interested in poetic tools and the ethos of “move slow; fix things”. Current research interests include: critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech.
+My research interests include critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech. My works have included codeworks, handmade websites, electronic literature, and data visualisation.
 
 Take a look at my [résumé](/resume/yang-katherine-resume-202111.pdf) <span class="fileInfo">(pdf, 83 kb)</span> and my portfolio to explore my work so far!
