@@ -1,6 +1,6 @@
 ---
 title: Elsewhere
-description: Katherine Yang, creative technologist & digital designer.
+description: Katherine Yang, creative technologist.
 layout: card
 ---
 

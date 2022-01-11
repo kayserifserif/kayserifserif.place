@@ -1,5 +1,5 @@
 name: Katherine Yang
-description: Personal website and portfolio of Katherine Yang, digital designer.
+description: Personal website and portfolio of Katherine Yang, creative technologist.
 author: Katherine Yang
 author_email: whykatherine@gmail.com
 github_username: whykatherine
@@ -9,6 +9,7 @@ links:
   - https://github.com/whykatherine
   - https://www.instagram.com/kayserifserif
   - https://www.linkedin.com/in/whykatherine
+  - https://www.twitter.com/bookwormgirl910
 lang: en_GB
 plugins:
   - jekyll-seo-tag
