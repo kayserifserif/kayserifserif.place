@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Coem
-description: A poetic programming language.
+description: A programming language to make poetry purposeful and code emotional.
 date: 202204
 tags: [code, language]
 image: /assets/img/coem/reminder.png
