@@ -2,11 +2,175 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Katherine Yang</title>
   <link rel="stylesheet" href="styles.css">
-	<script src="https://d3js.org/d3.v6.min.js"></script>
+
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 </head>
 <body>
-	<div id="diagram" class="diagram"></div>
+  <!-- <aside class="about">
+    <button class="about--button" id="aboutBtn">
+      <svg class="about--icon">
+        <circle cx="10" cy="10" r="9" />
+        <text x="8" y="16">i</text>
+      </svg>
+    </button>
+    <div class="about--content hidden" id="aboutContent">
+      <h2>About this site</h2>
+      <p>Lorem ipsum</p>
+    </div>
+  </aside> -->
+  <header class="header">
+    <h1 class="title">Katherine Yang</h1>
+    <p class="subtitle">creative technologist</p>
+  </header>
+  <div class="bio">
+    <p>Hi :) I’m a creative technologist interested in designing and developing for interactive or experiential media.</p>
+    <p>Born and raised in Hong Kong with roots in Shanghai, I’m currently a fourth-year Media Arts + Practice student in the USC School of Cinematic Arts, minoring in computer programming and linguistics.</p>
+    <p>I love making imaginative and thoughtful media that engages people, tells stories, and explores ideas in interesting ways.</p>
+    <p>I’m also passionate about accessibility, urbanism, environmentalism, and internet culture.</p>
+    <p>In my personal creative practice, I’m particularly interested in poetic tools and the ethos of “move slow; fix things”. Current research interests include: critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech.</p>
+  </div>
+  <main>
+    <object data="output/archive1.gv.svg" type="image/svg+xml" id="diagram"></object>
+    <div class="category">
+      <object data="professional.svg" type="image/svg+xml" class="category-header"></object>
+      <dl class="category-projects">
+        <div class="project">
+          <dt class="project-title">Fine Art Asia<sup class="footnote-num">1</sup></dt>
+          <dd class="project-theme">Chinese culture</dd>
+          <dd class="project-theme">visual art</dd>
+          <div class="project-description hidden">
+            <span class="close">Close</span>
+            <p>Camera-based interactive brand installation for Fine Art Asia.</p>
+            <p>Filed under:
+              <p>—Chinese culture.</p>
+              <p>—Visual art. See also: Aesclepius.</p>
+            </p>
+          </div>
+        </div>
+        <!-- <div class="project">
+          <dt class="project-title">Distant Destinations</dt>
+          <dd class="project-theme">education</dd>
+          <dd class="project-theme">play</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">FemFest 2021</dt>
+          <dd class="project-theme">music</dd>
+          <dd class="project-theme">media</dd>
+          <dd class="project-theme">social justice</dd>
+          <dd class="project-theme">community</dd>
+        </div> -->
+      </dl>
+    </div>
+    <div class="category">
+      <object data="personal.svg" type="image/svg+xml" class="category-header"></object>
+      <dl class="category-projects">
+        <div class="project">
+          <dt class="project-title">A Global Language</dt>
+          <dd class="project-theme">language</dd>
+          <dd class="project-theme">connection</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Waking and Sleeping</dt>
+          <dd class="project-theme">connection</dd>
+          <dd class="project-theme">emotion</dd>
+          <dd class="project-theme">poetic tech</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Hyperlinked Narratives</dt>
+          <dd class="project-theme">literature</dd>
+          <dd class="project-theme">play</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Bluebirds</dt>
+          <dd class="project-theme">digital culture</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Let’s Get Granular</dt>
+          <dd class="project-theme">digital culture</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="category">
+      <object data="experimental.svg" type="image/svg+xml" class="category-header"></object>
+      <dl class="category-projects">
+        <div class="project">
+          <dt class="project-title">uselessprogram.js</dt>
+          <dd class="project-theme">poetic tech</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">takes no arguments</dt>
+          <dd class="project-theme">poetic tech</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Stream of Consciousness</dt>
+          <dd class="project-theme">poetic tech</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Emotions Poem</dt>
+          <dd class="project-theme">poetic tech</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">secret secret</dt>
+          <dd class="project-theme">poetic tech</dd>
+          <dd class="project-theme">emotion</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">It All Started with the Simpsons</dt>
+          <dd class="project-theme">fandom</dd>
+          <dd class="project-theme">media</dd>
+        </div>
+      </dl>
+    </div>
+    <div class="category">
+      <object data="work-in-progress.svg" type="image/svg+xml" class="category-header"></object>
+      <dl class="category-projects">
+        <div class="project">
+          <dt class="project-title">Aesclepius: A Timeline of Dream Journals</dt>
+          <dd class="project-theme">emotion</dd>
+          <dd class="project-theme">visual art</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Build Your Bookshelf</dt>
+          <dd class="project-theme">literature</dd>
+          <dd class="project-theme">identity</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Archaeological Dig(ital)</dt>
+          <dd class="project-theme">digital culture</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Creative Code Collective</dt>
+          <dd class="project-theme">community</dd>
+          <dd class="project-theme">education</dd>
+        </div>
+        <div class="project">
+          <dt class="project-title">Community References</dt>
+          <dd class="project-theme">media</dd>
+          <dd class="project-theme">fandom</dd>
+        </div>
+      </dl>
+    </div>
+  </main>
+  <footer>
+    <ul class="links">
+      <li><a href="https://instagram.com/kayserifserif">Instagram</a></li>
+      <li><a href="https://github.com/whykatherine">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/whykatherine">LinkedIn</a></li>
+    </ul>
+    <!-- <div class="colophon">
+      <p>Names: Yang, Katherine, author.</p>
+      <p>Title: Katherine Yang / by Katherine Yang.</p>
+      <p>Description: Personal website and portfolio. | Hong Kong : Katherine Yang, 2021. Includes bibliographical references.</p>
+      <p>Identifiers: https://whykatherine.github.io (website)</p>
+      <p>Subjects: Bibliography—Personal bibliography.</p>
+      <p>Classification: LCC Z8001 | DDC 012</p>
+      <p>This website was developed on a 2015 MacBook Pro using Sublime Text.</p>
+      <p>It is set in Big Caslon by Matthew Carter, 1994.</p>
+    </div> -->
+  </footer>
   <script src="scripts.js"></script>
 </body>
 </html>
