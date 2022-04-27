@@ -4,7 +4,7 @@ description: Katherine Yang, creative technologist.
 layout: card
 ---
 
-[Event] ["Coem: A Poetic Programming Laanguage"](https://www.elo2022.com/), Electronic Literature Organization. 30 May 2022.
+[Event] ["Coem: A Poetic Programming Language"](https://www.elo2022.com/), Electronic Literature Organization. 30 May 2022.
 
 [Event] ["Fall Speaker Series: Esoteric Programming Languages"](https://01780572652976273811.googlegroups.com/attach/882a8e313d283/Esolangtalk.jpeg?part=0.1&view=1&vt=ANaJVrE4Naiz9fUFEsFiQAk3IQtLVFoPP5gSOy8fvP_NFQPOjJ0LnJErsTYQo-zqpcm5WOEUR1MankFwh3ZkCzk-amn0cww-_t-9JdnfjekhpJrHwpCsjkE), USC Humanities and Critical Code Studies Lab. 16 December 2021.
 
