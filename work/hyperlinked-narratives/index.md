@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Hyperlinked Narratives
-description: A Wikipedia-based narrative tool.
+description: A Wikipedia-based game or tool inspired by Mad Libs.
 date: 201902
 tags: [code, language]
 image: /assets/img/hyperlinked-narratives/4-filled.png
