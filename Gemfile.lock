@@ -67,6 +67,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-seo-tag
+  jekyll-watch
   webrick (~> 1.7)
 
 BUNDLED WITH
