@@ -153,14 +153,18 @@ HEADER
     }
   }
 
-.logo:hover {
+/* .logo:hover {
   fill: var(--accentColor);
-}
+} */
 
 .bio {
   grid-area: bio;
   line-height: 1;
   text-align: left;
+}
+
+.bio a:hover {
+  color: currentColor;
 }
 
 .bio .name {
