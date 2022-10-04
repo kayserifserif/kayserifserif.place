@@ -20,6 +20,6 @@ layout: card
 
 [Press] “An Interview With Katherine Yang of Waking and Sleeping”, [Console #23](https://console.substack.com/p/console-23), 18 October 2020.
 
-[Event] “Coding with friends with @kayserifserif”, [Coding with Friends](Coding with friends with @kayserifserif), 15 October 2020.
+[Event] “Coding with friends with @kayserifserif”, [Coding with Friends](https://www.youtube.com/watch?v=9-4H2PuZlsU), 15 October 2020.
 
 [Exhibition] [Processing Community Day LA](https://www.instagram.com/p/B9H7Iodhygz/), 29 February 2020.

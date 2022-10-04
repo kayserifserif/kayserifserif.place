@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Waking and Sleeping
-description: '"Good morning" and "good night" tweets, mapped in real-time.'
+description: '“Good morning” and “good night” tweets, mapped in real-time.'
 date: 202010
 tags: [code, ui/ux]
 image: /assets/img/waking-and-sleeping/desktop.jpg
