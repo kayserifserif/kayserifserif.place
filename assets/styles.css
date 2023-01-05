@@ -85,9 +85,31 @@ p {
 /* header */
 
 header {
-  max-width: 800px;
-  margin: 0 auto 50px;
+  position: absolute;
+  width: 800px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
 }
+  @media (max-width: 1200px) {
+    header {
+      position: static;
+      width: unset;
+      max-width: 800px;
+      text-align: left;
+      transform: unset;
+      margin: 0 auto 50px;
+    }
+  }
+
+header a {
+  margin-left: -120%;
+}
+  @media (max-width: 1200px) {
+    header a {
+      margin-left: 0;
+    }
+  }
 
 .logo {
   height: 36px;
