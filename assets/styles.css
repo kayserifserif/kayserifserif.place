@@ -41,6 +41,7 @@ h5,
 h6 {
   font-size: 1em;
   font-weight: 400;
+  margin: 1.5rem 0;
 }
 
 a,
@@ -74,11 +75,11 @@ ol {
 }
 
 li {
-  margin: 1.5em 0;
+  margin: 1.5rem 0;
 }
 
 p {
-  margin: 1.5em 0;
+  margin: 1.5rem 0;
 }
 
 /* header */
@@ -118,7 +119,7 @@ header {
 
 .intro h1 {
   font-size: 2rem;
-  margin-bottom: 1.5em;
+  margin-bottom: 3rem;
   line-height: 1.2;
 }
 
@@ -135,11 +136,6 @@ header {
   margin-bottom: 2em;
 }
 
-.toc {
-  max-width: 800px;
-  margin: auto;
-}
-
 main {
   margin: 100px auto;
 }
@@ -153,7 +149,7 @@ main {
   margin: auto;
   display: grid;
   grid-template-columns: 50% 50%;
-  gap: 1.5em 2em;
+  gap: 1.5rem 2em;
 }
   @media (max-width: 800px) {
     .columns {
@@ -196,7 +192,7 @@ main li {
 .gallery {
   margin: 100px auto;
   display: flex;
-  gap: 1.5em;
+  gap: 1.5rem;
   justify-content: center;
 }
   @media (max-width: 800px) {

@@ -18,23 +18,18 @@ description: Katherine Yang’s website.
 </div>
 <main>
   <div class="section">
-    <div class="section--body">
-      <div class="toc">
-        <ol>
-          <li><a href="/about">In which the Author introduces herself Properly</a></li>
-          <li><a href="/work">In which Select Projects are Listed</a></li>
-          <li><a href="/assets/resume/yang-katherine-resume-202111.pdf">In which a Résumé is Attached</a> (PDF, 83 KB)</li>
-          <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
-          <li><a href="/lists">In which Lists are Boldly laid out despite the Impossibility of Completeness</a></li>
-          <li><a href="/acknowledgements">In which Friends are Loved and Influences are Cited</a></li>
-        </ol>
-      </div>
-    </div>
+    <ol>
+      <li><a href="/about">In which the Author introduces herself Properly</a></li>
+      <li><a href="/work">In which Select Projects are Listed</a></li>
+      <li><a href="/assets/resume/yang-katherine-resume-202111.pdf">In which a Résumé is Attached</a> (PDF, 83 KB)</li>
+      <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
+      <li><a href="/lists">In which Lists are Boldly laid out despite the Impossibility of Completeness</a></li>
+      <li><a href="/acknowledgements">In which Friends are Loved and Influences are Cited</a></li>
+    </ol>
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY.</h2>
-      <p>Last updated January 4, 2023.</p>
+      <h2>CURRENTLY. (Last updated January 4, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
