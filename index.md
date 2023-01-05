@@ -1,11 +1,72 @@
 ---
-title: Home
-description: Katherine Yang is making things in the pursuit of poetic tech.
-layout: card
+layout: default
+description: Katherine Yang’s website.
 ---
 
-Hi! I'm Katherine. I make things in the pursuit of poetic tech. Born in Hong Kong and raised in a Shanghainese family, I am a recent graduate from the University of Southern California, where I gathered different theories and practices in a hodgepodge of media arts, computer programming, and linguistics. I currently work as a designer and developer at [Fathom Information Design](https://fathom.info/), where I help figure out interesting ways to explore ideas and answer questions through data. My favourite mottos include "move slow and fix things" and "don't tell the poets". (Also, "the machines have learned enough".)
-
-My research interests include critical code studies, internet culture and language, interface aesthetics, electronic literature, and poetic tech. My works have included codeworks, handmade websites, electronic literature, and data visualisations. I am currently in the process of developing [Coem](https://www.coem-lang.org), a poetic programming language.
-
-Take a look at my [résumé](/resume/yang-katherine-resume-202111.pdf) <span class="fileInfo">(pdf, 83 kb)</span> and my portfolio to explore my work so far!
+<div class="intro">
+  <h1 class="name">
+    <div lang="zh">楊立瀅</div>
+    <div>Katherine<br><span class="y">Y</span>ang</div>
+  </h1>
+  <div>
+    <p>
+      Hello, visitor! I’m Katherine.<br>
+      I’m interested in making poetic tools&nbsp;-- tools for poetry and text directly, but also tools that are small and intentional and interesting,<br>
+      like a poem.
+    </p>
+  </div>
+</div>
+<main>
+  <div class="section">
+    <div class="section--body">
+      <div class="toc">
+        <ol>
+          <li><a href="/about">In which the Author introduces herself Properly</a></li>
+          <li><a href="/work">In which Select Projects are Listed</a></li>
+          <li><a href="/assets/resume/yang-katherine-resume-202111.pdf">In which a Résumé is Attached</a> (PDF, 83 KB)</li>
+          <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
+          <li><a href="/lists">In which Lists are Boldly laid out despite the Impossibility of Completeness</a></li>
+          <li><a href="/acknowledgements">In which Friends are Loved and Influences are Cited</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section--header">
+      <h2>CURRENTLY.</h2>
+      <p>Last updated January 4, 2023.</p>
+    </div>
+    <div class="section--body columns">
+      <div class="subsection">
+        <p>(interests)</p>
+        <p>Greek mythology.</p>
+        <p>Knitting.</p>
+        <p>Vulfpeck.</p>
+        <p>Dimension 20.</p>
+      </div>
+      <div class="subsection">
+        <p>(projects)</p>
+        <p>Vanilla socks.</p>
+        <p>Prose Play. A text editor for plurality and ambiguity.</p>
+        <p>Sunday by Sondrat. A generated text that samples from both Stephen Sondheim’s musical and Georges Seurat’s artwork.</p>
+        <p>Git Ponder. Git commands for life.</p>
+      </div>
+      <div class="subsection">
+        <p>(nice things)</p>
+        <p>Standing under a spray of hot water on a cold day.</p>
+        <p>Skating with friends on an outdoor rink to a throwback soundtrack.</p>
+        <p>Warrrrrrm slippers.</p>
+        <p>Fun drinks!</p>
+        <p>Breakfast.</p>
+        <p>A crisp shirt fresh out the dryer.</p>
+      </div>
+      <div class="subsection">
+        <p>(dreams)</p>
+        <p>The ending of the movie.</p>
+        <p>New semester.</p>
+        <p>A survey.</p>
+        <p>Three witches, Alice in Wonderland, and the Trash Dogs.</p>
+      </div>
+    </div>
+  </div>
+</main>
