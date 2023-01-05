@@ -5,11 +5,13 @@
 
 :root {
   font-size: 16px;
+  --spacing: 100px;
 }
 
 @media (max-width: 800px) {
   :root {
     font-size: 14px;
+    --spacing: 50px;
   }
 }
 
@@ -73,6 +75,12 @@ ul,
 ol {
   padding-left: 0;
 }
+  @media (max-width: 800px) {
+    ul,
+    ol {
+      padding-left: 2em;
+    }
+  }
 
 li {
   margin: 1.5rem 0;
@@ -98,20 +106,23 @@ header {
       max-width: 800px;
       text-align: left;
       transform: unset;
-      margin: 0 auto 50px;
+      margin: 0 auto var(--spacing);
     }
   }
 
 header a {
+  margin-top: calc(36px / -8);
   margin-left: -120%;
 }
   @media (max-width: 1200px) {
     header a {
-      margin-left: 0;
+      margin-top: 0;
+      margin-left: calc(36px / -4);
     }
   }
 
 .logo {
+  width: 36px;
   height: 36px;
   fill: #444;
 }
@@ -160,11 +171,11 @@ header a {
 }
 
 main {
-  margin: 100px auto;
+  margin: var(--spacing) auto;
 }
 
 .section + .section {
-  margin-top: 100px;
+  margin-top: var(--spacing);
 }
 
 .columns {
@@ -213,7 +224,7 @@ main li {
 }
 
 .gallery {
-  margin: 100px auto;
+  margin: var(--spacing) auto;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
