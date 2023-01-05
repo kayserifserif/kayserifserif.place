@@ -3,3 +3,4 @@ _site/
 _documentation/
 .DS_Store
 .vscode/
+.bundle
