@@ -52,7 +52,7 @@ description: Katherine Yang’s website.
         <p>Skating with friends on an outdoor rink to a throwback soundtrack.</p>
         <p>Warrrrrrm slippers.</p>
         <p>Fun drinks!</p>
-        <p>Breakfast.</p>
+        <p>Breakfast every morning.</p>
         <p>A crisp shirt fresh out the dryer.</p>
       </div>
       <div class="subsection">
