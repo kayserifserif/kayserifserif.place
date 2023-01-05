@@ -1,0 +1,214 @@
+@font-face {
+  font-family: "Select Mono";
+  src: url("/assets/SelectMono-Italic-da9c.woff");
+}
+
+:root {
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5vw 10vw;
+  margin: auto;
+  font-family: "Select Mono", monospace;
+  line-height: 1.5;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+a,
+a:visited {
+  color: #444;
+}
+
+a:hover {
+  color: #000;
+}
+
+[lang="zh"] {
+  font-family: "Libian TC";
+  font-size: 1.2em;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+  max-height: 800px;
+}
+
+code {
+  font-family: "Select Mono", monospace;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+li {
+  margin: 1.5em 0;
+}
+
+p {
+  margin: 1.5em 0;
+}
+
+/* header */
+
+header {
+  max-width: 800px;
+  margin: 0 auto 50px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  fill: #444;
+}
+
+.logo:hover {
+  fill: #000;
+}
+
+/* */
+
+.intro {
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro h1,
+.intro p {
+  width: 60%;
+}
+  @media (max-width: 800px) {
+    .intro h1,
+    .intro p {
+      width: 100%;
+    }
+  }
+
+.intro h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5em;
+  line-height: 1.2;
+}
+
+.name div + div {
+  margin-top: 0.5em;
+}
+
+.name .y {
+  margin-right: -0.1em;
+}
+
+.intro p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.toc {
+  max-width: 800px;
+  margin: auto;
+}
+
+main {
+  margin: 100px auto;
+}
+
+.section + .section {
+  margin-top: 100px;
+}
+
+.columns {
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1.5em 2em;
+}
+  @media (max-width: 800px) {
+    .columns {
+      grid-template-columns: 100%;
+    }
+  }
+
+main h2,
+main p,
+main li {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lists {
+  font-size: 0.75em;
+}
+
+.lists .section--body {
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+/*  */
+
+.metadata {
+  margin-top: 1.2rem;
+  font-size: 0.75em;
+  line-height: 2;
+}
+
+.metadata div {
+  display: flex;
+}
+
+.metadata dd {
+  margin-left: 1em;
+}
+
+.gallery {
+  margin: 100px auto;
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+}
+  @media (max-width: 800px) {
+    .gallery {
+      flex-direction: column;
+    }
+  }
+
+/*  */
+
+footer {
+  max-width: 800px;
+  margin: auto;
+  font-size: 0.6rem;
+}
