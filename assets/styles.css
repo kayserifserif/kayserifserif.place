@@ -90,7 +90,6 @@ header {
 }
 
 .logo {
-  width: 36px;
   height: 36px;
   fill: #444;
 }
@@ -119,12 +118,14 @@ header {
 
 .intro h1 {
   font-size: 2rem;
+  margin-top: 0;
   margin-bottom: 3rem;
   line-height: 1.2;
 }
 
-.name div + div {
-  margin-top: 0.5em;
+.name [lang="zh"] {
+  margin-top: -0.2em;
+  margin-bottom: 0.5em;
 }
 
 .name .y {
