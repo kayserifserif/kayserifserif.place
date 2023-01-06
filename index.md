@@ -24,7 +24,7 @@ description: Katherine Yang’s website.
       <li>In which a Résumé <s>is</s> Will be Attached</li>
       <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
       <li><a href="/lists">In which Lists are Boldly laid out despite the Impossibility of Completeness</a></li>
-      <li><a href="/acknowledgements">In which Friends are Loved and Influences are Cited</a></li>
+      <li><a href="/dedications">In which Friends are Loved and Influences are Cited</a></li>
     </ol>
   </div>
   <div class="section">
