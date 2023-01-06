@@ -65,8 +65,10 @@ description: To some of the people and things that shape me and my work.
         <p>Sappho.</p>
         <p>Mary Oliver.</p>
         <p>Oulipo.</p>
+        <p><a href="http://luckysoap.com/">J. R. Carpenter</a>.</p>
         <p><a href="https://www.instagram.com/katejbaer/">Kate Baer</a>.</p>
         <p><a href="https://www.decontextualize.com/">Allison Parrish</a>.</p>
+        <p><a href="https://toddwords.com/">Todd Anderson</a>.</p>
         <p><a href="https://lizadaly.com/">Liza Daly</a>.</p>
         <p><a href="https://nickm.com/">Nick Montfort</a>.</p>
         <p><a href="https://danieltemkin.com/">Daniel Temkin</a>.</p>
