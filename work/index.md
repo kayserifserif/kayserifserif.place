@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Work
-description: Selected projects that are completed, or at least good enough.
+description: Select projects.
 ---
 
 <div class="intro">
   <h1>Work</h1>
   <div>
-    <p>Selected projects that are completed, or at least good enough.</p>
+    <p>Select projects.</p>
   </div>
 </div>
 <main>
