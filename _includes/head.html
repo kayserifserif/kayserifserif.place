@@ -3,34 +3,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/styles.css">
   
-  {% if page.title %}
-  <title>{{ page.title }} | Katherine Yang</title>
-  {% else %}
-  <title>Katherine Yang</title>
-  {% endif %}
-  <meta name="description" content="{{ page.description }}">
+  {% if page.title %}<title>{{ page.title }} | Katherine Yang</title>{% else %}<title>Katherine Yang</title>{% endif %}
+
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f96262">
-	<meta name="theme-color" content="#fff">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f96262">
+  <meta name="theme-color" content="#fff">
 
-  <meta property="og:title" content="{{ page.title }}" />
-  <meta property="og:description" content="{{ page.description }}." />
-  {% if page.image %}
-  <meta property="og:image" content="{{ page.image }}" />
-  {% endif %}
+  {% if page.title %}<meta property="og:title" content="{{ page.title }} | Katherine Yang" />{% else %}<meta property="og:title" content="Katherine Yang" />{% endif %}
+  {% if page.description %}<meta property="og:description" content="{{ page.description }}" />{% endif %}
+  {% if page.image %}<meta property="og:image" content="{{ page.image }}" />{% endif %}
 
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}.">
-  {% if page.image %}
-  <meta name="twitter:image" content="{{ page.image }}">
-  {% endif %}
-  {% if page.image %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
+  {% if page.title %}<meta name="twitter:title" content="{{ page.title }} | Katherine Yang">{% else %}<meta name="twitter:title" content="Katherine Yang">{% endif %}
+  {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% endif %}
+  {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+  {% if page.image %}<meta name="twitter:card" content="summary_large_image">{% else %}<meta name="twitter:card" content="summary">{% endif %}
 </head>
