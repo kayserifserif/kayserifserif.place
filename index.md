@@ -23,7 +23,6 @@ description: Katherine Yang’s website.
       <li><a href="/work">In which Select Projects are Listed</a></li>
       <li><a href="/assets/resume/yang-katherine-resume-202301.pdf">In which a Résumé is Attached</a> (PDF, 82 kb)</li>
       <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
-      <li><a href="/lists">In which Lists are Boldly laid out despite the Impossibility of Completeness</a></li>
       <li><a href="/dedications">In which Friends are Loved and Influences are Cited</a></li>
     </ol>
   </div>
@@ -48,17 +47,17 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>Standing under a spray of hot water on a cold day.</p>
-        <p>Skating with friends on an outdoor rink to a throwback soundtrack.</p>
-        <p>Warrrrrrm slippers.</p>
-        <p>Fun drinks!</p>
-        <p>Breakfast every morning.</p>
-        <p>A crisp shirt fresh out the dryer.</p>
+        <p>Standing under a spray of hot water on a cold day (ahh).</p>
+        <p>Skating with friends on an outdoor rink to a throwback soundtrack (woosh).</p>
+        <p>Warrrrrrm slippers (squish).</p>
+        <p>Shannon’s fun drinks (slurp).</p>
+        <p>Breakfast every morning (yum).</p>
+        <p>A crisp shirt fresh out the dryer (yes).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
         <p>The ending of the movie.</p>
-        <p>New semester.</p>
+        <p>New semester?</p>
         <p>A survey.</p>
         <p>Three witches, Alice in Wonderland, and the Trash Dogs.</p>
       </div>
