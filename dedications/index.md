@@ -56,6 +56,7 @@ description: To some of the people and things that shape me and my work.
         <p>(influences & models)</p>
         <p><a href="https://html.energy/">HTML Energy</a> and <a href="https://www.laurel.world/">Laurel Schwulst</a>.</p>
         <p><a href="https://processing.org/">Processing</a> and <a href="https://p5js.org/">p5.js</a>.</p>
+        <p><a href="https://everest-pipkin.com/">Everest Pipkin</a>.</p>
         <p><a href="http://taeyoonchoi.com/">Taeyoon Choi</a>.</p>
         <p><a href="https://safiyaunoble.com/">Safiya Umoja Noble</a>.</p>
         <p>Sol LeWitt.</p>
