@@ -35,6 +35,7 @@ description: To some of the people and things that shape me and my work.
         <p><a href="https://outofambit.format.com/">Evelyn Masso</a>.</p>
         <p><a href="https://anhvn.com/">Anh</a>.</p>
         <p><a href="https://www.spencerchang.me">Spencer Chang</a>.</p>
+        <p><a href="https://omar.website/">Omar Rizwan</a>.</p>
         <p><a href="https://shen.land/">Shen</a>.</p>
         <p><a href="https://ifyouknewmewouldyoulove.me/">Chia Amisola</a>.</p>
         <p><a href="https://jzhao.xyz/">Jacky Zhao</a>.</p>
