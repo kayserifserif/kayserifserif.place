@@ -51,6 +51,7 @@ description: To some of the people and things that shape me and my work.
         <p>Deniz Rudin.</p>
         <p>Qianqian Ye.</p>
         <p>Daniel Richter.</p>
+        <p>Mark Marino.</p>
       </div>
       <div class="subsection">
         <p>(influences & models)</p>
