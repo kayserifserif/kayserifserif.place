@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dedications
-description: To the people and things that shape me.
+description: To the people and things that shape me and my work.
 ---
 
 <div class="intro">
