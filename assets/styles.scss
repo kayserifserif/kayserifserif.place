@@ -134,7 +134,7 @@ header a {
   fill: #000;
 }
 
-/* */
+/* intro */
 
 .intro {
   max-width: 800px;
@@ -173,6 +173,8 @@ header a {
   margin-bottom: 2em;
 }
 
+/* main */
+
 main {
   margin: var(--spacing) auto;
 }
@@ -202,8 +204,6 @@ main li {
   margin-right: auto;
 }
 
-/*  */
-
 .metadata {
   margin-top: 1.2rem;
   font-size: 0.75em;
@@ -230,7 +230,7 @@ main li {
     }
   }
 
-/*  */
+/* 404 */
 
 .four-oh-four {
   display: flex;
@@ -254,6 +254,8 @@ main li {
   text-align: left;
   font-family: "Select Mono", monospace;
 }
+
+/* footer */
 
 footer {
   max-width: 800px;
