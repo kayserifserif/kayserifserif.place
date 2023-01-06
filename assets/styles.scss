@@ -1,3 +1,6 @@
+---
+---
+
 @font-face {
   font-family: "Select Mono";
   src: url("/assets/SelectMono-Italic-da9c.woff");
@@ -199,14 +202,6 @@ main li {
   margin-right: auto;
 }
 
-.lists {
-  font-size: 0.75em;
-}
-
-.lists .section--body {
-  grid-template-columns: repeat(auto-fit, 200px);
-}
-
 /*  */
 
 .metadata {
@@ -236,6 +231,29 @@ main li {
   }
 
 /*  */
+
+.four-oh-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.75vw;
+}
+  @media (max-width: 800px) {
+    .four-oh-four {
+      font-size: 2vw;
+    }
+  }
+
+.four-oh-four pre,
+.four-oh-four span,
+.four-oh-four p {
+  /* width: fit-content; */
+  width: 76ch;
+  margin: auto;
+  text-align: left;
+  font-family: "Select Mono", monospace;
+}
 
 footer {
   max-width: 800px;
