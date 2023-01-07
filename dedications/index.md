@@ -41,6 +41,8 @@ description: To some of the people and things that shape me and my work.
         <p><a href="https://jzhao.xyz/">Jacky Zhao</a>.</p>
         <p><a href="https://ivanzhao.me/">Ivan Zhao</a>.</p>
         <p><a href="https://henry.codes/">Henry Desroches</a>.</p>
+        <p><a href="https://computationalmama.xyz/">Ambika (Computational Mama)</a>.</p>
+        <p><a href="https://opheliagame.github.io/">Anushka (opheliagame)</a>.</p>
       </div>
       <div class="subsection">
         <p>(mentors)</p>
