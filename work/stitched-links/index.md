@@ -2,6 +2,8 @@
 layout: project
 title: Stitched Links
 description: Hyperlinks as threads woven through the fabric of the webpage.
+image: https://whykatherine.github.io/assets/stitched-links/stitched-links.png
+image-alt: Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page.
 
 links: [["https://whykatherine.github.io/stitched-links", "Website"], ["https://github.com/whykatherine/stitched-links", "GitHub"]]
 
@@ -12,9 +14,13 @@ format: Website
 themes: Handmade web
 ---
 
-The original thought was about hyperlinks between pages, as in: that iconic blue line threading back and forth through pages and loosely binding them together. But this is a technically easier version that I wanted to implement while I think about how to do that!
+This is a proof of concept imagining hyperlinks as woven through the fabric of the page, and indeed through the world wide web. Under each hyperlink, the iconic blue underline is redrawn as part of one continuous curve. The thread is revealed only upon clicking, just as every routine click on a hyperlink reveals a larger picture of the interconnected network of websites.
 
-The two buttons at the end were a last-minute addition, thinking about, when I started learning embroidery recently, the way it was surprising that I had made such a mess of crossed lines on the back of the fabric while the front looked perfectly neat.
+In future iterations, I’d love to bring in multiple pages, imagining that iconic blue line threading back and forth through them and loosely binding them together.
+
+<div class="gallery">
+  <div><img src="/assets/stitched-links/stitched-links.png" alt="Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page."></div>
+</div>
 
 <div class="gallery">
   <div><video controls src="/assets/stitched-links/stitched-links.mp4"></video></div>
