@@ -33,6 +33,7 @@ description: Katherine Yang’s website.
     <div class="section--body columns">
       <div class="subsection">
         <p>(interests)</p>
+        <p>Mending.</p>
         <p>Greek mythology.</p>
         <p>Knitting.</p>
         <p>Vulfpeck.</p>
@@ -47,12 +48,10 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>Standing under a spray of hot water on a cold day (ahh).</p>
-        <p>Skating with friends on an outdoor rink to a throwback soundtrack (woosh).</p>
-        <p>Warrrrrrm slippers (squish).</p>
-        <p>Shannon’s fun drinks (slurp).</p>
-        <p>Breakfast every morning (yum).</p>
-        <p>A crisp shirt fresh out the dryer (yes).</p>
+        <p>Snow under streetlights, like the moon in a broad haze (oh).</p>
+        <p>A showboating train conductor (hehehe).</p>
+        <p>Reflections in clear puddles (plip).</p>
+        <p>Leaping around said puddles (hup).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
