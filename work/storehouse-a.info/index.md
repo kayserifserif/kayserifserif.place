@@ -2,6 +2,8 @@
 layout: project
 title: Storehouse-A.info
 description: A text and typography&ndash;based virtual exhibition showcasing interactive visual poetry.
+image: https://whykatherine.github.io/assets/storehouse-a.info/map.png
+image-alt: A screenshot of the game in a near-completed state. On the left, the game log; in the middle, the dungeon map; on the right, a legend of symbols.
 
 links: [["https://www.storehouse-a.glitch.me/", "Website"], ["https://hasgeek.com/ajaibghar/freefall-future-text/", "Exhibition"]]
 

@@ -3,6 +3,7 @@ layout: project
 title: Wikipedia Narratives
 description: A Wikipedia-based game or tool inspired by Mad Libs.
 image: https://whykatherine.github.io/assets/wikipedia-narratives/4-filled.png
+image-alt: An edited version of the suggested sentence, reading, “Glipa maruyamai is a type of Beetle that is used in Entomological warfare the most famous examples of which was Operation Big Itch at Dugway Proving Ground leading to the horrifying Dugway sheep incident.
 
 links: [["http://wikipedia-narratives.herokuapp.com/", "Website"], ["https://github.com/whykatherine/wikipedia-narratives", "GitHub"]]
 
@@ -28,7 +29,7 @@ The Web is a sprawling metropolis of seven-lane roads and undergrounds and small
 </div>
 
 <div class="gallery">
-  <div><img src="/assets/wikipedia-narratives/4-filled.png" alt="A more coherent version of the suggested sentence, reading, “Glipa maruyamai is a type of Beetle that is used in Entomological warfare the most famous examples of which was Operation Big Itch at Dugway Proving Ground leading to the horrifying Dugway sheep incident.”"></div>
+  <div><img src="/assets/wikipedia-narratives/4-filled.png" alt="An edited version of the suggested sentence, reading, “Glipa maruyamai is a type of Beetle that is used in Entomological warfare the most famous examples of which was Operation Big Itch at Dugway Proving Ground leading to the horrifying Dugway sheep incident.”"></div>
 </div>
 
 <div class="gallery">

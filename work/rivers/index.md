@@ -3,6 +3,7 @@ layout: project
 title: Rivers
 description: A steadily widening river of whitespace runs down the middle of a text passage.
 image: https://whykatherine.github.io/assets/rivers/portrait.jpg
+image-alt: A mobile view of the rivers piece. A winding river carves through the middle of the piece, narrow at first then wider and wider.
 
 links: [["https://whykatherine.github.io/rivers", "Website"], ["https://github.com/whykatherine/rivers", "GitHub"]]
 

@@ -17,9 +17,11 @@
   {% if page.title %}<meta property="og:title" content="{{ page.title }} | Katherine Yang" />{% else %}<meta property="og:title" content="Katherine Yang" />{% endif %}
   {% if page.description %}<meta property="og:description" content="{{ page.description }}" />{% endif %}
   {% if page.image %}<meta property="og:image" content="{{ page.image }}" />{% endif %}
+  {% if page.image-alt %}<meta property="og:image:alt" content="{{ page.image-alt }}" />{% endif %}
 
   {% if page.title %}<meta name="twitter:title" content="{{ page.title }} | Katherine Yang">{% else %}<meta name="twitter:title" content="Katherine Yang">{% endif %}
   {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% endif %}
   {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
+  {% if page.image-alt %}<meta name="twitter:image:alt" content="{{ page.image-alt }}">{% endif %}
   {% if page.image %}<meta name="twitter:card" content="summary_large_image">{% else %}<meta name="twitter:card" content="summary">{% endif %}
 </head>
