@@ -5,7 +5,7 @@ description: A tool that sends your thoughts down a stream of consciousness.
 image: https://whykatherine.github.io/assets/stream-of-consciousness/poem.jpg
 image-alt: A close-up of the controls, the poem, and the instructions.
 
-links: [["https://whykatherine.github.io/stream-of-consciousness", "Website"], ["https://github.com/whykatherine/stream-of-consciousness", "GitHub"]]
+links: [["https://whykatherine.github.io/stream", "Website"], ["https://github.com/whykatherine/stream-of-consciousness", "GitHub"]]
 
 date: December 2020
 context: Personal
