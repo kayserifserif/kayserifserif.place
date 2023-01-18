@@ -47,18 +47,18 @@ description: Katherine Yang’s website.
         <p>Git Ponder. Git commands for life.</p>
       </div>
       <div class="subsection">
-        <p>(nice things)</p>
-        <p>Snow under streetlights, like the moon in a broad haze (oh).</p>
-        <p>A showboating train conductor (hehehe).</p>
-        <p>Reflections in clear puddles (plip).</p>
-        <p>Leaping around said puddles (hup).</p>
+        <p>(nice things) (snow edition)</p>
+        <p>In bleary haze, hearing light rain outside and snoozing the alarm (pssh).</p>
+        <p>Cars on the street, boats in the harbour, slumbering under a blanket of snow (shh).</p>
+        <p>A black coat dusted with snow (pff).</p>
+        <p>White on matcha green (yum).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
-        <p>The ending of the movie.</p>
-        <p>New semester?</p>
-        <p>A survey.</p>
-        <p>Three witches, Alice in Wonderland, and the Trash Dogs.</p>
+        <p>Offhand dismissals.</p>
+        <p>A shimmering dolphin.</p>
+        <p>On the streets, in a time loop.</p>
+        <p>“Just for some ballet kid with a Selectric&nbsp;--.”</p>
       </div>
     </div>
   </div>
