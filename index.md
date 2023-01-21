@@ -28,16 +28,16 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated January 4, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated January 21, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
-        <p>(interests)</p>
+        <p>(thinking about)</p>
+        <p>Brokeback Mountain.</p>
+        <p>Dimension 20.</p>
+        <p>Textiles and domesticity.</p>
         <p>Mending.</p>
         <p>Greek mythology.</p>
-        <p>Knitting.</p>
-        <p>Vulfpeck.</p>
-        <p>Dimension 20.</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
@@ -47,11 +47,9 @@ description: Katherine Yang’s website.
         <p>Git Ponder. Git commands for life.</p>
       </div>
       <div class="subsection">
-        <p>(nice things) (snow edition)</p>
-        <p>In bleary haze, hearing light rain outside and snoozing the alarm (pssh).</p>
-        <p>Cars on the street, boats in the harbour, slumbering under a blanket of snow (shh).</p>
-        <p>A black coat dusted with snow (pff).</p>
-        <p>White on matcha green (yum).</p>
+        <p>(nice things)</p>
+        <p>A room full of swirling swing dancers! (whoop!)</p>
+        <p>An apparition of snow under towering streetlights (oh).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
