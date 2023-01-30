@@ -33,11 +33,11 @@ description: Katherine Yang’s website.
     <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
+        <p>Gilmore Girls.</p>
         <p>Brokeback Mountain.</p>
         <p>Dimension 20.</p>
         <p>Textiles and domesticity.</p>
         <p>Mending.</p>
-        <p>Greek mythology.</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
