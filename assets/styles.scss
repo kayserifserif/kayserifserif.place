@@ -178,6 +178,11 @@ header a {
 
 main {
   margin: var(--spacing) auto;
+
+  img {
+    display: block;
+    margin: auto;
+  }
 }
 
 .section + .section {
@@ -188,7 +193,7 @@ main {
   max-width: 800px;
   margin: auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: calc(50% - 1em) calc(50% - 1em);
   gap: 1.5rem 2em;
 }
   @media (max-width: 800px) {
