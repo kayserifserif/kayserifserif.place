@@ -28,7 +28,7 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated January 21, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated February 9, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
@@ -48,8 +48,10 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>A room full of swirling swing dancers! (whoop!)</p>
-        <p>An apparition of snow under towering streetlights (oh).</p>
+        <p>A river frozen over.</p>
+        <p>Delightful encounters with strangers.</p>
+        <p>Ducks in a, well, row.</p>
+        <p>The upside of bare trees: being able to see birds nestled in the branches.</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
