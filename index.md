@@ -33,10 +33,8 @@ description: Katherine Yang’s website.
     <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
+        <p>Fashion; creating garments.</p>
         <p>Gilmore Girls.</p>
-        <p>Brokeback Mountain.</p>
-        <p>Dimension 20.</p>
-        <p>Textiles and domesticity.</p>
         <p>Mending.</p>
       </div>
       <div class="subsection">
@@ -48,17 +46,14 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>A river frozen over.</p>
-        <p>Delightful encounters with strangers.</p>
-        <p>Ducks in a, well, row.</p>
-        <p>The upside of bare trees: being able to see birds nestled in the branches.</p>
+        <p>Moving through the world as a pair.</p>
+        <p>The ecstatic pleasure of getting into, and being in, a good bed.</p>
+        <p>An invisible cacophony of birds chattering (imagine the discourse).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
-        <p>Offhand dismissals.</p>
-        <p>A shimmering dolphin.</p>
-        <p>On the streets, in a time loop.</p>
-        <p>“Just for some ballet kid with a Selectric&nbsp;--.”</p>
+        <p>A best friend, far away now.</p>
+        <p>A cheese tasting.</p>
       </div>
     </div>
   </div>
