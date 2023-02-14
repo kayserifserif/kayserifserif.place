@@ -8,7 +8,7 @@ links: [["/assets/manifesto/manifesto.pdf", "PDF (35 kB)"]]
 date: September 2021
 context: Academic
 location: Los Angeles, California, USA
-format: text
+format: Text
 themes: Handmade web; poetic tech
 ---
 
