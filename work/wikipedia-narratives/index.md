@@ -14,7 +14,7 @@ format: Website
 themes: Digital culture; electronic literature; play
 ---
 
-The Web is a sprawling metropolis of seven-lane roads and undergrounds and small dirt lanes, with “List of Big Brother 17 (American season) houseguests” and “University of Mpumalanga” living six or fewer connections away. Based on [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing) and Mad Libs, Wikipedia Narratives is a Wikipedia-based narrative tool to create stories that traverse the information highways.</p>
+The Web is a sprawling metropolis of seven-lane roads and undergrounds and small dirt lanes, with “List of Big Brother 17 (American season) houseguests” and “University of Mpumalanga” living six or fewer connections away. Based on [Wikiracing](https://en.wikipedia.org/wiki/Wikiracing) and Mad Libs, Wikipedia Narratives is a Wikipedia-based narrative tool to create stories that traverse the information highways.
 
 <div class="gallery">
   <div><img src="/assets/wikipedia-narratives/1-start.png" alt="The start page, with two buttons: “Let me make my own path” or “Choose a path for me”."></div>
