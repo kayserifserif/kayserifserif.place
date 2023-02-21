@@ -28,7 +28,7 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated February 9, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated February 21, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
@@ -39,19 +39,21 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(projects)</p>
-        <p>Vanilla socks.</p>
+        <p>Casual multiplayer Wikipedia reading.</p>
+        <p>The holes in my socks.</p>
+        <p>Knitting socks.</p>
         <p>Prose Play. A text editor for plurality and ambiguity.</p>
-        <p>Sunday by Sondrat. A generated text that samples from both Stephen Sondheim’s musical and Georges Seurat’s artwork.</p>
-        <p>Git Ponder. Git commands for life.</p>
       </div>
       <div class="subsection">
         <p>(nice things)</p>
+        <p>A face mask.</p>
+        <p>Cookware and dishware which inspire food befitting the vessel!</p>
         <p>Moving through the world as a pair.</p>
         <p>The ecstatic pleasure of getting into, and being in, a good bed.</p>
-        <p>An invisible cacophony of birds chattering (imagine the discourse).</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
+        <p>Horrors, oh God.</p>
         <p>A best friend, far away now.</p>
         <p>A cheese tasting.</p>
       </div>
