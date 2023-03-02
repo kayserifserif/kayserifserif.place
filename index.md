@@ -28,28 +28,27 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated February 21, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated March 2, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
+        <p>Winter, so lovely, so slipping away.</p>
         <p>Fashion; creating garments.</p>
-        <p>Gilmore Girls.</p>
         <p>Mending.</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
-        <p>Casual multiplayer Wikipedia reading.</p>
-        <p>The holes in my socks.</p>
-        <p>Knitting socks.</p>
-        <p>Prose Play. A text editor for plurality and ambiguity.</p>
+        <p>ProsePlay (coming soon!!)</p>
+        <p>Knitted socks.</p>
+        <p>Holes in other socks.</p>
+        <p>Casual multiplayer Wikipedia reading?</p>
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>A face mask.</p>
+        <p>Buildings buried in the clouds.</p>
+        <p>Squirrels scampering in the snow.</p>
         <p>Cookware and dishware which inspire food befitting the vessel!</p>
-        <p>Moving through the world as a pair.</p>
-        <p>The ecstatic pleasure of getting into, and being in, a good bed.</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
