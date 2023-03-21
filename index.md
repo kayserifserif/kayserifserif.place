@@ -29,33 +29,31 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated March 2, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated March 21, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
         <p>Winter, so lovely, so slipping away.</p>
-        <p>Fashion; creating garments.</p>
-        <p>Mending.</p>
+        <p>Layering and accessories.</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
         <p>ProsePlay (coming soon!!)</p>
         <p>Knitted socks.</p>
-        <p>Holes in other socks.</p>
+        <p>Shades of colour words.</p>
         <p>Casual multiplayer Wikipedia reading?</p>
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>Buildings buried in the clouds.</p>
-        <p>Squirrels scampering in the snow.</p>
-        <p>Cookware and dishware which inspire food befitting the vessel!</p>
+        <p>Weekday evenings and Friday nights.</p>
+        <p>A sparrow in the sticks.</p>
+        <p>The local library and the local librarians.</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
-        <p>Horrors, oh God.</p>
-        <p>A best friend, far away now.</p>
-        <p>A cheese tasting.</p>
+        <p>Egg tarts—the ones with the flaky crust!</p>
+        <p>Teachers; caretakers.</p>
       </div>
     </div>
   </div>
