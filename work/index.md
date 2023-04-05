@@ -16,6 +16,7 @@ description: Select projects.
       <h2>PROJECTS.</h2>
     </div>
     <div class="section--body">
+      <p><a href="/work/proseplay/">ProsePlay</a> (2023). A tool for exploring alternate wor(l)d choices and possibilities.</p>
       <p><a href="/work/coem/">Coem</a> (2022). A programming language that imagines poetry as purposeful and code as emotional.</p>
       <p><a href="/work/every-element-is-an-html/">Every Element Is an HTML</a> (2022). Jamming with the raw materials of HTML.</p>
       <p><a href="/work/stitched-links/">Stitched Links</a> (2022). Hyperlinks as threads woven through the fabric of the webpage.</p>
