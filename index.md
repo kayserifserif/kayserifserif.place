@@ -29,7 +29,7 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated April 5, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated April 11, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
@@ -38,19 +38,20 @@ description: Katherine Yang’s website.
       </div>
       <div class="subsection">
         <p>(projects)</p>
-        <p>Done with socks! Now to do something with this thrifted yarn…</p>
+        <p>A vest for my mom. :)</p>
+        <p>Echoes...</p>
         <p>Casual multiplayer Wikipedia reading?</p>
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>Weekday evenings and Friday nights.</p>
-        <p>A sparrow in the sticks.</p>
-        <p>The local library and the local librarians.</p>
+        <p>A European starling?</p>
+        <p>An American robin?</p>
+        <p>Accepting candy from a stranger...?</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
-        <p>Egg tarts—the ones with the flaky crust!</p>
-        <p>Teachers; caretakers.</p>
+        <p>A pod of whales. (Or was that just the morning news?)</p>
+        <p>A caper; a shenanigan, even!</p>
       </div>
     </div>
   </div>
