@@ -29,24 +29,24 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated April 11, 2023.)</h2>
+      <h2>CURRENTLY. (Last updated May 5, 2023.)</h2>
     </div>
     <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
-        <p>The City We Became; cities as characters; New York; Boston; how we inhabit cities and how they inhabit us.</p>
+        <p>Work culture; the power of discernment; understanding and articulating how people fit into the jigsaw puzzle?</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
-        <p>A vest for my mom. :)</p>
-        <p>Echoes...</p>
+        <p>Mom’s vest.</p>
         <p>Casual multiplayer Wikipedia reading?</p>
+        <p>Buses; activating Adventure Mode.</p>
       </div>
       <div class="subsection">
         <p>(nice things)</p>
-        <p>A European starling?</p>
-        <p>An American robin?</p>
-        <p>Accepting candy from a stranger...?</p>
+        <p>Chick season!</p>
+        <p>The esplanade is teeming…</p>
+        <p>Sailboats on the evening river.</p>
       </div>
       <div class="subsection">
         <p>(dreams)</p>
