@@ -2,10 +2,10 @@
 layout: project
 title: A Global Language
 description: An interactive visualisation tool exploring the etymological history of the English language.
-image: https://whykatherine.github.io/assets/a-global-language/ginger.jpg
+image: https://kayserifserif.place/assets/a-global-language/ginger.jpg
 image-alt: Screenshot of the result of the search term ‘ginger’ with a globe visualising the geographical origins of the word and a timeline visualising the historical origin of the word.
 
-links: [["https://agloballanguage.herokuapp.com/", "Website (currently down)"], ["https://github.com/whykatherine/agloballanguage", "GitHub"]]
+links: [["https://agloballanguage.herokuapp.com/", "Website (currently down)"], ["https://github.com/kayserifserif/agloballanguage", "GitHub"]]
 
 date: March 2020
 context: Academic

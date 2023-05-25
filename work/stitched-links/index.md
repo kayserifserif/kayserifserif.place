@@ -2,10 +2,10 @@
 layout: project
 title: Stitched Links
 description: Hyperlinks as threads woven through the fabric of the webpage.
-image: https://whykatherine.github.io/assets/stitched-links/stitched-links.png
+image: https://kayserifserif.place/assets/stitched-links/stitched-links.png
 image-alt: Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page.
 
-links: [["https://whykatherine.github.io/stitched-links", "Website"], ["https://github.com/whykatherine/stitched-links", "GitHub"]]
+links: [["https://kayserifserif.place/stitched-links", "Website"], ["https://github.com/kayserifserif/stitched-links", "GitHub"]]
 
 date: February 2022
 context: Personal

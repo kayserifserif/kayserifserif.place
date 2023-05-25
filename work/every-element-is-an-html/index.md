@@ -2,10 +2,10 @@
 layout: project
 title: Every Element Is an HTML
 description: Jamming with the raw materials of HTML.
-image: https://whykatherine.github.io/assets/every-element-is-an-html/q.png
+image: https://kayserifserif.place/assets/every-element-is-an-html/q.png
 image-alt: A page with the repeated text, “Every element is an”, iterating through all possible HTML tags. Currently, all elements are composed of the <q> tag, so each sentence is wrapped with quotation marks.
 
-links: [["https://whykatherine.github.io/every-element-is-an-html", "Website"], ["https://github.com/whykatherine/every-element-is-an-html", "GitHub"]]
+links: [["https://kayserifserif.place/every-element-is-an-html", "Website"], ["https://github.com/kayserifserif/every-element-is-an-html", "GitHub"]]
 
 date: February 2022
 context: Personal

@@ -2,7 +2,7 @@
 layout: project
 title: Coem
 description: A programming language that imagines poetry as purposeful and code as emotional.
-image: https://whykatherine.github.io/assets/coem/outside-1.jpg
+image: https://kayserifserif.place/assets/coem/outside-1.jpg
 image-alt: The Coem website displayed on an e-ink screen, nestled among flowers.
 
 links: [["https://www.coem-lang.org", "Website"], ["https://github.com/coem-lang", "GitHub"]]

@@ -2,7 +2,7 @@
 layout: project
 title: ProsePlay
 description: A tool for exploring alternate wor(l)d choices and possibilities.
-image: https://whykatherine.github.io/assets/proseplay/Screenshot 2023-04-04 at 9.16.10 AM.png
+image: https://kayserifserif.place/assets/proseplay/Screenshot%202023-04-04%20at%209.16.10%20AM.png
 image-alt: "Home page of ProsePlay.net. The body reads, 'This is my lovely poem for this moment. This is a poem for exploring alternate words. This is a poem for making interactive poems. A poem can live so many lives — show us how it once was.' In certain places in the text, words or phrases are contained in boxes, suggesting that there are other possibilities than what is currently being shown."
 
 links: [["https://www.proseplay.net/", "Website"], ["https://github.com/proseplay/proseplay/", "GitHub"]]

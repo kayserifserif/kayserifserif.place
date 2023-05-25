@@ -2,10 +2,10 @@
 layout: project
 title: Waking and Sleeping
 description: “Good morning” and “good night” tweets, mapped in real-time.
-image: https://whykatherine.github.io/assets/waking-and-sleeping/waking-and-sleeping.jpg
+image: https://kayserifserif.place/assets/waking-and-sleeping/waking-and-sleeping.jpg
 image-alt: A world map with red dots scattered over the Americas, with a white sidebar displaying a log of tweets.
 
-links: [["https://wakingandsleeping.glitch.me/", "Website"], ["https://github.com/whykatherine/wakingandsleeping", "GitHub"]]
+links: [["https://wakingandsleeping.glitch.me/", "Website (R.I.P.)"], ["https://github.com/kayserifserif/wakingandsleeping", "GitHub"]]
 
 date: October 2020
 context: Personal

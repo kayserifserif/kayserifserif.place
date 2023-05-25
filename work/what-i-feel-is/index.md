@@ -2,10 +2,10 @@
 layout: project
 title: What I Feel Is
 description: One-syllable emotions, felt in waves turbulent, uneven, overlapping, and without end.
-image: https://whykatherine.github.io/assets/what-i-feel-is/what-i-feel-is.png
+image: https://kayserifserif.place/assets/what-i-feel-is/what-i-feel-is.png
 image-alt: "Screenshot of website reading: ‘These emotions of...’ followed by ‘rage and rage and rage’ and so on. The sidebar has three columns: the first with buttons labelled with various emotions, the second with ‘emotional coping strategy’ buttons labelled with various functions, the third with radio buttons for selecting if emotions are ‘unresolved’ or ‘at capacity’."
 
-links: [["https://whykatherine.github.io/what-i-feel-is/", "Website"], ["https://github.com/whykatherine/what-i-feel-is", "GitHub"]]
+links: [["https://kayserifserif.place/what-i-feel-is/", "Website"], ["https://github.com/kayserifserif/what-i-feel-is", "GitHub"]]
 
 date: July 2020
 context: Personal
