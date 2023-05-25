@@ -29,12 +29,18 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>CURRENTLY. (Last updated May 5, 2023.)</h2>
+      <h2>LATELY——</h2>
     </div>
-    <div class="section--body columns">
+    <div class="section--body">
+      <p>thinking about constrained poetry and language as magic;</p>
+      <p>watching historical costuming and cosplay videos;</p>
+      <p>wavering between panic and </p>
+      <p>grateful for work friends</p>
+      <p>——last updated May 24, 2023.</p>
+    </div>
+    <!-- <div class="section--body columns">
       <div class="subsection">
         <p>(thinking about)</p>
-        <p>Work culture; the power of discernment; understanding and articulating how people fit into the jigsaw puzzle?</p>
       </div>
       <div class="subsection">
         <p>(projects)</p>
@@ -53,6 +59,6 @@ description: Katherine Yang’s website.
         <p>A pod of whales. (Or was that just the morning news?)</p>
         <p>A caper; a shenanigan, even!</p>
       </div>
-    </div>
+    </div> -->
   </div>
 </main>
