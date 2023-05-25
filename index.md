@@ -29,36 +29,15 @@ description: Katherine Yang’s website.
   </div>
   <div class="section">
     <div class="section--header">
-      <h2>LATELY——</h2>
+      <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
       <p>thinking about constrained poetry and language as magic;</p>
       <p>watching historical costuming and cosplay videos;</p>
-      <p>wavering between panic and </p>
-      <p>grateful for work friends</p>
-      <p>——last updated May 24, 2023.</p>
+      <p>stressed about travel;</p>
+      <p>grateful for work friends and their familiar presence;</p>
+      <p>delighting in city wildlife (the geese and the robins and the starlings, darlings).</p>
+      <p>——May 24, 2023.</p>
     </div>
-    <!-- <div class="section--body columns">
-      <div class="subsection">
-        <p>(thinking about)</p>
-      </div>
-      <div class="subsection">
-        <p>(projects)</p>
-        <p>Mom’s vest.</p>
-        <p>Casual multiplayer Wikipedia reading?</p>
-        <p>Buses; activating Adventure Mode.</p>
-      </div>
-      <div class="subsection">
-        <p>(nice things)</p>
-        <p>Chick season!</p>
-        <p>The esplanade is teeming…</p>
-        <p>Sailboats on the evening river.</p>
-      </div>
-      <div class="subsection">
-        <p>(dreams)</p>
-        <p>A pod of whales. (Or was that just the morning news?)</p>
-        <p>A caper; a shenanigan, even!</p>
-      </div>
-    </div> -->
   </div>
 </main>
