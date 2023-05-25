@@ -23,7 +23,7 @@ description: Select projects.
       <p><a href="/work/storehouse-a.info/">Storehouse-A.Info</a> (2021). A text and typography&ndash;based virtual exhibition showcasing interactive visual poetry.</p>
       <p><a href="/work/rivers/">Rivers</a> (2021). A steadily widening river of whitespace runs down the middle of a text passage.</p>
       <p><a href="/work/stream-of-consciousness/">Stream of Consciousness</a> (2020). A tool that sends your thoughts down a stream of consciousness.</p>
-      <p><a href="/work/waking-and-sleeping/">Waking And Sleeping</a> (2020). “Good morning” and “good night” tweets, mapped in real-time.</p>
+      <p><a href="/work/waking-and-sleeping/">Waking and Sleeping</a> (2020). “Good morning” and “good night” tweets, mapped in real-time.</p>
       <p><a href="/work/what-i-feel-is/">What I Feel Is</a> (2020). One-syllable emotions, felt in waves turbulent, uneven, overlapping, and without end.</p>
       <p><a href="/work/a-global-language/">A Global Language</a> (2020). An interactive visualisation tool exploring the etymological history of the English language.</p>
       <p><a href="/work/wikipedia-narratives/">Wikipedia Narratives</a> (2019). A Wikipedia-based game or tool inspired by Mad Libs.</p>
