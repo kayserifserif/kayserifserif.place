@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Intentions
-description: Not quite a bucket list but a list of intentions; or, a poem——
+description: A list of intentions; a poem; the “I want” song; not a bucket list——
 ---
 
 <div class="intro">
