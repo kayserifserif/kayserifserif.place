@@ -5,9 +5,9 @@ description: In the interim…
 ---
 
 <div class="intro">
-  <h1>Fragments</h1>
+  <h1>{{ page.title }}</h1>
   <div>
-    <p>In the interim...</p>
+    <p>{{ page.description }}</p>
   </div>
 </div>
 <main>
