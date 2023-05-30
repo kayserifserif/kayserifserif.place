@@ -236,6 +236,29 @@ main li {
     }
   }
 
+@media (min-width: 800px) {
+  .intentions > div {
+      display: grid;
+      grid-template-columns: 12.5em 1fr;
+      gap: 1em;
+    }
+  }
+
+.intentions dt {
+  opacity: 0.5;
+}
+  @media (min-width: 800px) {
+    .intentions dt {
+      text-align: right;
+    }
+  }
+
+@media (min-width: 800px) {
+  .intentions dd {
+    margin: 0;
+  }
+}
+
 /* 404 */
 
 .four-oh-four {
