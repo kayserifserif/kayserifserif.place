@@ -11,7 +11,7 @@ description: Katherine Yang’s website.
   <div>
     <p>
       Hello, visitor! I’m Katherine.<br>
-      I’m interested in making poetic tools&nbsp;-- tools for poetry and text directly, but also tools that are small and intentional and interesting,<br>
+      I’m interested in making poetic tools——tools for poetry and text directly, but also tools that are small and intentional and interesting,<br>
       like a poem.
     </p>
   </div>
