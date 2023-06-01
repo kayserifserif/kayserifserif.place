@@ -237,12 +237,18 @@ main li {
   }
 
 @media (min-width: 800px) {
-  .intentions > div {
-      display: grid;
-      grid-template-columns: 12.5em 1fr;
-      gap: 1em;
-    }
+  .intentions {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 1em;
   }
+
+  .intentions > div {
+    display: grid;
+    grid-column: 1 / span 2;
+    grid-template-columns: subgrid;
+  }
+}
 
 .intentions dt {
   opacity: 0.5;
@@ -251,13 +257,11 @@ main li {
     .intentions dt {
       text-align: right;
     }
-  }
 
-@media (min-width: 800px) {
-  .intentions dd {
-    margin: 0;
+    .intentions dd {
+      margin: 0;
+    }
   }
-}
 
 /* 404 */
 
