@@ -241,6 +241,8 @@ main li {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 0 1em;
+    width: max-content;
+    margin: auto;
   }
 
   .intentions > div {
