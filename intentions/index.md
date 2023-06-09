@@ -66,8 +66,12 @@ description: A list of intentions; a poem; the “I want” song; not a bucket 
         <dt>May 30, 2023</dt>
         <div>
           <dd>I want to sit on a chair in the entryway;</dd>
-          <dd>I want to orient by the North Star——</dd>
+          <dd>I want to orient by the North Star;</dd>
         </div>
+      </div>
+      <div>
+        <dt>June 9, 2023</dt>
+        <dd>I want to cook with pinches of salt——</dd>
       </div>
     </dl>
   </div>
