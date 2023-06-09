@@ -34,7 +34,6 @@ description: Katherine Yang’s website.
     </div>
     <div class="section--body">
       <p>thinking about constrained poetry and language as magic;</p>
-      <p>watching historical costuming and cosplay videos;</p>
       <p>delighting in city wildlife (the geese and the robins and the starlings, darlings);</p>
       <p>indulging in summer blockbusters;</p>
       <p>trying and loving DnD!</p>
