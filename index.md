@@ -35,10 +35,10 @@ description: Katherine Yang’s website.
     <div class="section--body">
       <p>thinking about constrained poetry and language as magic;</p>
       <p>watching historical costuming and cosplay videos;</p>
-      <p>stressed about travel;</p>
-      <p>grateful for work friends and their familiar presence;</p>
-      <p>delighting in city wildlife (the geese and the robins and the starlings, darlings).</p>
-      <p>——May 24, 2023.</p>
+      <p>delighting in city wildlife (the geese and the robins and the starlings, darlings);</p>
+      <p>indulging in summer blockbusters;</p>
+      <p>trying and loving DnD!</p>
+      <p>—June 9, 2023.</p>
     </div>
   </div>
 </main>
