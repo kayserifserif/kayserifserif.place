@@ -71,7 +71,11 @@ description: A list of intentions; a poem; the “I want” song; not a bucket 
       </div>
       <div>
         <dt>June 9, 2023</dt>
-        <dd>I want to cook with pinches of salt——</dd>
+        <dd>I want to cook with pinches of salt;</dd>
+      </div>
+      <div>
+        <dt>June 12, 2023</dt>
+        <dd>I want to move between an easel, a sewing machine, a loom——</dd>
       </div>
     </dl>
   </div>
