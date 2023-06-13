@@ -33,11 +33,11 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>thinking about constrained poetry and language as magic;</p>
-      <p>delighting in city wildlife (the geese and the robins and the starlings, darlings);</p>
+      <p>feeling like a magical being in a city shrouded in fog;</p>
       <p>indulging in summer blockbusters;</p>
+      <p>keenly appreciating what makes a home;</p>
       <p>trying and loving DnD!</p>
-      <p>—June 9, 2023.</p>
+      <p>—June 13, 2023.</p>
     </div>
   </div>
 </main>
