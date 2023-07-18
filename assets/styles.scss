@@ -94,6 +94,13 @@ p {
   margin: 1.5rem 0;
 }
 
+hr {
+  max-width: 600px;
+  border: 0;
+  height: 1px;
+  background-color: currentColor;
+}
+
 /* header */
 
 header {
@@ -235,6 +242,11 @@ main li {
       flex-direction: column;
     }
   }
+
+figcaption {
+  margin: 1em 0;
+  text-align: center;
+}
 
 @media (min-width: 800px) {
   .intentions {
