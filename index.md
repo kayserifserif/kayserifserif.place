@@ -33,10 +33,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>walking through the parks;</p>
-      <p>sweating and seething at times;</p>
-      <p>worrying; waiting</p>
-      <p>—July 25, 2023.</p>
+      <p>learning about feng shui principles;</p>
+      <p>thinking about folk music traditions;</p>
+      <p>picking at my old clothes</p>
+      <p>—August 9, 2023.</p>
     </div>
   </div>
 </main>
