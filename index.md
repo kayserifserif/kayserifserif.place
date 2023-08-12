@@ -21,7 +21,7 @@ description: Katherine Yang’s website.
     <ol>
       <li><a href="/about/">In which the Author introduces Herself</a></li>
       <li><a href="/work/">In which Select Projects are Listed</a></li>
-      <li><a href="/assets/resume/yang-katherine-resume-202304.pdf">In which a Résumé is Attached</a> (PDF, 82 kB)</li>
+      <li><a href="/assets/resume/yang-katherine-resume-202307.pdf">In which a Résumé is Attached</a> (PDF, 82 kB)</li>
       <!-- <li><a href="/fragments/">In which Fragments Hint at her Happenings</a></li> -->
       <li><a href="/appearances/">In which the Author finds herself Elsewhere</a></li>
       <li><a href="/intentions/">In which Little Wishes are Exhaled like Dandelions to the World</a></li>
