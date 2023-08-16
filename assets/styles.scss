@@ -101,6 +101,11 @@ hr {
   background-color: currentColor;
 }
 
+blockquote {
+  border-left: 3px solid #eee;
+  padding-left: 1em;
+}
+
 /* header */
 
 header {
@@ -211,7 +216,8 @@ main {
 
 main h2,
 main p,
-main li {
+main li,
+main blockquote {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
