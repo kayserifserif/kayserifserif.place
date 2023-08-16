@@ -35,7 +35,7 @@ description: Katherine Yang’s website.
     <div class="section--body">
       <p>learning about feng shui principles;</p>
       <p>thinking about folk music traditions;</p>
-      <p>picking at my old clothes</p>
+      <p>going to the dentist (a lot)</p>
       <p>—August 9, 2023.</p>
     </div>
   </div>
