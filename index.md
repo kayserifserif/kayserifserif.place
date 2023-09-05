@@ -33,9 +33,9 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>writing poetry to get through this stretch of busy work;</p>
       <p>playing many hours of Tears of the Kingdom;</p>
-      <p>going to the dentist (a lot)</p>
+      <p>crocheting many little coasters;</p>
+      <p>getting forgiven by the library for late books</p>
       <p>—August 22, 2023.</p>
     </div>
   </div>
