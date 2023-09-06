@@ -12,13 +12,14 @@ description: Blog.
 </div>
 <main>
   <div class="section">
-    <ul>
+    <div class="blog-list">
       {% for post in site.posts %}
-        <li>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-          {{ post.excerpt }}
-        </li>
+        <div>
+          <p class="blog-list--date">{{ post.date | date: "%F" }}</p>
+          <h2 class="blog-list--title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <!-- <p class="blog-list--excerpt">{{ post.excerpt }}</p> -->
+        </div>
       {% endfor %}
-    </ul>
+    </div>
   </div>
 </main>
