@@ -214,7 +214,7 @@ description: Themes in the work.
           </div>
           <div class="term-container">
             <dt>poetics of</dt>
-            <dd><a href="/about/">/about</a><a href="/work/coem/">/work/coem</a></dd>
+            <dd><a href="/about/">/about</a>, <a href="/work/coem/">/work/coem</a></dd>
           </div>
         </dl>
       </div>
