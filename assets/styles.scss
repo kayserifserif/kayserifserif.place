@@ -147,6 +147,17 @@ header a {
   fill: #000;
 }
 
+/* toc */
+
+.toc .chapter-title {
+  margin-bottom: 0.5em;
+}
+
+.toc .chapter-subtitle {
+  margin-top: 0;
+  opacity: 0.5;
+}
+
 /* intro */
 
 .intro {
