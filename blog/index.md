@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-description: Blog.
+description: Some posts.
 ---
 
 <div class="intro">
