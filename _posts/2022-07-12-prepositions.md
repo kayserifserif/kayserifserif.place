@@ -3,6 +3,8 @@ title: prepositions
 layout: post
 ---
 
+(Originally posted on [Twitter](https://twitter.com/kayserifserif/status/1546736978548273153/).)
+
 my heart is a lace doily in the breeze, a maple leaf in the creek, to be snagged on any little thing
 
 today it's the idea of prepositions :')

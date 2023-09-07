@@ -3,6 +3,8 @@ title: "pianos, penmanship, and pauses: on the materiality and intimacy of typin
 layout: post
 ---
 
+(Originally posted on [Twitter](https://twitter.com/kayserifserif/status/1538536089253646336/).)
+
 on the kinesiological:
 
 some of my friends have commented on the way i type, the way you might notice things about a piano player's playing style

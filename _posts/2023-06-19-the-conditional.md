@@ -3,6 +3,8 @@ title: The Conditional
 layout: post
 ---
 
+(Originally posted on [Twitter](https://twitter.com/kayserifserif/status/1670915277846978560).)
+
 An interpretation/parsing of another poem, in my half-broken but beloved poetic programming language.
 
 I'll go ahead and jot some notes down here since it's been a while, and my documentation is a little holey, and maybe i'm starting to have a better idea of what to say.

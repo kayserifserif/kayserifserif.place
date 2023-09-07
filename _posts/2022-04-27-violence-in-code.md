@@ -3,6 +3,8 @@ title: violence in code
 layout: post
 ---
 
+(Originally posted on [Twitter](https://twitter.com/kayserifserif/status/1519222256022392832).)
+
 describing computer processes through the loaded language of child labour, industrial revolution, immigrant farm workers. feels shockingly visceral. hoof
 
 [https://www.npmjs.com/package/worker-farm](https://www.npmjs.com/package/worker-farm)
