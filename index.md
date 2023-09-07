@@ -44,6 +44,10 @@ description: Katherine Yang’s website.
         <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
         <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
       </li>
+      <li>
+        <p class="chapter-title"><a href="/blog">Blog</a></p>
+        <p class="chapter-subtitle">In which Posts are Bravely Made</p>
+      </li>
     </ol>
   </div>
   <div class="section">
