@@ -5,7 +5,7 @@ description: A text and typography&ndash;based virtual exhibition showcasing int
 image: https://kayserifserif.place/assets/storehouse-a.info/map.png
 image-alt: A screenshot of the game in a near-completed state. On the left, the game log; in the middle, the dungeon map; on the right, a legend of symbols.
 
-links: [["https://storehouse-a.glitch.me/", "Website"], ["https://hasgeek.com/ajaibghar/freefall-future-text/", "Exhibition"]]
+links: [["https://storehouse-a.info/", "Website"], ["https://hasgeek.com/ajaibghar/freefall-future-text/", "Exhibition"]]
 
 date: May 2021
 context: Community
