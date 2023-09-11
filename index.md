@@ -52,8 +52,8 @@ description: Katherine Yang’s website.
     </div>
     <div class="section--body">
       <p>playing many hours of Tears of the Kingdom;</p>
-      <p>crocheting many little coasters;</p>
-      <p>getting forgiven by the library for late books</p>
+      <p>weaving in ends;</p>
+      <p>learning about WWII propaganda in the US</p>
       <p>—August 22, 2023.</p>
     </div>
   </div>
