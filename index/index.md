@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Index
-description: Themes in the work.
+description: Some themes in the work.
 ---
 
 <div class="intro">
