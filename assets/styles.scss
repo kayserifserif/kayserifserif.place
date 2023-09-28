@@ -4,6 +4,7 @@
 @font-face {
   font-family: "Select Mono";
   src: url("/assets/SelectMono-Italic.woff");
+  font-display: swap;
 }
 
 :root {
@@ -155,7 +156,7 @@ header a {
 
 .toc .chapter-subtitle {
   margin-top: 0;
-  opacity: 0.5;
+  color: #717171;
 }
 
 /* intro */
