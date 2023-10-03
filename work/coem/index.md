@@ -39,3 +39,8 @@ The language is a self-taught exercise in language and computation, beginning fr
   <div><img src="/assets/coem/reminder.png" alt="A Coem work, titled “reminder”."></div>
   <div><img src="/assets/coem/woman.png" alt="A Coem work, titled “woman”."></div>
 </div>
+
+<div class="gallery">
+  <div><img src="/assets/coem/conditional-limon.png" alt="“The Conditional” by Ada Limón."></div>
+  <div><img src="/assets/coem/conditional.png" alt="A Coem work, titled “conditional”."></div>
+</div>
