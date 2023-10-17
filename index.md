@@ -54,7 +54,7 @@ description: Katherine Yang’s website.
       <p>cozying up with no-conflict movies;</p>
       <p>sharing love;</p>
       <p>wearing that coat that makes me stand a little taller</p>
-      <p>—October 17, 2023.</p>
+      <p>——October 17, 2023.</p>
     </div>
   </div>
 </main>
