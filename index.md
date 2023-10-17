@@ -51,10 +51,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>spotting mushrooms in the forest;</p>
-      <p>working on crafts;</p>
-      <p>doing chores</p>
-      <p>—October 10, 2023.</p>
+      <p>cozying up with no-conflict movies;</p>
+      <p>sharing love;</p>
+      <p>wearing that coat that makes me stand a little taller</p>
+      <p>—October 17, 2023.</p>
     </div>
   </div>
 </main>
