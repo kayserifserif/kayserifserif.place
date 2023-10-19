@@ -4,6 +4,7 @@
 @font-face {
   font-family: "Select Mono";
   src: url("/assets/SelectMono-Italic.woff");
+  font-display: swap;
 }
 
 :root {
@@ -65,10 +66,34 @@ a:hover {
 }
 
 img,
-video {
+video,
+iframe {
   display: block;
   max-width: 100%;
   max-height: 800px;
+}
+
+iframe {
+  width: 800px;
+  height: 500px;
+}
+
+img.inline,
+video.inline,
+iframe.inline {
+  display: inline;
+}
+
+img.size-xs,
+video.size-xs,
+iframe.size-xs {
+  max-width: 300px;
+}
+
+img.size-s,
+video.size-s,
+iframe.size-s {
+  max-width: 400px;
 }
 
 code {
@@ -155,7 +180,7 @@ header a {
 
 .toc .chapter-subtitle {
   margin-top: 0;
-  opacity: 0.5;
+  color: #717171;
 }
 
 /* intro */
@@ -202,7 +227,9 @@ header a {
 main {
   margin: var(--spacing) auto;
 
-  img {
+  img,
+  video,
+  iframe {
     display: block;
     margin: auto;
   }
@@ -312,6 +339,48 @@ figcaption {
 
 .blog-list--date {
   opacity: 0.5;
+}
+
+/* index */
+
+.index {
+  columns: 1;
+}
+@media (min-width: 800px) {
+  .index {
+    columns: 2;
+  }
+}
+
+.index-section + .index-section {
+  margin-top: 1em;
+}
+
+.index .term-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index dd {
+  margin-left: 0.5em;
+  opacity: 0.5;
+}
+
+.index .term-container dt::after {
+  content: ", ";
+}
+
+.index dl {
+  display: block;
+  width: 100%;
+}
+
+.index dl dt::before {
+  content: "——";
+}
+
+.index h2:first-of-type {
+  margin-top: 0;
 }
 
 /* 404 */

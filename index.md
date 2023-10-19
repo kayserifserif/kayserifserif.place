@@ -40,9 +40,17 @@ description: Katherine Yang’s website.
         <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
         <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
       </li>
-      <li>
+      <!-- <li>
         <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
         <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
+      </li> -->
+      <li>
+        <p class="chapter-title"><a href="/carry/">i carry your website with me(i carry it in</a></p>
+        <p class="chapter-subtitle">my website)</p>
+      </li>
+      <li>
+        <p class="chapter-title"><a href="/index">Index</a></p>
+        <p class="chapter-subtitle">In which a Finding Guide is Provided</p>
       </li>
       <li>
         <p class="chapter-title"><a href="/blog">Blog</a></p>
@@ -55,10 +63,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>playing many hours of Tears of the Kingdom;</p>
-      <p>crocheting many little coasters;</p>
-      <p>getting forgiven by the library for late books</p>
-      <p>—August 22, 2023.</p>
+      <p>cozying up with no-conflict movies;</p>
+      <p>wearing that coat that makes me stand a little taller</p>
+      <p>staying up tooo late stitching!</p>
+      <p>——October 17, 2023.</p>
     </div>
   </div>
 </main>

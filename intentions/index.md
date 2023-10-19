@@ -79,7 +79,7 @@ description: A list of intentions; a poem; the “I want” song; not a bucket 
       </div>
       <div>
         <dt>June 26, 2023</dt>
-        <dd>I want to pay artists——at craft fairs, on itch.io, on Bandcamp——</dd>
+        <dd>I want to pay artists (at craft fairs, on itch.io, on Bandcamp)</dd>
       </div>
     </dl>
   </div>

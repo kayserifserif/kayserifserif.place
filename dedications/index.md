@@ -8,8 +8,8 @@ description: To some of the people and things that shape me and my work.
 {% assign musicals = "Hadestown, Sunday in the Park with George, West Side Story, Waitress, Carousel, Legally Blonde, Bridges of Madison County, Amélie, The Guy Who Didn’t Like Musicals" | split: "," %}
 {% assign shows = "Community, Doctor Who, Derry Girls, Crazy Ex-Girlfriend, Gilmore Girls" | split: "," %}
 {% assign films = "Howl’s Moving Castle, The Truman Show, The Social Network, Billy Elliot" | split: "," %}
-{% assign games = "Assemble with Care, Pikuniku, A Short Hike, Toem, The Legend of Zelda: Breath of the Wild, Spiritfarer, Carto, Night in the Woods" | split: "," %}
-{% assign sayings = "Move slow and fix things, Don’t tell the poets, The machines have learned enough, No TERFs; no turfs" | split: "," %}
+{% assign games = "Assemble with Care, Pikuniku, A Short Hike, Toem, The Legend of Zelda: Breath of the Wild, The Legend of Zelda: Tears of the Kingdom, Spiritfarer, Carto, Night in the Woods" | split: "," %}
+{% assign sayings = "Move slow and fix things, Don’t tell the poets, The machines have learned enough, No TERFs; no turfs, (delivered quietly), I love visiting your website (from Chris Coyier)" | split: "," %}
 
 <div class="intro">
   <h1>{{ page.title }}</h1>
@@ -37,6 +37,7 @@ description: To some of the people and things that shape me and my work.
         <p><a href="https://www.spencerchang.me">Spencer Chang</a>.</p>
         <p><a href="https://omar.website/">Omar Rizwan</a>.</p>
         <p><a href="https://shen.land/">Shen</a>.</p>
+        <p><a href="https://mangotango.mmm.page/">Alicia Guo</a>.</p>
         <p><a href="https://ifyouknewmewouldyoulove.me/">Chia Amisola</a>.</p>
         <p><a href="https://jzhao.xyz/">Jacky Zhao</a>.</p>
         <p><a href="https://ivanzhao.me/">Ivan Zhao</a>.</p>
