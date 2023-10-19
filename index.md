@@ -60,8 +60,8 @@ description: Katherine Yang’s website.
     </div>
     <div class="section--body">
       <p>cozying up with no-conflict movies;</p>
-      <p>sharing love;</p>
       <p>wearing that coat that makes me stand a little taller</p>
+      <p>staying up tooo late stitching!</p>
       <p>——October 17, 2023.</p>
     </div>
   </div>
