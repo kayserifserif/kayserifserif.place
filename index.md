@@ -40,9 +40,13 @@ description: Katherine Yang’s website.
         <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
         <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
       </li>
-      <li>
+      <!-- <li>
         <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
         <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
+      </li> -->
+      <li>
+        <p class="chapter-title"><a href="/carry/">i carry your website with me(i carry it in</a></p>
+        <p class="chapter-subtitle">my website)</p>
       </li>
     </ol>
   </div>

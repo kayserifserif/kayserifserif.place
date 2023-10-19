@@ -66,10 +66,34 @@ a:hover {
 }
 
 img,
-video {
+video,
+iframe {
   display: block;
   max-width: 100%;
   max-height: 800px;
+}
+
+iframe {
+  width: 800px;
+  height: 500px;
+}
+
+img.inline,
+video.inline,
+iframe.inline {
+  display: inline;
+}
+
+img.size-xs,
+video.size-xs,
+iframe.size-xs {
+  max-width: 300px;
+}
+
+img.size-s,
+video.size-s,
+iframe.size-s {
+  max-width: 400px;
 }
 
 code {
@@ -203,7 +227,9 @@ header a {
 main {
   margin: var(--spacing) auto;
 
-  img {
+  img,
+  video,
+  iframe {
     display: block;
     margin: auto;
   }
