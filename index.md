@@ -49,7 +49,7 @@ description: Katherine Yang’s website.
         <p class="chapter-subtitle">my website)</p>
       </li>
       <li>
-        <p class="chapter-title"><a href="/index">Index</a></p>
+        <p class="chapter-title"><a href="/index/">Index</a></p>
         <p class="chapter-subtitle">In which a Finding Guide is Provided</p>
       </li>
     </ol>
