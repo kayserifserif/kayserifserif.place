@@ -297,7 +297,12 @@ figcaption {
 /* index */
 
 .index {
-  columns: 2;
+  columns: 1;
+}
+@media (min-width: 800px) {
+  .index {
+    columns: 2;
+  }
 }
 
 .index-section + .index-section {
