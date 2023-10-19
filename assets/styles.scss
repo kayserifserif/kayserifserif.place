@@ -359,6 +359,10 @@ figcaption {
   content: "——";
 }
 
+.index h2:first-of-type {
+  margin-top: 0;
+}
+
 /* 404 */
 
 .four-oh-four {

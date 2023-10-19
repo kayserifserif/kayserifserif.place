@@ -23,8 +23,8 @@ description:
   <iframe src="https://shen.land/" frameborder="0"></iframe>
   <p><a href="https://ifyouknewmewouldyoulove.me/">ifyouknewmewouldyoulove.me</a></p>
   <iframe src="https://ifyouknewmewouldyoulove.me/" frameborder="0"></iframe>
-  <p><a href="https://jzhao.xyz/">jzhao.xyz</a></p>
-  <iframe src="https://jzhao.xyz/" frameborder="0"></iframe>
+  <!-- <p><a href="https://jzhao.xyz/">jzhao.xyz</a></p>
+  <iframe src="https://jzhao.xyz/" frameborder="0"></iframe> -->
   <p><a href="https://ivanzhao.me/">ivanzhao.me</a></p>
   <iframe src="https://ivanzhao.me/" frameborder="0"></iframe>
   <!-- <p><a href="https://robinrendle.com/">robinrendle.com</a></p> -->
