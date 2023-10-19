@@ -321,6 +321,44 @@ figcaption {
     }
   }
 
+/* index */
+
+.index {
+  columns: 1;
+}
+@media (min-width: 800px) {
+  .index {
+    columns: 2;
+  }
+}
+
+.index-section + .index-section {
+  margin-top: 1em;
+}
+
+.index .term-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index dd {
+  margin-left: 0.5em;
+  opacity: 0.5;
+}
+
+.index .term-container dt::after {
+  content: ", ";
+}
+
+.index dl {
+  display: block;
+  width: 100%;
+}
+
+.index dl dt::before {
+  content: "——";
+}
+
 /* 404 */
 
 .four-oh-four {
