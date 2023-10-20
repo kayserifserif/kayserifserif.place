@@ -28,7 +28,7 @@ description: Katherine Yang’s website.
         <p class="chapter-subtitle">In which Select Projects are Listed</p>
       </li>
       <li>
-        <p class="chapter-title"><a href="/assets/resume/yang-katherine-resume-202307.pdf">Résumé</a></p>
+        <p class="chapter-title"><a href="/assets/files/resume/yang-katherine-resume-202307.pdf">Résumé</a></p>
         <p class="chapter-subtitle">In which a Document is Attached (PDF, 82 kB)</p>
       </li>
       <!-- <li><a href="/fragments/">In which Fragments Hint at her Happenings</a></li> -->

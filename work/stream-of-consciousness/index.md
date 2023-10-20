@@ -2,7 +2,7 @@
 layout: project
 title: Stream of Consciousness
 description: A tool that sends your thoughts down a stream of consciousness.
-image: https://kayserifserif.place/assets/stream-of-consciousness/poem.jpg
+image: https://kayserifserif.place/assets/media/stream-of-consciousness/poem.jpg
 image-alt: A close-up of the controls, the poem, and the instructions.
 
 links: [["https://kayserifserif.place/stream", "Website"], ["https://github.com/kayserifserif/stream", "GitHub"]]
@@ -24,6 +24,6 @@ Notes on the making:
 - Accessibility: as always, not 100%. Mobile accessibility would be the most important here; other ideas include speech-to-text, support for accented characters and IME languages, more optimised video.
 
 <div class="gallery">
-  <div><img src="/assets/stream-of-consciousness/poem.jpg" alt="A close-up of the controls, the poem, and the instructions."></div>
-  <div><img src="/assets/stream-of-consciousness/stream.jpg" alt="Words being carried down the stream of consciousness."></div>
+  <div><img src="/assets/media/stream-of-consciousness/poem.jpg" alt="A close-up of the controls, the poem, and the instructions."></div>
+  <div><img src="/assets/media/stream-of-consciousness/stream.jpg" alt="Words being carried down the stream of consciousness."></div>
 </div>

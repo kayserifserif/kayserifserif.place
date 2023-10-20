@@ -35,7 +35,7 @@ description:
 
   <p>
     <a href="https://www.poetryfoundation.org/poetrymagazine/poems/49493/i-carry-your-heart-with-mei-carry-it-in">
-      <img class="inline size-xs" src="/assets/carry/carry.png" alt="BY E. E. CUMMINGS / i carry your website with me(i carry it in my website)i am never without it">
+      <img class="inline size-xs" src="/assets/media/carry/carry.png" alt="BY E. E. CUMMINGS / i carry your website with me(i carry it in my website)i am never without it">
     </a>
   </p>
 </main>

@@ -3,7 +3,7 @@ layout: project
 title: "On Being Friends with Our Computers: An Invocation for Soft Tech"
 description: A manifesto. Written for WRIT-340.
 
-links: [["/assets/manifesto/manifesto.pdf", "PDF (35 kB)"]]
+links: [["/assets/files/manifesto/manifesto.pdf", "PDF (35 kB)"]]
 
 date: September 2021
 context: Academic

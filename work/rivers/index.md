@@ -2,7 +2,7 @@
 layout: project
 title: Rivers
 description: A steadily widening river of whitespace runs down the middle of a text passage.
-image: https://kayserifserif.place/assets/rivers/portrait.jpg
+image: https://kayserifserif.place/assets/media/rivers/portrait.jpg
 image-alt: A mobile view of the rivers piece. A winding river carves through the middle of the piece, narrow at first then wider and wider.
 
 links: [["https://kayserifserif.place/rivers", "Website"], ["https://github.com/kayserifserif/rivers", "GitHub"]]
@@ -23,5 +23,5 @@ In this piece, the reader is represented by an asterisk (*) that falls from the 
 The project went through multiple iterations and contexts, including a period of prototyping with [Steffi Che](https://steffiche.com/tagged/home) and [dra_ft_](https://dra-ft.site/), during which it was incorporated into [Storehouse-A.info](/work/storehouse-a.info/).
 
 <div class="gallery">
-  <div><img src="/assets/rivers/portrait.jpg" alt="A mobile view of the rivers piece. A winding river carves through the middle of the piece, narrow at first then wider and wider."></div>
+  <div><img src="/assets/media/rivers/portrait.jpg" alt="A mobile view of the rivers piece. A winding river carves through the middle of the piece, narrow at first then wider and wider."></div>
 </div>
