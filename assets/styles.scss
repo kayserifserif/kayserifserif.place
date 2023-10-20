@@ -3,19 +3,22 @@
 
 @font-face {
   font-family: "Select Mono";
-  src: url("/assets/SelectMono-Italic.woff");
+  src: url("/assets/fonts/SelectMono-Italic.woff");
   font-display: swap;
 }
 
 :root {
   font-size: 16px;
-  --spacing: 100px;
+  --spacing-lg: 200px;
+  --spacing-sm: 100px;
+  --font-mono: "Select Mono", monospace;
 }
 
 @media (max-width: 800px) {
   :root {
     font-size: 14px;
-    --spacing: 50px;
+    --spacing-lg: 50px;
+    --spacing-sm: 50px;
   }
 }
 
@@ -34,7 +37,7 @@ body {
 body {
   padding: 5vw 10vw;
   margin: auto;
-  font-family: "Select Mono", monospace;
+  font-family: var(--font-mono);
   line-height: 1.5;
   color: #444;
 }
@@ -60,7 +63,8 @@ a:hover {
 }
 
 [lang="zh"] {
-  font-family: "Libian TC", sans-serif;
+  font-family: "Libian TC", serif;
+  font-weight: 300;
   font-size: 1.2em;
   line-height: 1.25;
 }
@@ -96,8 +100,22 @@ iframe.size-s {
   max-width: 400px;
 }
 
-code {
-  font-family: "Select Mono", monospace;
+code,
+kbd {
+  font-family: var(--font-mono);
+}
+
+kbd {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 .3rem;
+  margin: 0 .2rem;
+  font-size: 0.7rem;
+  background-color: rgba(0,0,0,.01);
+  border-radius: 5px;
+  /* box-shadow: 1px 1px 2px rgba(0,0,0,.2), inset 1px 1px 2px rgba(0,0,0,.05); */
+  border: 2px solid #dadada;
+  box-shadow: inset 0 -1px 0 0 #dadada;
 }
 
 ul,
@@ -147,7 +165,7 @@ header {
       max-width: 800px;
       text-align: left;
       transform: unset;
-      margin: 0 auto var(--spacing);
+      margin: 0 auto var(--spacing-sm);
     }
   }
 
@@ -180,7 +198,7 @@ header a {
 
 .toc .chapter-subtitle {
   margin-top: 0;
-  color: #717171;
+  // color: #717171;
 }
 
 /* intro */
@@ -225,7 +243,7 @@ header a {
 /* main */
 
 main {
-  margin: var(--spacing) auto;
+  margin: var(--spacing-lg) auto;
 
   img,
   video,
@@ -235,8 +253,12 @@ main {
   }
 }
 
+.project {
+  font-family: var(--font-mono);
+}
+
 .section + .section {
-  margin-top: var(--spacing);
+  margin-top: var(--spacing-sm);
 }
 
 .columns {
@@ -263,7 +285,8 @@ main blockquote {
 
 .metadata {
   margin-top: 1.2rem;
-  font-size: 0.75em;
+  // font-size: 0.75em;
+  font-size: 0.8em;
   line-height: 2;
 }
 
@@ -276,10 +299,11 @@ main blockquote {
 }
 
 .gallery {
-  margin: var(--spacing) auto;
+  margin: var(--spacing-sm) auto;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
+  align-items: center;
 }
   @media (max-width: 800px) {
     .gallery {
@@ -385,7 +409,7 @@ figcaption {
   width: 76ch;
   margin: auto;
   text-align: left;
-  font-family: "Select Mono", monospace;
+  font-family: var(--font-mono);
 }
 
 /* footer */
@@ -393,5 +417,10 @@ figcaption {
 footer {
   max-width: 800px;
   margin: auto;
-  font-size: 0.6rem;
+  // font-size: 0.6rem;
+  font-size: 0.8em;
 }
+
+// footer hr {
+//   margin-bottom: var(--spacing-lg);
+// }
