@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Index
-description: Some themes in the work.
+description: Some themes in the work. (Last updated October 20, 2023.)
 ---
 
 <div class="intro">
