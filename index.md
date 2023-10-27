@@ -59,10 +59,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>cozying up with no-conflict movies;</p>
-      <p>wearing that coat that makes me stand a little taller</p>
-      <p>staying up tooo late stitching!</p>
-      <p>——October 17, 2023.</p>
+      <p>watching OFMD and Loki;</p>
+      <p>looking at trees;</p>
+      <p>LEARNING SEWING!</p>
+      <p>——October 27, 2023.</p>
     </div>
   </div>
 </main>
