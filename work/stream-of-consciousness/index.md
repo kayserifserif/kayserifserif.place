@@ -5,7 +5,7 @@ description: A tool that sends your thoughts down a stream of consciousness.
 image: https://kayserifserif.place/assets/media/stream-of-consciousness/poem.jpg
 image-alt: A close-up of the controls, the poem, and the instructions.
 
-links: [["https://kayserifserif.place/stream", "Website"], ["https://github.com/kayserifserif/stream", "GitHub"]]
+links: [["https://kayserifserif.place/stream", "Website (currently down)"], ["https://github.com/kayserifserif/stream", "GitHub"]]
 
 date: December 2020
 context: Personal
