@@ -5,7 +5,7 @@ description: A steadily widening river of whitespace runs down the middle of a t
 image: https://kayserifserif.place/assets/media/rivers/portrait.jpg
 image-alt: A mobile view of the rivers piece. A winding river carves through the middle of the piece, narrow at first then wider and wider.
 
-links: [["https://kayserifserif.place/rivers", "Website"], ["https://github.com/kayserifserif/rivers", "GitHub"]]
+links: [["/rivers", "Site"], ["https://github.com/kayserifserif/rivers", "GitHub"]]
 
 date: April 2021
 context: Personal
