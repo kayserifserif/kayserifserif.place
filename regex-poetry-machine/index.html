@@ -1,0 +1,82 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>RegEx Poetry Machine</title>
+    <script type="module" crossorigin src="./assets/index-82877c4c.js"></script>
+    <link rel="stylesheet" href="./assets/index-2f791a75.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>RegEx Poetry Machine</h1>
+    </header>
+    <main>
+      <div class="input">
+        <form class="input-form">
+          <div class="controls start-controls">
+            <button type="button" class="add-button">Add a string</button>
+            <button type="button" class="switch-button">Switch strings</button>
+          </div>
+          <div class="string-input-container">
+            <label for="string1" class="visually-hidden">String 1</label>
+            <input type="text" name="string1" id="string1" class="string-input">
+          </div>
+          <div class="string-input-container">
+            <label for="string2" class="visually-hidden">String 2</label>
+            <input type="text" name="string2" id="string2" class="string-input">
+          </div>
+          <div class="controls end-controls">
+            <div>
+              <input type="radio" name="group" id="group--brackets" value="brackets" checked autocomplete="off">
+              <label for="group--brackets">Prefer brackets <code>[ab]</code></label>
+            </div>
+            <div>
+              <input type="radio" name="group" id="group--parentheses" value="parentheses" autocomplete="off">
+              <label for="group--parentheses">Prefer parentheses <code>(a|b)</code></label>
+            </div>
+          </div>
+          <div class="controls submit-controls">
+            <button type="submit">Make a match pair</button>
+          </div>
+        </form>
+      </div>
+      <div class="output">
+        <dl class="patterns hidden">
+          <h2>Match pair</h2>
+          <div class="pattern pattern--primary" id="pattern--middle">
+            <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+            <dt>By shared middle</dt>
+          </div>
+          <div class="other-patterns">
+            <h3>Other algorithms</h3>
+            <div class="pattern pattern--secondary" id="pattern--alternation">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By alternation</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--begin-end">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared beginning and ending</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--begin">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared beginning</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--end">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared ending</dt>
+            </div>
+          </div>
+        </dl>
+      </div>
+      <div class="saved hidden">
+        <header>
+          <h2>Saved match pairs</h2>
+          <button type="button" class="button--secondary copy-button">Copy all</button>
+        </header>
+      </div>
+    </main>
+    
+  </body>
+</html>
