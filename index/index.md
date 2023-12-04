@@ -17,11 +17,11 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/about/">/about</a></dd>
       </div>
       <div class="term-container">
-        <dt>alicia</dt>
+        <dt>Alicia</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div class="term-container">
-        <dt>anh</dt>
+        <dt>Anh</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
     </div>
@@ -36,7 +36,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/intentions/">/intentions</a></dd>
       </div>
       <div class="term-container">
-        <dt>boston</dt>
+        <dt>Boston</dt>
         <dd><a href="/about">/about</a></dd>
       </div>
       <div class="term-container">
@@ -47,7 +47,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     <div class="index-section">
       <h2>C</h2>
       <div class="term-container">
-        <dt>chia</dt>
+        <dt>Chia</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div class="term-container">
@@ -74,7 +74,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dt>critical code studies</dt>
         <dl>
           <div class="term-container">
-            <dt>lab</dt>
+            <dt>Critical Code Studies Lab</dt>
             <dd><a href="/appearances/">/appearances</a></dd>
           </div>
           <div class="term-container">
@@ -97,7 +97,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dt>electronic literature</dt>
         <dl>
           <div class="term-container">
-            <dt>electronic literature organization</dt>
+            <dt>Electronic Literature Organization</dt>
             <dd><a href="/appearances/">/appearances</a></dd>
           </div>
         </dl>
@@ -118,7 +118,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     <div class="index-section">
       <h2>F</h2>
       <div class="term-container">
-        <dt>fathom information design</dt>
+        <dt>Fathom Information Design</dt>
         <dd><a href="/about/">/about</a></dd>
       </div>
     </div>
@@ -136,7 +136,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     <div class="index-section">
       <h2>H</h2>
       <div class="term-container">
-        <dt>henry</dt>
+        <dt>Henry</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div>
@@ -151,7 +151,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
               <dd><a href="/work/every-element-is-an-html/">/work/every-element-is-an-html</a></dd>
             </div>
             <div class="term-container">
-              <dt>html review</dt>
+              <dt>The HTML Review</dt>
               <dd><a href="/appearances/">/appearances</a></dd>
             </div>
           </dl>
@@ -161,7 +161,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/intentions/">/intentions</a></dd>
       </div>
       <div class="term-container">
-        <dt>hong kong</dt>
+        <dt>Hong Kong</dt>
         <dd><a href="/about/">/about</a></dd>
       </div>
       <div class="term-container">
@@ -184,7 +184,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/work/coem/">/work/coem</a></dd>
       </div>
       <div class="term-container">
-        <dt>ivan</dt>
+        <dt>Ivan</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
     </div>
@@ -195,7 +195,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/work/a-global-language/">/work/a-global-language</a></dd>
       </div>
       <div class="term-container">
-        <dt>leslie</dt>
+        <dt>Leslie</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div>
@@ -216,7 +216,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         </dl>
       </div>
       <div class="term-container">
-        <dt>los angeles</dt>
+        <dt>Los Angeles</dt>
         <dd><a href="/about/">/about</a></dd>
       </div>
     </div>
@@ -309,19 +309,19 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/work/stitched-links/">/work/stitched-links</a></dd>
       </div>
       <div class="term-container">
-        <dt>shanghai</dt>
+        <dt>Shanghai</dt>
         <dd><a href="/about/">/about</a></dd>
       </div>
       <div class="term-container">
-        <dt>shen</dt>
+        <dt>Shen</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div class="term-container">
-        <dt>southern california, university of</dt>
+        <dt>Southern California, University of</dt>
         <dd><a href="/about/">/about</a>, <a href="/appearances/">/appearances</a></dd>
       </div>
       <div class="term-container">
-        <dt>spencer</dt>
+        <dt>Spencer</dt>
         <dd><a href="/carry/">/carry</a></dd>
       </div>
       <div class="term-container">
@@ -340,7 +340,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         <dd><a href="/work/proseplay/">/work/proseplay</a>, <a href="/work/stream-of-consciousness/">/work/stream-of-consciousness</a>, <a href="/work/i-name-this-feeling/">/work/i-name-this-feeling</a>, <a href="/work/a-global-language/">/work/a-global-language</a></dd>
       </div>
       <div class="term-container">
-        <dt>twitter</dt>
+        <dt>Twitter</dt>
         <dd><a href="/work/waking-and-sleeping/">/work/waking-and-sleeping</a></dd>
       </div>
     </div>
@@ -372,7 +372,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         </dl>
       </div>
       <div class="term-container">
-        <dt>wikipedia</dt>
+        <dt>Wikipedia</dt>
         <dd><a href="/work/wikipedia-narratives/">/work/wikipedia-narratives</a></dd>
       </div>
     </div>
