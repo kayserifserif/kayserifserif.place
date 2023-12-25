@@ -23,6 +23,21 @@ if (USE_RECEIPT) {
     const right = Math.round(Math.random() * MAX_RIGHT);
     const signedRight = right * (getRandomBoolean() ? 1 : -1);
     receipt.style.marginRight = `${signedRight}px`;
+
+    const notes = receipt.querySelectorAll(".note");
+    notes.forEach(note => {
+      const time = note.querySelector("time");
+      if (!time) return;
+      const dateString = time.dateTime;
+      const date = new Date(dateString);
+      const [year, month, day] = [
+        date.getFullYear().toString().slice(2),
+        (date.getMonth() + 1).toString().padStart(2, '0'),
+        date.getDate().toString().padStart(2, '0')
+      ];
+      const formatted = `${year}.${month}.${day}`;
+      time.innerText = formatted;
+    });
   });
 } else {
   const notes = document.querySelectorAll(".scribbles .note");
@@ -40,7 +55,7 @@ if (USE_RECEIPT) {
 
     if (i > 0) {
       const prevNote = notes[i - 1];
-      const textBlocks = Array.from(prevNote.querySelectorAll("p, span"));
+      const textBlocks = Array.from(prevNote.querySelectorAll("p, h2"));
       const textHeight = textBlocks.reduce((accumulator, current) => {
         let height = current.getBoundingClientRect().height;
         if (accumulator > 0) {
