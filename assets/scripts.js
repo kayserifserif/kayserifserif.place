@@ -1,0 +1,64 @@
+const MAX_ANGLE = 2;
+const MAX_TOP = 20;
+const MAX_RIGHT = 20;
+const NOTE_MAX_RIGHT = 40;
+const PARAGRAPH_MARGIN = 24; // 1.5rem = 1.5 * 16
+
+const USE_RECEIPT = getRandomBoolean();
+const scribbles = document.querySelectorAll(".scribbles");
+scribbles.forEach(s => {
+  s.classList.toggle("scribbles--receipt", USE_RECEIPT);
+  s.classList.toggle("scribbles--notes", !USE_RECEIPT);
+});
+
+if (USE_RECEIPT) {
+  const receipts = document.querySelectorAll(".scribbles--receipt");
+  receipts.forEach(receipt => {
+    const angle = Math.round(Math.random() * MAX_ANGLE);
+    const signedAngle = angle * (getRandomBoolean() ? 1 : -1);
+    receipt.style.transform = `rotate(${signedAngle}deg)`;
+    const top = Math.round(Math.random() * MAX_TOP);
+    const signedTop = top * (getRandomBoolean() ? 1 : -1);
+    receipt.style.marginTop = `${signedTop}px`;
+    const right = Math.round(Math.random() * MAX_RIGHT);
+    const signedRight = right * (getRandomBoolean() ? 1 : -1);
+    receipt.style.marginRight = `${signedRight}px`;
+  });
+} else {
+  const notes = document.querySelectorAll(".scribbles .note");
+  for (let i = 0; i < notes.length; i++) {
+    const note = notes[i];
+    let transforms = [];
+    const angle = Math.round(Math.random() * MAX_ANGLE);
+    const signedAngle = angle * (getRandomBoolean() ? 1 : -1);
+    const rotation = `rotate(${signedAngle}deg)`;
+    transforms.push(rotation);
+
+    const right = Math.round(Math.random() * NOTE_MAX_RIGHT) * -1;
+    const translation = `translate(${right}px, 0)`;
+    transforms.push(translation);
+
+    if (i > 0) {
+      const prevNote = notes[i - 1];
+      const textBlocks = Array.from(prevNote.querySelectorAll("p, span"));
+      const textHeight = textBlocks.reduce((accumulator, current) => {
+        let height = current.getBoundingClientRect().height;
+        if (accumulator > 0) {
+          height += PARAGRAPH_MARGIN;
+        } else {
+          height += PARAGRAPH_MARGIN * 2;
+        }
+        return accumulator + height;
+      }, 0);
+      const randomTop = Math.round(Math.random() * MAX_TOP);
+      const top = textHeight + randomTop;
+      note.style.marginTop = `calc(-100% + ${top}px)`;
+    }
+
+    note.style.transform = transforms.join(" ");
+  }
+}
+
+function getRandomBoolean() {
+  return Math.random() > 0.5;
+}

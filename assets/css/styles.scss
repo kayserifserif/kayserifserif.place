@@ -257,6 +257,70 @@ header[role="banner"] a {
   // color: #717171;
 }
 
+/* scribbles */
+
+.scribbles {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  transform: rotate(1deg);
+  font-size: 0.75rem;
+}
+  @media (max-width: 800px) {
+    .scribbles {
+      position: static;
+      transform: none;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .scribbles--notes .note {
+      max-width: 250px;
+    }
+  }
+
+.scribbles--notes .note {
+  padding: 1rem;
+  background-color: rgb(255, 253, 250);
+  box-shadow: 1px 1px 8px rgba(113, 99, 78, 0.1);
+  width: 250px;
+  min-height: 250px;
+}
+
+.scribbles--notes .note::before {
+  content: "∫";
+  display: block;
+  text-align: center;
+  font-family: "Bodoni Ornaments";
+  font-weight: 300;
+  font-size: 0.75em;
+  margin-bottom: 1rem;
+}
+
+.scribbles--receipt {
+  box-shadow: 1px 1px 8px rgba(113, 99, 78, 0.1);
+  background-color: rgb(253, 253, 253);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 300px;
+}
+
+// .scribbles--receipt > * + * {
+.scribbles--receipt div + div {
+  border-top: 1px dashed rgba(68, 68, 68, 0.5);
+}
+
+.scribbles--receipt h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.scribbles--notes .note-date {
+  font-style: italic;
+}
+
 /* intro */
 
 .intro {

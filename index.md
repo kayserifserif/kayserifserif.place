@@ -66,3 +66,25 @@ description: Katherine Yang’s website.
     </div>
   </div>
 </main>
+
+<aside class="scribbles scribbles--receipt">
+  <h2 class="note"><span>Thesis Statements</span></h2>
+  <div class="note">
+    <p class="note-date">(sometime)</p>
+    <p>soft tech & poetic tools</p>
+  </div>
+  <div class="note">
+    <p class="note-date">(sometime)</p>
+    <p>finding the poetry in code and the ritual in poetry</p>
+  </div>
+  <div class="note">
+    <p class="note-date">Dec 9, 2023</p>
+    <p>notation as language as poetry as story as code as system as environment as secret as trust as patience as russian dolls as protection as a journey as a message in a bottle as turning the corner as beginning middle and end</p>
+  </div>
+  <div class="note">
+    <p class="note-date">(sometime)</p>
+    <p>structure and infrastructure as poetry and accessibility</p>
+  </div>
+</aside>
+
+<script src="assets/scripts.js"></script>
