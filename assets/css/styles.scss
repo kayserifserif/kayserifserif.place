@@ -283,7 +283,7 @@ header[role="banner"] a {
 .scribbles--notes .note {
   padding: 1rem;
   background-color: rgb(255, 253, 250);
-  box-shadow: 1px 1px 8px rgba(113, 99, 78, 0.1);
+  box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
   width: 250px;
   min-height: 250px;
 }
@@ -299,7 +299,7 @@ header[role="banner"] a {
 }
 
 .scribbles--receipt {
-  box-shadow: 1px 1px 8px rgba(113, 99, 78, 0.1);
+  box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
   // background-color: rgb(253, 253, 253);
   background-color: rgb(245, 245, 245);
   padding-left: 1rem;
@@ -320,8 +320,7 @@ header[role="banner"] a {
   background-repeat: no-repeat;
 }
 
-// .scribbles--receipt > * + * {
-.scribbles--receipt div + div {
+.scribbles--receipt .note + .note {
   border-top: 1px dashed rgba(68, 68, 68, 0.5);
 }
 
