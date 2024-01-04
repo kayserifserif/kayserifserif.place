@@ -221,7 +221,8 @@ header[role="banner"] {
       max-width: 800px;
       text-align: left;
       transform: unset;
-      margin: 0 auto var(--spacing-sm);
+      // margin: 0 auto var(--spacing-sm);
+      margin: 0 auto var(--spacing);
     }
   }
 
@@ -230,7 +231,7 @@ header[role="banner"] a {
   margin-left: -120%;
 }
   @media (max-width: 1200px), print {
-    header a {
+    header[role="banner"] a {
       margin-top: 0;
       margin-left: calc(36px / -4);
     }
@@ -270,9 +271,11 @@ header[role="banner"] a {
     .scribbles {
       position: static;
       transform: none;
-      max-width: 800px;
+      width: 250px;
+      // max-width: 800px;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: var(--spacing);
     }
 
     .scribbles--notes .note {
@@ -332,7 +335,7 @@ header[role="banner"] a {
 
 .scribbles--receipt .note {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr auto;
   gap: 1rem;
 }
 
@@ -451,7 +454,8 @@ main pre {
 }
 
 .gallery {
-  margin: var(--spacing-sm) auto;
+  // margin: var(--spacing-sm) auto;
+  margin: var(--spacing) auto;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
