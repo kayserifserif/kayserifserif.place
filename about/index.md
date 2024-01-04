@@ -6,7 +6,9 @@ description: Some information about me.
 
 <div class="intro">
   <h1>{{ page.title }}</h1>
-  <div>{{ page.description }}</div>
+  <div>
+    <p>{{ page.description }}</p>
+  </div>
 </div>
 <main>
   <p>Hi, I’m Katherine (she/her)! I make things in the pursuit of poetic tech. I grew up in Hong Kong and was raised in a Shanghainese family. I attended the University of Southern California, where I studied media arts, computer programming, and linguistics. I currently work as a front-end developer and designer at <a href="https://fathom.info">Fathom Information Design</a>, where I help figure out interesting ways to explore ideas and answer questions through data.</p>
