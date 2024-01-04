@@ -2,10 +2,10 @@
 layout: project
 title: Every Element Is an HTML
 description: Jamming with the raw materials of HTML.
-image: https://kayserifserif.place/assets/every-element-is-an-html/q.png
+image: https://kayserifserif.place/assets/media/every-element-is-an-html/q.png
 image-alt: A page with the repeated text, “Every element is an”, iterating through all possible HTML tags. Currently, all elements are composed of the <q> tag, so each sentence is wrapped with quotation marks.
 
-links: [["https://kayserifserif.place/every-element-is-an-html", "Website"], ["https://github.com/kayserifserif/every-element-is-an-html", "GitHub"]]
+links: [["/every-element-is-an-html", "Site"], ["https://github.com/kayserifserif/every-element-is-an-html", "GitHub"]]
 
 date: February 2022
 context: Personal
@@ -19,7 +19,7 @@ On this webpage, every element displayed on the page, 86 in total, begins as an 
 I had initially made this as just a website or interactive text&nbsp;--&nbsp;sort of idly interesting&nbsp;--&nbsp;but then I started to play it as a game, where you have to click through every element sequentially as fast as you can.
 
 <div class="gallery">
-  <div><img src="/assets/every-element-is-an-html/q.png" alt="A page with the repeated text, “Every element is an”, iterating through all possible HTML tags. Currently, all elements are composed of the <q> tag, so each sentence is wrapped with quotation marks."></div>
+  <div><img src="/assets/media/every-element-is-an-html/q.png" alt="A page with the repeated text, “Every element is an”, iterating through all possible HTML tags. Currently, all elements are composed of the <q> tag, so each sentence is wrapped with quotation marks."></div>
 </div>
 
 Interacting with it like that was super interesting and fun! Default CSS values for HTML elements provide a lot of variety, switching within display values (inline, block, even table-cell, which makes you have to scroll) and spacing and typography, and so on.
@@ -31,5 +31,5 @@ This was inspired by Evan Roth’s [All HTML](https://all-html.net) (also on [Es
 This was also inspired by the hilarious [The Angle Bracket](https://theanglebracket.com/) by Laurie Voss, which all went down in [this Twitter thread](https://twitter.com/seldo/status/1459959521896382466). (The website is also super worth checking out for the design &amp; snarky commentary &amp; bonkers one-element website demos.)
 
 <div class="gallery">
-  <div><video controls src="/assets/every-element-is-an-html/jam.mp4"></video></div>
+  <div><video controls src="/assets/media/every-element-is-an-html/jam.mp4"></video></div>
 </div>

@@ -12,6 +12,7 @@ description: Publications and exhibitions.
 </div>
 <main>
   <div class="section">
+    <p>[Press] <a href="https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/">Recapturing early-internet whimsy with HTML.</a> MIT Technology Review, December 21, 2023.</p>
     <p>[Exhibition] <a href="https://playingpoetry.com/virtual-textual/">Virtual Textual</a>, Playing Poetry. Phoenix Leicester, UK. October 6 – December 17, 2023.</p>
     <p>[Event] <a href="https://www.culturehub.org/events/inspect-elements">Inspect Elements: A Reading with The HTML Review</a>. 25 May 2023.</p>
     <p>[Press] Every Element Is an HTML, <a href="https://us1.campaign-archive.com/?u=06d4331d3f6ca1049be212ef8&id=6009a3d951">Read.cv Digest #40</a>. 11 April 2023.</p>

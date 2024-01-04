@@ -1,0 +1,123 @@
+<!doctype HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <!-- <link rel="stylesheet" class="theme-sheet" href="light.css"> -->
+    <title>RegEx Poetry Machine</title>
+    <script type="module" crossorigin src="./assets/index-c9dfeb94.js"></script>
+    <link rel="stylesheet" href="./assets/index-ae8f66a4.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>RegEx Poetry Machine</h1>
+    </header>
+    <main>
+      <div class="input">
+        <form class="input-form">
+          <div class="controls start-controls">
+            <button type="button" class="add-button">Add a string</button>
+            <button type="button" class="switch-button">Switch strings</button>
+          </div>
+          <div class="string-input-container">
+            <label for="string1" class="visually-hidden">String 1</label>
+            <input type="text" name="string1" id="string1" class="string-input">
+          </div>
+          <div class="string-input-container">
+            <label for="string2" class="visually-hidden">String 2</label>
+            <input type="text" name="string2" id="string2" class="string-input">
+          </div>
+          <div class="controls end-controls">
+            <div>
+              <input type="radio" name="group" id="group--parentheses" value="parentheses" autocomplete="off" checked>
+              <label for="group--parentheses">Always use parentheses <code>(a|b)</code></label>
+            </div>
+            <div>
+              <input type="radio" name="group" id="group--brackets" value="brackets" autocomplete="off">
+              <label for="group--brackets">Prefer brackets when possible <code>[ab]</code></label>
+            </div>
+          </div>
+          <div class="controls submit-controls">
+            <button type="submit">Make match pair</button>
+          </div>
+        </form>
+      </div>
+      <div class="output">
+        <dl class="patterns hidden">
+          <h2>Match pair</h2>
+          <div class="pattern pattern--primary" id="pattern--middle">
+            <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+            <dt>By shared middle</dt>
+          </div>
+          <div class="other-patterns">
+            <h3>Other algorithms</h3>
+            <div class="pattern pattern--secondary" id="pattern--alternation">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By alternation</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--begin-end">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared beginning and ending</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--begin">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared beginning</dt>
+            </div>
+            <div class="pattern pattern--secondary" id="pattern--end">
+              <div class="pattern-top"><dd></dd><button type="button" class="save-button button--secondary">Save match pair</button></div>
+              <dt>By shared ending</dt>
+            </div>
+          </div>
+        </dl>
+      </div>
+      <div class="saved hidden">
+        <header>
+          <h2>Saved match pairs</h2>
+          <button type="button" class="button--secondary copy-button">Copy all</button>
+        </header>
+        <div class="saved-entry" data-group="brackets">
+          <div class="entry-strings"></div>
+          <div class="entry-pattern"></div>
+          <div class="end-controls controls">
+            <button type="button" class="load-button button--secondary">Load match pair</button>
+            <button type="button" class="remove-entry-button button--secondary">Remove</button>
+          </div>
+        </div>
+      </div>
+    </main>
+<!-- homophone poem
+- mist + missed -> mis(t|sed)
+- see + sea -> se[ea]
+- prey + pray -> pr[ea]y
+- morning + mourning -> mou?rning
+- words + worlds -> worl?ds
+- exit + exist -> exis?t
+- seep + sleep -> sl?eep
+
+@happyautomata: touched + together -> to(uched|gether)
+
+word association game
+- bookmaking + bookmarking -> bookmar?king
+- bookcase + bookcare -> bookca[sr]e
+- sheaf + shelf -> she[al]f
+- amen + amend -> amend?
+- poetry + pottery -> po(et|tte)ry
+
+contributions
+- tried + cried -> [tc]ried
+- dalliance + alliance -> d?alliance
+- heart + hope -> h(eart|ope)
+- cloud + cling -> c(loud|ing)
+- sparkle + sprinkling -> sp(arkle|rinkling)
+- honeydew + drizzle -> (honey)?d(ew|rizzle)
+
+- make + mend -> m(ake|end)
+- 💗💜💙 + 💗💛💙 -> 💗(💜|💛)💙
+- heart + hearth -> hearth?
+- heart + heartstring -> heart(string)?
+-->
+    
+  </body>
+</html>

@@ -1,0 +1,58 @@
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.quote {
+  margin: 1em;
+  font-size: 32px;
+  opacity: 0;
+  transition: 1s opacity ease-in-out;
+}
+  @media (min-width: 800px) {
+    .quote {
+      font-size: 64px;
+    }
+  }
+
+.quote a {
+  color: blue;
+  text-decoration: none;
+}
+
+.unlinked {
+  cursor: default;
+}
+
+.show {
+  opacity: 1;
+}
+
+.buttons {
+  margin: 8rem auto;
+}
+
+.buttons button {
+  display: block;
+  margin: 4rem auto;
+}
+
+#debugDiv {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}

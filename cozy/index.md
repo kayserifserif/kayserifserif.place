@@ -63,7 +63,7 @@ description: cozy corner
   </div>
   <div class="gallery">
     <figure>
-      <img src="/assets/other/assemble-with-care.jpg" alt="Assemble with Care">
+      <img src="/assets/media/other/assemble-with-care.jpg" alt="Assemble with Care">
       <figcaption>Assemble with Care — ustwo Games</figcaption>
     </figure>
     <figure>

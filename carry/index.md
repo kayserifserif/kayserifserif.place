@@ -23,10 +23,14 @@ description:
   <iframe src="https://shen.land/" frameborder="0"></iframe>
   <p><a href="https://ifyouknewmewouldyoulove.me/">ifyouknewmewouldyoulove.me</a></p>
   <iframe src="https://ifyouknewmewouldyoulove.me/" frameborder="0"></iframe>
-  <!-- <p><a href="https://jzhao.xyz/">jzhao.xyz</a></p>
-  <iframe src="https://jzhao.xyz/" frameborder="0"></iframe> -->
+  <p><a href="https://jzhao.xyz/">jzhao.xyz</a></p>
+  <iframe src="https://jzhao.xyz/" frameborder="0"></iframe>
   <p><a href="https://ivanzhao.me/">ivanzhao.me</a></p>
   <iframe src="https://ivanzhao.me/" frameborder="0"></iframe>
+  <p><a href="https://jillian.cloud/">jillian.cloud</a></p>
+  <iframe src="https://jillian.cloud/" frameborder="0"></iframe>
+  <p><a href="https://index.niksethi.com/">index.niksethi.com</a></p>
+  <iframe src="https://index.niksethi.com/" frameborder="0"></iframe>
   <!-- <p><a href="https://robinrendle.com/">robinrendle.com</a></p> -->
   <!-- <iframe src="https://robinrendle.com/" frameborder="0"></iframe> -->
 
@@ -35,7 +39,7 @@ description:
 
   <p>
     <a href="https://www.poetryfoundation.org/poetrymagazine/poems/49493/i-carry-your-heart-with-mei-carry-it-in">
-      <img class="inline size-xs" src="/assets/carry/carry.png" alt="BY E. E. CUMMINGS / i carry your website with me(i carry it in my website)i am never without it">
+      <img class="inline size-xs" src="/assets/media/carry/carry.png" alt="BY E. E. CUMMINGS / i carry your website with me(i carry it in my website)i am never without it">
     </a>
   </p>
 </main>

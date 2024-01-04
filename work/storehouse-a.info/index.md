@@ -2,7 +2,7 @@
 layout: project
 title: Storehouse-A.info
 description: A text and typography&ndash;based virtual exhibition showcasing interactive visual poetry.
-image: https://kayserifserif.place/assets/storehouse-a.info/map.png
+image: https://kayserifserif.place/assets/media/storehouse-a.info/map.png
 image-alt: A screenshot of the game in a near-completed state. On the left, the game log; in the middle, the dungeon map; on the right, a legend of symbols.
 
 links: [["https://storehouse-a.info/", "Website"], ["https://hasgeek.com/ajaibghar/freefall-future-text/", "Exhibition"]]
@@ -35,5 +35,5 @@ The piece is aesthetically quite bare, especially with the amount of whitespace 
 I’m really happy with what we managed to achieve in this time and I’m so glad I was able to work with Steffi, whose work I really admire, and with the dra.ft team, who always creates such a welcoming and helpful environment.
 
 <div class="gallery">
-  <img src="/assets/storehouse-a.info/map.png" alt="A screenshot of the game in a near-completed state. On the left, the game log; in the middle, the dungeon map; on the right, a legend of symbols.">
+  <img src="/assets/media/storehouse-a.info/map.png" alt="A screenshot of the game in a near-completed state. On the left, the game log; in the middle, the dungeon map; on the right, a legend of symbols.">
 </div>

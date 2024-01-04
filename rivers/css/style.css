@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Fraunces;
+  src: url("../fonts/Fraunces-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url("../fonts/Fraunces-LightItalic.ttf");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url("../fonts/Fraunces-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  --secondary: #999;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Fraunces, serif;
+  font-weight: 300;
+  width: 100%;
+  max-width: 40em;
+  margin: auto;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 300;
+  font-style: italic;
+}
+
+header,
+main,
+footer {
+  margin: 4em auto;
+  max-width: 85%;
+}
+
+header,
+footer,
+footer a {
+  color: var(--secondary);
+}
+
+header small {
+  font-size: 0.8em;
+}
+
+kbd {
+  font-family: Fraunces, serif;
+  font-variant: small-caps;
+  letter-spacing: 0.2px;
+}
+
+.asterisk {
+  position: absolute;
+  font-size: 0.5em;
+}
+
+.text {
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+button {
+  font-family: Fraunces, serif;
+  font-size: 1em;
+  font-weight: 400;
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--secondary);
+}
+
+.logo {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-bottom: -0.15em;
+  background-color: var(--secondary);
+  -webkit-mask-size: contain;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-image: url("../img/monogram.svg");
+}

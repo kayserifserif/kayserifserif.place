@@ -2,10 +2,10 @@
 layout: project
 title: Stitched Links
 description: Hyperlinks as threads woven through the fabric of the webpage.
-image: https://kayserifserif.place/assets/stitched-links/stitched-links.png
+image: https://kayserifserif.place/assets/media/stitched-links/stitched-links.png
 image-alt: Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page.
 
-links: [["https://kayserifserif.place/stitched-links", "Website"], ["https://github.com/kayserifserif/stitched-links", "GitHub"]]
+links: [["/stitched-links", "Site"], ["https://github.com/kayserifserif/stitched-links", "GitHub"]]
 
 date: February 2022
 context: Personal
@@ -19,9 +19,9 @@ This is a proof of concept imagining hyperlinks as woven through the fabric of t
 In future iterations, I’d love to bring in multiple pages, imagining that iconic blue line threading back and forth through them and loosely binding them together.
 
 <div class="gallery">
-  <div><img src="/assets/stitched-links/stitched-links.png" alt="Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page."></div>
+  <div><img src="/assets/media/stitched-links/stitched-links.png" alt="Hyperlinks embedded in text. Each hyperlink is denoted by a wavy underline that makes up part of one continuous line threading through all the hyperlinks on the page."></div>
 </div>
 
 <div class="gallery">
-  <div><video controls src="/assets/stitched-links/stitched-links.mp4"></video></div>
+  <div><video controls src="/assets/media/stitched-links/stitched-links.mp4"></video></div>
 </div>
