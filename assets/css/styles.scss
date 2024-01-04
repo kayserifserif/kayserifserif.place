@@ -29,21 +29,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "TT2020";
-  src: url("/assets/fonts/TT2020StyleB-Regular.woff2");
-  font-weight: 800;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "TT2020";
-  src: url("/assets/fonts/TT2020StyleB-Italic.woff2");
-  font-weight: 800;
-  font-style: italic;
-  font-display: swap;
-}
-
 :root {
   font-size: 16px;
   --spacing: 100px;
@@ -107,10 +92,6 @@ h6 {
   font-weight: 600;
   margin: 1.5rem 0;
   font-style: italic;
-}
-
-h1 {
-  font-weight: 800;
 }
 
 a,
@@ -376,7 +357,7 @@ header[role="banner"] a {
   }
 
 .intro h1 {
-  // font-size: 2rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 3rem;
   line-height: 1.2;
@@ -388,7 +369,7 @@ header[role="banner"] a {
 }
 
 .intro p {
-  // font-size: 1.2em;
+  font-size: 1.2em;
   margin-bottom: 2em;
 }
 
@@ -598,4 +579,8 @@ footer[role="contentinfo"] {
   // font-size: 0.6rem;
   // font-style: italic;
   // font-weight: 400;
+}
+
+footer[role="contentinfo"]::before {
+  content: "-------------------------------------------------------------------------------------------";
 }
