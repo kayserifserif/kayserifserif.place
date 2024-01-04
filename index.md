@@ -59,10 +59,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>stuck on my knitting (gauge. it's always the gauge);</p>
-      <p>reading about <a href="https://bookshop.org/p/books/pandora-s-jar-women-in-the-greek-myths-natalie-haynes/17749236?ean=9780063139466">women in Greek myth</a> (Natalie Haynes is just so good);</p>
-      <p>thinking about using <a href="https://adventofcode.com/">Advent of Code</a> to learn <a href="https://racket-lang.org/">Racket</a></p>
-      <p>—December 4, 2023.</p>
+      <p>reflecting and resolving;</p>
+      <p>watching Doctor Who and D20;</p>
+      <p>& trying to wrap up projects.</p>
+      <p>—January 3, 2024.</p>
     </div>
   </div>
 </main>
