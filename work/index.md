@@ -13,6 +13,15 @@ description: Select projects.
 <main>
   <div class="section">
     <div class="section--header">
+      <h2>WIP.</h2>
+    </div>
+    <div class="section--body">
+      <p>In Consideration of Sentences. Syntactic diagramming as a poetic practice.</p>
+      <p>RegEx Poetry Machine. Entwined match pairs of meaning.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="section--header">
       <h2>PROJECTS.</h2>
     </div>
     <div class="section--body">
