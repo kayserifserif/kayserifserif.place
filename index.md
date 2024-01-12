@@ -59,10 +59,42 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>stuck on my knitting (gauge. it's always the gauge);</p>
-      <p>reading about <a href="https://bookshop.org/p/books/pandora-s-jar-women-in-the-greek-myths-natalie-haynes/17749236?ean=9780063139466">women in Greek myth</a> (Natalie Haynes is just so good);</p>
-      <p>thinking about using <a href="https://adventofcode.com/">Advent of Code</a> to learn <a href="https://racket-lang.org/">Racket</a></p>
-      <p>—December 4, 2023.</p>
+      <p>reflecting and resolving;</p>
+      <p>watching Doctor Who and D20;</p>
+      <p>& trying to wrap up projects.</p>
+      <p>—January 3, 2024.</p>
     </div>
   </div>
 </main>
+
+<aside class="scribbles scribbles--receipt">
+  <div class="note">
+    <h2>Thesis Statements</h2>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2022-06-01">Jun 1, 2022</time></p>
+    <p>soft tech & poetic tools</p>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2022-10-02">Oct 2, 2022</time></p>
+    <p>making poetic instruments (thanks Max!)</p>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2022-10-04">Oct 4, 2022</time></p>
+    <p>making things in pursuit of poetic tech</p>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2023-05-04">May 4, 2023</time></p>
+    <p>finding the poetry in code and the ritual in poetry</p>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2023-07-02">Jul 2, 2023</time></p>
+    <p>i am a poetic programmer—i am endeavouring to make tools that feel like coming to the end of a poem; websites that feel like a warm piece of paper; representations of syntax that look back like a gilded mirror 🤍</p>
+  </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2023-12-09">Dec 9, 2023</time></p>
+    <p>notation as language as poetry as story as code as system as environment as secret as trust as patience as russian dolls as protection as a journey as a message in a bottle as turning the corner as beginning middle and end</p>
+  </div>
+</aside>
+
+<script src="assets/js/scripts.js" type="module"></script>

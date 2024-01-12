@@ -2,16 +2,39 @@
 ---
 
 @font-face {
-  font-family: "Select Mono";
-  src: url("/assets/fonts/SelectMono-Italic.woff");
+  font-family: "TT2020";
+  src: url("/assets/fonts/TT2020Base-Regular.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT2020";
+  src: url("/assets/fonts/TT2020Base-Italic.woff2");
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT2020";
+  src: url("/assets/fonts/TT2020StyleE-Regular.woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TT2020";
+  src: url("/assets/fonts/TT2020StyleE-Italic.woff2");
+  font-weight: 600;
+  font-style: italic;
   font-display: swap;
 }
 
 :root {
   font-size: 16px;
-  --spacing-lg: 100px;
-  --spacing-sm: 50px;
-  --font-mono: "Select Mono", monospace;
+  --spacing: 100px;
+  // --font-mono: "Select Mono";
+  // --font-mono: "Cartograph";
+  --font-mono: "TT2020";
 }
 
 @media (max-width: 800px) {
@@ -46,6 +69,8 @@ body {
   padding: 5vw 10vw;
   margin: auto;
   font-family: var(--font-mono);
+  // font-style: italic;
+  // font-weight: 600;
   line-height: 1.5;
   color: #444;
   background-color: #fdfdfd;
@@ -63,8 +88,10 @@ h4,
 h5,
 h6 {
   font-size: 1em;
-  font-weight: 400;
+  // font-weight: 400;
+  font-weight: 600;
   margin: 1.5rem 0;
+  font-style: italic;
 }
 
 a,
@@ -81,6 +108,7 @@ a:hover {
   font-weight: 300;
   font-size: 1.2em;
   line-height: 1.25;
+  font-style: normal;
 }
 
 img,
@@ -114,22 +142,17 @@ iframe.size-s {
   max-width: 400px;
 }
 
-code,
-kbd {
+code {
+  // font-family: "Select Mono", monospace;
   font-family: var(--font-mono);
+  // font-style: italic;
+  // display: inline-block;
+  // margin-left: 0.1em;
+  // margin-right: 0.1em;
 }
 
-kbd {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0 .3rem;
-  margin: 0 .2rem;
-  font-size: 0.7rem;
-  background-color: rgba(0,0,0,.01);
-  border-radius: 5px;
-  /* box-shadow: 1px 1px 2px rgba(0,0,0,.2), inset 1px 1px 2px rgba(0,0,0,.05); */
-  border: 2px solid #dadada;
-  box-shadow: inset 0 -1px 0 0 #dadada;
+pre code {
+  display: initial;
 }
 
 ul,
@@ -165,7 +188,7 @@ blockquote {
 
 /* header */
 
-header {
+header[role="banner"] {
   position: absolute;
   width: 800px;
   left: 50%;
@@ -173,22 +196,23 @@ header {
   transform: translateX(-50%);
 }
   @media (max-width: 1200px), print {
-    header {
+    header[role="banner"] {
       position: static;
       width: unset;
       max-width: 800px;
       text-align: left;
       transform: unset;
-      margin: 0 auto var(--spacing-sm);
+      // margin: 0 auto var(--spacing-sm);
+      margin: 0 auto var(--spacing);
     }
   }
 
-header a {
+header[role="banner"] a {
   margin-top: calc(36px / -8);
   margin-left: -120%;
 }
   @media (max-width: 1200px), print {
-    header a {
+    header[role="banner"] a {
       margin-top: 0;
       margin-left: calc(36px / -4);
     }
@@ -213,6 +237,105 @@ header a {
 .toc .chapter-subtitle {
   margin-top: 0;
   // color: #717171;
+}
+
+/* scribbles */
+
+.scribbles {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  transform: rotate(1deg);
+  font-size: 0.75rem;
+}
+  @media (max-width: 800px) {
+    .scribbles {
+      position: static;
+      transform: none;
+      width: 250px;
+      // max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: var(--spacing);
+    }
+
+    .scribbles--notes .note {
+      max-width: 250px;
+    }
+  }
+
+.scribbles--notes .note {
+  padding: 1rem;
+  background-color: rgb(255, 253, 250);
+  box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
+  width: 250px;
+  min-height: 250px;
+}
+
+.scribbles--notes .note::before {
+  content: ". ∫ .";
+  display: block;
+  text-align: center;
+  font-family: "Bodoni Ornaments", fantasy;
+  font-weight: 300;
+  font-size: 0.75em;
+  margin-bottom: 1rem;
+}
+
+.scribbles--receipt {
+  box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
+  // background-color: rgb(253, 253, 253);
+  background-color: rgb(245, 245, 245);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 300px;
+}
+
+.scribbles--receipt::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  transform: translate(0, 100%);
+  left: 0;
+  width: 100%;
+  height: 10px;
+
+  background-image: url("/assets/media/other/rip.png");
+  background-repeat: no-repeat;
+}
+
+.scribbles--receipt .note + .note {
+  border-top: 1px dashed rgba(68, 68, 68, 0.5);
+}
+
+.scribbles--receipt h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.scribbles--receipt .note {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+}
+
+.scribbles--receipt h2 {
+  grid-column: 1 / span 2;
+}
+
+.scribbles--receipt p {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.scribbles--receipt .note-date {
+  grid-column: 2;
+  text-align: right;
+}
+
+.scribbles--notes .note-date {
+  font-style: italic;
 }
 
 /* intro */
@@ -245,10 +368,6 @@ header a {
   margin-bottom: 0.5em;
 }
 
-.name .y {
-  margin-right: -0.1em;
-}
-
 .intro p {
   font-size: 1.2em;
   margin-bottom: 2em;
@@ -257,7 +376,8 @@ header a {
 /* main */
 
 main {
-  margin: var(--spacing-lg) auto;
+  // margin: var(--spacing-lg) auto;
+  margin: var(--spacing) auto;
 
   img,
   video,
@@ -272,7 +392,8 @@ main {
 }
 
 .section + .section {
-  margin-top: var(--spacing-sm);
+  // margin-top: var(--spacing-sm);
+  margin-top: var(--spacing);
 }
 
 .columns {
@@ -291,7 +412,8 @@ main {
 main h2,
 main p,
 main li,
-main blockquote {
+main blockquote,
+main pre {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
@@ -300,8 +422,8 @@ main blockquote {
 .metadata {
   margin-top: 1.2rem;
   // font-size: 0.75em;
-  font-size: 0.8em;
-  line-height: 2;
+  // line-height: 2;
+  font-style: italic;
 }
 
 .metadata div {
@@ -313,7 +435,8 @@ main blockquote {
 }
 
 .gallery {
-  margin: var(--spacing-sm) auto;
+  // margin: var(--spacing-sm) auto;
+  margin: var(--spacing) auto;
   display: flex;
   gap: 1.5rem;
   justify-content: center;
@@ -358,6 +481,27 @@ figcaption {
       margin: 0;
     }
   }
+
+/* blog */
+
+.blog-list div + div {
+  margin-top: 2em;
+}
+
+.blog-list h2,
+.blog-list p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.blog-list--date {
+  opacity: 0.5;
+}
+
+.ipa {
+  // font-family: "Cartograph", monospace;
+  // font-weight: 300;
+}
 
 /* index */
 
@@ -423,19 +567,20 @@ figcaption {
   width: 76ch;
   margin: auto;
   text-align: left;
+  // font-family: "Select Mono", monospace;
   font-family: var(--font-mono);
 }
 
 /* footer */
 
-footer {
+footer[role="contentinfo"] {
   max-width: 800px;
   margin: auto;
-  margin-top: calc(var(--spacing-lg) * 2);
   // font-size: 0.6rem;
-  font-size: 0.8em;
+  // font-style: italic;
+  // font-weight: 400;
 }
 
-// footer hr {
-//   margin-bottom: var(--spacing-lg);
-// }
+footer[role="contentinfo"]::before {
+  content: "-------------------------------------------------------------------------------------------";
+}

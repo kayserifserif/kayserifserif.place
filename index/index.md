@@ -6,7 +6,9 @@ description: Some themes in the work. (Last updated October 20, 2023.)
 
 <div class="intro">
   <h1>{{ page.title }}</h1>
-  <div>{{ page.description }}</div>
+  <div>
+    <p>{{ page.description }}</p>
+  </div>
 </div>
 <main>
   <dl class="index">
