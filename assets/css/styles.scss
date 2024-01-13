@@ -151,8 +151,12 @@ code {
   // margin-right: 0.1em;
 }
 
-pre code {
-  display: initial;
+// pre code {
+//   display: initial;
+// }
+
+pre.wrap code {
+  white-space: normal;
 }
 
 ul,
