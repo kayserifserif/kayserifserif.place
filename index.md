@@ -95,6 +95,10 @@ description: Katherine Yang’s website.
     <p class="note-date"><time datetime="2023-12-09">Dec 9, 2023</time></p>
     <p>notation as language as poetry as story as code as system as environment as secret as trust as patience as russian dolls as protection as a journey as a message in a bottle as turning the corner as beginning middle and end</p>
   </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2023-12-09">Dec 9, 2023</time></p>
+    <p>tools for meditating on language</p>
+  </div>
 </aside>
 
 <script src="assets/js/scripts.js" type="module"></script>
