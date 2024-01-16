@@ -99,6 +99,10 @@ description: Katherine Yang’s website.
     <p class="note-date"><time datetime="2023-12-09">Dec 9, 2023</time></p>
     <p>tools for meditating on language</p>
   </div>
+  <div class="note">
+    <p class="note-date"><time datetime="2024-01-15">Jan 15, 2024</time></p>
+    <p>Katherine Yang is an artist and programmer exploring the existing and imagined ways in which code serves as a mirror to our conceptual and linguistic world.</p>
+  </div>
 </aside>
 
 <script src="assets/js/scripts.js" type="module"></script>
