@@ -96,15 +96,25 @@ h6 {
   font-style: italic;
 }
 
+a {
+  text-shadow: none;
+}
+
 a,
 a:visited {
   // color: #444;
-  color: var(--emphasis);
+  // color: var(--emphasis);
+  color: var(--accent);
 }
 
 a:hover {
   // color: #000;
-  color: var(--emphasis-on);
+  // color: var(--emphasis-on);
+  color: var(--accent-on);
+}
+
+p {
+  text-shadow: 1px 1px 2px var(--fg-half);
 }
 
 [lang="zh"] {
@@ -319,7 +329,9 @@ header[role="banner"] a {
   width: 100%;
   height: 10px;
 
-  background-image: url("/assets/media/other/rip.png");
+  background-image: linear-gradient(var(--mid), var(--mid)),
+    url("/assets/media/other/rip.png");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
 }
 
