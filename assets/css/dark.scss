@@ -20,5 +20,11 @@
 
   --accent: #D7A85B;
   --accent-on: #deb779;
+
+  --link: var(--accent);
+  --link-on: var(--accent-on);
 }
 
+p {
+  text-shadow: 1px 1px 2px var(--fg-half);
+}

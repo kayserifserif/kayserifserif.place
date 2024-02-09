@@ -1,5 +1,7 @@
 import { debounce } from "./debounce.min.mjs";
 
+import "./theming.js";
+
 const MAX_ANGLE = 2;
 const MAX_TOP = 20;
 const MAX_RIGHT = 20;
