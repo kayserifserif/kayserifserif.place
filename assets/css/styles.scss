@@ -198,10 +198,11 @@ p {
 }
 
 hr {
-  max-width: 600px;
-  border: 0;
-  height: 1px;
-  background-color: currentColor;
+  color: inherit;
+}
+
+.break {
+  width: 100%;
 }
 
 blockquote {
@@ -648,6 +649,6 @@ footer[role="contentinfo"] {
   // font-weight: 400;
 }
 
-footer[role="contentinfo"]::before {
-  content: "-------------------------------------------------------------------------------------------";
-}
+// footer[role="contentinfo"]::before {
+//   content: "-------------------------------------------------------------------------------------------";
+// }

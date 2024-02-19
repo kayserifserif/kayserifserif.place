@@ -16,10 +16,35 @@ const USE_RECEIPT = getRandomBoolean();
 window.addEventListener("resize", debounce(() => {
   resize();
   arrangeNotes();
+  updateDividers();
 }, 200));
 
 resize();
 arrangeNotes();
+
+const FONT_SIZE_BIG = 16;
+const FONT_SIZE_SMALL = 14;
+let fontSize = FONT_SIZE_BIG;
+let hyphenWidthRatio = 0.546875;
+
+const hrs = document.querySelectorAll("hr");
+hrs.forEach(hr => {
+  const divider = document.createElement("div");
+  divider.classList.add("divider");
+  const parent = hr.parentElement;
+  parent.insertBefore(divider, hr);
+  hr.remove();
+  
+  updateDividers();
+});
+
+function updateDividers() {
+  const dividers = document.querySelectorAll(".divider");
+  dividers.forEach(divider => {
+    const width = divider.parentElement.getBoundingClientRect().width;
+    divider.innerText = `-`.repeat(width / (fontSize * hyphenWidthRatio));
+  });
+}
 
 function getRandomBoolean() {
   return Math.random() > 0.5;
@@ -28,6 +53,7 @@ function getRandomBoolean() {
 function resize() {
   const width = window.innerWidth;
   lessThanBreakpoint = width <= BREAKPOINT;
+  fontSize = lessThanBreakpoint ? FONT_SIZE_SMALL : FONT_SIZE_BIG;
 }
 
 function arrangeNotes() {
