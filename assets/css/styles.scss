@@ -219,14 +219,15 @@ blockquote {
 
 header[role="banner"] {
   position: absolute;
-  // width: 800px;
-  left: 50%;
-  text-align: center;
-  transform: translateX(-50%);
+  width: 800px;
+  left: 0;
+  transform: translateX(-100%);
+  padding-right: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 0.5rem;
+  margin-left: calc(calc(100vw - 800px) / 2);
 }
   @media (max-width: 1200px), print {
     header[role="banner"] {
@@ -235,21 +236,12 @@ header[role="banner"] {
       max-width: 800px;
       text-align: left;
       transform: unset;
-      // margin: 0 auto var(--spacing-sm);
       margin: 0 auto var(--spacing);
+      flex-direction: row;
+      align-items: flex-end;
+      gap: 2rem;
     }
   }
-
-// header[role="banner"] a {
-//   margin-top: calc(36px / -8);
-//   margin-left: -120%;
-// }
-//   @media (max-width: 1200px), print {
-//     header[role="banner"] a {
-//       margin-top: 0;
-//       margin-left: calc(36px / -4);
-//     }
-//   }
 
 .logo {
   // width: 36px;
@@ -270,8 +262,14 @@ header[role="banner"] {
 .themes {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   gap: 0.5rem;
 }
+  @media (max-width: 1200px), print {
+    .themes {
+      flex-direction: row;
+    }
+  }
 
 .theme-button {
   appearance: none;
