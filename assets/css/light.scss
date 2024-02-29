@@ -4,6 +4,7 @@
 :root:not([data-theme="dark"]) {
   --bg: #fdfdfd;
   --bg-half: rgba(253, 253, 253, 0.5);
+  --bg-tenth: rgba(113, 99, 78, 0.1);
 
   --fg: #444;
   --fg-half: rgba(68, 68, 68, 0.5);
@@ -21,11 +22,14 @@
   --link: var(--emphasis);
   --link-on: var(--emphasis-on);
   --link-off: var(--emphasis-off);
+
+  --shadow: var(--bg-tenth);
 }
 
 [data-theme="light"] {
   --bg: #fdfdfd;
   --bg-half: rgba(253, 253, 253, 0.5);
+  --bg-tenth: rgba(113, 99, 78, 0.1);
 
   --fg: #444;
   --fg-half: rgba(68, 68, 68, 0.5);
@@ -43,4 +47,6 @@
   --link: var(--emphasis);
   --link-on: var(--emphasis-on);
   --link-on: var(--emphasis-off);
+
+  --shadow: var(--bg-tenth);
 }

@@ -334,7 +334,8 @@ header[role="banner"] {
   background-color: var(--mid);
   color: var(--fg);
   // box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
-  box-shadow: 1px 5px 8px var(--bg-half);
+  // box-shadow: 1px 5px 8px var(--bg-half);
+  box-shadow: 1px 5px 8px var(--shadow);
   width: 250px;
   min-height: 250px;
 }
@@ -351,7 +352,8 @@ header[role="banner"] {
 
 .scribbles--receipt {
   // box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
-  box-shadow: 1px 5px 8px var(--bg-half);
+  // box-shadow: 1px 5px 8px var(--bg-half);
+  box-shadow: 1px 5px 8px var(--shadow);
   // background-color: rgb(253, 253, 253);
   // background-color: rgb(245, 245, 245);
   background-color: var(--mid);
