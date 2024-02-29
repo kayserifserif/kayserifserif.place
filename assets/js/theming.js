@@ -20,10 +20,18 @@ function handleThemeButtonClick(event) {
 }
 
 function setTheme(value) {
+  if (value === undefined) {
+    const storedValue = localStorage.getItem("theme");
+    if (storedValue) {
+      setTheme(storedValue);
+      return;
+    }
+  }
+
   if (value === "system") {
     value = prefersDarkScheme.matches ? "dark" : "light";
   }
   document.documentElement.dataset.theme = value;
 }
 
-setTheme("system");
+setTheme();
