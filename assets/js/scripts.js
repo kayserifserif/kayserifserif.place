@@ -14,7 +14,7 @@ let lessThanBreakpoint = false;
 const FONT_SIZE_BIG = 16;
 const FONT_SIZE_SMALL = 14;
 let fontSize = FONT_SIZE_BIG;
-let hyphenWidthRatio = 0.546875;
+const CHARACTER_WIDTH_RATIO = 0.546875;
 
 const USE_RECEIPT = getRandomBoolean();
 
@@ -22,10 +22,8 @@ window.addEventListener("resize", debounce(() => {
   resize();
   arrangeNotes();
   updateDividers();
+  updateLeaders();
 }, 200));
-
-resize();
-arrangeNotes();
 
 const hrs = document.querySelectorAll("hr");
 hrs.forEach(hr => {
@@ -34,15 +32,38 @@ hrs.forEach(hr => {
   const parent = hr.parentElement;
   parent.insertBefore(divider, hr);
   hr.remove();
-  
-  updateDividers();
 });
+
+resize();
+arrangeNotes();
+updateDividers();
+updateLeaders();
 
 function updateDividers() {
   const dividers = document.querySelectorAll(".divider");
   dividers.forEach(divider => {
     const width = divider.parentElement.getBoundingClientRect().width;
-    divider.innerText = `-`.repeat(width / (fontSize * hyphenWidthRatio));
+    divider.innerText = `-`.repeat(width / (fontSize * CHARACTER_WIDTH_RATIO));
+  });
+}
+
+function updateLeaders() {
+  const tabsWithLeaders = document.querySelectorAll(".tabs-with-leader");
+  tabsWithLeaders.forEach(tabs => {
+    const left = tabs.querySelector(".left");
+    const leftWidth = left.getBoundingClientRect().width;
+
+    const right = tabs.querySelector(".right");
+    const rightWidth = right.getBoundingClientRect().width;
+
+    const parent = tabs.parentElement;
+    const parentWidth = parent.getBoundingClientRect().width;
+
+    const leaderWidth = parentWidth - leftWidth - rightWidth;
+    const leaderDots = tabs.querySelector(".leader-dots");
+    const patternRepeat = Math.max(4, Math.floor(leaderWidth / (2 * CHARACTER_WIDTH_RATIO * fontSize) - 1));
+    const string = " .".repeat(patternRepeat) + " ";
+    leaderDots.textContent = string;
   });
 }
 
