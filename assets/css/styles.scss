@@ -542,7 +542,7 @@ figcaption {
 }
 
 .intentions dt {
-  opacity: 0.5;
+  color: var(--fg-half);
 }
   @media (min-width: 800px) {
     .intentions dt {
@@ -597,7 +597,10 @@ figcaption {
 
 .index dd {
   margin-left: 0.5em;
-  opacity: 0.5;
+  // opacity: 0.5;
+  a {
+    color: var(--link-off);
+  }
 }
 
 .index .term-container dt::after {

@@ -18,13 +18,15 @@
   
     --accent: #D7A85B;
     --accent-on: #deb779;
+    --accent-off: #97743b;
   
     --link: var(--accent);
     --link-on: var(--accent-on);
+    --link-off: var(--accent-off);
 
-    p {
-      text-shadow: 1px 1px 2px var(--fg-half);
-    }
+    // p {
+    //   text-shadow: 1px 1px 2px var(--fg-half);
+    // }
   }
 }
 
@@ -44,11 +46,13 @@
 
   --accent: #D7A85B;
   --accent-on: #deb779;
+  --accent-off: #97743b;
 
   --link: var(--accent);
   --link-on: var(--accent-on);
+  --link-off: var(--accent-off);
 
-  p {
-    text-shadow: 1px 1px 2px var(--fg-half);
-  }
+  // p {
+  //   text-shadow: 1px 1px 2px var(--fg-half);
+  // }
 }
