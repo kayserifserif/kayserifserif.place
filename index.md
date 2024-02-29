@@ -104,5 +104,3 @@ description: Katherine Yang’s website.
     <p>Katherine Yang is an artist and programmer exploring the existing and imagined ways in which code serves as a mirror to our conceptual and linguistic world.</p>
   </div>
 </aside>
-
-<script src="assets/js/scripts.js" type="module"></script>
