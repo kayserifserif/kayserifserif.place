@@ -10,6 +10,7 @@ const PARAGRAPH_MARGIN = 24; // 1.5rem = 1.5 * 16
 
 const BREAKPOINT = 800;
 let lessThanBreakpoint = false;
+let windowWidth = 0;
 
 const FONT_SIZE_BIG = 16;
 const FONT_SIZE_SMALL = 14;
@@ -19,10 +20,13 @@ const CHARACTER_WIDTH_RATIO = 0.546875;
 const USE_RECEIPT = getRandomBoolean();
 
 window.addEventListener("resize", debounce(() => {
+  let prevWindowWidth = windowWidth;
   resize();
-  arrangeNotes();
-  updateDividers();
-  updateLeaders();
+  if (windowWidth != prevWindowWidth) {
+    arrangeNotes();
+    updateDividers();
+    updateLeaders();
+  }
 }, 200));
 
 const hrs = document.querySelectorAll("hr");
@@ -72,8 +76,8 @@ function getRandomBoolean() {
 }
 
 function resize() {
-  const width = window.innerWidth;
-  lessThanBreakpoint = width <= BREAKPOINT;
+  windowWidth = window.innerWidth;
+  lessThanBreakpoint = windowWidth <= BREAKPOINT;
   fontSize = lessThanBreakpoint ? FONT_SIZE_SMALL : FONT_SIZE_BIG;
 }
 
