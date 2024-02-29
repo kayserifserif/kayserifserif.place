@@ -2,7 +2,7 @@
 ---
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0C2449;
     --bg-half: rgba(12, 36, 73, 0.5);
   

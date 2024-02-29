@@ -11,6 +11,11 @@ const PARAGRAPH_MARGIN = 24; // 1.5rem = 1.5 * 16
 const BREAKPOINT = 800;
 let lessThanBreakpoint = false;
 
+const FONT_SIZE_BIG = 16;
+const FONT_SIZE_SMALL = 14;
+let fontSize = FONT_SIZE_BIG;
+let hyphenWidthRatio = 0.546875;
+
 const USE_RECEIPT = getRandomBoolean();
 
 window.addEventListener("resize", debounce(() => {
@@ -21,11 +26,6 @@ window.addEventListener("resize", debounce(() => {
 
 resize();
 arrangeNotes();
-
-const FONT_SIZE_BIG = 16;
-const FONT_SIZE_SMALL = 14;
-let fontSize = FONT_SIZE_BIG;
-let hyphenWidthRatio = 0.546875;
 
 const hrs = document.querySelectorAll("hr");
 hrs.forEach(hr => {
