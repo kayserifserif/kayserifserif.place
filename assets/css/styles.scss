@@ -4,24 +4,23 @@
 @font-face {
   font-family: "TT2020";
   src: url("/assets/fonts/TT2020Base-Regular.woff2");
-  // font-display: swap;
-  font-display: optional;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "TT2020";
   src: url("/assets/fonts/TT2020Base-Italic.woff2");
   font-style: italic;
-  // font-display: swap;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "TT2020";
   src: url("/assets/fonts/TT2020StyleE-Regular.woff2");
   font-weight: 600;
-  // font-display: swap;
-  font-display: optional;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -29,8 +28,7 @@
   src: url("/assets/fonts/TT2020StyleE-Italic.woff2");
   font-weight: 600;
   font-style: italic;
-  // font-display: swap;
-  font-display: optional;
+  font-display: swap;
 }
 
 :root {
