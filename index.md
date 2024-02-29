@@ -59,10 +59,10 @@ description: Katherine Yang’s website.
       <h2>HAVE LATELY BEEN——</h2>
     </div>
     <div class="section--body">
-      <p>reflecting and resolving;</p>
-      <p>watching Doctor Who and D20;</p>
-      <p>& trying to wrap up projects.</p>
-      <p>—January 3, 2024.</p>
+      <p>taking ASL classes,</p>
+      <p>learning weaving?</p>
+      <p>& finishing up this dark mode, finally.</p>
+      <p>—February 29, 2024.</p>
     </div>
   </div>
 </main>
