@@ -38,7 +38,7 @@
 }
 
 [data-theme="light"] {
-  color-scheme: dark;
+  color-scheme: light;
 }
 [data-theme="dark"] {
   color-scheme: dark;
@@ -70,6 +70,10 @@ html,
 body {
   margin: 0;
   padding: 0;
+}
+
+html {
+  color-scheme: light dark;
 }
 
 body {
