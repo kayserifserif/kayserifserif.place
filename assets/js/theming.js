@@ -1,3 +1,10 @@
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+prefersDarkScheme.addEventListener("change", e => {
+  const { matches } = e;
+  const theme = matches ? "dark" : "light";
+  setTheme(theme);
+});
+
 const themeButtons = document.querySelectorAll(".theme-button");
 themeButtons.forEach(button => {
   button.addEventListener("click", () => {
@@ -9,7 +16,6 @@ themeButtons.forEach(button => {
 
 function setTheme(value) {
   if (value === "system") {
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
     value = prefersDarkScheme.matches ? "dark" : "light";
   }
   document.documentElement.dataset.theme = value;
