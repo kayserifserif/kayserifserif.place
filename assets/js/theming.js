@@ -16,7 +16,11 @@ function handleThemeButtonClick(event) {
   const button = event.target;
   const value = button.value;
   setTheme(value);
-  localStorage.setItem("theme", value);
+  if (value === "system") {
+    localStorage.removeItem("theme");
+  } else {
+    localStorage.setItem("theme", value);
+  }
 }
 
 function setTheme(value) {
