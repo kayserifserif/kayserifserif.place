@@ -17,7 +17,7 @@ description: Select projects.
     </div>
     <div class="section--body">
       <p>In Consideration of Sentences. Syntactic diagramming as a poetic practice.</p>
-      <p>RegEx Poetry Machine. Entwined match pairs of meaning.</p>
+      <p><a href="/work/regex-poetry-machine">RegEx Poetry Machine</a>. Entwined match pairs of meaning.</p>
     </div>
   </div>
   <div class="section">
