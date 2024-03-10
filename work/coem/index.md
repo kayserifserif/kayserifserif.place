@@ -44,3 +44,8 @@ The language is a self-taught exercise in language and computation, beginning fr
   <div><img src="/assets/media/coem/conditional-limon.png" alt="“The Conditional” by Ada Limón."></div>
   <div><img src="/assets/media/coem/conditional.png" alt="A Coem work, titled “conditional”."></div>
 </div>
+
+<div class="gallery">
+  <div><video src="/assets/media/coem/Screen Recording 2022-08-06 at 12.51.09 AM.mp4" autoplay muted="true" controls></video></div>
+  <div><img src="/assets/media/coem/briefly.gif" alt="A Coem work, titled “briefly”."></div>
+</div>
