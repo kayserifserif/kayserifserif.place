@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coem (the attentive thing)
-description: Always re-articulating
+description: Articulating some dreams about this poetic programming language of mine.
 ---
 
 *Here’s me trying to articulate, through protracted reflections and halting writings, some dreams about this poetic programming language of mine. I hope to make it a series.*
