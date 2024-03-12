@@ -52,4 +52,4 @@ sass:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: /blog/:title:output_ext
+permalink: /blog/:year/:title
