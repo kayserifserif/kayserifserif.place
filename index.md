@@ -21,7 +21,7 @@ description: Katherine Yang’s website.
     <ol class="toc">
       <li>
         <p class="chapter-title"><a href="/about/">About</a></p>
-        <p class="chapter-subtitle">In which the Author introduces Herself</p>
+        <p class="chapter-subtitle">In which the Author makes an Introduction</p>
       </li>
       <li>
         <p class="chapter-title"><a href="/work/">Work</a></p>
@@ -32,21 +32,25 @@ description: Katherine Yang’s website.
         <p class="chapter-subtitle">In which a Document is Attached (PDF, 82 kB)</p>
       </li>
       <!-- <li><a href="/fragments/">In which Fragments Hint at her Happenings</a></li> -->
-      <li>
-        <p class="chapter-title"><a href="/appearances/">Appearances</a></p>
-        <p class="chapter-subtitle">In which the Author finds herself Elsewhere</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
-        <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
-      </li>
       <!-- <li>
         <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
         <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
       </li> -->
       <li>
+        <p class="chapter-title"><a href="/blog">Blog</a></p>
+        <p class="chapter-subtitle">In which Posts are Bravely Made</p>
+      </li>
+      <li>
+        <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
+        <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
+      </li>
+      <li>
         <p class="chapter-title"><a href="/carry/">i carry your website with me(i carry it in</a></p>
         <p class="chapter-subtitle">my website)</p>
+      </li>
+      <li>
+        <p class="chapter-title"><a href="/appearances/">Appearances</a></p>
+        <p class="chapter-subtitle">In which the Author finds herself Elsewhere</p>
       </li>
       <li>
         <p class="chapter-title"><a href="/index/">Index</a></p>

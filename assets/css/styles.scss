@@ -495,6 +495,10 @@ main pre {
   margin-right: auto;
 }
 
+.poem {
+  white-space: pre;
+}
+
 .metadata {
   margin-top: 1.2rem;
   // font-size: 0.75em;
@@ -571,7 +575,8 @@ figcaption {
 }
 
 .blog-list--date {
-  opacity: 0.5;
+  // opacity: 0.5;
+  color: var(--fg-half);
 }
 
 .ipa {
