@@ -16,8 +16,8 @@ It’s not about creating a system big enough to fit all kinds of poems — just
 
 To me, these tools are a way to examine my words, over and over until I hear each new way that they resonate. I write, on/to/with my computer, “let me be true”. It spells the letters back to me — “l-e-t-space-m-e-space-b-e-space-t-r-u-e” — the attentive thing. It finds the tokens — “let” is a familiar word in its dictionary, that quiet prayer, that open-chested word; “me” — an unfamiliar word that must be a variable, something to fill in and wash over with colour, but what with; there’s “be”, the word of assignment, so here it comes — and it’s “true”, a boolean, that constant that means yes, means whole, means go, means this is right.
 
-(Computer, I realise, it might not really be about you. Computer, your screen is so much like a mirror.)
+(Computer, I realise, it might not really be about you. Computer, how your screen keeps so still, like a mirror.)
 
-I’ve given it a sentence, but really it’s a question, and as a response it fits the pieces together for me. Tells me there’s a variable, a reference to that thing called “me”, and we’re going to colour it with “true”, say that anywhere you put “me”, it will vibrate with intention, be infectious with yes-ness.
+So I’ve given it a sentence, but in truth it’s a question, and as a response it fits the pieces together for me. Tells me there’s a variable, a reference to that thing called “me”, and we’re going to colour it with “true”, say that anywhere you put “me”, it will vibrate with intention, be infectious with yes-ness.
 
-Me and my computer, we’re both one step closer to understanding what I’m trying to say.
+Me and my computer, we’re both one step closer to deciphering what I’m trying to say.
