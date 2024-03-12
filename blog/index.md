@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-description: Some posts.
+description: An endeavour to write, and to make Posts.
 ---
 
 <div class="intro">
@@ -16,7 +16,7 @@ description: Some posts.
       {% for post in site.posts %}
         <div>
           <p class="blog-list--date">{{ post.date | date: "%F" }}</p>
-          <h2 class="blog-list--title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <p class="blog-list--title"><a href="{{ post.url }}">{{ post.title }}</a></p>
           <!-- <p class="blog-list--excerpt">{{ post.excerpt }}</p> -->
         </div>
       {% endfor %}
