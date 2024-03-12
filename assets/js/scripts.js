@@ -1,5 +1,7 @@
 import { debounce } from "./debounce.min.mjs";
 
+import "./theming.js";
+
 const MAX_ANGLE = 2;
 const MAX_TOP = 20;
 const MAX_RIGHT = 20;
@@ -8,24 +10,75 @@ const PARAGRAPH_MARGIN = 24; // 1.5rem = 1.5 * 16
 
 const BREAKPOINT = 800;
 let lessThanBreakpoint = false;
+let windowWidth = 0;
+
+const FONT_SIZE_BIG = 16;
+const FONT_SIZE_SMALL = 14;
+let fontSize = FONT_SIZE_BIG;
+const CHARACTER_WIDTH_RATIO = 0.546875;
 
 const USE_RECEIPT = getRandomBoolean();
 
 window.addEventListener("resize", debounce(() => {
+  let prevWindowWidth = windowWidth;
   resize();
-  arrangeNotes();
+  if (windowWidth != prevWindowWidth) {
+    arrangeNotes();
+    updateDividers();
+    updateLeaders();
+  }
 }, 200));
+
+const hrs = document.querySelectorAll("hr");
+hrs.forEach(hr => {
+  const divider = document.createElement("div");
+  divider.classList.add("divider");
+  const parent = hr.parentElement;
+  parent.insertBefore(divider, hr);
+  hr.remove();
+});
 
 resize();
 arrangeNotes();
+updateDividers();
+updateLeaders();
+
+function updateDividers() {
+  const dividers = document.querySelectorAll(".divider");
+  dividers.forEach(divider => {
+    const width = divider.parentElement.getBoundingClientRect().width;
+    divider.innerText = `-`.repeat(width / (fontSize * CHARACTER_WIDTH_RATIO));
+  });
+}
+
+function updateLeaders() {
+  const tabsWithLeaders = document.querySelectorAll(".tabs-with-leader");
+  tabsWithLeaders.forEach(tabs => {
+    const left = tabs.querySelector(".left");
+    const leftWidth = left.getBoundingClientRect().width;
+
+    const right = tabs.querySelector(".right");
+    const rightWidth = right.getBoundingClientRect().width;
+
+    const parent = tabs.parentElement;
+    const parentWidth = parent.getBoundingClientRect().width;
+
+    const leaderWidth = parentWidth - leftWidth - rightWidth;
+    const leaderDots = tabs.querySelector(".leader-dots");
+    const patternRepeat = Math.max(4, Math.floor(leaderWidth / (2 * CHARACTER_WIDTH_RATIO * fontSize) - 1));
+    const string = " .".repeat(patternRepeat) + " ";
+    leaderDots.textContent = string;
+  });
+}
 
 function getRandomBoolean() {
   return Math.random() > 0.5;
 }
 
 function resize() {
-  const width = window.innerWidth;
-  lessThanBreakpoint = width <= BREAKPOINT;
+  windowWidth = window.innerWidth;
+  lessThanBreakpoint = windowWidth <= BREAKPOINT;
+  fontSize = lessThanBreakpoint ? FONT_SIZE_SMALL : FONT_SIZE_BIG;
 }
 
 function arrangeNotes() {

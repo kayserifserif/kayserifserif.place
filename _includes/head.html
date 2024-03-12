@@ -1,6 +1,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/light.css">
+  <link rel="stylesheet" href="/assets/css/dark.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
   
   {% if page.title %}<title>{{ page.title }} | Katherine Yang</title>{% else %}<title>Katherine Yang</title>{% endif %}
@@ -24,4 +26,6 @@
   {% if page.image %}<meta name="twitter:image" content="{{ page.image }}">{% endif %}
   {% if page.image-alt %}<meta name="twitter:image:alt" content="{{ page.image-alt }}">{% endif %}
   {% if page.image %}<meta name="twitter:card" content="summary_large_image">{% else %}<meta name="twitter:card" content="summary">{% endif %}
+
+  <script src="/assets/js/scripts.js" type="module" defer></script>
 </head>
