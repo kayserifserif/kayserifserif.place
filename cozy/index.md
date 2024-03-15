@@ -4,13 +4,13 @@ title: cozy corner
 description: cozy corner
 ---
 
-<div class="intro">
-  <h1>cozy corner</h1>
-  <div>
-    <p>games~</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>cozy corner</h1>
+    <div>
+      <p>games~</p>
+    </div>
+  </div>
   <div class="gallery">
     <figure>
       <img src="https://tinfoil.media/i/01007EF00011E000/0/0/d3c210e61e8487200fc4c344987243a60257838187a69a6a81c42d7447d5d192" alt="The Legend of Zelda: Breath of the Wild">

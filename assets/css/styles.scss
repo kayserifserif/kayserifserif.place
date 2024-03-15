@@ -417,12 +417,14 @@ header[role="banner"] {
 
 .intro {
   max-width: 800px;
-  margin: auto;
+  margin-inline: auto;
+  margin-block-end: var(--spacing);
 }
 
 .intro h1,
 .intro p {
   width: 60%;
+  margin-inline: 0;
 }
   @media (max-width: 800px), print {
     .intro h1,
@@ -453,7 +455,9 @@ header[role="banner"] {
 
 main {
   // margin: var(--spacing-lg) auto;
-  margin: var(--spacing) auto;
+  // margin: var(--spacing) auto;
+  margin-block: 0 var(--spacing);
+  margin-inline: auto;
 
   img,
   video,

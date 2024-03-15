@@ -4,13 +4,13 @@ title: Intentions
 description: A list of intentions; a poem; the “I want” song; not a bucket list——
 ---
 
-<div class="intro">
-  <h1>{{ page.title }}</h1>
-  <div>
-    <p>{{ page.description }}</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>{{ page.title }}</h1>
+    <div>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
   <div class="section">
     <dl class="intentions">
       <div>

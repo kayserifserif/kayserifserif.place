@@ -4,13 +4,13 @@ title: Fragments
 description: In the interim…
 ---
 
-<div class="intro">
-  <h1>{{ page.title }}</h1>
-  <div>
-    <p>{{ page.description }}</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>{{ page.title }}</h1>
+    <div>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
   <div class="gallery">
     <div><img src="/assets/media/fragments/20230303-bluets-1.jpg"></div>
     <div><img src="/assets/media/fragments/20230303-bluets-2.jpg"></div>

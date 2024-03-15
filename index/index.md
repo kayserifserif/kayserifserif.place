@@ -4,13 +4,13 @@ title: Index
 description: Some themes in the work. (Last updated October 20, 2023.)
 ---
 
-<div class="intro">
-  <h1>{{ page.title }}</h1>
-  <div>
-    <p>{{ page.description }}</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>{{ page.title }}</h1>
+    <div>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
   <dl class="index">
     <div class="index-section">
       <h2>A</h2>

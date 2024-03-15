@@ -11,13 +11,13 @@ description: To some of the people and things that shape me and my work.
 {% assign games = "Assemble with Care, Pikuniku, A Short Hike, Toem, The Legend of Zelda: Breath of the Wild, The Legend of Zelda: Tears of the Kingdom, Spiritfarer, Carto, Night in the Woods" | split: "," %}
 {% assign sayings = "Move slow and fix things, Don’t tell the poets, The machines have learned enough, No TERFs; no turfs, (delivered quietly), I love visiting your website (from Chris Coyier)" | split: "," %}
 
-<div class="intro">
-  <h1>{{ page.title }}</h1>
-  <div>
-    <p>{{ page.description }}</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>{{ page.title }}</h1>
+    <div>
+      <p>{{ page.description }}</p>
+    </div>
+  </div>
   <div class="section">
     <div class="section--header">
       <h2>PEOPLE.</h2>

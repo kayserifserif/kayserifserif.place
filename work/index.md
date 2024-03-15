@@ -4,13 +4,13 @@ title: Work
 description: Select projects.
 ---
 
-<div class="intro">
-  <h1>Work</h1>
-  <div>
-    <p>Select projects.</p>
-  </div>
-</div>
 <main>
+  <div class="intro">
+    <h1>Work</h1>
+    <div>
+      <p>Select projects.</p>
+    </div>
+  </div>
   <div class="section">
     <div class="section--header">
       <h2>WIP.</h2>
