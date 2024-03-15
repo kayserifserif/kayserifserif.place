@@ -1,0 +1,548 @@
+{"0": {
+    "doc": "Abstract",
+    "title": "Abstract",
+    "content": "e?xpress is an esoteric programming language that explores how emotion and poetics can be encoded within code. As a multicoded esolang, it plays with the norms of computing and reveals the layers of meaning embedded within code (Temkin, 2020). In particular, it explores the rich poetic potential within regular expressions, likening matching multiple strings to encompassing multiple possibilities. The language contains features inspired by Dan Waber’s exploration of regular expressions as poetic notation (Waber, 2011), the poetic shader programming language in:verse (Aneja, 2020), and the Esopo family of poetic programming languages (Hicks, 2016). By taking feminist/queer (Gaboury, 2018) and critical code studies (Marino, 2020) approaches to code poetry and language design, e?xpress explores poetic ideas of ambiguity, searching, plurality, multiple truths, and storytelling through the medium of code. ",
+    "url": "/express/prospectus/abstract",
+    "relUrl": "/prospectus/abstract"
+  },"1": {
+    "doc": "Be Firm",
+    "title": "Be Firm",
+    "content": " ",
+    "url": "/express/examples/be-firm",
+    "relUrl": "/examples/be-firm"
+  },"2": {
+    "doc": "Be Firm",
+    "title": "Code",
+    "content": "#be firm tellme(\"This line is okay.\"); tellmee(\"This line is an error.\"); . ",
+    "url": "/express/examples/be-firm#code",
+    "relUrl": "/examples/be-firm#code"
+  },"3": {
+    "doc": "Be Firm",
+    "title": "Console",
+    "content": "Error: “tellmee” is undefined on line 4. ",
+    "url": "/express/examples/be-firm#console",
+    "relUrl": "/examples/be-firm#console"
+  },"4": {
+    "doc": "Be Firm",
+    "title": "Explanation",
+    "content": "The #be directive can be followed by either firm or gentle. Here, the programmer uses firm to inform the processor that they want error messages to be straightforward and concise. #be firm . Thus, when tellme is misspelled as tellmee on line 4, the error is pointed out in the console, with no additional information. ",
+    "url": "/express/examples/be-firm#explanation",
+    "relUrl": "/examples/be-firm#explanation"
+  },"5": {
+    "doc": "Be Firm",
+    "title": "See Also",
+    "content": ". | Be Gentle | . ",
+    "url": "/express/examples/be-firm#see-also",
+    "relUrl": "/examples/be-firm#see-also"
+  },"6": {
+    "doc": "Be Gentle",
+    "title": "Be Gentle",
+    "content": " ",
+    "url": "/express/examples/be-gentle",
+    "relUrl": "/examples/be-gentle"
+  },"7": {
+    "doc": "Be Gentle",
+    "title": "Code",
+    "content": "#be gentle tellme(\"This line is okay.\"); tellmee(\"This line is an error.\"); . ",
+    "url": "/express/examples/be-gentle#code",
+    "relUrl": "/examples/be-gentle#code"
+  },"8": {
+    "doc": "Be Gentle",
+    "title": "Console",
+    "content": "Couldn’t figure out what you meant by “tellmee” on line 11. Check again? Help . Help: . | Are there any typos in this? | Is this meant to be a variable or a built-in function name? a. Variable: check that it’s defined earlier in the code with consistent spelling and that it’s accessible in the same scope. b. Built-in function: check the language documentation and see if you’re missing anything. | If those steps don’t help, here are generated search links pre-filled with this search: “e?xpress tellmee possibility undefined”. You can check on the e?xpress forums, DuckDuckGo and StackOverflow to see if other people have encountered this problem. | . ",
+    "url": "/express/examples/be-gentle#console",
+    "relUrl": "/examples/be-gentle#console"
+  },"9": {
+    "doc": "Be Gentle",
+    "title": "Explanation",
+    "content": "The #be directive can be followed by either firm or gentle. Here, the programmer uses gentle to inform the processor that they need a little extra guidance and support. #be gentle . Thus, when tellme is misspelled as tellmee on line 4, a lengthy message is given that points out the error and provides suggestions for potential steps to take. Additionally, it provides pre-filled search links that the programmer can use to look for other people’s solutions to the problem. ",
+    "url": "/express/examples/be-gentle#explanation",
+    "relUrl": "/examples/be-gentle#explanation"
+  },"10": {
+    "doc": "Be Gentle",
+    "title": "See Also",
+    "content": ". | Be Firm | . ",
+    "url": "/express/examples/be-gentle#see-also",
+    "relUrl": "/examples/be-gentle#see-also"
+  },"11": {
+    "doc": "#be",
+    "title": "#be",
+    "content": " ",
+    "url": "/express/language/be",
+    "relUrl": "/language/be"
+  },"12": {
+    "doc": "#be",
+    "title": "Description",
+    "content": "Include this directive as the first line of the program to direct how you want error messages to be communicated. ",
+    "url": "/express/language/be#description",
+    "relUrl": "/language/be#description"
+  },"13": {
+    "doc": "#be",
+    "title": "Syntax",
+    "content": "#be style . where style is either firm (default) or gentle. ",
+    "url": "/express/language/be#syntax",
+    "relUrl": "/language/be#syntax"
+  },"14": {
+    "doc": "#be",
+    "title": "Usage",
+    "content": "#be gentle . This informs the processor that a little extra guidance and support is wanted in the error messages. ",
+    "url": "/express/language/be#usage",
+    "relUrl": "/language/be#usage"
+  },"15": {
+    "doc": "#be",
+    "title": "Examples",
+    "content": ". | Be Firm . | Be Gentle . | . ",
+    "url": "/express/language/be#examples",
+    "relUrl": "/language/be#examples"
+  },"16": {
+    "doc": "evermore",
+    "title": "evermore",
+    "content": " ",
+    "url": "/express/language/evermore",
+    "relUrl": "/language/evermore"
+  },"17": {
+    "doc": "evermore",
+    "title": "Description",
+    "content": "Instantiates a constant—meaning something with a value that doesn’t change throughout the program. ",
+    "url": "/express/language/evermore#description",
+    "relUrl": "/language/evermore#description"
+  },"18": {
+    "doc": "evermore",
+    "title": "Syntax",
+    "content": "evermore: NAME = value; . where NAME is the name of the constant, and value is the value of the constant. (Following programming conventions, uppercase names are used to indicate that it’s a constant, though it’s not strictly required.) . ",
+    "url": "/express/language/evermore#syntax",
+    "relUrl": "/language/evermore#syntax"
+  },"19": {
+    "doc": "evermore",
+    "title": "Usage",
+    "content": "evermore: PI = 3.14; . This defines a constant with the name PI and the value 3.14. ",
+    "url": "/express/language/evermore#usage",
+    "relUrl": "/language/evermore#usage"
+  },"20": {
+    "doc": "evermore",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/evermore#examples",
+    "relUrl": "/language/evermore#examples"
+  },"21": {
+    "doc": "evermore",
+    "title": "See Also",
+    "content": ". | possibility | . ",
+    "url": "/express/language/evermore#see-also",
+    "relUrl": "/language/evermore#see-also"
+  },"22": {
+    "doc": "Examples",
+    "title": "Examples",
+    "content": "Here are some sample programs to demonstrate how the language works. ",
+    "url": "/express/examples",
+    "relUrl": "/examples"
+  },"23": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "e?xpress: a poetic programming language. This is a work-in-progress documentation site for Katherine Yang’s undergraduate thesis for the Media Arts + Practice BA. Inspired by: . | Sarah Ciston – collaboration and conversation | Mark C. Marino – critical code studies | Daniel Temkin – esoteric languages | Dan Waber – RegEx for poetry | Sukanya Aneja – poetic shader language | Will Hicks - poetic programming language | p5.js – inclusion, accessibility, community | Glitch – inclusion, accessibility, and community | . ",
+    "url": "/express/",
+    "relUrl": "/"
+  },"24": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "e?xpress is a forgiving emotional interface. It invites you to use pre-processor directives to tell it how to interact with you, depending on your level of familiarity with the language or your emotional state of mind today. One of these directives is #be, which can be followed by firm or gentle. This informs the error-checker that it should give you feedback in a way that is either direct and concise or verbose and supportive. e?xpress is explicitly metaphorical. Variables are instantiated with the keyword possibility, followed by the name of the variable. Constants, which don’t change throughout the program, are instantiated with the keyword evermore. If-else patterns are created through the keywords sometimes and othertimes. Anything is often true, at some point in time, from some perspective, which is demonstrated in the built-in function schrodinger(), which continuously returns random values of true or false. e?xpress embraces ambiguity and contains multitudes. It utilises regular expressions, which are sequences of characters that specify a search pattern. e?xpress is not definitive truth; it is always searching and redefining. The retell block repeats the code inside an arbitrary number of times, like a story changes slightly every time it’s told. Combined with sometimes-othertimes and schrodinger(), running a program just once can return multiple values of that possibility. e?xpress is a negotiation between you, the language, and truth, like coding always is. Use tellme() to print values to the console. ",
+    "url": "/express/introduction",
+    "relUrl": "/introduction"
+  },"25": {
+    "doc": "Language",
+    "title": "Language",
+    "content": "Reference pages for keywords and functions in the language. ",
+    "url": "/express/language",
+    "relUrl": "/language"
+  },"26": {
+    "doc": "Literature Review",
+    "title": "Literature Review",
+    "content": "A overarching guiding approach that inspires this project is that of critical code studies, as described by Mark C. Marino in Critical Code Studies (2020). Marino suggests that most discussions about code and technology skip too quickly to the functional effects and applications of code; instead, he proposes that code is worth studying on its own merits. Marino argues that code is a “social text”, embedded with rich meaning that develops and transforms with audience and time. In the process of writing this project’s code, my writing will be informed by this approach. I will be considering the meaning that I am embedding into the language, and attempting to be intentional in my choices as motivated by the project’s philosophies. Critical code studies is compatible with any type of code, but one particular field that it can be suited for is the field of esoteric, or “weird”, programming languages. An “esolang” is a niche language that plays with the norms of computing. In particular, Michael Mateas and Nick Montfort defines a type of “multicoding” esolang, which contains multiple layers of meaning—typically, a functional meaning to the computer and a “real-world” meaning to the writer-reader. In “The Aesthetics of Multicoding Esolangs”, Daniel J. Temkin explores this concept in further depth, outlining early and new examples of multicoding esolangs and their evolving aesthetics (2020). My project will be a multicoding esolang that simultaneously encodes functional meaning and poetic meaning, inspired particularly by Temkin’s analysis of Will Hicks’ Esopo project (2016). Stepping back from fully functional esolangs, examples of codeworks have also included playing with isolated features of code. Dan Waber, an experimental writer, explored a method of using regular expressions as a system of poetic notation (2008). This experiment is a key source of inspiration for me. Waber describes a writer’s desire to express multiple meanings at once—to describe “a multiplicity of poems that exist in a state of potential”—and thus deftly transform regular expressions, a utilitarian tool, into a powerful extension of poetic language. This project extends upon this idea, encoding the poetic potential of regular expressions into an esolang, playing, as Waber does, with the ambiguity and potential of meaning in language. ",
+    "url": "/express/prospectus/literature-review",
+    "relUrl": "/prospectus/literature-review"
+  },"27": {
+    "doc": "Methods",
+    "title": "Methods of Data Collection + Analysis + Representation",
+    "content": " ",
+    "url": "/express/prospectus/methods#methods-of-data-collection--analysis--representation",
+    "relUrl": "/prospectus/methods#methods-of-data-collection--analysis--representation"
+  },"28": {
+    "doc": "Methods",
+    "title": "Data Collection",
+    "content": "To begin, I plan to research existing programming languages, ranging from languages with a higher barrier to entry to languages that have been specifically designed to be easily accessible to beginners. This research will be conducted in two parts. The first will be solo research focused on the language features themselves, as described by their official documentation. The second will be interviews that I will conduct with programmers and writers about their personal experiences with programming languages, including both people with little experience with programming and people with extensive experience. Moving on from these existing examples, I plan to conduct research into theories and techniques of programming language design to learn about rationalising design choices and implementing them. As for potential collaborators, I am a member with Creative Code Collective, a group based in Media Arts + Practice where creative and critical coders workshop and share around code. Within this group, I have often shared my work with other members—in particular, with Sarah Ciston, whose work is similarly centered around platforms in the programming experience. Between our individual but parallel projects, I hope to continue discussing and building upon each other’s ideas! . ",
+    "url": "/express/prospectus/methods#data-collection",
+    "relUrl": "/prospectus/methods#data-collection"
+  },"29": {
+    "doc": "Methods",
+    "title": "Analysis",
+    "content": "With research gathered from existing languages and subject interviews, I will summarise the programming experience of various programming languages, determining philosophies and features that make a language feel “friendly” or “unfriendly”. In addition to analysing user-friendliness, I will explore reported experiences to outline how existing programming languages are able to embrace meaning, emotion, and poetics. From this analysis, I will set out specific goals and ideals for designing my language in working towards both user-friendliness and poetics. ",
+    "url": "/express/prospectus/methods#analysis",
+    "relUrl": "/prospectus/methods#analysis"
+  },"30": {
+    "doc": "Methods",
+    "title": "Representation",
+    "content": "In the first stage, I will lay out all proposed language features. As demonstrated in this prototype website, individual pages explain how various proposed features in the language would work, and longer examples show sample programs using these features. In the second stage, I will implement a working version of the language. This will involve a compiler or interpreter that can take these language features, process them, and produce real results. I anticipate that this will be the most challenging aspect, as I do not have any knowledge of this field and do not have a firm sense of how much I would be able to accomplish. Throughout these two stages, I will be testing and iterating on features to make sure all abstract and technical aspects are sound. I will also be maintaining documentation by keeping a log of changes and updating the reference pages on this website. As a potential third stage, I will also consider designing and developing an IDE (Integrated Development Environment) for the language. This would be an extension of the language, incorporating the philosophies of emotion and poetics into a broader programming experience. However, as my focus is currently on the language design itself, this will only be a stretch goal if time allows. ",
+    "url": "/express/prospectus/methods#representation",
+    "relUrl": "/prospectus/methods#representation"
+  },"31": {
+    "doc": "Methods",
+    "title": "Methods",
+    "content": " ",
+    "url": "/express/prospectus/methods",
+    "relUrl": "/prospectus/methods"
+  },"32": {
+    "doc": "othertimes",
+    "title": "othertimes",
+    "content": " ",
+    "url": "/express/language/othertimes",
+    "relUrl": "/language/othertimes"
+  },"33": {
+    "doc": "othertimes",
+    "title": "Description",
+    "content": "Analogous to else statements in other languages. Always used in conjunction with sometimes. ",
+    "url": "/express/language/othertimes#description",
+    "relUrl": "/language/othertimes#description"
+  },"34": {
+    "doc": "othertimes",
+    "title": "Syntax",
+    "content": "sometimes (condition) { // statements } othertimes { // other statements } . where condition is the condition that, if true, allows the statements within the first block to be executed. ",
+    "url": "/express/language/othertimes#syntax",
+    "relUrl": "/language/othertimes#syntax"
+  },"35": {
+    "doc": "othertimes",
+    "title": "Usage",
+    "content": "possibility: favenumber = 67; sometimes (favenumber &gt; 70) { // statements } othertimes { // statements } . The condition given is favenumber &gt; 70, which evaluates to 67 &gt; 70, which is false. This means the statements within the second code block will be executed. ",
+    "url": "/express/language/othertimes#usage",
+    "relUrl": "/language/othertimes#usage"
+  },"36": {
+    "doc": "othertimes",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/othertimes#examples",
+    "relUrl": "/language/othertimes#examples"
+  },"37": {
+    "doc": "othertimes",
+    "title": "See Also",
+    "content": ". | sometimes | . ",
+    "url": "/express/language/othertimes#see-also",
+    "relUrl": "/language/othertimes#see-also"
+  },"38": {
+    "doc": "Possibilities",
+    "title": "Possibilities",
+    "content": " ",
+    "url": "/express/examples/possibilities",
+    "relUrl": "/examples/possibilities"
+  },"39": {
+    "doc": "Possibilities",
+    "title": "Code",
+    "content": "#be firm evermore: TIMEORMASS = 150; possibility: subject = `my|(y?our)`; possibility: object = `w(eigh|ai)t`; retell (upto: 6) { sometimes (schrodinger()) { tellme(subject, object, \"of\", TIMEORMASS); } othertimes { tellme(\"and\"); } } . ",
+    "url": "/express/examples/possibilities#code",
+    "relUrl": "/examples/possibilities#code"
+  },"40": {
+    "doc": "Possibilities",
+    "title": "Console",
+    "content": "Run 1: . and . your wait of 150 . our wait of 150 . and . Run 2: . my wait of 150 . and . and . my weight of 150 . our wait of 150 . your wait of 150 . Run 3: . your wait of 150 . my wait of 150 . your weight of 150 . and . ",
+    "url": "/express/examples/possibilities#console",
+    "relUrl": "/examples/possibilities#console"
+  },"41": {
+    "doc": "Possibilities",
+    "title": "Explanation",
+    "content": "This program demonstrates a range of features in the language. After the #be directive, the first line defines an evermore, or a constant, named TIMEORMASS, as 150. evermore: TIMEORMASS = 150; . When TIMEORMASS is referred to from now on, it will always have the value 150. Then, two possibilitys are defined. The first, subject, is given the value my|(y?our). possibility: subject = `my|(y?our)`; . This is a regular expression that can be broken down like this: . | The parentheses () group the tokens inside to be considered in context: (y?our). | The pipe | operator matches either expression on either side: my or (y?our). | The question mark ? operator matches 0 or 1 of the previous token: your or our. | All together, the expression matches: my, your, and our. | . The second possibility, object, is given the value w(eigh|ai)t. possibility: object = \"w(eigh|ai)t\"; . This regular expression can be broken down like this: . | The parentheses () group the tokens inside: (eigh|ai). | The pipe | operator matches either expression on either side: eigh or ai. | All together, the expression matches: weight or wait. | . As possibilitys that hold regular expressions as values, these can result in different results under different conditions, which are demonstrated in the following code block. The retell code block evokes the experience of retelling a story—it comes out slightly differently each time. Modifying it with (upto: 6) sets it to retell any number of times, up to 6 times. retell (upto: 6) { // statements here } . The actual statements to be carried out within the retelling are given in the sometimes-othertimes blocks. Analogous to if-else patterns in other languages, sometimes-othertimes is a pattern that will execute the sometimes code block if the condition is true; otherwise, it will execute the othertimes code block. The condition here is schrodinger(), which is a function that, like Schrödinger’s cat, is simultaneously both true and false—but will give you just one of those values when you run it. sometimes (schrodinger()) { // some statements } othertimes { // other statements } . Within those code blocks, tellme() is analogous to print() or console.log() in other languages: it will print a given value to the console. The first tellme() prints a string of concatenated values: the possibility named subject, the possibility named object, the string “of”, and the evermore named TIMEORMASS. Every time this is run, the possibilitys will return a string that matches their regular expressions—remember that regular expressions can match multiple strings! . tellme(subject, object, \"of\", TIMEORMASS); . All together, this program prints up 6 lines that combine, in different ways, the possibilitys “my”, “your”, “our”, “weight”, “wait”; the word “of”; the evermore value 150; and the word “and”. The three runs show the different results that can occur. ",
+    "url": "/express/examples/possibilities#explanation",
+    "relUrl": "/examples/possibilities#explanation"
+  },"42": {
+    "doc": "possibility",
+    "title": "possibility",
+    "content": " ",
+    "url": "/express/language/possibility",
+    "relUrl": "/language/possibility"
+  },"43": {
+    "doc": "possibility",
+    "title": "Description",
+    "content": "Instantiates a variable—meaning something that can hold multiple values at one time and at different times throughout the program. This is often used with a RegEx character sequence to play with ambiguity and meaning. ",
+    "url": "/express/language/possibility#description",
+    "relUrl": "/language/possibility#description"
+  },"44": {
+    "doc": "possibility",
+    "title": "Syntax",
+    "content": "possibility: name = value; . where name is the name of the variable, and value is the value of the variable. ",
+    "url": "/express/language/possibility#syntax",
+    "relUrl": "/language/possibility#syntax"
+  },"45": {
+    "doc": "possibility",
+    "title": "Usage",
+    "content": "possibility: makeme = `pr(e|a)y`; . This defines a variable with the name makeme and the RegEx value of pr(e|a)y, which matches prey and pray. ",
+    "url": "/express/language/possibility#usage",
+    "relUrl": "/language/possibility#usage"
+  },"46": {
+    "doc": "possibility",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/possibility#examples",
+    "relUrl": "/language/possibility#examples"
+  },"47": {
+    "doc": "possibility",
+    "title": "See Also",
+    "content": ". | evermore | . ",
+    "url": "/express/language/possibility#see-also",
+    "relUrl": "/language/possibility#see-also"
+  },"48": {
+    "doc": "Prospectus",
+    "title": "Prospectus",
+    "content": "Final Thesis Prospectus for IML 346: Methods in Digital Research. ",
+    "url": "/express/prospectus",
+    "relUrl": "/prospectus"
+  },"49": {
+    "doc": "Prototype",
+    "title": "Prototype",
+    "content": "This documentation site and its contents serve as the prototype for this prospectus. There are three main sections to the site. | The Introduction section covers the guiding philosophies and principles of the language, including an overview of RegEx, a concept that motivates the ambiguity features of the language. | The Language section contains individual reference pages for each proposed keyword of the language, on which readers can find a description, exact syntax, and usage example. | The Examples section contains three sample programs in the language. These pages give detailed explanations of how the features of the language work in conjunction, particularly as demonstrated in Possibilities. | . This prototype addresses the guiding question: “how can a programming language embrace emotion and poetics?” The detailed documentation demonstrate how this language plays with syntax, structure, and logic to explore poetic possibilities within code. ",
+    "url": "/express/prospectus/prototype",
+    "relUrl": "/prospectus/prototype"
+  },"50": {
+    "doc": "Prototype",
+    "title": "Feedback session",
+    "content": ". | How would using this language make you feel? . | Jay: Feels like going from C++ to Processing to p5.js. Breaking down more complexities and barriers. Why can’t all programming languages be this easy? | . | What is frustrating or confusing about learning to code? . | Daisy: JavaScript/jQuery scared me for a long time because of the confusing keywords and syntax. Confused about the $ symbol. HTML and CSS were less confusing, much more approachable. | Jay: The IDE (Integrated Development Environment) experience. Opening VSCode takes a lot of mental energy; Brackets less so; p5 the least. I don’t even mind if the language is a bit more complicated, when the IDE is as friendly as p5’s web editor. | → Develop online editor for the language, if time allows | . | . | What could you imagine that would be an alternative to those frustrations? . | Daisy: This puts the person back into code. p5.js builds community but the code itself feels removed from that. | → Ways to make the sense of community embedded within the code? | . | Daisy: The features are poetic, but make it intuitive . | → Autocomplete/suggestion feature in editing environment | . | Jose: I read the regular expression as a string itself. It’s not usually correct, but you could even make my interpretation make sense with the space for ambiguities. | ambiguities → probabilities/possibilities. Not random. Nothing is 100% just one thing, but we can try to find the essence of it, what it’s most likely to be. Is about intentions | . | . | . ",
+    "url": "/express/prospectus/prototype#feedback-session",
+    "relUrl": "/prospectus/prototype#feedback-session"
+  },"51": {
+    "doc": "Purpose Statement",
+    "title": "Purpose Statement + Research Questions",
+    "content": " ",
+    "url": "/express/prospectus/purpose-statement#purpose-statement--research-questions",
+    "relUrl": "/prospectus/purpose-statement#purpose-statement--research-questions"
+  },"52": {
+    "doc": "Purpose Statement",
+    "title": "Purpose Statement",
+    "content": "The purpose of this phenomenological study is to explore how emotion and poetics can be encoded within a programming language, particularly for people without traditional coding backgrounds. At this stage in the research, the encoding of emotion and poetics will be generally defined as semantic and functional structures in the programming language that acknowledge and care for the programmer’s emotions and intentions. ",
+    "url": "/express/prospectus/purpose-statement",
+    "relUrl": "/prospectus/purpose-statement"
+  },"53": {
+    "doc": "Purpose Statement",
+    "title": "Research Questions",
+    "content": "Central Question . How can a programming language embrace emotion and poetics? . Sub-Questions . | What is frustrating or confusing about learning to code? | What assumptions are made of people in the programming experience? | What barriers do people encounter in coding, and how do they overcome them? | How do the words and symbols used in a programming language shape the programming experience? | How is binary logic encoded within code? | What emotional relationships do people form with code? How do they differ between programming languages? | What makes a programming language “friendly” or “unfriendly”? | What relationship can be constructed between code and meaning? | . ",
+    "url": "/express/prospectus/purpose-statement#research-questions",
+    "relUrl": "/prospectus/purpose-statement#research-questions"
+  },"54": {
+    "doc": "Rationale",
+    "title": "Research Problem + Rationale",
+    "content": "Traditionally, coding has been stiffly held to certain standards within a false and exclusionary binary system (Gaboury, 2018). Emotion is rejected for logic; inclusion is rejected for superiority; play is rejected for productivity; and feminity and queerness are rejected for cis-hetero-normativity (Gilbert, 2001). There have been many efforts that have aimed to open up computing to a broader demographic, primarily through two avenues: the broad programming experience and the programming language itself. To start, platforms/communities such as Glitch create much-needed spaces for people, especially those from marginalised backgrounds, to learn and practice coding in a welcoming, accessible, and collaborative environment (Dash, 2018). Narrowing down, we can also see a progression in clarity and accessibility in programming languages throughout computing history, moving from low-level machine code to highly abstracted and accessible languages such as p5.js (p5.js, 2021) and Elm (Elm, 2021). There has also been great interest and engagement with computing from the humanities and arts, particularly in the field of electronic literature with code poetry or codeworks. Using the syntax and structures of programming languages, code poets deftly adapt these to create human-readable poetic works (Raley, 2002). Furthermore, the field of esoteric or “weird” programming languages, involves the creation of niche languages that play with the norms of computation, such as the “multicoding” languages Shakespeare, Chef, and Piet (Mateas and Montfort, 2005; Temkin, 2020). This project aims to engage with both issues of increasing access to coding and playing with the poetics of code. By designing an esolang specifically intended to embrace poetics and emotions, I hope to create a more welcoming space for non-traditional coders, as well as open up broadly creative possibilities within computing. ",
+    "url": "/express/prospectus/rationale#research-problem--rationale",
+    "relUrl": "/prospectus/rationale#research-problem--rationale"
+  },"55": {
+    "doc": "Rationale",
+    "title": "Rationale",
+    "content": " ",
+    "url": "/express/prospectus/rationale",
+    "relUrl": "/prospectus/rationale"
+  },"56": {
+    "doc": "RegEx",
+    "title": "RegEx",
+    "content": "RegEx (short for “regular expression”) is a type of character sequence that specifies a search pattern. It can look daunting at first, but it’s powerful in how much it can encapsulate with a concise sequence of characters. In e?xpress, it’s the driving force that lets a possibility contain multitudes. A very short primer on RegEx: . | a|b: The pipe | means either/or. This sequence matches a or b. | a?b: The question mark | means 0 or 1 of the preceding token. This sequence matches b and ab. | a*b: The asterisk * means 0 or more of the preceding token. This sequence matches b, ab, aab, aaab, and so on. | aa|(b?c): The parentheses () group tokens together to be considered in context. This sequence matches aa, c, and bc. | . To learn more, try these resources: . | RegExr: an online tool to learn, build and test RegEx | A Visual Guide to Regular Expression: an article explaining RegEx using lots of helpful visuals | . ",
+    "url": "/express/introduction/regex",
+    "relUrl": "/introduction/regex"
+  },"57": {
+    "doc": "Research Map",
+    "title": "Research Map",
+    "content": " ",
+    "url": "/express/prospectus/research-map",
+    "relUrl": "/prospectus/research-map"
+  },"58": {
+    "doc": "Research Map",
+    "title": "Methods in Digital Research",
+    "content": "Creswell, John W., &amp; Poth, Cheryl N. (2018). Qualitative inquiry &amp; research design: Choosing among five approaches (4th ed.). SAGE. Leavy, Patricia. (2015). Method meets art: Arts-based research practice (2nd ed.). The Guilford Press. ",
+    "url": "/express/prospectus/research-map#methods-in-digital-research",
+    "relUrl": "/prospectus/research-map#methods-in-digital-research"
+  },"59": {
+    "doc": "Research Map",
+    "title": "Inclusion in Tech",
+    "content": "Dash, Anil. (2018, June 26). It’s not just code, it’s a network [Blog post]. Medium. Retrieved May 6, 2021, from https://medium.com/glitch/its-not-just-code-it-s-a-network-eee9fbca4f40 . Gilbert, Jane. (2001). Science and its ‘Other’: Looking underneath ‘woman’ and ‘science’ for new directions in research on gender and science education. Gender and Education, 13(3), 291–305. https://doi.org/10.1080/09540250120063571 . p5.js. (2021, February 26). p5.js community statement. p5.js. Retrieved May 6, 2021, from https://p5js.org/community/ . Wajcman, Judy. (2010). Feminist theories of technology. Cambridge Journal of Economics, 34(1), 143–152. https://doi.org/10.1093/cje/ben057 . ",
+    "url": "/express/prospectus/research-map#inclusion-in-tech",
+    "relUrl": "/prospectus/research-map#inclusion-in-tech"
+  },"60": {
+    "doc": "Research Map",
+    "title": "Philosophies of Code",
+    "content": "Chun, Wendy Hui Kyong. (2008). On ‘sourcery,’ or code as fetish. Configurations, 16(3), 299–324. https://doi.org/10.1353/con.0.0064 . Dryer, Theodora J. (2018). Algorithms under the reign of probability. IEEE Annals of the History of Computing, 40(1), 93–96. https://doi.org/10.1353/ahc.2018.0008 . Friedrich, Kittler. (1995). There is no software. Ctheory, 10–18. Fuller, Matthew, Malina, Roger F., &amp; Cubitt, Sean. (2008). Software studies: A lexicon. Retrieved from http://ebookcentral.proquest.com/lib/socal/detail.action?docID=3338867 . Gaboury, Jacob. (2018). Becoming NULL: Queer relations in the excluded middle. Women &amp; Performance: A Journal of Feminist Theory, 28(2), 143–158. https://doi.org/10.1080/0740770X.2018.1473986 . ",
+    "url": "/express/prospectus/research-map#philosophies-of-code",
+    "relUrl": "/prospectus/research-map#philosophies-of-code"
+  },"61": {
+    "doc": "Research Map",
+    "title": "Code as Text",
+    "content": "Ciston, Sarah. (n.d.). All code is writing, all writing is code: Brief manifestos for future systems. Digital Humanities Quarterly. Working paper. Knuth, Donald. (1984). Literate programming. The Computer Journal, 27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97 . Marino, Mark C. (2020). Critical code studies. MIT Press. Raley, Rita. (2002). Interferences: [Net.Writing] and the practice of codework. Electronic Book Review. Retrieved from http://electronicbookreview.com/essay/interferences-net-writing-and-the-practice-of-codework/ . Vee, Annette. (2017). Coding literacy: How computer programming is changing writing. https://doi.org/10.7551/mitpress/10655.001.0001 . Waber, Dan. (2008). Regular expressions as a system of poetic notation. P-QUEUE, 5. Retrieved April 30, 2021, from https://pqueue.files.wordpress.com/2017/10/p-queue-volume-5.pdf . ",
+    "url": "/express/prospectus/research-map#code-as-text",
+    "relUrl": "/prospectus/research-map#code-as-text"
+  },"62": {
+    "doc": "Research Map",
+    "title": "Programming Languages",
+    "content": "Aneja, Sukanya. (2020). in:verse [JavaScript]. Retrieved May 8, 2021, from https://github.com/noisyneuron/inverse (Original work published 2020) . Elm (Version 0.19.1) [Haskell]. (2021). Retrieved May 8, 2021, from https://elm-lang.org/ . Corbett, Jon. (2020, January 27). Week 2: Cree#. CCS Working Group 2020. Retrieved May 8, 2021, from http://wg20.criticalcodestudies.com/index.php?p=/discussion/71/week-2-cree . Hicks, William. (2016). Esopo [JavaScript]. Retrieved May 8, 2021, from https://github.com/wphicks/Esopo (Original work published 2016) . Mateas, Michael, &amp; Montfort, Nick. (2005). A box, darkly: Obfuscation, weird languages, and code aesthetics. Proceedings of the 6th Digital Arts and Culture Conference, 144–153. Retrieved April 17, 2021, from https://nickm.com/cis/a_box_darkly.pdf . Temkin, Daniel. (2018, September 8). Esopo: Turing complete poetry [Blog post]. esoteric.codes. Retrieved May 7, 2021, from https://esoteric.codes/blog/esopo-turing-complete-poetry . Temkin, Daniel. (2021). The aesthetics of multicoding esolangs. Proceedings of the Electronic Literature Organization Conference 2021, 9. Retrieved April 17, 2021, from https://stars.library.ucf.edu/elo2021/asynchronous/proceedingspapers/17/ . ",
+    "url": "/express/prospectus/research-map#programming-languages",
+    "relUrl": "/prospectus/research-map#programming-languages"
+  },"63": {
+    "doc": "Research Map",
+    "title": "Emotionality",
+    "content": "Chiou, Georgina. (2021). Genesis. Georgina Chiou. Retrieved May 6, 2021, from https://www.georginachiou.com/genesis . Zausner, Chandler. (2021, January 5). Post Human Angels: Compassionate Relationships with Inanimate Objects. The Alliance for Networking Visual Culture. Retrieved May 7, 2021, from https://scalar.usc.edu/works/post-human-angels-compassionate-relationships-with-inanimate-objects/ . ",
+    "url": "/express/prospectus/research-map#emotionality",
+    "relUrl": "/prospectus/research-map#emotionality"
+  },"64": {
+    "doc": "retell",
+    "title": "retell",
+    "content": " ",
+    "url": "/express/language/retell",
+    "relUrl": "/language/retell"
+  },"65": {
+    "doc": "retell",
+    "title": "Description",
+    "content": "The retell code block evokes the experience of retelling a story—it comes out slightly differently each time. ",
+    "url": "/express/language/retell#description",
+    "relUrl": "/language/retell#description"
+  },"66": {
+    "doc": "retell",
+    "title": "Syntax",
+    "content": "retell (exact, upto: max) { // statements } . where exact is an exact number of times that the statements should be run; or, alternatively, the statements should repeat a random number of times, up to max times. ",
+    "url": "/express/language/retell#syntax",
+    "relUrl": "/language/retell#syntax"
+  },"67": {
+    "doc": "retell",
+    "title": "Usage",
+    "content": "retell (upto: 5) { // statements } . This carries out the statements inside the code block a random number of times, up to 5 times. ",
+    "url": "/express/language/retell#usage",
+    "relUrl": "/language/retell#usage"
+  },"68": {
+    "doc": "retell",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/retell#examples",
+    "relUrl": "/language/retell#examples"
+  },"69": {
+    "doc": "schrodinger()",
+    "title": "schrodinger()",
+    "content": " ",
+    "url": "/express/language/schrodinger",
+    "relUrl": "/language/schrodinger"
+  },"70": {
+    "doc": "schrodinger()",
+    "title": "Description",
+    "content": "Like Schrödinger’s cat, schrodinger() simultaneously holds both true and false values, but will give you just one of those values when you evaluate it. ",
+    "url": "/express/language/schrodinger#description",
+    "relUrl": "/language/schrodinger#description"
+  },"71": {
+    "doc": "schrodinger()",
+    "title": "Syntax",
+    "content": "schrodinger() . ",
+    "url": "/express/language/schrodinger#syntax",
+    "relUrl": "/language/schrodinger#syntax"
+  },"72": {
+    "doc": "schrodinger()",
+    "title": "Usage",
+    "content": "retell (3) { tellme(schrodinger()); } // may print: // true // true // false . Using the retell code block, this program prints a bunch of the value of schrodinger() three times. Each time, schrodinger() will return either true or false. In this run, it returns true two times and false the final time. ",
+    "url": "/express/language/schrodinger#usage",
+    "relUrl": "/language/schrodinger#usage"
+  },"73": {
+    "doc": "schrodinger()",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/schrodinger#examples",
+    "relUrl": "/language/schrodinger#examples"
+  },"74": {
+    "doc": "Self-Reflection",
+    "title": "Self-Reflection",
+    "content": "Throughout this course, I have faced creative challenges many times over and learned valuable lessons from completing them. I found each of the five weeks of RCMPs to be quite challenging. Though the RCMPs were intended to be rapid prototypes, I found it difficult to create projects which had a small enough scale to make for a reasonable workload but which were still meaningful and of a satisfying quality. I also struggled to decide on ideas each week, at times because the open prompts felt too broad, and at other times because I didn’t want to be constrained to the themes of previous RCMPs. However, the RCMPs were rewarding in giving me opportunities to explore creative forms outside of my comfort zone and skill set, such as illustration and animation. My thesis is back in my familiar territory of computation, but I am keeping an open mind to incorporating illustration and animation in some way, down the line. I have really appreciated the opportunities given in this course for me to reflect on myself and to hear about the journeys that my classmates are going on as well. I have definitely learned valuable lessons about myself, my interests, and my goals. For example, I have come to find the phrase “poetic tools” as an apt one to describe the bulk of my creative work. An interest that I find myself repeatedly iterating on is the elegance of tying function to meaning, crafting both sides to evoke the same satisfaction of a powerful metaphor in language. Furthermore, I find most interest in works that are interactive: I can begin the process by creating a tool, but it really takes on life when other people use it to their own purposes, especially if I can’t anticipate how they respond to it. Though the theoretical concepts of Creswell and Poth (2018) and Leavy (2015) felt like superfluous jargon at times, I have gained from them valuable skills and strategies for conducting research. By understanding specific frameworks that I can situate my work in, I now know how to model my research after established principles and examples of qualitative inquiry and arts-based research, which has been crucial in the process of completing this prospectus. As for my thesis, I am thrilled with how it turned out. Initially, when writing my potential abstracts, my other idea was much more fleshed out, as I had been thinking about it for a while, and this was just a wild and vague jumble of ideas I could dream up. As it turned out, though I still like the idea and think that it’s important, it felt too burdensome and I ultimately felt much more passionately about this idea. I’m glad I took a chance on this much less defined idea, as I found myself diving head-first into it, with much anticipation for the rest of the journey. Ultimately, I’m grateful for the opportunities to learn, practice, and grow throughout this course, and I’m very excited to continue developing my thesis project in the fall. ",
+    "url": "/express/prospectus/self-reflection",
+    "relUrl": "/prospectus/self-reflection"
+  },"75": {
+    "doc": "Showcase Review",
+    "title": "Review of Spring 2020/21 Undergraduate Thesis Showcase",
+    "content": "The first project that drew my interest was Georgina Chiou’s “Genesis”, a multimedia installation that imagines a post-human world. I was immediately struck by the visuals of this project: the three algorithmically generated floating mountain landscapes are vivid and stunning, heightened by their positioning around a mesh-wire sculpture of man. I also greatly admire the project’s theoretical concept and argument in challenging anthropocentric views of geological narratives. Finally, it was interesting to learn about how the project was forced to undergo a change in form, from a planned physical installation to a virtual mockup. This point makes me think about the final presentation of my project—as software, it would typically live within a screen, but I wonder if there would be an interesting way to create a physical presence for visitors to experience it and interact with it. The second project that drew my interest was Chandler Zausner’s “Post Human Angels”, a ceremonial and experiential shrine that celebrates the relationship between humans and their devices. I really appreciate the theoretical concept, and I think it’s a very nuanced and thoughtful take on our relationship with technology. In a way, I think the intentions of this project is very similar to that of mine. Zausner states that the project “honors the emotionality of this emerging paradigm”. In my project, I am very interested in honouring the emotionality in the paradigm of programming. Through the data collection, analysis, and representation that I plan to undertake, I hope to gain an understanding of people’s attachment to code, and design a language that honours and augments that attachment. ",
+    "url": "/express/prospectus/showcase-review#review-of-spring-202021-undergraduate-thesis-showcase",
+    "relUrl": "/prospectus/showcase-review#review-of-spring-202021-undergraduate-thesis-showcase"
+  },"76": {
+    "doc": "Showcase Review",
+    "title": "Showcase Review",
+    "content": " ",
+    "url": "/express/prospectus/showcase-review",
+    "relUrl": "/prospectus/showcase-review"
+  },"77": {
+    "doc": "sometimes",
+    "title": "sometimes",
+    "content": " ",
+    "url": "/express/language/sometimes",
+    "relUrl": "/language/sometimes"
+  },"78": {
+    "doc": "sometimes",
+    "title": "Description",
+    "content": "Analogous to if statements in other languages. Often used in conjunction with othertimes. ",
+    "url": "/express/language/sometimes#description",
+    "relUrl": "/language/sometimes#description"
+  },"79": {
+    "doc": "sometimes",
+    "title": "Syntax",
+    "content": "sometimes (condition) { // statements } . where condition is the condition that, if true, allows the statements within the block to be executed. ",
+    "url": "/express/language/sometimes#syntax",
+    "relUrl": "/language/sometimes#syntax"
+  },"80": {
+    "doc": "sometimes",
+    "title": "Usage",
+    "content": "possibility: favenumber = 72; sometimes (favenumber &gt; 70) { // statements } . The condition given is favenumber &gt; 70, which evaluates to 72 &gt; 70, which is true. This means the statements within the code block will be executed. ",
+    "url": "/express/language/sometimes#usage",
+    "relUrl": "/language/sometimes#usage"
+  },"81": {
+    "doc": "sometimes",
+    "title": "Examples",
+    "content": ". | Possibilities | . ",
+    "url": "/express/language/sometimes#examples",
+    "relUrl": "/language/sometimes#examples"
+  },"82": {
+    "doc": "sometimes",
+    "title": "See Also",
+    "content": ". | othertimes | . ",
+    "url": "/express/language/sometimes#see-also",
+    "relUrl": "/language/sometimes#see-also"
+  },"83": {
+    "doc": "Technology Review",
+    "title": "Technology Review",
+    "content": " ",
+    "url": "/express/prospectus/technology-review",
+    "relUrl": "/prospectus/technology-review"
+  },"84": {
+    "doc": "Technology Review",
+    "title": "New Projects",
+    "content": "For this project, I am inspired by two existing esolang projects that explore similar ideas to mine. The first is Esopo by William Hicks (2016). This is a project that is intended to contain a family of languages, rather than a single language. A blog post analysing the project covered the two existing languages AshPaper and Correspond and the work-in-progress Emily (Temkin, 2018). According to the creator, this project was motivated by a desire to explore the intersection of code and writing in ways that are more authentic to the conventions of poetry and prose. For example, in an AshPaper program, not only does it look authentic to typical poems, with its poetic diction and choice use of indentation, but the rules of the language corresponds brilliantly with the choices of the poet, producing a sophisticated work that is meaningful across multiple levels. Similarly, a Correspond program looks authentic to a written letter, and is furthermore functionally meaningful to the conventions of letter-writing. I think this project is exciting because it is a revelation in the elegant and meaningful ways that the rules of a programming language can be modelled after other sets of rules that are familiar to different audiences, such as those for writing poetry or letters. In my project, I hope to explore similar methods of creating associations to other domains from within the rules of the language itself. The second project is Cree# by Jon Corbett, as discussed in an Indigenous Programming thread in the Creative Code Studies Working Group 2020 (Corbett, 2020). This language is a Cree interpretation of the established C# programming language, bringing to mind other programming languages that have been created in attempts to broaden the English-dominated tech space. However, as opposed to many of those languages, which simply map English keywords into other languages, Cree#, uniquely, also uses Cree concepts and metaphors to shape the structure of programs in the language. For example, programs are built around the Cree tradition of storytelling by involving a specific folklore character, which the programmer must interact with in specific ways. This project is part of the Corbett’s broader Indigenous Coding Framework, a work-in-progress intended to help indigenous communities bring their culture into the realm of code. I deeply admire this and other projects of Corbett’s, as indigenous representation is few and far between in tech, and I had never imagined how special it could be to create technological works that are so intricately tied to cultural values. Though I do not currently intend to associate my project with my cultural background, I am inspired by this project to consider different possibilities involving concepts and metaphors in code. ",
+    "url": "/express/prospectus/technology-review#new-projects",
+    "relUrl": "/prospectus/technology-review#new-projects"
+  },"85": {
+    "doc": "Technology Review",
+    "title": "Rapid Critical Media Project #5",
+    "content": "Critical Analysis of an Arts-Based Research Project: Documentation + Analysis. Chosen project: Algorithmic Censorship Resistance Toolkit by Qianqian Ye and Xiaowei Wang. Statement of Approach. Critical Analysis Screencast. ",
+    "url": "/express/prospectus/technology-review#rapid-critical-media-project-5",
+    "relUrl": "/prospectus/technology-review#rapid-critical-media-project-5"
+  },"86": {
+    "doc": "tellme()",
+    "title": "tellme()",
+    "content": " ",
+    "url": "/express/language/tellme",
+    "relUrl": "/language/tellme"
+  },"87": {
+    "doc": "tellme()",
+    "title": "Description",
+    "content": "Analogous to print() or console.log() in other languages. Prints a value to the console. ",
+    "url": "/express/language/tellme#description",
+    "relUrl": "/language/tellme#description"
+  },"88": {
+    "doc": "tellme()",
+    "title": "Syntax",
+    "content": "tellme(value); . where value is the value to be printed to the console. ",
+    "url": "/express/language/tellme#syntax",
+    "relUrl": "/language/tellme#syntax"
+  },"89": {
+    "doc": "tellme()",
+    "title": "Usage",
+    "content": "evermore: MEANINGOFLIFE = 42; tellme(MEANINGOFLIFE); // prints: // 42 . A constant is created using the evermore keyword, named MEANINGOFLIFE and equal to the value 42. The function tellme() then prints the value of this constant to the console. ",
+    "url": "/express/language/tellme#usage",
+    "relUrl": "/language/tellme#usage"
+  },"90": {
+    "doc": "tellme()",
+    "title": "Examples",
+    "content": ". | Be Gentle . | Be Firm . | Possibilities . | . ",
+    "url": "/express/language/tellme#examples",
+    "relUrl": "/language/tellme#examples"
+  }
+}
