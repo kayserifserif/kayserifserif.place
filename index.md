@@ -3,73 +3,71 @@ layout: default
 description: Katherine Yang’s website.
 ---
 
-<main>
-  <div class="intro">
-    <h1 class="name">
-      <div lang="zh">楊立瀅</div>
-      <div>Katherine<br>Yang</div>
-    </h1>
-    <div>
-      <p>
-        Hello, visitor! I’m Katherine.<br>
-        I’m interested in making poetic tools——tools for poetry and text directly, but also tools that are small and intentional and interesting,<br>
-        like a poem.
-      </p>
-    </div>
+<div class="intro">
+  <h1 class="name">
+    <div lang="zh">楊立瀅</div>
+    <div>Katherine<br>Yang</div>
+  </h1>
+  <div>
+    <p>
+      Hello, visitor! I’m Katherine.<br>
+      I’m interested in making poetic tools——tools for poetry and text directly, but also tools that are small and intentional and interesting,<br>
+      like a poem.
+    </p>
   </div>
-  <div class="section">
-    <ol class="toc">
-      <li>
-        <p class="chapter-title"><a href="/about/">About</a></p>
-        <p class="chapter-subtitle">In which the Author makes an Introduction</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/work/">Work</a></p>
-        <p class="chapter-subtitle">In which Select Projects are Listed</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/assets/files/resume/yang-katherine-resume-202307.pdf">Résumé</a></p>
-        <p class="chapter-subtitle">In which a Document is Attached (PDF, 82 kB)</p>
-      </li>
-      <!-- <li><a href="/fragments/">In which Fragments Hint at her Happenings</a></li> -->
-      <!-- <li>
-        <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
-        <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
-      </li> -->
-      <li>
-        <p class="chapter-title"><a href="/blog">Blog</a></p>
-        <p class="chapter-subtitle">In which Posts are Bravely Made</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
-        <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/carry/">i carry your website with me(i carry it in</a></p>
-        <p class="chapter-subtitle">my website)</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/appearances/">Appearances</a></p>
-        <p class="chapter-subtitle">In which the Author finds herself Elsewhere</p>
-      </li>
-      <li>
-        <p class="chapter-title"><a href="/index/">Index</a></p>
-        <p class="chapter-subtitle">In which a Finding Guide is Provided</p>
-      </li>
-    </ol>
+</div>
+<div class="section">
+  <ol class="toc">
+    <li>
+      <p class="chapter-title"><a href="/about/">About</a></p>
+      <p class="chapter-subtitle">In which the Author makes an Introduction</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/work/">Work</a></p>
+      <p class="chapter-subtitle">In which Select Projects are Listed</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/assets/files/resume/yang-katherine-resume-202307.pdf">Résumé</a></p>
+      <p class="chapter-subtitle">In which a Document is Attached (PDF, 82 kB)</p>
+    </li>
+    <!-- <li><a href="/fragments/">In which Fragments Hint at her Happenings</a></li> -->
+    <!-- <li>
+      <p class="chapter-title"><a href="/dedications/">Dedications</a></p>
+      <p class="chapter-subtitle">In which Friends are Loved and Influences are Cited</p>
+    </li> -->
+    <li>
+      <p class="chapter-title"><a href="/blog">Blog</a></p>
+      <p class="chapter-subtitle">In which Posts are Bravely Made</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/intentions/">Intentions</a></p>
+      <p class="chapter-subtitle">In which Little Wishes are Exhaled like Dandelions to the World</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/carry/">i carry your website with me(i carry it in</a></p>
+      <p class="chapter-subtitle">my website)</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/appearances/">Appearances</a></p>
+      <p class="chapter-subtitle">In which the Author finds herself Elsewhere</p>
+    </li>
+    <li>
+      <p class="chapter-title"><a href="/index/">Index</a></p>
+      <p class="chapter-subtitle">In which a Finding Guide is Provided</p>
+    </li>
+  </ol>
+</div>
+<div class="section">
+  <div class="section--header">
+    <h2>HAVE LATELY BEEN——</h2>
   </div>
-  <div class="section">
-    <div class="section--header">
-      <h2>HAVE LATELY BEEN——</h2>
-    </div>
-    <div class="section--body">
-      <p>taking ASL classes,</p>
-      <p>learning weaving?</p>
-      <p>& finishing up this dark mode, finally.</p>
-      <p>—February 29, 2024.</p>
-    </div>
+  <div class="section--body">
+    <p>taking ASL classes,</p>
+    <p>learning weaving?</p>
+    <p>& finishing up this dark mode, finally.</p>
+    <p>—February 29, 2024.</p>
   </div>
-</main>
+</div>
 
 <aside class="scribbles scribbles--receipt">
   <div class="note">
