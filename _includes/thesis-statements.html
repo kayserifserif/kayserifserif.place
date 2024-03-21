@@ -1,0 +1,11 @@
+<aside class="scribbles scribbles--receipt">
+  <div class="note">
+    <h2>Thesis Statements</h2>
+  </div>
+  {% for note in site.data.theses %}
+    <div class="note">
+      <p class="note-date"><time datetime="{{ note.date }}">{{ note.date | date: '%b %e, %Y' }}</time></p>
+      <p>{{ note.text }}</p>
+    </div>
+  {% endfor %}
+</aside>
