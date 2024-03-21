@@ -10,10 +10,6 @@
   link: "/assets/files/resume/yang-katherine-resume-202307.pdf"
   subtitle: In which a Document is Attached (PDF, 82 kB)
 
-- title: Dedications
-  link: "/dedications/"
-  subtitle: In which Friends are Loved and Influences are Cited
-
 - title: Blog
   link: "/blog"
   subtitle: In which Posts are Bravely Made
@@ -32,7 +28,11 @@
 
 - title: Index
   link: "/index/"
-  subtitle: In which a Finding Guide is Provided
+  subtitle: In which a Finding Guide is Assembled
+
+- title: Appendix
+  link: "/appendix"
+  subtitle: In which the Website is Discussed
 
 # - title: In which Fragments Hint at her Happenings
 #   link: "/fragments/"
