@@ -1,0 +1,8 @@
+<ol class="toc">
+  {% for item in site.data.toc %}
+    <li>
+      <p class="chapter-title"><a href="{{ item.link }}">{{ item.title }}</a></p>
+      <p class="chapter-subtitle">{{ item.subtitle }}</p>
+    </li>
+  {% endfor %}
+</ol>

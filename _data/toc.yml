@@ -1,0 +1,43 @@
+- title:  About
+  link: "/about"
+  subtitle: In which the Author makes an Introduction
+
+- title: Work
+  link: "/work/"
+  subtitle: In which Select Projects are Listed
+
+- title: Résumé
+  link: "/assets/files/resume/yang-katherine-resume-202307.pdf"
+  subtitle: In which a Document is Attached (PDF, 82 kB)
+
+- title: Dedications
+  link: "/dedications/"
+  subtitle: In which Friends are Loved and Influences are Cited
+
+- title: Blog
+  link: "/blog"
+  subtitle: In which Posts are Bravely Made
+
+- title: Intentions
+  link: "/intentions/"
+  subtitle: In which Little Wishes are Exhaled like Dandelions to the World
+
+- title: i carry your website with me(i carry it in
+  link: "/carry/"
+  subtitle: my website)
+
+- title: Appearances
+  link: "/appearances/"
+  subtitle: In which the Author finds herself Elsewhere
+
+- title: Index
+  link: "/index/"
+  subtitle: In which a Finding Guide is Provided
+
+# - title: In which Fragments Hint at her Happenings
+#   link: "/fragments/"
+#   subtitle:
+
+# - title: Dedications
+#   link: "/dedications/"
+#   subtitle: In which Friends are Loved and Influences are Cited
