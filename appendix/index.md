@@ -26,17 +26,17 @@ I would like this website to
 - be a [worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/)
 - change with me
 - be [lightweight](https://laurelschwulst.com/e/ultralight-fruitful-school/)
-- be about things i'm excited about
+- celebrate things i'm excited about
 - hold space for my [friends](/carry)
 - feel intimate and lovely
-- celebrate form in text
+- cherish the form
+- hold sacred the text
 - abound with poetry
 
 <br>
 <br>
 
 ## WORKING NOTES
-
 - i'd like to use shanghainese in some way!
 - there is slightly too much fiddly html in these pages just for some custom styling... i would like to fall back to more markdown and trust the defaults. see, this page! almost nothing needed at all. what's a couple of <code>&lt;br&gt;</code>s between indie webbers?
 - is this font readable in long-form text?
