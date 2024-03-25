@@ -50,6 +50,7 @@ I would like this website to
 - attention to print styles
 - are there forms of interaction that i'd like to embed in here?
 - accessibility statement
+- robots.txt
 
 <br>
 <br>
