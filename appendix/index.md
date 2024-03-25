@@ -51,6 +51,7 @@ I would like this website to
 - are there forms of interaction that i'd like to embed in here?
 - accessibility statement
 - robots.txt
+- make sure faded colors are still high enough contrast
 
 <br>
 <br>
