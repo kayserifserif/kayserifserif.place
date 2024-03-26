@@ -53,6 +53,7 @@ I would like this website to
 - robots.txt
 - make sure faded colors are still high enough contrast
 - set up rss
+- optimize images... use webp?
 
 <br>
 <br>
