@@ -22,12 +22,13 @@ title: Katherine Yang
 description: >- # this means to ignore newlines until "baseurl:"
   Katherine Yang’s website.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kayserifserif.place" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/blog/:short_year:month:day/:title"
+author: Katherine Yang
 
 # Build settings
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
 
 sass:
   style: compressed
