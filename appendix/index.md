@@ -52,6 +52,7 @@ I would like this website to
 - accessibility statement
 - robots.txt
 - make sure faded colors are still high enough contrast
+- set up rss
 
 <br>
 <br>
