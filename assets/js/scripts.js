@@ -156,3 +156,5 @@ function arrangeNotes() {
     }
   }
 }
+
+console.log("hello, thanks for visiting :) i love you; be well <3")
