@@ -26,10 +26,10 @@ description: Katherine Yang’s website.
     <h2>HAVE LATELY BEEN——</h2>
   </div>
   <div class="section--body">
-    <p>☞ awaiting YARN DELIVERY,</p>
-    <p>☞ rearranging the home,</p>
-    <p>☞ & watching Heartstopper.</p>
-    <p>—March 21, 2024.</p>
+    <p>☞ beginning the gauge swatch,</p>
+    <p>☞ rewatching some Schitt’s Creek,</p>
+    <p>☞ & thinking about the eclipse.</p>
+    <p>—March 28, 2024.</p>
   </div>
 </div>
 
