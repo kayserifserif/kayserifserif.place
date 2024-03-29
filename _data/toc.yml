@@ -10,7 +10,7 @@
   link: "/assets/files/resume/yang-katherine-resume-202307.pdf"
   subtitle: In which a Document is Attached (PDF, 82 kB)
 
-- html: <a href="/blog">Blog</a> (<a rel="alternate" type="application/rss+xml" href="/feed.xml">RSS</a>)
+- html: <a href="/posts">Posts</a> (<a rel="alternate" type="application/rss+xml" href="/feed.xml">RSS</a>)
   subtitle: In which Posts are Bravely Made
 
 - title: Intentions

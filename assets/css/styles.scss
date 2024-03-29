@@ -565,19 +565,19 @@ figcaption {
     }
   }
 
-/* blog */
+/* posts */
 
-.blog-list div + div {
-  margin-top: 2em;
+.posts-list div + div {
+  margin-top: 1rem;
 }
 
-.blog-list h2,
-.blog-list p {
+.posts-list h2,
+.posts-list p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-.blog-list--date {
+.posts-list--date {
   // opacity: 0.5;
   color: var(--fg-half);
 }
