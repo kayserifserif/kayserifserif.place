@@ -50,9 +50,9 @@ I would like this website to
 - attention to print styles
 - are there forms of interaction that i'd like to embed in here?
 - accessibility statement
-- robots.txt
+- ~~robots.txt~~ [edit 240329: done? following [Chris Coyier’s post](https://chriscoyier.net/2024/03/29/11198/)]
 - make sure faded colors are still high enough contrast
-- ~set up rss~ [edit 240326: done!]
+- ~~set up rss~~ [edit 240326: done!]
 - optimize images... use webp?
 - add robots.txt
 - microformats?
