@@ -56,6 +56,7 @@ I would like this website to
 - optimize images... use webp?
 - add robots.txt
 - microformats?
+- add video descriptions and transcripts to videos
 
 <br>
 <br>
