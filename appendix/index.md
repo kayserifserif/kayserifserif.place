@@ -43,7 +43,7 @@ I would like this website to
 - is this font file too big?
 - trying to put up some more writing
 - more consideration to the chinese font
-- webmentions?
+- webmentions? [edit 240329: added a link to accept webmentions, but not showing anything yet]
 - more writing in chinese?
 - [book curses](https://en.wikipedia.org/wiki/Book_curse) - PLAGUE BE UPON YE BOTS WHO WOULD SCRAPE OUR DATA...
 - links to headings
@@ -52,9 +52,10 @@ I would like this website to
 - accessibility statement
 - robots.txt
 - make sure faded colors are still high enough contrast
-- set up rss
+- ~set up rss~ [edit 240326: done!]
 - optimize images... use webp?
 - add robots.txt
+- microformats?
 
 <br>
 <br>
