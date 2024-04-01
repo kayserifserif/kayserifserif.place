@@ -26,9 +26,9 @@ description: Katherine Yang’s website.
     <h2>HAVE LATELY BEEN——</h2>
   </div>
   <div class="section--body">
-    <p>☞ beginning the gauge swatch,</p>
-    <p>☞ rewatching some Schitt’s Creek,</p>
-    <p>☞ & thinking about the eclipse.</p>
+    <p>☞ catching up with Heartstopper,</p>
+    <p>☞ preparing for the eclipse,</p>
+    <p>☞ & recovering from Emily Dickinson.</p>
     <p>—March 28, 2024.</p>
   </div>
 </div>
