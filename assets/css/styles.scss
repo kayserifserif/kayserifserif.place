@@ -453,6 +453,16 @@ header[role="banner"] {
   margin-bottom: 2em;
 }
 
+@counter-style manicule {
+  system: cyclic;
+  symbols: "☞";
+  suffix: " ";
+}
+
+.lately {
+  list-style: manicule;
+}
+
 /* main */
 
 main {

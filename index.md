@@ -28,9 +28,11 @@ description: Katherine Yang’s website.
     <h2>HAVE LATELY BEEN——</h2>
   </div>
   <div class="section--body">
-    <p>☞ catching up with Heartstopper,</p>
-    <p>☞ preparing for the eclipse,</p>
-    <p>☞ & recovering from Emily Dickinson.</p>
+    <ol class="lately">
+      <li>catching up with Heartstopper,</li>
+      <li>preparing for the eclipse,</li>
+      <li>& recovering from Emily Dickinson.</li>
+    </ol>
     <p>—<time datetime="2024-03-28">March 28, 2024</time>.</p>
   </div>
 </div>
