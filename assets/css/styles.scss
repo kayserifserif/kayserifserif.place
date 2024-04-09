@@ -330,6 +330,19 @@ header[role="banner"] {
     }
   }
 
+.scribbles ul {
+  list-style-type: none;
+}
+
+.scribbles li {
+  margin-block: 0;
+}
+
+.scribbles p {
+  margin: 1.5rem 0;
+  max-width: unset;
+}
+
 .scribbles--notes .note {
   padding: 1rem;
   // background-color: rgb(255, 253, 250);
