@@ -11,11 +11,13 @@ description: An endeavour to write.
   </div>
 </div>
 <div class="posts-list">
+  <ul>
   {% for post in site.posts %}
-    <div>
+    <li>
       <p class="posts-list--date">{{ post.date | date: "%F" }}</p>
       <p class="posts-list--title"><a href="{{ post.url }}">{{ post.title }}</a></p>
       <!-- <p class="posts-list--excerpt">{{ post.excerpt }}</p> -->
-    </div>
+    </li>
   {% endfor %}
+  </ul>
 </div>
