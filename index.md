@@ -18,7 +18,9 @@ description: Katherine Yang’s website.
 </div>
 
 <div class="section">
-  {% include toc.html %}
+  <nav>
+    {% include toc.html %}
+  </nav>
 </div>
 
 <div class="section">
