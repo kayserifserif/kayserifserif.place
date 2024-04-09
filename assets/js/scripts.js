@@ -40,8 +40,8 @@ const USE_RECEIPT = getRandomBoolean();
 
 // resize();
 // arrangeNotes();
-updateDividers();
-updateLeaders();
+// updateDividers();
+// updateLeaders();
 
 // function updateDividers() {
 //   const dividers = document.querySelectorAll(".divider");
