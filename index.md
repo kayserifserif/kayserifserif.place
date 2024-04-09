@@ -29,7 +29,7 @@ description: Katherine Yang’s website.
     <p>☞ catching up with Heartstopper,</p>
     <p>☞ preparing for the eclipse,</p>
     <p>☞ & recovering from Emily Dickinson.</p>
-    <p>—March 28, 2024.</p>
+    <p>—<time datetime="2024-03-28">March 28, 2024</time>.</p>
   </div>
 </div>
 
