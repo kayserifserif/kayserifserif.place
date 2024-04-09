@@ -30,8 +30,8 @@ description: Katherine Yang’s website.
   <div class="section--body">
     <ol class="lately">
       <li>catching up with Heartstopper,</li>
-      <li>preparing for the eclipse,</li>
-      <li>& recovering from Emily Dickinson.</li>
+      <li>preparing for the eclipse, &</li>
+      <li>recovering from Emily Dickinson.</li>
     </ol>
     <p>—<time datetime="2024-03-28">March 28, 2024</time>.</p>
   </div>
