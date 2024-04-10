@@ -33,6 +33,7 @@ const hrs = document.querySelectorAll("hr");
 hrs.forEach(hr => {
   const divider = document.createElement("div");
   divider.classList.add("divider");
+  divider.role = "separator";
   const parent = hr.parentElement;
   parent.insertBefore(divider, hr);
   hr.remove();
