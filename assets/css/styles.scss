@@ -311,10 +311,12 @@ header[role="banner"] {
   position: absolute;
   top: 50px;
   right: 50px;
+  // left: 50px;
   transform: rotate(1deg);
   font-size: 0.75rem;
 }
   @media (max-width: 800px) {
+  // @media (max-width: 1500px) {
     .scribbles {
       position: static;
       transform: none;
@@ -427,6 +429,25 @@ header[role="banner"] {
 .scribbles--notes .note-date {
   font-style: italic;
 }
+
+/* changelog */
+
+#changelog {
+  left: unset;
+  right: 50px;
+}
+
+// .changelog dl {
+//   max-width: 400px;
+//   margin-inline: auto;
+//   display: grid;
+//   grid-template-columns: auto 1fr;
+//   gap: 0 1rem;
+// }
+
+// .changelog dd {
+//   margin-left: 0;
+// }
 
 /* intro */
 

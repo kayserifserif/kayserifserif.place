@@ -38,3 +38,5 @@ description: Katherine Yang’s website.
 </div>
 
 {% include thesis-statements.html %}
+
+{% include changelog.html %}

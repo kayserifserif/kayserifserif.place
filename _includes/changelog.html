@@ -1,13 +1,17 @@
-<div class="changelog">
-  <h2>Changelog</h2>
-  <dl>
+<!-- <aside class="scribbles scribbles--receipt" id="changelog">
+  <div class="note">
+    <h2>Changelog</h2>
+  </div>
+  <ul>
   {% for line in site.data.changelog limit:10 %}
-    <dt>
-      {{ line.hash }}
-    </dt>
-    <dd>
-      {{ line.message || escape }}
-    </dd>
+    <li class="note">
+      <p class="note-date">
+        {{ line.hash }}
+      </p>
+      <p>
+        {{ line.message || escape }}
+      </p>
+    </li>
   {% endfor %}
-  </dl>
-</div>
+  </ul>
+</aside> -->
