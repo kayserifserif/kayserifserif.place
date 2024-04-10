@@ -16,6 +16,7 @@ description: Select projects.
   </div>
   <div class="section--body">
     <ul>
+      <li>Bookshelves of the Imagination. The bookshelf that lives in my mind; a portrait of a reader.</li>
       <li>In Consideration of Sentences. Syntactic diagramming as a poetic practice.</li>
       <li><a href="/work/regex-poetry-machine">RegEx Poetry Machine</a>. Entwined match pairs of meaning.</li>
     </ul>
