@@ -4,3 +4,4 @@ _documentation/
 .DS_Store
 .vscode/
 .bundle
+*.bak

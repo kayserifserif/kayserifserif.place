@@ -1,0 +1,589 @@
+hash	message
+f10fcae	add to wip
+065e737	add 'separator' role to dividers
+5299c11	goodbye css naked day!
+d6814f3	currently
+4a7eba3	move the ampersand to before the third bullet
+11bdb6e	make thesis statements also a list
+13bb06b	`speak-as` numbers
+a639ad0	for 'lately': use ordered list with custom list style
+96b913d	add nav to toc
+8a16026	add list semantics to things that are lists
+b2ef06b	fix missing function
+1c97af8	disable theme buttons but add a simple `light dark` rule
+037fa3a	missed an inline style
+9f37f64	css naked day 2024
+5df1d2f	add time elements
+dad1a12	fix theming bug
+df34256	currently
+a28b748	add robots.txt
+f9ab43e	update appendix
+08d70aa	update appendix
+ded17cf	add variable lang attribute
+cc281fc	rename 'blog' to 'posts'
+90c357f	start collecting webmentions?
+fe3a411	add `rel=me` to github link
+1d81206	update appendix
+336c2fb	add console message :)
+37e8b6b	currently
+40c56a3	add rss feed (#32)
+536833d	[ImgBot] Optimize images (#31)
+1b8822a	update appendix
+287e6cc	update appendix
+80be7e8	update appendix
+4b2eeab	update appendix
+4ed56a2	wording
+52faf9b	add appendix
+65ab49a	currently
+0727f7a	use built-in syntax highlighting + theme
+5cfee30	use more markdown in carry
+fae073f	use _data and _includes for thesis statements
+830a84f	use _data and _includes for toc
+7f89da1	move `<main>` wrapper into layout file
+8d10b41	remove leftover `.y` span
+3294b68	move `.intro` into `<main>`
+7cd5e32	add appearance
+b3a0d40	add express
+3deffee	maybe don't need the Style E normal font
+fee6006	update post description
+83f7a88	Merge pull request #30 from kayserifserif/blog
+535621d	update post
+4bfd45c	update config
+6e077cb	update post
+4276ea5	update post title
+a14b6e4	update post
+5e6bbf2	move posts to drafts
+126bc6f	use color variable
+30fa0e5	update blog page
+532fe0a	split out post
+451a676	update toc order
+bd35174	Merge branch 'main' into blog
+e5f19ae	add regex poetry machine
+12717b0	update regex-poetry-machine
+a6724f8	add 'briefly' to coem page
+2ceb6ab	oh, if it's 'system', remove the local storage item
+cfb20a6	adjust shadows
+9eabf03	no, go back to swap
+8a8730c	trying `font-display: optional`
+34f7753	tweak color contrast
+e399961	only rearrange if window width has changed
+6fdbbe2	Merge pull request #28 from kayserifserif/cyanotype-240206
+5afa5fc	currently
+4e71edc	get theme from `localStorage`
+281c05a	replace opacity with color
+603d48e	move things around
+a8f8efd	make leaders responsive
+89973d1	make script available to all pages
+4e3d167	add `text-underline-offset`
+076ee38	fix header
+902e561	move things around
+a304070	listen for change in `matchMedia`
+03a91b8	tweak selectors
+af9928c	use `color-scheme`
+514cf7b	dividers?
+81d33ba	trying to detect and customize
+9368059	fill in some variables in light
+25573f2	tweak colors, add text-shadow
+1693894	add cyanotype dark theme
+25d87bd	[ImgBot] Optimize images (#26)
+16609e8	update thesis statements
+11481fa	Create CNAME
+c995653	Delete CNAME
+6f461f0	update thesis statement
+0553981	update smallness
+bdf6d88	add smallness
+6a94408	Merge branch 'main' of github.com:kayserifserif/kayserifserif.place
+7d7b2a8	tweak about
+3fc1426	thesis statements
+cd13e95	Merge branch 'main' into blog
+0dfd0c1	add wip section
+cfbda54	update regex-poetry-machine
+246550e	Merge branch 'main' into blog
+9539c1b	update footer
+ae0f43c	currently
+bd114c7	add mit tech review
+e64fad9	remove extra bold weight
+e2a2582	tweak html
+ce62268	tweak css
+efa533b	figure out debounce import
+c8bd750	box shadows
+5058104	paper rip texture
+deeb15a	tweaks to receipt
+7eb16a1	aside: thesis statements
+03bff70	header and footer
+2803b99	try TT2020!
+cc1730a	capitalisation
+90881fd	currently
+fb0075f	currently
+f2aa3c3	update regex-poetry-machine
+b6cd180	fix fonts
+a2a7b46	update regex-poetry-machine
+176643e	update every-element-is-an-html
+baf451f	add regex poetry machine
+8aec427	mark link as down
+eb6f6e0	update links
+62f25d6	add rivers
+10a290d	add stitched-links
+46d0e6b	add every-element-is-an-html
+921ff22	update carry
+04b1c37	currently
+8cfe988	update carry
+8dfa815	update carry
+4f6c58f	sort files into folders
+3c75f53	add last updated
+e02b874	tweak spacing
+8629b54	print styles
+22685ec	tweak footer and type
+cbc86be	fix index link
+1e52ddc	Merge branch 'main' into blog
+fc7e20c	currently
+734a6ad	update intentions
+808b5d5	update index
+1af0e96	Merge branch 'index'
+98d5199	mobile styles for index
+d5f4d2a	Merge branch 'carry'
+23f9272	add link to carry
+012d332	type
+80e11bc	currently
+97b92da	currently
+b997baf	add Virtual Textual
+0240816	currently
+d7d3882	add conditional
+c80b8fe	font-display: swap and upped failing contrast
+8f9e936	carry? with iframes?
+cb801cb	add dedication
+8578809	update dedications
+7024169	currently
+7b1e42c	currently
+1949312	update footer links
+293a4c3	currently
+b88d774	copy
+a3b0eff	update storehouse-a.info website link!
+fa7b4cd	update storehouse-a.info website link!
+f0f9127	more posts
+f827e45	merge
+26dd853	Merge branch 'blog' of github.com:kayserifserif/kayserifserif.place into blog
+91def48	remove index
+ec3b538	add index to toc
+4a35326	tweak
+e95dd28	first pass at index
+d4e4943	add blog to toc
+240be56	rename files and add twitter links
+ffa0ea5	tweak blog stuff
+f8d9ef3	another post?
+294729b	update for new design
+54d3007	some posts
+885a82f	tweak toc
+de3bf11	currently
+f4ecabc	currently
+b394099	currently
+d2115b9	blog?
+fa696b1	font fallback
+5263fda	currently
+f961d80	fix: update resume link
+cb326a6	currently
+0559e1d	wip for cozy corner
+301d629	Merge pull request #25 from kayserifserif/imgbot
+703eb20	[ImgBot] Optimize images
+e54ca98	feat: update resume
+b57534b	feat: add i name this feeling
+f2a7b2b	feat: add mastodon link
+8fcc61f	currently
+a4ae412	currently
+50bc169	intentions
+939d80f	intentions
+11ce2ea	currently
+7af2a9e	currently
+bfaed1e	Create CNAME
+6c6fed4	Delete CNAME
+8a16249	edit socials
+07949b3	css
+3a3ca99	use grid
+22e4185	style
+5b6f9a6	em dashes
+031ddde	appearances
+f3153f4	copy
+4a8d891	copy
+7085399	add intentions
+0470a57	liquid
+8e3a5ce	update 404
+bfcba89	update links
+63c7fca	currently
+163f030	copy
+ef4da14	currently
+2cc6328	copy
+dd9e22d	currently
+a7daaf8	Merge remote-tracking branch 'refs/remotes/origin/main'
+0d21663	update links
+d042472	Create CNAME
+994fb54	add read.cv
+f445033	chore: update gems
+515afab	content
+16bdce4	currently
+a375238	Merge pull request #24 from whykatherine/imgbot
+cffe1bf	[ImgBot] Optimize images
+fb27bdf	first pass at proseplay
+98a42e1	update resume
+de3615a	currently
+f0ae1c4	currently
+36f19c4	feat: fragments
+58d989e	currently
+eea79d2	fix trailing p tag
+fdcbf6a	currently
+32f5b06	content
+523a36c	currently
+2ce1d75	currently
+33a8951	copy
+e7a8a65	copy
+2326058	feat: alpine symphony
+35314e0	file sizes
+b03d9e5	lang=zh line height
+424bd6a	copy
+9a00bfe	currently
+4af2c28	currently
+214ff2d	currently
+836c5df	fix: broken links
+c59a116	chore: add meta image alt text
+8786590	feat: add image and edit copy for stitched links
+c7a7c9b	copy: currently
+c1088a3	copy
+e55cdd7	copy
+4ea6226	copy
+340d9fc	copy
+df95b31	copy
+72e38fd	copy
+5e4191c	feat: update font and link
+ebac421	fix: meta tags
+816a835	typo
+231f2be	feat: merge lists into dedications
+80a3252	feat: 404
+7ab6f68	copy
+89d2085	copy
+b3dac0d	feat: add updated resume
+c9c48fd	chore: use compressed sass
+cfb79b6	copy
+52a456d	style: spacing tweaks
+1b7a58b	feat: remove resume for now
+6c8ce08	style: move logo to the side to make more space
+82b668c	chore: reduce size of logo svg
+1e6bebd	chore: ignore bundle config
+cf574d5	chore: ruby version
+afa6b2b	chore: add ruby version
+bb2a4de	copy
+0d1beb7	style tweaks
+d768a4a	fix page image
+f3cfebe	Merge branch 'selectric'
+59584ea	SELECTRIC
+59ab799	typo
+86a1624	typo
+382d021	some posts
+38af62a	feat: add rivers
+23aac0f	style: no logo hover
+a246401	feat: no gradient design
+183bfa4	chore: clean up
+f0cae4d	chore: update gems
+72887f3	chore: update .gitignore
+b474333	chore: update gemfile
+7663e1e	Merge pull request #23 from whykatherine/imgbot
+da49e2e	[ImgBot] Optimize images
+6a2adff	feat: change project name
+7dcb6bf	feat: change project name
+c3ca52f	feat: add storehouse-a.info
+34b13bf	content: edit description
+5e37f54	feat: archive projects
+fdb4883	content: update bio
+0c2d1f9	content: update bio
+c02e72c	Merge branch 'master' of https://github.com/whykatherine/whykatherine.github.io
+cb16384	content: update bio
+375ac25	chore: update gems
+5f602cd	fix: typo
+5180a51	feat: coem updates
+84c9d41	feat: update bio
+24436df	feat: update project description
+0341d5f	feat: update bio
+5ee8a1a	feat: add coem
+2d5f00e	feat: archive bb & lgg
+6f67043	feat: update bio
+e35c5d3	chore: update
+44a9a57	feat: update elsewhere
+1bc7f8a	feat: update resume
+c1cbc3e	chore: update packages
+853e090	Merge branch 'master' of https://github.com/whykatherine/whykatherine.github.io
+a392192	feat: update year
+ec24bc8	fix: link
+4237eab	feat: add dra.ft
+c1c475b	refactor: move experiments to their own repos
+576608e	refactor: move rivers into its own repo
+c896895	fix: add doctype
+3b55183	feat: move epistles into experiments
+444fbbf	fix: use md instead of html?
+29e25b7	feat: rivers
+66d6f73	feat: add pub link
+aa659e2	fix: typo
+6dd5a51	style: fix padding
+f82fac2	style: fix tab style
+6b648a5	feat: update footer
+0336d0a	chore: optimise images
+461e0b4	chore: minimise file size
+0bf9411	style: extra padding?
+5426663	feat: update footer text
+67b4634	feat: add link
+fb6ffd6	feat: update page title
+266ae12	feat: update resume size
+e5e5fab	feat: update resume
+03d4668	feat: update resume
+dee284e	feat: update link
+5640ede	feat: copy
+51a5fac	style: increase padding
+f405073	feat: update header
+d5197e3	feat: add elsewhere
+00b75f3	feat: copy
+e410b6c	feat: copy
+b20c208	style: add link
+0712cbe	style: rename
+b0c76e0	feat: update bio
+52cd054	feat: clean up archive
+0e222a0	feat: delete about
+2a4e98e	feat: archive carbon price tag and lgbtabc
+57cfd76	feat: femfest
+c8a2a8a	style: rename
+5729d15	feat: update resume
+299d9ae	style: rename
+944fbd1	chore: update Gemfile
+20b92be	chore: update gitignore
+b8c0f60	feat: add epistles
+48ef41c	chore: use lazy loading for images
+ba80e45	feat: update resume
+8401515	feat: add original python image
+8264ec8	feat: more images
+edfabd7	feat: add descriptions
+1ab53bd	feat: add process screenshots to simpsons
+0965f16	feat: add description for distant destinations
+5669165	chore: optimise images
+43b9bea	feat: update resume
+fbbb8ad	chore: archive images
+94776b9	content: update index
+c58f45d	style: padding
+558654e	feat: rearrange based on better date specificity
+5bab484	feat: archive four projects
+5350fe2	feat: update wakingandsleeping
+9918b9a	feat: simpsons
+f2e772e	content: wrong year
+00d941e	content: typo
+f7ad52b	feat: distant destinations
+37ee02d	copy: update year
+5aab25b	feat: website carbon badge
+0d3b22e	fix: typos
+7f8b832	feat: add emotionspoem
+4e65e4b	feat: add wakingandsleeping
+75d01ff	chore: remove analytics
+2f4e3aa	style: square images for standardisation
+f95cf1d	style: tag ordering
+6ec3594	style: padding at bottom
+5529620	feat: add lgbtabc
+4e7c774	chore: archive films
+c1dbea5	feat: add faa
+4c543fc	fix: quotation marks rendering
+01735fd	fix: wording
+34f30ec	style: color and svg styling
+6b0db06	style: abbrs and other stylings
+0a52b4b	feat: update bio
+f691bb1	styles: fix responsive styles
+cee8837	style: revert box sizing change
+89df2c6	style: use icons for social instead of text
+cc40595	style: fix mobile styles
+59e5364	feat: update tagline
+f303e24	style: use css variables
+09dc030	chore: make print styles
+f71db52	chore: accessibility fixes
+27d3551	feat: update wording
+5ae434b	fix: quoted strings
+2c6392c	chore: update gitignore
+6b3f2ee	chore: update gemfile
+c2ace3a	feat: add twitter
+6382195	fix: file name
+2bbef84	refactor: standardise and minimise
+6f4910e	feat: add letsgetgranular
+397c501	chore: update gemfile
+368cbd0	feat: update agloballanguage image
+c4b30d0	feat: carbon price tag
+cd8f21b	feat: add links
+4d84e77	feat: add about
+e082935	feat: update resume
+7052fa4	feat: update and curate
+bbb368e	feat: add chinese name
+3b02785	feat: add/improve image alt text
+405a6b7	feat: add rem description
+81fde00	style: project intro box
+2faeb17	feat: archive selected projects
+39aa2b2	feat: tags and years
+56aed85	style: project padding and width
+fa1083e	style: tags
+bd764e6	feat: add year to films
+2540e6e	style: tags
+a38621a	feat: arrange by year
+ae9c1ee	feat: update index
+ee214bc	chore: optimise image
+da49372	feat: add bluebirds write-up and image
+764240f	feat: add year to project pages
+39a434c	feat: sort projects in reverse chronological order
+e02eae1	refactor: automatically list all projects
+de9448d	refactor: films as directories
+282a15c	chore: improve tags front matter
+21ff303	feat: add pages for films
+436629d	fix: typo
+12fe0e7	feat: update screensaver
+5a0d785	feat: update resume
+761d4df	feat: update resume
+2554fc1	chore: update gems
+e7f3f7d	chore: optimise images
+c57f9fd	feat: update resume
+5031661	feat: add resume
+3a75469	feat: add link to resume
+f04617d	feat: update bio
+44e197d	feat: to the moon and back
+d73f91f	feat: add Pinterest footer link
+53b8d59	chore: add Pinterest claim
+897a8af	fix: typo
+a27b94f	fix: typo
+9be66d2	fix: edit thesis description
+9c497c9	feat: change ursula to thesis
+8edeb75	feat: add UBC portfolio
+d1aa55f	fix: typo
+2c4d08c	chore: update Gemfile to remove github-pages
+3e98a27	chore: make copyright year dynamic
+91ca98f	chore: add ruby
+69960ed	chore: add Gemfile
+ab5860c	fix: end comment tag for analytics script
+e0ce58d	fix: enclose analytics tracking ID in quotes
+a7d4d21	fix: analytics global site tag
+d5e2f06	feat: add analytics
+655a536	refactor: isolate scripts
+ddfcdec	style: change projects to work
+3ed85cf	style: left-align bio in header
+fe1da3c	feat: add screensaver image for SEO
+4ea6b44	feat: add SEO image tags to projects
+2ad8eb7	feat: add SEO plugin
+f9aa5dd	fix: typo
+62b4591	fix: correct URL in README.md
+471b13e	feat: add README.md
+0fb12af	chore: clean up unused .html files
+c277017	chore: add .gitignore
+657775c	chore: convert static site to Jekyll
+8d83d3e	feat: add resume
+be0f6fd	fix: copy edits
+b8f79ca	chore: optimise scribbles images
+cd51476	feat: add scribbles issue 13
+a186cde	fix: unclosed tags and unescaped entities
+41a7002	fix: update iframe attributes
+7f02406	fix: unclosed and extra tags
+147e13b	fix: add favicon to all pages
+b110e6b	feat: add favicon
+41a978c	fix: responsive moodboard
+6698768	feat: add winter ball content
+55520af	fix: responsive design
+9bbb384	fix: correct spacing in figure
+67271b3	feat: add role to films
+2f92db6	fix: correct screensaver variation link
+819f9a2	fix: add screensaver variation images
+1d6af59	feat: add winter ball
+b07d10b	style: remove superfluous links
+045bdff	feat: add screensaver gifs
+4abd35a	style: improve spacing of figure and iframe
+14a148c	feat: add scribbles
+9e7353f	feat: add human rights day
+4c679b5	feat: add blockquote styling
+5eeefbf	feat: add devflight
+38e9679	fix: correct spacing for figcaption
+f3b2684	feat: add year to figcaption
+a188b71	feat: add films to projects
+795a3fe	fix: expand bottom margin of article rather than of main
+ef04b9b	feat: add havisham to projects
+5bc5445	feat: add havisham
+4c9e36b	style: widen spacing between main and footer
+2a558f9	refactor: change projects layout from grid to flexbox
+bc9db3d	feat: add branding
+aecf86b	fix: select only anchors in header nav for padding
+7553be4	refactor: minify pace css file
+59ec6a5	feat: add syntax highlighting with prism
+867289f	feat: add content to screensaver
+b473e39	refactor: use svg for logo instead of png
+3d8fc3f	feat: add screensaver project
+8a0b631	fix: typo
+b886213	refactor: change projects page from flex to grid
+a9bf5b7	refactor: simplify navigation links structure
+306aff4	style: improve spacing in code
+04abc17	fix: normalise spacing on projects page
+534d3f7	style: reorganise nav and social links
+083afc6	style: differentiate between card and article
+b36e5d3	feat: add projects page
+6b1368e	refactor: change relative paths to absolute
+c4844a1	fix: add home links to logo and title
+d01b30a	feat: add etymologee
+bb05103	refactor: structure links more consistently
+29139f5	style: remove unused scripts
+0de3fcc	feat: add sCan
+bd6d065	fix: update loader colour
+7c45aa3	feat: add ajax loader bar
+c02ae9f	fix: improve vertical align and background gradient
+06f828c	fix: more complete system font specification
+99c9b3f	fix: improve responsive design
+1caba36	feat: redesign to simple card
+4a41c95	Merge branch 'master' of github.com:bookwormgirl910/bookwormgirl910.github.io
+de2660a	prune /img
+4834dae	add /img
+7481398	delete .gitignore
+fa7a81d	basic structure and responsive styling
+0de2b95	add .gitignore
+fc0bbad	delete old versions
+df8839e	move old versions
+795868d	reorganise site structure
+7ddf714	compress
+762a4e9	mobile first media queries
+78e7b31	redesign as film portfolio
+b8b0909	test
+c080179	add videos
+f23dcaa	fix rem image
+a4a1fbc	debug
+3827d03	debug
+e39850b	debug
+12913d9	troubleshooting
+3dbd790	sticky footer
+e11fbce	more appropriate elements
+2a93558	responsiveness
+a2d24c8	re-added images
+44372f9	restructure
+c703afa	troubleshooting
+0c973a6	troubleshooting
+fdedc80	troubleshooting
+4c17705	troubleshooting
+20efaf8	misc
+2d777a1	troubleshooting
+5071eb7	troubleshooting
+eadd7a8	trim
+a861b89	new content
+8782522	filled in content
+4348750	troubleshooting
+cd167ff	troubleshooting
+15503ef	troubleshooting
+b538009	troubleshooting
+416950e	troubleshooting
+ddd5817	typo
+fffd643	two entries for web
+656345f	reorganise
+1e95a10	new design
+5c41abd	reset
+099bd22	deleted lukalesson
+875bd6b	deleted rh
+7335f6f	new
+642355a	add
+f391708	update
+72b2627	txt
+1d9f27e	textbook
+1261b27	updated changes
+870a3dc	-rh
+7ec5673	index
+d446db8	site directory + earlier projects
+d7bd8d7	card
+3f60820	moved files
+2b3780b	index.html

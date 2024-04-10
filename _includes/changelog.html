@@ -1,0 +1,13 @@
+<div class="changelog">
+  <h2>Changelog</h2>
+  <dl>
+  {% for line in site.data.changelog limit:10 %}
+    <dt>
+      {{ line.hash }}
+    </dt>
+    <dd>
+      {{ line.message || escape }}
+    </dd>
+  {% endfor %}
+  </dl>
+</div>
