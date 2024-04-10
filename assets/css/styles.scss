@@ -143,13 +143,13 @@ img,
 video,
 iframe {
   display: block;
-  max-width: 100%;
-  max-height: 800px;
+  max-inline-size: 100%;
+  max-block-size: 800px;
 }
 
 iframe {
-  width: 800px;
-  height: 500px;
+  inline-size: 800px;
+  block-size: 500px;
 }
 
 img.inline,
@@ -161,13 +161,13 @@ iframe.inline {
 img.size-xs,
 video.size-xs,
 iframe.size-xs {
-  max-width: 300px;
+  max-inline-size: 300px;
 }
 
 img.size-s,
 video.size-s,
 iframe.size-s {
-  max-width: 400px;
+  max-inline-size: 400px;
 }
 
 code {
@@ -189,12 +189,12 @@ pre.wrap code {
 
 ul,
 ol {
-  padding-left: 0;
+  padding-inline-start: 0;
 }
   @media (max-width: 800px), print {
     ul,
     ol {
-      padding-left: 2em;
+      padding-inline-start: 2em;
     }
   }
 
@@ -211,35 +211,35 @@ hr {
 }
 
 .break {
-  width: 100%;
+  inline-size: 100%;
 }
 
 blockquote {
   // border-left: 3px solid #eee;
-  border-left: 3px solid var(--mid);
-  padding-left: 1em;
+  border-inline-start: 3px solid var(--mid);
+  padding-inline-start: 1em;
 }
 
 /* header */
 
 header[role="banner"] {
   position: absolute;
-  width: 800px;
-  left: 0;
+  inline-size: 800px;
+  inset-inline-start: 0;
   transform: translateX(-100%);
-  padding-right: 3rem;
+  padding-inline-end: 3rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 0.5rem;
-  margin-left: calc(calc(100vw - 800px) / 2);
+  margin-inline-start: calc(calc(100vw - 800px) / 2);
 }
   @media (max-width: 1200px), print {
     header[role="banner"] {
       position: static;
-      width: unset;
-      max-width: 800px;
-      text-align: left;
+      inline-size: unset;
+      max-inline-size: 800px;
+      text-align: start;
       transform: unset;
       margin: 0 auto var(--spacing);
       flex-direction: row;
@@ -250,7 +250,7 @@ header[role="banner"] {
 
 .logo {
   // width: 36px;
-  height: 36px;
+  block-size: 36px;
   // fill: #444;
   // fill: var(--emphasis);
   // fill: var(--accent);
@@ -278,7 +278,7 @@ header[role="banner"] {
 
 .theme-button {
   appearance: none;
-  text-align: left;
+  text-align: start;
   padding: 0;
   font: inherit;
   border: none;
@@ -287,7 +287,7 @@ header[role="banner"] {
   text-decoration: underline;
   text-underline-offset: 2px;
   cursor: pointer;
-  width: max-content;
+  inline-size: max-content;
 }
 
 .theme-button:hover {
@@ -297,11 +297,11 @@ header[role="banner"] {
 /* toc */
 
 .toc .chapter-title {
-  margin-bottom: 0.5em;
+  margin-block-end: 0.5em;
 }
 
 .toc .chapter-subtitle {
-  margin-top: 0;
+  margin-block-start: 0;
   // color: #717171;
 }
 
@@ -309,8 +309,8 @@ header[role="banner"] {
 
 .scribbles {
   position: absolute;
-  top: 50px;
-  right: 50px;
+  inset-block-start: 50px;
+  inset-inline-end: 50px;
   // left: 50px;
   transform: rotate(1deg);
   font-size: 0.75rem;
@@ -320,15 +320,14 @@ header[role="banner"] {
     .scribbles {
       position: static;
       transform: none;
-      width: 250px;
+      inline-size: 250px;
       // max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: var(--spacing);
+      margin-inline: auto;
+      margin-block-end: var(--spacing);
     }
 
     .scribbles--notes .note {
-      max-width: 250px;
+      max-inline-size: 250px;
     }
   }
 
@@ -342,7 +341,7 @@ header[role="banner"] {
 
 .scribbles p {
   margin: 1.5rem 0;
-  max-width: unset;
+  max-inline-size: unset;
 }
 
 .scribbles--notes .note {
@@ -353,8 +352,8 @@ header[role="banner"] {
   // box-shadow: 1px 5px 8px rgba(113, 99, 78, 0.1);
   // box-shadow: 1px 5px 8px var(--bg-half);
   box-shadow: 1px 5px 8px var(--shadow);
-  width: 250px;
-  min-height: 250px;
+  inline-size: 250px;
+  min-block-size: 250px;
 }
 
 .scribbles--notes .note::before {
@@ -364,7 +363,7 @@ header[role="banner"] {
   font-family: "Bodoni Ornaments", fantasy;
   font-weight: 300;
   font-size: 0.75em;
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
 
 .scribbles--receipt {
@@ -375,19 +374,18 @@ header[role="banner"] {
   // background-color: rgb(245, 245, 245);
   background-color: var(--mid);
   color: var(--fg);
-  padding-left: 1rem;
-  padding-right: 1rem;
-  width: 300px;
+  padding-inline: 1rem;
+  inline-size: 300px;
 }
 
 .scribbles--receipt::after {
   content: "";
   position: absolute;
-  bottom: 0;
+  inset-block-end: 0;
   transform: translate(0, 100%);
-  left: 0;
-  width: 100%;
-  height: 10px;
+  inset-inline-start: 0;
+  inline-size: 100%;
+  block-size: 10px;
 
   background-image: linear-gradient(var(--mid), var(--mid)),
     url("/assets/media/other/rip.png");
@@ -397,7 +395,7 @@ header[role="banner"] {
 
 .scribbles--receipt .note + .note {
   // border-top: 1px dashed rgba(68, 68, 68, 0.5);
-  border-top: 1px dashed var(--fg-half);
+  border-block-start: 1px dashed var(--fg-half);
 }
 
 .scribbles--receipt h2 {
@@ -423,7 +421,7 @@ header[role="banner"] {
 
 .scribbles--receipt .note-date {
   grid-column: 2;
-  text-align: right;
+  text-align: end;
 }
 
 .scribbles--notes .note-date {
@@ -433,8 +431,8 @@ header[role="banner"] {
 /* changelog */
 
 #changelog {
-  left: unset;
-  right: 50px;
+  inset-inline-start: unset;
+  inset-inline-end: 50px;
 }
 
 // .changelog dl {
@@ -452,39 +450,39 @@ header[role="banner"] {
 /* intro */
 
 .intro {
-  max-width: 800px;
+  max-inline-size: 800px;
   margin-inline: auto;
   margin-block-end: var(--spacing);
 }
 
 .intro h1,
 .intro p {
-  width: 60%;
+  inline-size: 60%;
   margin-inline: 0;
 }
   @media (max-width: 800px), print {
     .intro h1,
     .intro p {
-      width: 100%;
+      inline-size: 100%;
     }
   }
 
 .intro h1 {
   font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 3rem;
+  margin-block-start: 0;
+  margin-block-end: 3rem;
   line-height: 1.2;
   // color: var(--accent);
 }
 
 .name [lang="zh"] {
-  margin-top: -0.2em;
-  margin-bottom: 0.5em;
+  margin-block-start: -0.2em;
+  margin-block-end: 0.5em;
 }
 
 .intro p {
   font-size: 1.2em;
-  margin-bottom: 2em;
+  margin-block-end: 2em;
 }
 
 @counter-style manicule {
@@ -516,11 +514,11 @@ main {
 
 .section + .section {
   // margin-top: var(--spacing-sm);
-  margin-top: var(--spacing);
+  margin-block-start: var(--spacing);
 }
 
 .columns {
-  max-width: 800px;
+  max-inline-size: 800px;
   margin: auto;
   display: grid;
   grid-template-columns: calc(50% - 1em) calc(50% - 1em);
@@ -538,9 +536,8 @@ main p,
 main li,
 main blockquote,
 main pre {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  max-inline-size: 800px;
+  margin-inline: auto;
 }
 
 .poem {
@@ -548,7 +545,7 @@ main pre {
 }
 
 .metadata {
-  margin-top: 1.2rem;
+  margin-block-start: 1.2rem;
   // font-size: 0.75em;
   // line-height: 2;
   font-style: italic;
@@ -559,7 +556,7 @@ main pre {
 }
 
 .metadata dd {
-  margin-left: 1em;
+  margin-inline-start: 1em;
 }
 
 .gallery {
@@ -586,7 +583,7 @@ figcaption {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 0 1em;
-    width: max-content;
+    inline-size: max-content;
     margin: auto;
   }
 
@@ -602,7 +599,7 @@ figcaption {
 }
   @media (min-width: 800px) {
     .intentions dt {
-      text-align: right;
+      text-align: end;
     }
 
     .intentions dd {
@@ -613,13 +610,12 @@ figcaption {
 /* posts */
 
 .posts-list div + div {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
 }
 
 .posts-list h2,
 .posts-list p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-block: 0;
 }
 
 .posts-list--date {
@@ -644,7 +640,7 @@ figcaption {
 }
 
 .index-section + .index-section {
-  margin-top: 1em;
+  margin-block-start: 1em;
 }
 
 .index .term-container {
@@ -653,7 +649,7 @@ figcaption {
 }
 
 .index dd {
-  margin-left: 0.5em;
+  margin-inline-start: 0.5em;
   // opacity: 0.5;
   a {
     color: var(--link-off);
@@ -666,7 +662,7 @@ figcaption {
 
 .index dl {
   display: block;
-  width: 100%;
+  inline-size: 100%;
 }
 
 .index dl dt::before {
@@ -674,7 +670,7 @@ figcaption {
 }
 
 .index h2:first-of-type {
-  margin-top: 0;
+  margin-block-start: 0;
 }
 
 /* 404 */
@@ -696,9 +692,9 @@ figcaption {
 .four-oh-four span,
 .four-oh-four p {
   /* width: fit-content; */
-  width: 76ch;
+  inline-size: 76ch;
   margin: auto;
-  text-align: left;
+  text-align: start;
   // font-family: "Select Mono", monospace;
   font-family: var(--font-mono);
 }
@@ -706,7 +702,7 @@ figcaption {
 /* footer */
 
 footer[role="contentinfo"] {
-  max-width: 800px;
+  max-inline-size: 800px;
   margin: auto;
   // font-size: 0.6rem;
   // font-style: italic;
