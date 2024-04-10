@@ -57,6 +57,7 @@ I would like this website to
 - add robots.txt
 - microformats?
 - add video descriptions and transcripts to videos
+- look into prose.io?
 
 <br>
 <br>
