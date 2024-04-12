@@ -530,14 +530,18 @@ main {
     }
   }
 
-main h2,
-main h3,
-main p,
-main li,
-main blockquote,
-main pre {
-  max-inline-size: 800px;
-  margin-inline: auto;
+main {
+  h2,
+  h3,
+  p,
+  li,
+  blockquote,
+  pre,
+  hr,
+  .section {
+    max-inline-size: 800px;
+    margin-inline: auto;
+  }
 }
 
 .poem {
