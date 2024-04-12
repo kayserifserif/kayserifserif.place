@@ -1,10 +1,8 @@
 ---
 layout: post
-title: Smallness — 5 months in
+title: Making a poetry bot with reckless romanticism and an unchecked corpus
 description: A reflection on my generative poetry bot.
 ---
-
-On my poetry bot, and a reckless word list
 
 ## A short history
 
