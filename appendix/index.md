@@ -36,6 +36,11 @@ I would like this website to
 <br>
 <br>
 
+P.S. I would like to [write](/posts) because I feel the muscle sore from disuse. I feel it acutely, when I reach for the words and end up grasping in that lacuna. Little me wanted to be a writer. Maybe I can work at it, for her.
+
+<br>
+<br>
+
 ## WORKING NOTES
 - i'd like to use shanghainese in some way!
 - there is slightly too much fiddly html in these pages just for some custom styling... i would like to fall back to more markdown and trust the defaults. see, this page! almost nothing needed at all. what's a couple of <code>&lt;br&gt;</code>s between indie webbers?
