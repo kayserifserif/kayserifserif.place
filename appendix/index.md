@@ -54,7 +54,6 @@ I would like this website to
 - make sure faded colors are still high enough contrast
 - ~~set up rss~~ [edit 240326: done!]
 - optimize images... use webp?
-- add robots.txt
 - microformats?
 - add video descriptions and transcripts to videos
 - look into prose.io?
