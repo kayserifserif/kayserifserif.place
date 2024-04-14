@@ -70,4 +70,4 @@ One thought that gave me hesitation was whether there was space here for metapho
 
 Since encountering that first major misstep, I've been trying to take time to curate the corpus more thoroughly to avoid running into more unpleasant surprises. I hope no one has come across any bad combinations of phrases and words, but if you do, please let me know and I will fix it as soon as possible.
 
-*Mastodon link to this post, here (to come)*
+[Posted on Mastodon](https://sunny.garden/@kayserifserif/112271567917769396)
