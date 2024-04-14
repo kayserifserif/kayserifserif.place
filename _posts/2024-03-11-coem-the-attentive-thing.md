@@ -21,3 +21,5 @@ To me, these tools are a way to examine my words, over and over until I hear eac
 So I’ve given it a sentence, but in truth it’s a question, and as a response it fits the pieces together for me. Tells me there’s a variable, a reference to that thing called “me”, and we’re going to colour it with “true”, say that anywhere you put “me”, it will vibrate with intention, be infectious with yes-ness.
 
 Me and my computer, we’re both one step closer to deciphering what I’m trying to say.
+
+[Shared on Mastodon](https://sunny.garden/@kayserifserif/112080759513932878)
