@@ -41,6 +41,10 @@ description: Some themes in the work. (Last updated October 20, 2023.)
       <dd><a href="/about">/about</a></dd>
     </div>
     <div class="term-container">
+      <dt>bots, poetics of</dt>
+      <dd><a href="/work/smallness">/work/smallness</a>, <a href="/posts/2024/reckless-romanticism">/posts/2024/reckless-romanticism</a></dd>
+    </div>
+    <div class="term-container">
       <dt>building blocks</dt>
       <dd><a href="/about/">/about</a></dd>
     </div>
@@ -57,7 +61,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     </div>
     <div class="term-container">
       <dt>codeworks</dt>
-      <dd><a href="/about/">/about</a>, <a href="/work/coem/">/work/coem</a></dd>
+      <dd><a href="/about/">/about</a>, <a href="/work/coem/">/work/coem</a>, <a href="/posts/2024/coem-the-attentive-thing">/posts/2024/coem-the-attentive-thing</a></dd>
     </div>
     <div class="term-container">
       <dt>code poetry</dt>
@@ -132,6 +136,10 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     <div class="term-container">
       <dt>garments</dt>
       <dd><a href="/intentions/">/intentions</a></dd>
+    </div>
+    <div class="term-container">
+      <dt>generative text</dt>
+      <dd><a href="/work/smallness">/work/smallness</a>, <a href="/posts/2024/coem-the-attentive-thing">/posts/2024/coem-the-attentive-thing</a></dd>
     </div>
   </div>
   <div class="index-section">
@@ -291,7 +299,7 @@ description: Some themes in the work. (Last updated October 20, 2023.)
         </div>
         <div class="term-container">
           <dt>poetics of</dt>
-          <dd><a href="/about/">/about</a>, <a href="/work/coem/">/work/coem</a></dd>
+          <dd><a href="/about/">/about</a>, <a href="/work/coem/">/work/coem</a>, <a href="/posts/2024/coem-the-attentive-thing">/posts/2024/coem-the-attentive-thing</a></dd>
         </div>
       </dl>
     </div>
@@ -324,6 +332,10 @@ description: Some themes in the work. (Last updated October 20, 2023.)
     <div class="term-container">
       <dt>Spencer</dt>
       <dd><a href="/carry/">/carry</a></dd>
+    </div>
+    <div class="term-container">
+      <dt>stewardship</dt>
+      <dd><a href="/posts/2024/coem-the-attentive-thing">/posts/2024/coem-the-attentive-thing</a></dd>
     </div>
     <div class="term-container">
       <dt>syntax</dt>
