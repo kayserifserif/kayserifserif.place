@@ -33,6 +33,10 @@
   link: "/appendix"
   subtitle: In which the Website is Idly Picked Apart
 
+- html: <a href="/blank" aria-label="Blank">___</a>
+  link: "/blank"
+  subtitle: In which a Page is Intentionally Left Blank
+
 # - title: In which Fragments Hint at her Happenings
 #   link: "/fragments/"
 #   subtitle:
