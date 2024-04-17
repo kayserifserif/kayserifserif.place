@@ -67,7 +67,7 @@ P.S. I would like to [write](/posts) because I feel the muscle sore from disuse.
 <br>
 <br>
 
-## CHANGE LOG
+## CHANGE LOG (WHEN I POST ABOUT IT, AT LEAST)
 
 ### Feb 29, 2024
 
