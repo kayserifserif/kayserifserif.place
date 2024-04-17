@@ -2,12 +2,15 @@
 layout: default
 title: i carry your website
 description: 
+
 ---
 
 <div class="intro">
   <h1>i carry your website with me(i carry it in<br>
   my website)</h1>
 </div>
+
+Do you know how, in the quiet aftermath of the most wonderful and exhausting gathering at your home, you find traces of your friends everywhere? A strand of hair, a charger that wasn't working, a receipt that fell out of a pocket… Right-click to inspect the console of this page.
 
 [henry.codes](https://henry.codes/)
 <iframe src="https://henry.codes/" frameborder="0"></iframe>
