@@ -231,8 +231,16 @@ header[role="banner"] {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 0.5rem;
+  gap: 1.5rem;
   margin-inline-start: calc(calc(100vw - 800px) / 2);
+
+  .previous::before {
+    content: "← ";
+  }
+
+  .next::after {
+    content: " →";
+  }
 }
   @media (max-width: 1200px), print {
     header[role="banner"] {
@@ -264,14 +272,16 @@ header[role="banner"] {
   fill: var(--link-on);
 }
 
-.themes {
+.themes,
+.nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   gap: 0.5rem;
 }
   @media (max-width: 1200px), print {
-    .themes {
+    .themes,
+    .nav {
       flex-direction: row;
     }
   }

@@ -2,6 +2,9 @@
 layout: default
 title: About
 description: Some information about me.
+
+next_title: Work
+next_url: /work
 ---
 
 <div class="intro">

@@ -2,6 +2,12 @@
 layout: default
 title: Intentions
 description: A list of intentions; a poem; the “I want” song; not a bucket list——
+
+previous_title: Posts
+previous_url: /posts
+
+next_title: carry
+next_url: /carry
 ---
 
 <div class="intro">

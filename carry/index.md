@@ -3,6 +3,11 @@ layout: default
 title: i carry your website
 description: 
 
+previous_title: Intentions
+previous_url: /intentions
+
+next_title: Appearances
+next_url: /appearances
 ---
 
 <div class="intro">

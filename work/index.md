@@ -2,6 +2,12 @@
 layout: default
 title: Work
 description: Select projects.
+
+previous_title: About
+previous_url: /about
+
+next_title: Posts
+next_url: /posts
 ---
 
 <div class="intro">

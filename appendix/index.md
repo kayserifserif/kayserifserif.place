@@ -2,6 +2,12 @@
 layout: default
 title: Appendix
 description: About this website.
+
+previous_title: Index
+previous_url: /index
+
+next_html: <a href="/blank" aria-label="Blank" class="nav-link next">___</a>
+next_url: /blank
 ---
 
 <div class="intro">

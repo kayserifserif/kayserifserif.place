@@ -2,6 +2,12 @@
 layout: default
 title: Posts
 description: An endeavour to write.
+
+previous_title: Work
+previous_url: /work
+
+next_title: Intentions
+next_url: /intentions
 ---
 
 <div class="intro">

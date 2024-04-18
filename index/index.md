@@ -2,6 +2,12 @@
 layout: default
 title: Index
 description: Some themes in the work. (Last updated October 20, 2023.)
+
+previous_title: Appearances
+previous_url: /appearances
+
+next_title: Appendix
+next_url: /appendix
 ---
 
 <div class="intro">

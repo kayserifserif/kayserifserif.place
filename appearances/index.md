@@ -2,6 +2,12 @@
 layout: default
 title: Appearances
 description: Publications and exhibitions.
+
+previous_title: carry
+previous_url: /carry
+
+next_title: Index
+next_url: /index
 ---
 
 <div class="intro">
