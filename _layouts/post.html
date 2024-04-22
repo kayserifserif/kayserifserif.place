@@ -8,4 +8,10 @@ layout: default
   <p>{{ page.date | date: "%A, %B %e, %Y" }}</p>
 </div>
 
+{% if page.lang %}
+<div lang="{{ page.lang }}">
+{% endif %}
 {{ content }}
+{% if page.lang %}
+</div>
+{% endif %}

@@ -139,6 +139,10 @@ a:hover {
   font-style: normal;
 }
 
+[lang="en"] {
+  font-family: var(--font-mono);
+}
+
 img,
 video,
 iframe {
