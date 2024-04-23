@@ -247,6 +247,10 @@ header[role="banner"] {
   .next::after {
     content: " →";
   }
+
+  p {
+    margin-block: 0;
+  }
 }
   @media (max-width: 1200px), print {
     header[role="banner"] {
