@@ -354,6 +354,7 @@ header[role="banner"] {
 
 .scribbles ul {
   list-style-type: none;
+  margin-block: 0;
 }
 
 .scribbles li {
@@ -375,6 +376,8 @@ header[role="banner"] {
   box-shadow: 1px 5px 8px var(--shadow);
   inline-size: 250px;
   min-block-size: 250px;
+
+  margin-block: 1.5rem;
 }
 
 .scribbles--notes .note::before {
