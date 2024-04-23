@@ -211,7 +211,8 @@ p {
 }
 
 hr {
-  color: inherit;
+  // color: inherit;
+  color: var(--fg-half);
   // border-width: 0.5px;
   border-style: dashed;
 }
