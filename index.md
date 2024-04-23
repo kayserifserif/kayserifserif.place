@@ -3,7 +3,16 @@ layout: default
 description: Katherine Yang’s website.
 ---
 
+<div class="banner">
+  <hr>
+  <p>
+    Happy <a href="https://js-naked-day.org/">JS Naked Day</a>!
+  </p>
+  <hr>
+</div>
+
 <div class="intro">
+    
   <h1 class="name">
     <div lang="zh">楊立瀅</div>
     <div>Katherine<br>Yang</div>
