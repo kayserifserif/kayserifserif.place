@@ -37,8 +37,9 @@
   font-size: 16px;
   --spacing: 100px;
   // --font-mono: "Select Mono";
-  // --font-mono: "Cartograph";
   --font-mono: "TT2020";
+  // --font-mono: "Special Elite";
+  --font-italic: "TT2020";
 }
 
 [data-theme="light"] {
@@ -109,6 +110,7 @@ h6 {
   font-weight: 600;
   margin: 1.5rem 0;
   font-style: italic;
+  font-family: var(--font-italic);
 }
 
 a {
@@ -454,6 +456,7 @@ header[role="banner"] {
 
 .scribbles--notes .note-date {
   font-style: italic;
+  font-family: var(--font-italic);
 }
 
 /* changelog */
@@ -602,6 +605,8 @@ main {
   // font-size: 0.75em;
   // line-height: 2;
   font-style: italic;
+  font-family: var(--font-italic);
+  font-weight: 600;
 }
 
 .metadata div {
