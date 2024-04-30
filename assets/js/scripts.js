@@ -18,7 +18,7 @@ const FONT_SIZE_SMALL = 14;
 let fontSize = FONT_SIZE_BIG;
 const CHARACTER_WIDTH_RATIO = 0.546875;
 
-// const USE_RECEIPT = getRandomBoolean();
+const USE_RECEIPT = getRandomBoolean();
 
 window.addEventListener("resize", debounce(() => {
   let prevWindowWidth = windowWidth;
@@ -85,10 +85,10 @@ function resize() {
 
 function arrangeNotes() {
   const scribbles = document.querySelectorAll(".scribbles");
-  // scribbles.forEach(s => {
-  //   s.classList.toggle("scribbles--receipt", USE_RECEIPT);
-  //   s.classList.toggle("scribbles--notes", !USE_RECEIPT);
-  // });
+  scribbles.forEach(s => {
+    s.classList.toggle("scribbles--receipt", USE_RECEIPT);
+    s.classList.toggle("scribbles--notes", !USE_RECEIPT);
+  });
 
   // if (USE_RECEIPT) {
   scribbles.forEach(s => {
