@@ -273,6 +273,22 @@ header[role="banner"] {
     }
   }
 
+#skip-to-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &:not(:focus) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+}
+
 .logo {
   // width: 36px;
   block-size: 36px;
