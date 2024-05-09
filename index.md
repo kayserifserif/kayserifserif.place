@@ -4,7 +4,6 @@ description: Katherine Yang’s website.
 ---
 
 <div class="intro">
-    
   <h1 class="name">
     <div lang="zh">楊立瀅</div>
     <div>Katherine<br>Yang</div>
