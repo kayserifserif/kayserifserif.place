@@ -657,7 +657,7 @@ figcaption {
   .intentions {
     display: grid;
     grid-template-columns: auto 1fr;
-    gap: 0 1em;
+    gap: 0 1.5em;
     inline-size: max-content;
     margin: auto;
   }
@@ -669,18 +669,15 @@ figcaption {
   }
 }
 
-.intentions dt {
-  color: var(--fg-half);
-}
-  @media (min-width: 800px) {
-    .intentions dt {
-      text-align: end;
-    }
-
-    .intentions dd {
-      margin: 0;
-    }
+@media (min-width: 800px) {
+  .intentions dt {
+    text-align: end;
   }
+
+  .intentions dd {
+    margin: 0;
+  }
+}
 
 /* posts */
 
@@ -695,11 +692,6 @@ figcaption {
 .posts-list h2,
 .posts-list p {
   margin-block: 0;
-}
-
-.posts-list--date {
-  // opacity: 0.5;
-  color: var(--fg-half);
 }
 
 .ipa {
