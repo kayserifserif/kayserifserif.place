@@ -17,7 +17,7 @@ next_url: /intentions
   </div>
 </div>
 <div class="posts-list">
-  <ul>
+  <ul role="list">
   {% for post in site.posts %}
     <li>
       <p class="posts-list--date">{{ post.date | date: "%F" }}</p>
