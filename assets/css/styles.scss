@@ -684,6 +684,10 @@ figcaption {
 
 /* posts */
 
+.posts-list ul {
+  list-style-type: none;
+}
+
 .posts-list div + div {
   margin-block-start: 1rem;
 }
