@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Index
-description: Some themes in the work. (Last updated October 20, 2023.)
+description: Some themes in the work. (Last updated April 17, 2024.)
 
 previous_title: Appearances
 previous_url: /appearances
