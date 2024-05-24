@@ -69,6 +69,7 @@ P.S. I would like to [write](/posts) because I feel the muscle sore from disuse.
 - add video descriptions and transcripts to videos
 - look into prose.io?
 - .htaccess [https://ethanmarcotte.com/wrote/blockin-bots/](https://ethanmarcotte.com/wrote/blockin-bots/)
+- "design engineer"
 
 <br>
 <br>
