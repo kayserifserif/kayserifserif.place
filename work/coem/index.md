@@ -14,6 +14,8 @@ format: Binary; website
 themes: Electronic literature; poetic tech
 ---
 
+*This is one of several projects exploring ambiguity and wordplay in code and poetry. See also: [ProsePlay](/work/proseplay/) and [RegEx Poetry Machine](/work/regex-poetry-machine/).*
+
 Coem (a portmanteau of “code” and “poem”) is a multi-coded (Mateas & Montfort, 2005) esoteric programming language, or “esolang” (Temkin, 2020), that seeks to explore ways that poetry can be made purposeful, and ways that code can be made emotional. With roots in codeworks and electronic literature (Cayley, 2002; Mez, 2001), aesthetic programming (Soon & Cox, 2020), and critical code studies (Marino, 2020), the language strives to bring into conversation the fields of programming, poetry, linguistics, and typography. In feminist opposition to general-purpose technology that privileges efficiency and clarity, the language is an experiment in personal computing that foregrounds ambiguity, emotion, metaphor, and typographical design.
 
 <div class="gallery">

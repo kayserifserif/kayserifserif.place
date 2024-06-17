@@ -14,6 +14,8 @@ format: Binary; website
 themes: Electronic literature; poetic tech
 ---
 
+*This is one of several projects exploring ambiguity and wordplay in code and poetry. See also: [Coem](/work/coem/) and [RegEx Poetry Machine](/work/regex-poetry-machine/).*
+
 This tool is an exploration of the idea of explicitly allowing for and encouraging a text to hold multiple truths.
 
 To me, the interactivity of the tool opens up so many possibilities for transforming the text or using the text to transform other objects on the page.
