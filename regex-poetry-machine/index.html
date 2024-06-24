@@ -7,12 +7,23 @@
     
     <!-- <link rel="stylesheet" class="theme-sheet" href="light.css"> -->
     <title>RegEx Poetry Machine</title>
-    <script type="module" crossorigin src="assets/index-89275f06.js"></script>
-    <link rel="stylesheet" href="assets/index-ae8f66a4.css">
+    <script type="module" crossorigin src="/assets/index-b6873258.js"></script>
+    <link rel="stylesheet" href="/assets/index-b0ce831d.css">
   </head>
   <body>
     <header class="page-header">
       <h1>RegEx Poetry Machine</h1>
+      <div class="about">
+        <p>Place two words in a space. What does the topography look like, to traverse between them? Where do meanings fold and multiply? What can we imagine if we draw the two together like shards of coloured glass?</p>
+        <p>This is a tool for making what I call RegEx pattern poems. Inspired by <a href="https://angelhousepress.com/essays/waber-regular-expressions-as-a-system-of-poetic-notation-plus-bio.pdf">Dan Waber</a>, Kate’s <a href="https://x.com/happyautomata">vaguely reassuring state machines</a>, and R. F. Kuang’s <i><a href="https://bookshop.org/p/books/babel-or-the-necessity-of-violence-an-arcane-history-of-the-oxford-translators-revolution-r-f-kuang/18269577">Babel</a></i>, pattern poems are one-word poetic programs that reappropriate <a href="https://en.wikipedia.org/wiki/Regular_expression">regular</a> <a href="https://www.regexone.com/">expressions</a> as a layered incantation of inarticulate intimations.</p>
+        <p>These ideas have also been ferried around in the vehicles of other projects, including <a href="https://www.coem-lang.org/">Coem</a> and <a href="https://www.proseplay.net/">ProsePlay</a>.</p>
+      </div>
+      <div>
+        <a href="https://kayserifserif.place/">
+          <img src="/img/logo.svg" alt="Logo" width="20" height="20">
+          <span class="visually-hidden">Katherine Yang</span>
+        </a>
+      </div>
     </header>
     <main>
       <div class="input">
@@ -20,14 +31,17 @@
           <div class="controls start-controls">
             <button type="button" class="add-button">Add a string</button>
             <button type="button" class="switch-button">Switch strings</button>
+            <button type="button" class="clear-input-button">Clear</button>
           </div>
-          <div class="string-input-container">
-            <label for="string1" class="visually-hidden">String 1</label>
-            <input type="text" name="string1" id="string1" class="string-input">
-          </div>
-          <div class="string-input-container">
-            <label for="string2" class="visually-hidden">String 2</label>
-            <input type="text" name="string2" id="string2" class="string-input">
+          <div class="string-inputs">
+            <div class="string-input-container">
+              <label for="string1" class="visually-hidden">String 1</label>
+              <input type="text" name="string1" id="string1" class="string-input" size="16">
+            </div>
+            <div class="string-input-container">
+              <label for="string2" class="visually-hidden">String 2</label>
+              <input type="text" name="string2" id="string2" class="string-input" size="16">
+            </div>
           </div>
           <div class="controls end-controls">
             <div>
@@ -72,52 +86,40 @@
           </div>
         </dl>
       </div>
-      <div class="saved hidden">
-        <header>
-          <h2>Saved match pairs</h2>
-          <button type="button" class="button--secondary copy-button">Copy all</button>
-        </header>
-        <div class="saved-entry" data-group="brackets">
-          <div class="entry-strings"></div>
-          <div class="entry-pattern"></div>
-          <div class="end-controls controls">
-            <button type="button" class="load-button button--secondary">Load match pair</button>
-            <button type="button" class="remove-entry-button button--secondary">Remove</button>
+      <aside class="aside">
+        <div class="saved hidden">
+          <div class="saved-header">
+            <h2>Saved match pairs</h2>
+            <button type="button" class="button--secondary copy-button">Copy all</button>
+            <button type="button" class="button--secondary clear-saved-button">Clear all</button>
+          </div>
+          <div class="saved-list">
+            <div class="saved-entry" data-group="brackets">
+              <div class="entry-strings"></div>
+              <div class="entry-pattern"></div>
+              <div class="end-controls controls">
+                <button type="button" class="load-button button--secondary">Load match pair</button>
+                <button type="button" class="remove-entry-button button--secondary">Remove</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="examples">
+          <div class="examples-header">
+            <h2>Examples</h2>
+          </div>
+          <div class="examples-list" tabindex="0">
+            <div class="example-entry">
+              <div class="entry-strings"></div>
+              <div class="entry-pattern"></div>
+              <div class="end-controls controls">
+                <button type="button" class="load-button button--secondary">Load match pair</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
     </main>
-<!-- homophone poem
-- mist + missed -> mis(t|sed)
-- see + sea -> se[ea]
-- prey + pray -> pr[ea]y
-- morning + mourning -> mou?rning
-- words + worlds -> worl?ds
-- exit + exist -> exis?t
-- seep + sleep -> sl?eep
-
-@happyautomata: touched + together -> to(uched|gether)
-
-word association game
-- bookmaking + bookmarking -> bookmar?king
-- bookcase + bookcare -> bookca[sr]e
-- sheaf + shelf -> she[al]f
-- amen + amend -> amend?
-- poetry + pottery -> po(et|tte)ry
-
-contributions
-- tried + cried -> [tc]ried
-- dalliance + alliance -> d?alliance
-- heart + hope -> h(eart|ope)
-- cloud + cling -> c(loud|ing)
-- sparkle + sprinkling -> sp(arkle|rinkling)
-- honeydew + drizzle -> (honey)?d(ew|rizzle)
-
-- make + mend -> m(ake|end)
-- 💗💜💙 + 💗💛💙 -> 💗(💜|💛)💙
-- heart + hearth -> hearth?
-- heart + heartstring -> heart(string)?
--->
     
   </body>
 </html>
