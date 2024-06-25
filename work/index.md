@@ -24,7 +24,6 @@ next_url: /posts
     <ul>
       <li>Bookshelves of the Imagination. The bookshelf that lives in my mind; a portrait of a reader.</li>
       <li>In Consideration of Sentences. Syntactic diagramming as a poetic practice.</li>
-      <li><a href="/work/regex-poetry-machine">RegEx Poetry Machine</a>. Entwined match pairs of meaning.</li>
     </ul>
   </div>
 </div>
@@ -34,6 +33,7 @@ next_url: /posts
   </div>
   <div class="section--body">
     <ul>
+      <li><a href="/work/regex-poetry-machine">RegEx Poetry Machine</a> (2023). Entwined match pairs of meaning.</li>
       <li><a href="/work/smallness/">smallness</a> (2023). A poetry bot about the small things.</li>
       <li><a href="/work/proseplay/">ProsePlay</a> (2023). A tool for exploring alternate wor(l)d choices and possibilities.</li>
       <li><a href="/work/coem/">Coem</a> (2022). A programming language that imagines poetry as purposeful and code as emotional.</li>
