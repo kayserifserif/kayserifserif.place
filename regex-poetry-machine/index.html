@@ -8,8 +8,8 @@
     <!-- <link rel="stylesheet" class="theme-sheet" href="light.css"> -->
     <title>RegEx Poetry Machine</title>
     <meta name="description" content="A tool for making RegEx pattern poems.">
-    <script type="module" crossorigin src="./assets/index-7b0e1754.js"></script>
-    <link rel="stylesheet" href="./assets/index-fb4907b2.css">
+    <script type="module" crossorigin src="./assets/index-1b20875a.js"></script>
+    <link rel="stylesheet" href="./assets/index-9e6e78e6.css">
   </head>
   <body>
     <header class="page-header">
@@ -21,7 +21,7 @@
       </div>
       <div>
         <a href="https://kayserifserif.place/">
-          <img src="./assets/img/logo.svg" alt="Logo" width="20" height="20">
+          <img src="./img/logo.svg" alt="Logo" width="20" height="20">
           <span class="visually-hidden">Katherine Yang</span>
         </a>
       </div>
@@ -37,7 +37,7 @@
               <label for="string1" class="visually-hidden">String 1</label>
               <input type="text" name="string1" id="string1" class="string-input">
             </div>
-            <button type="button" class="swap-button button--primary">
+            <button type="button" class="swap-button button--primary" title="Swap strings">
               <div class="icon"></div>
               <span class="visually-hidden">Swap strings</span>
             </button>
@@ -45,9 +45,13 @@
               <label for="string2" class="visually-hidden">String 2</label>
               <input type="text" name="string2" id="string2" class="string-input">
             </div>
-            <button type="button" class="add-button button--primary">
+            <button type="button" class="add-button button--primary" title="Add a string">
               <div class="icon"></div>
               <span class="visually-hidden">Add a string</span>
+            </button>
+            <button type="button" class="remove-input-button" title="Remove input">
+              <div class="icon"></div>
+              <span class="visually-hidden">Remove input</span>
             </button>
           </div>
           <div class="controls end-controls">
@@ -61,7 +65,7 @@
             </div>
           </div>
           <div class="controls submit-controls">
-            <button type="submit" class="button--primary">Make a match pair</button>
+            <button type="submit" class="button--primary">Make match pair</button>
           </div>
         </form>
       </div>
