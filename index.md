@@ -29,11 +29,11 @@ description: Katherine Yang’s website.
   </div>
   <div class="section--body">
     <ol class="lately">
-      <li>overheating,</li>
-      <li>making smoothies, &</li>
-      <li>looking forward to days off</li>
+      <li>recovering from travel,</li>
+      <li>playing with an air fryer, &</li>
+      <li>worrying about the world</li>
     </ol>
-    <p>—<time datetime="2024-06-25">June 25, 2024</time>.</p>
+    <p>—<time datetime="2024-07-09">July 9, 2024</time>.</p>
   </div>
 </div>
 
