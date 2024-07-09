@@ -6,10 +6,6 @@
   link: "/work/"
   subtitle: In which Her Nicest Pieces are Presented on the Table
 
-- title: Résumé
-  link: "/assets/files/resume/yang-katherine-resume-202307.pdf"
-  subtitle: In which a Document is Attached for Your Consideration (PDF, 82 kB)
-
 - html: <a href="/posts">Posts</a> (<a rel="alternate" type="application/rss+xml" href="/feed.xml">RSS</a>)
   subtitle: In which Posts are Bravely Made
 
@@ -24,6 +20,10 @@
 - title: Appearances
   link: "/appearances/"
   subtitle: In which the Author finds herself Elsewhere
+
+- title: Résumé
+  link: "/assets/files/resume/yang-katherine-resume-202307.pdf"
+  subtitle: In which a Document is Attached for Your Consideration (PDF, 82 kB)
 
 - title: Index
   link: "/index/"
