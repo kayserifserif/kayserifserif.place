@@ -195,17 +195,12 @@ pre.wrap code {
 
 ul,
 ol {
-  padding-inline-start: 0;
+  padding-inline-start: 1rem;
 }
-  @media (max-width: 800px), print {
-    ul,
-    ol {
-      padding-inline-start: 2em;
-    }
-  }
 
 li {
   margin: 1.5rem 0;
+  padding-inline-start: 0.5rem;
 }
 
 p {
