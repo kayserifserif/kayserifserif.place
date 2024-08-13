@@ -71,7 +71,7 @@ Oh, I forgot to mention this for sound, but Tiger does these really interesting 
 - [Tiger Dingsun](https://www.tiger.exposed/index)
 - [2-word frisson](https://tdingsun.github.io/toward-frisson/)
 
-Oh, yeah. My journey started on Tumblr... just trying to figure out how to make a nice theme for my blog and get nice colours and cool effects when you hover on stuff!
+Heck yeah. My journey started on Tumblr... just trying to figure out how to make a nice theme for my blog and get nice colours and cool effects when you hover on stuff!
 
 - [#tutorial - enchanted themes](https://enchantedthemes.tumblr.com/tagged/tutorial)
 
