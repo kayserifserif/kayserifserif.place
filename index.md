@@ -30,10 +30,10 @@ description: Katherine Yang’s website.
   <div class="section--body">
     <ol class="lately">
       <li>processing the miracle that was XOXO 2024,</li>
-      <li>looking forward to trivia, &</li>
-      <li>enjoying some cooler weather</li>
+      <li>knitting round and round and round... &</li>
+      <li>appreciating my bed sheets</li>
     </ol>
-    <p>—<time datetime="2024-08-26">August 26, 2024</time>.</p>
+    <p>—<time datetime="2024-09-05">September 5, 2024</time>.</p>
   </div>
 </div>
 
