@@ -49,7 +49,7 @@ next_url: /carry
     <div>
       <dt><time datetime="2023-05-27">May 27, 2023</time></dt>
       <div>
-        <dd>I want to print my code;</dd>
+        <dd>I want to hold my code;</dd>
         <dd>I want to weave a pride flag;</dd>
         <dd>I want to mend my socks;</dd>
       </div>
@@ -76,7 +76,7 @@ next_url: /carry
     </div>
     <div>
       <dt><time datetime="2023-06-09">June 9, 2023</time></dt>
-      <dd>I want to cook with pinches of salt;</dd>
+      <dd>I want to measure by easy pinches of salt;</dd>
     </div>
     <div>
       <dt><time datetime="2023-06-12">June 12, 2023</time></dt>
@@ -84,7 +84,14 @@ next_url: /carry
     </div>
     <div>
       <dt><time datetime="2023-06-26">June 26, 2023</time></dt>
-      <dd>I want to pay artists (at craft fairs, on itch.io, on Bandcamp)</dd>
+      <dd>I want to pay artists;</dd>
+    </div>
+    <div>
+      <dt><time datetime="2024-09-30">September 30, 2024</time></dt>
+      <div>
+        <dd>I want to remember by the seasons;</dd>
+        <dd>I want to understand a tree</dd>
+      </div>
     </div>
   </dl>
 </div>
