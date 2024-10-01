@@ -697,16 +697,21 @@ figcaption {
 /* index */
 
 .index {
-  columns: 1;
+  columns: 16rem auto;
+  line-height: 1.15;
+  widows: 2;
+  orphans: 2;
 }
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   .index {
-    columns: 2;
+    margin-block-start: 10rem;
   }
 }
 
-.index-section + .index-section {
-  margin-block-start: 1em;
+.index h2 {
+  margin-block-start: 0;
+  page-break-after: avoid;
+  break-after: avoid;
 }
 
 .index .term-container {
@@ -733,10 +738,23 @@ figcaption {
 
 .index dl dt::before {
   content: "——";
+  opacity: 0.5;
 }
 
-.index h2:first-of-type {
-  margin-block-start: 0;
+.index section + section {
+  margin-block-start: 1.5rem;
+}
+
+.index section > div {
+  margin-block-end: 1rem;
+}
+
+.index div div {
+  margin-block: 0.5rem;
+}
+
+.index dl dt {
+  font-style: italic;
 }
 
 /* 404 */
