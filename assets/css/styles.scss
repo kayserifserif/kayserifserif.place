@@ -193,14 +193,8 @@ pre.wrap code {
   white-space: normal;
 }
 
-ul,
-ol {
-  padding-inline-start: 1rem;
-}
-
 li {
-  margin: 1.5rem 0;
-  padding-inline-start: 0.5rem;
+  margin-block: 1.5rem;
 }
 
 p {
