@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A coffee chat in links
-description: "\"I'm curious about coding and stuff,\" he said."
+description: "\"I'm curious about coding and stuff,\" said my friend."
 ---
 
 Good thing I have a collection of links that I try to kind of keep for this purpose.
