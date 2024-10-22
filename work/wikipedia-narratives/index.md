@@ -5,7 +5,7 @@ description: A Wikipedia-based game or tool inspired by Mad Libs.
 image: https://kayserifserif.place/assets/media/wikipedia-narratives/4-filled.png
 image-alt: An edited version of the suggested sentence, reading, “Glipa maruyamai is a type of Beetle that is used in Entomological warfare the most famous examples of which was Operation Big Itch at Dugway Proving Ground leading to the horrifying Dugway sheep incident.
 
-links: [["http://wikipedia-narratives.herokuapp.com/", "Website (currently down)"], ["https://github.com/kayserifserif/wikipedia-narratives", "GitHub"]]
+links: [["https://wikipedia-narratives.glitch.me/", "Website"], ["https://github.com/kayserifserif/wikipedia-narratives", "GitHub"]]
 
 date: December 2019
 context: Academic
