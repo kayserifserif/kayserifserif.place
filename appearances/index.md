@@ -18,7 +18,8 @@ next_url: /index
 </div>
 
 <ul>
-  <li>[Publication] “What’s in My Bag”. Taper, <a href="https://taper.badquar.to/12/">Issue 12 “Tools”, Spring 2024</a>. April 30, 2024.</li>
+  <li>[Publication] “A World Encoded”. Pleiades, <a href="https://pleiadesmag.com/online-exclusive-a-world-encoded-by-katherine-yang/">Issue 44.2</a>. Fall 2024.</li>
+  <li>[Publication] “What’s in My Bag”. Taper, <a href="https://taper.badquar.to/12/">Issue 12, “Tools”, Spring 2024</a>. April 30, 2024.</li>
   <li>[Event] SESSION_02, CODING, P.A.T.C.H. CLINIC. Department of Kinetic Imaging at Virginia Commonwealth University. March 14, 2024.</li>
   <li>[Press] <a href="https://www.technologyreview.com/2023/12/21/1084525/internet-whimsy-html-energy/">Recapturing early-internet whimsy with HTML.</a> MIT Technology Review, December 21, 2023.</li>
   <li>[Exhibition] <a href="https://playingpoetry.com/virtual-textual/">Virtual Textual</a>, Playing Poetry. Phoenix Leicester, UK. October 6 – December 17, 2023.</li>
